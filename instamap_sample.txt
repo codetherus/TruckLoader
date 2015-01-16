@@ -1,0 +1,16 @@
+Sample Instamap json response from their api url call
+[{
+
+"heading":"0" Heading of the device,
+"id":"766305" unique id of the tranmission,
+"datetime":"2013-11-29 16:16:06" local date time of tranmission,
+"device_id":"1" device id,
+"lat":"54.58761597" lat,
+"lng":"-5.88851929" lng,
+"speed":"6.0" speed in MPH,
+"altitude":"181" altitude in feet,
+"sharing":"Y" sharing enabled(This will always show Y),
+"friendly_name":"Fabio" friendly name of the device,
+"minutes":"13963" minutes since last update,
+"kph":"10 speed in KPH"
+}]

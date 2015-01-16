@@ -1,0 +1,22 @@
+Wed, 22 Sep 2010 07:39:59 -0600  Sent 0 emails
+Thu, 23 Sep 2010 08:21:45 -0600  Starting scan...
+Thu, 23 Sep 2010 08:21:45 -0600  Scanning 2 records.
+Thu, 23 Sep 2010 08:21:46 -0600  Failed to send email to edrobinsonjr@gmail.com
+ Testing tickler overlay with a long subject line................
+Thu, 23 Sep 2010 08:21:46 -0600  Sent 0 emails
+Thu, 23 Sep 2010 08:22:32 -0600  Starting scan...
+Thu, 23 Sep 2010 08:22:32 -0600  Scanning 2 records.
+Thu, 23 Sep 2010 08:22:32 -0600  Sent to edrobinsonjr@gmail.com
+ Testing tickler overlay with a long subject line................
+Thu, 23 Sep 2010 08:22:32 -0600  Sent 1 emails
+Thu, 23 Sep 2010 08:23:18 -0600  Starting scan...
+Thu, 23 Sep 2010 08:23:18 -0600  Scanning 1 records.
+Thu, 23 Sep 2010 08:23:18 -0600  Sent 0 emails
+Thu, 23 Sep 2010 09:11:56 -0600  Starting scan at 2010-09-23 09:11:56
+Thu, 23 Sep 2010 09:11:56 -0600  Scanning 1 records.
+Thu, 23 Sep 2010 09:11:56 -0600  Candidate - Next Date: 2010-09-23 08:00:00 2010-09-23 08:00:00 Frequency: Once
+Thu, 23 Sep 2010 09:11:56 -0600  Sent 0 emails
+Thu, 23 Sep 2010 09:18:13 -0600  Starting scan at 2010-09-23 09:18:13
+Thu, 23 Sep 2010 09:18:13 -0600  Sent 0 emails
+Thu, 23 Sep 2010 09:21:44 -0600  Starting scan at 2010-09-23 09:21:44
+Thu, 23 Sep 2010 09:21:44 -0600  Sent 0 emails

@@ -1,0 +1,37 @@
+0.5.1 (08.06.2014)
+	- [SECURITY] Added removing credentials when following Location header to another host name.
+	- Fixed PATCH method.
+	- Modified code that handles rarely used http methods to be more "user-friendly".
+	- Fixed small but not important bugs
+	- Added 0.5ms sleep into socket adapter when no new data is available.
+	- Fixed how-to (missing benchmark image).
+	- Added BTC donation address into how-to.
+	- Lowered cache time in Resolver from 24h to 1h.
+
+0.5 (18.05.2014)
+	- All HTTP 1.1 methods are available for now.
+	     Only available before was: GET, POST, and PUT emulation with X-HTTP-Method-Override header (this last is still available in exacly same way).
+	- Cookies now also handles missing max-age, comment and version properties (no "unknown property" warnings).
+	- Much more better and safer cookie handling.
+	- Now same cookie proxy is used on redirects (following Location).
+	- Fixed bug: All data in requestData object (keeped internally in Http_Request) now is safe when we clone request object. Before that, calling prepare() (on sending) sets some headers and __clone() wouldn't get back originals.
+	- Fixed some small but important bugs.
+	- Added shortcuts in Http_Client class as static methods:
+	     get(), head(), post(), put(), delete() - returning instance of Http_Response.
+	     get_(), post_(), put_(), delete_() - returning http response body (string).
+	- Added Http_Request::setCookieProxy()
+	- DATA_METHOD_RAW is now renamed to the DATA_METHOD_POST_RAW (Http_Request).
+	- Added comma-separated "multi cookie" Set-Cookie header handling - http://www.ietf.org/rfc/rfc2109.txt. Personally, I dont know any browser which handles this, and any server who sends something like this. But now this lib handles it :)
+	- Added optional dropping of session cookies (manually by calling Http_Cookie_Handler::dropSessionCookies() or on php exiting - this last can be enabled/disabled by Http_Settings).
+	- Added many exception throws and php warnings (trigger_error()) :) Offcourse only when needed.
+	- Incremented default stream adapter timeout from 20 to 60 seconds.
+	- Updated libraries.
+	- Added Http_Client history logs (txt in two formats and one serialized) - managed in Http_Settings. History handler class name is Http_Client_History
+	- Implemented basic http authentication (by url: http://login:pass@host/path or by Http_Url->setUser() and Http_Url->setPass()). But without caching credentials. On redirects, credentials are kept.
+	- Added getTimeSent() (get precious time when all of request was wroted to the socket) and getTimeReceived() (get precious time when response was readed from a socket)
+	- getLastRead() is now renamed to the getLastReadTime(). And added alias of it as getTimeOfLastRead().
+	- getLastWrite() is now renamed to the getLastWriteTime(). And added alias of it as getTimeOfLastWrite().
+	- Now works with the internationalized domain names (IDN). Domain names are converted from utf8 to the IDNA.
+
+0.4 (21.04.2014)
+	First public version

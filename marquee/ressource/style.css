@@ -1,0 +1,78 @@
+h1{
+  font-size:15px;
+  color:green;
+  margin:auto;
+  border-bottom:1px solid green;
+  width : 450px;
+}
+
+/************* container *****************/
+.horizontale{
+    width:450px;
+    margin:auto;
+}
+.marqueeBoxH, .marqueeBoxV{
+    border:1px solid black;
+    cursor: url(./ressource/drag.cur), url(drag.cur), hand;
+    /*I require an absolute url see http://beradrian.wordpress.com/2008/01/08/cross-browser-custom-css-cursors/*/
+}
+.marqueeBoxH{
+    display : inline-block;
+    width:405px;
+    height:25px;
+    white-space : nowrap;
+    float : left;
+    margin-top : 5px;
+}
+.marqueeBoxV{
+    width:150px;
+    height:150px;
+    margin:auto;
+}
+.onDrag{
+    cursor: url(./ressource/move.cur), url(move.cur), hand;
+    /*I require an absolute url see http://beradrian.wordpress.com/2008/01/08/cross-browser-custom-css-cursors/*/
+}
+
+/************* button*****************/
+.btUpV, .btDownV, .btUpH, .btDownH{
+    display : block;
+    background-repeat: no-repeat;
+}
+.btUpV, .btDownV{
+    width:61px;
+    height : 21px;
+    margin:auto;
+}
+.btUpH, .btDownH{
+    width: 21px;
+    height : 61px;
+}
+.btUpV{
+    background-image: url(up.png);
+}
+.btUpVActive{
+    background-image: url(upActive.png);
+}
+.btDownV{
+    background-image: url(down.png);
+}
+.btDownVActive{
+    background-image: url(downActive.png);
+}
+.btUpH{
+    float : left;
+    background-image: url(left.png);
+}
+.btUpHActive{
+    background-image: url(leftActive.png);
+}
+.btDownH{
+    float : right;
+    background-image: url(right.png);
+}
+.btDownHActive{
+    background-image: url(rightActive.png);
+}
+   
+   

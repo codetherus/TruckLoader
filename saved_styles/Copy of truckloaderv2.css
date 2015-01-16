@@ -1,0 +1,72 @@
+/*
+  Truck loader app style sheet
+*/
+/* Body tweek for IE quirks */
+body{
+	background-position: top center;
+	background-repeat: no-repeat;
+	color: white;
+  background-color: white;
+
+}
+fieldset{
+	border: 3px solid green;
+}
+/* more of same... */
+#wrapper{
+	background-color: black;
+  color: white;  
+  border: 3px solid gray;
+  font-size: 12px;
+  
+}
+/* Page head div */
+#header{
+	/*border-bottom: 1px solid green;*/
+	margin-top: 10px;
+  margin-bottom: 10px; 
+  padding-right: 15px;
+	text-align: center;
+	height: 55px;
+	font-size: 1.5em;
+	background-color: black;
+	color: lime;
+  -moz-border-radius: 5px;
+  
+}
+#headerv2{
+	background-color: black;
+	color: silver;
+  border-bottom: 1px solid silver;  
+}
+
+#content{
+	border: 1px solid green;
+  background-color: black;
+}
+
+/* Page footer div */
+#footer{
+	color: white;
+}
+#navigation{
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+label{
+	color: white;
+}	
+  
+/* Appleize the site */
+input, select, textarea{
+  color: white;
+  border: 1px solid gray;    
+  background-color: black;
+}
+input[type='button']{
+  background-color: gray;
+  }
+input[type='submit']{
+  background-color: gray;
+  }

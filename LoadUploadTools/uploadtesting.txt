@@ -1,0 +1,77 @@
+Starting Loads Processing
+Extracting the spreadsheet...
+Found 36 load records in the spreadsheet...
+Generating Truckstop uploads...
+
+Request:
+LoadImportFullService Object
+(
+    [myImport] => ImportFullLoadsRequest Object
+        (
+            [Password] => aie5Ty89
+            [UserName] => Ami@nana
+            [Imports] => 
+            [Loads] => Array
+                (
+                    [0] => LoadImportFull Object
+                        (
+                            [IntegrationID] => 2655
+                            [Loads] => Array
+                                (
+                                    [0] => ImportLoad Object
+                                        (
+                                            [OriginCity] => FORT KNOX
+                                            [OriginState] => KY
+                                            [OriginZip] => 40121
+                                            [DestinationCity] => FT BRAGG
+                                            [DestinationState] => NC
+                                            [DestinationZip] => 28310
+                                            [Distance] => 0
+                                            [Weight] => 12000
+                                            [Length] => 480
+                                            [Stops] => 0
+                                            [PaymentAmount] => 0
+                                            [PickupDate] => 2011-05-24
+                                            [PickUpTime] => 
+                                            [DeliveryDate] => 2011-05-26
+                                            [DeliveryTime] => 
+                                            [EquipmentType] => F
+                                            [EquipmentOptions] => 
+                                            [SpecialInformation] => Test Load. Please do no call.
+                                            [IsFullLoad] => 1
+                                            [PointOfContact] => 
+                                            [Quantity] => 1
+                                            [LoadNumber] => FAAMD1140CA
+                                            [PickupTime] => 0
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Truckstop Response:
+LoadImportFullServiceResponse Object
+(
+    [LoadImportFullServiceResult] => ImportLoadsResponse Object
+        (
+            [RequestErrors] => ArrayOfError Object
+                (
+                    [Error] => 
+                )
+
+            [RequestReport] => ArrayOfImportReport Object
+                (
+                    [ImportReport] => 
+                )
+
+        )
+
+)
+Uploaded 1 loads to Truckstop.com
+Truckstop loads upload complete...

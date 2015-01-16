@@ -1,0 +1,3189 @@
+Array
+(
+    [1] => Array
+        (
+            [OFFER NUMBER] => FAAMD1140CA
+            [ORIGIN] => Menlo Menlo Fort Knox Transportation - W22PL1 BLDG 2781A FRAZIER RD   40121
+            *[OCITY] => FORT KNOX
+            *[OST] => KY
+            [DESTINATION] => Menlo Menlo Fort Bragg BLDG J 2050 COOK ST   283105000
+            [DCITY] => FT BRAGG
+            [DST] => NC
+            [PickUpStartCDT] => 05-24-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-26-2011
+            [DeliveryEndCDT] => 05-26-2011
+            [STATE] => Awaiting
+            *[EQPT] => AF3
+            [PCS] => 1
+            *[WEIGHT] => 12000
+            [VOLUME] => 2720
+            [HAZMAT] => 
+            *[OZIP] => 40121
+            [DZip] => 28310
+            *[OverDim] => 
+            [LEN] => 480
+            [WID] => 96
+            [HGT] => 102
+        )
+
+    [2] => Array
+        (
+            [OFFER NUMBER] => HEAAAA00081424
+            [ORIGIN] => Menlo Menlo Defense Distribution Center Anniston 7 FRANKFORD AVE BLDG 362   362014199
+            [OCITY] => ANNISTON
+            [OST] => AL
+            [DESTINATION] => Menlo Menlo BAE SYSTEMS LAND & ARMAMENTS, L.P. 1100 BAIRS RD  US COMBAT SYSTEMS-GROUND SYSTEMS DI 174088975
+            [DCITY] => YORK
+            [DST] => PA
+            [PickUpStartCDT] => 05-23-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-24-2011
+            [DeliveryEndCDT] => 05-26-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 2
+            [WEIGHT] => 42000
+            [VOLUME] => 2087.709
+            [HAZMAT] => 
+            [OZIP] => 36201
+            [DZip] => 17408
+            [OverDim] => OverDim
+            [LEN] => 300
+            [WID] => 122
+            [HGT] => 95
+        )
+
+    [3] => Array
+        (
+            [OFFER NUMBER] => HEAAAA00081425
+            [ORIGIN] => Menlo Menlo Defense Distribution Center Anniston 7 FRANKFORD AVE BLDG 362   362014199
+            [OCITY] => ANNISTON
+            [OST] => AL
+            [DESTINATION] => Menlo Menlo BAE SYSTEMS LAND & ARMAMENTS, L.P. 1100 BAIRS RD  US COMBAT SYSTEMS-GROUND SYSTEMS DI 174088975
+            [DCITY] => YORK
+            [DST] => PA
+            [PickUpStartCDT] => 05-23-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-24-2011
+            [DeliveryEndCDT] => 05-26-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 2
+            [WEIGHT] => 42000
+            [VOLUME] => 2087.709
+            [HAZMAT] => 
+            [OZIP] => 36201
+            [DZip] => 17408
+            [OverDim] => OverDim
+            [LEN] => 300
+            [WID] => 122
+            [HGT] => 95
+        )
+
+    [4] => Array
+        (
+            [OFFER NUMBER] => HEAAAA00081426
+            [ORIGIN] => Menlo Menlo Defense Distribution Center Anniston 7 FRANKFORD AVE BLDG 362   362014199
+            [OCITY] => ANNISTON
+            [OST] => AL
+            [DESTINATION] => Menlo Menlo BAE SYSTEMS LAND & ARMAMENTS, L.P. 1100 BAIRS RD  US COMBAT SYSTEMS-GROUND SYSTEMS DI 174088975
+            [DCITY] => YORK
+            [DST] => PA
+            [PickUpStartCDT] => 05-23-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-24-2011
+            [DeliveryEndCDT] => 05-26-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 2
+            [WEIGHT] => 42000
+            [VOLUME] => 2087.709
+            [HAZMAT] => 
+            [OZIP] => 36201
+            [DZip] => 17408
+            [OverDim] => OverDim
+            [LEN] => 300
+            [WID] => 122
+            [HGT] => 95
+        )
+
+    [5] => Array
+        (
+            [OFFER NUMBER] => HEAAAA00081427
+            [ORIGIN] => Menlo Menlo Defense Distribution Center Anniston 7 FRANKFORD AVE BLDG 362   362014199
+            [OCITY] => ANNISTON
+            [OST] => AL
+            [DESTINATION] => Menlo Menlo BAE SYSTEMS LAND & ARMAMENTS, L.P. 1100 BAIRS RD  US COMBAT SYSTEMS-GROUND SYSTEMS DI 174088975
+            [DCITY] => YORK
+            [DST] => PA
+            [PickUpStartCDT] => 05-23-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-24-2011
+            [DeliveryEndCDT] => 05-26-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 2
+            [WEIGHT] => 42000
+            [VOLUME] => 2087.709
+            [HAZMAT] => 
+            [OZIP] => 36201
+            [DZip] => 17408
+            [OverDim] => OverDim
+            [LEN] => 300
+            [WID] => 122
+            [HGT] => 95
+        )
+
+    [6] => Array
+        (
+            [OFFER NUMBER] => HEAAAA00081437
+            [ORIGIN] => Menlo Menlo Defense Distribution Center Anniston 7 FRANKFORD AVE BLDG 362   362014199
+            [OCITY] => ANNISTON
+            [OST] => AL
+            [DESTINATION] => Menlo Menlo SIERRA ARMY DEPOT 74 C STREET BLDG 304  SIERRA ARMY DEPOT 961135520
+            [DCITY] => HERLONG
+            [DST] => CA
+            [PickUpStartCDT] => 05-23-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-24-2011
+            [DeliveryEndCDT] => 06-01-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 1
+            [WEIGHT] => 13500
+            [VOLUME] => 1133.019
+            [HAZMAT] => 
+            [OZIP] => 36201
+            [DZip] => 96113
+            [OverDim] => OverDim
+            [LEN] => 244
+            [WID] => 136
+            [HGT] => 59
+        )
+
+    [7] => Array
+        (
+            [OFFER NUMBER] => HEAAAA00081438
+            [ORIGIN] => Menlo Menlo Defense Distribution Center Anniston 7 FRANKFORD AVE BLDG 362   362014199
+            [OCITY] => ANNISTON
+            [OST] => AL
+            [DESTINATION] => Menlo Menlo SIERRA ARMY DEPOT 74 C STREET BLDG 304  SIERRA ARMY DEPOT 961135520
+            [DCITY] => HERLONG
+            [DST] => CA
+            [PickUpStartCDT] => 05-23-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-24-2011
+            [DeliveryEndCDT] => 06-01-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 1
+            [WEIGHT] => 13500
+            [VOLUME] => 1133.019
+            [HAZMAT] => 
+            [OZIP] => 36201
+            [DZip] => 96113
+            [OverDim] => OverDim
+            [LEN] => 244
+            [WID] => 136
+            [HGT] => 59
+        )
+
+    [8] => Array
+        (
+            [OFFER NUMBER] => HEAAAA00081439
+            [ORIGIN] => Menlo Menlo Defense Distribution Center Anniston 7 FRANKFORD AVE BLDG 362   362014199
+            [OCITY] => ANNISTON
+            [OST] => AL
+            [DESTINATION] => Menlo Menlo SIERRA ARMY DEPOT 74 C STREET BLDG 304  SIERRA ARMY DEPOT 961135520
+            [DCITY] => HERLONG
+            [DST] => CA
+            [PickUpStartCDT] => 05-23-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-24-2011
+            [DeliveryEndCDT] => 06-01-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 1
+            [WEIGHT] => 13500
+            [VOLUME] => 1133.019
+            [HAZMAT] => 
+            [OZIP] => 36201
+            [DZip] => 96113
+            [OverDim] => OverDim
+            [LEN] => 244
+            [WID] => 136
+            [HGT] => 59
+        )
+
+    [9] => Array
+        (
+            [OFFER NUMBER] => HEAAAA00081440
+            [ORIGIN] => Menlo Menlo Defense Distribution Center Anniston 7 FRANKFORD AVE BLDG 362   362014199
+            [OCITY] => ANNISTON
+            [OST] => AL
+            [DESTINATION] => Menlo Menlo SIERRA ARMY DEPOT 74 C STREET BLDG 304  SIERRA ARMY DEPOT 961135520
+            [DCITY] => HERLONG
+            [DST] => CA
+            [PickUpStartCDT] => 05-23-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-24-2011
+            [DeliveryEndCDT] => 06-01-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 1
+            [WEIGHT] => 13500
+            [VOLUME] => 1133.019
+            [HAZMAT] => 
+            [OZIP] => 36201
+            [DZip] => 96113
+            [OverDim] => OverDim
+            [LEN] => 244
+            [WID] => 136
+            [HGT] => 59
+        )
+
+    [10] => Array
+        (
+            [OFFER NUMBER] => HEAAAA00081441
+            [ORIGIN] => Menlo Menlo Defense Distribution Center Anniston 7 FRANKFORD AVE BLDG 362   362014199
+            [OCITY] => ANNISTON
+            [OST] => AL
+            [DESTINATION] => Menlo Menlo SIERRA ARMY DEPOT 74 C STREET BLDG 304  SIERRA ARMY DEPOT 961135520
+            [DCITY] => HERLONG
+            [DST] => CA
+            [PickUpStartCDT] => 05-23-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-24-2011
+            [DeliveryEndCDT] => 06-01-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 1
+            [WEIGHT] => 13500
+            [VOLUME] => 1133.019
+            [HAZMAT] => 
+            [OZIP] => 36201
+            [DZip] => 96113
+            [OverDim] => OverDim
+            [LEN] => 244
+            [WID] => 136
+            [HGT] => 59
+        )
+
+    [11] => Array
+        (
+            [OFFER NUMBER] => HEAAAA00081442
+            [ORIGIN] => Menlo Menlo Defense Distribution Center Anniston 7 FRANKFORD AVE BLDG 362   362014199
+            [OCITY] => ANNISTON
+            [OST] => AL
+            [DESTINATION] => Menlo Menlo SIERRA ARMY DEPOT 74 C STREET BLDG 304  SIERRA ARMY DEPOT 961135520
+            [DCITY] => HERLONG
+            [DST] => CA
+            [PickUpStartCDT] => 05-23-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-24-2011
+            [DeliveryEndCDT] => 06-01-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 1
+            [WEIGHT] => 13500
+            [VOLUME] => 1133.019
+            [HAZMAT] => 
+            [OZIP] => 36201
+            [DZip] => 96113
+            [OverDim] => OverDim
+            [LEN] => 244
+            [WID] => 136
+            [HGT] => 59
+        )
+
+    [12] => Array
+        (
+            [OFFER NUMBER] => HEAAAA00081443
+            [ORIGIN] => Menlo Menlo Defense Distribution Center Anniston 7 FRANKFORD AVE BLDG 362   362014199
+            [OCITY] => ANNISTON
+            [OST] => AL
+            [DESTINATION] => Menlo Menlo SIERRA ARMY DEPOT 74 C STREET BLDG 304  SIERRA ARMY DEPOT 961135520
+            [DCITY] => HERLONG
+            [DST] => CA
+            [PickUpStartCDT] => 05-23-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-24-2011
+            [DeliveryEndCDT] => 06-01-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 1
+            [WEIGHT] => 13500
+            [VOLUME] => 1133.019
+            [HAZMAT] => 
+            [OZIP] => 36201
+            [DZip] => 96113
+            [OverDim] => OverDim
+            [LEN] => 244
+            [WID] => 136
+            [HGT] => 59
+        )
+
+    [13] => Array
+        (
+            [OFFER NUMBER] => HEAAAA00081444
+            [ORIGIN] => Menlo Menlo Defense Distribution Center Anniston 7 FRANKFORD AVE BLDG 362   362014199
+            [OCITY] => ANNISTON
+            [OST] => AL
+            [DESTINATION] => Menlo Menlo SIERRA ARMY DEPOT 74 C STREET BLDG 304  SIERRA ARMY DEPOT 961135520
+            [DCITY] => HERLONG
+            [DST] => CA
+            [PickUpStartCDT] => 05-23-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-24-2011
+            [DeliveryEndCDT] => 06-01-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 1
+            [WEIGHT] => 13500
+            [VOLUME] => 1133.019
+            [HAZMAT] => 
+            [OZIP] => 36201
+            [DZip] => 96113
+            [OverDim] => OverDim
+            [LEN] => 244
+            [WID] => 136
+            [HGT] => 59
+        )
+
+    [14] => Array
+        (
+            [OFFER NUMBER] => HEAAAA00081445
+            [ORIGIN] => Menlo Menlo Defense Distribution Center Anniston 7 FRANKFORD AVE BLDG 362   362014199
+            [OCITY] => ANNISTON
+            [OST] => AL
+            [DESTINATION] => Menlo Menlo SIERRA ARMY DEPOT 74 C STREET BLDG 304  SIERRA ARMY DEPOT 961135520
+            [DCITY] => HERLONG
+            [DST] => CA
+            [PickUpStartCDT] => 05-23-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-24-2011
+            [DeliveryEndCDT] => 06-01-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 1
+            [WEIGHT] => 13500
+            [VOLUME] => 1133.019
+            [HAZMAT] => 
+            [OZIP] => 36201
+            [DZip] => 96113
+            [OverDim] => OverDim
+            [LEN] => 244
+            [WID] => 136
+            [HGT] => 59
+        )
+
+    [15] => Array
+        (
+            [OFFER NUMBER] => HEAGAG00209945
+            [ORIGIN] => Menlo Menlo Defense Distribution Center Albany 814 RADFORD BLVD SUITE 20326   317041128
+            [OCITY] => ALBANY
+            [OST] => GA
+            [DESTINATION] => Menlo Menlo ISD VEHICLE YARD CANN POINT CRP BLDG 5207 270 798 5430 0R 6772   422235000
+            [DCITY] => FORT CAMPBELL
+            [DST] => KY
+            [PickUpStartCDT] => 05-23-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-24-2011
+            [DeliveryEndCDT] => 05-25-2011
+            [STATE] => Awaiting
+            [EQPT] => AV3
+            [PCS] => 20
+            [WEIGHT] => 8840
+            [VOLUME] => 660
+            [HAZMAT] => 
+            [OZIP] => 31704
+            [DZip] => 42223
+            [OverDim] => 
+            [LEN] => 44
+            [WID] => 36
+            [HGT] => 36
+        )
+
+    [16] => Array
+        (
+            [OFFER NUMBER] => HEAGAG00210004
+            [ORIGIN] => Menlo Menlo Defense Distribution Center Albany 814 RADFORD BLVD SUITE 20326   317041128
+            [OCITY] => ALBANY
+            [OST] => GA
+            [DESTINATION] => Menlo Menlo NAVAL AIR WARFARE CENTER AIR DIV 47179 VAUGHN ROAD  SUPPLY CTR BLDG 665 RECEIVING OFF 206705000
+            [DCITY] => PATUXENT RIVER
+            [DST] => MD
+            [PickUpStartCDT] => 05-23-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-24-2011
+            [DeliveryEndCDT] => 05-26-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 2
+            [WEIGHT] => 17600
+            [VOLUME] => 1416.666
+            [HAZMAT] => 
+            [OZIP] => 31704
+            [DZip] => 20670
+            [OverDim] => 
+            [LEN] => 180
+            [WID] => 85
+            [HGT] => 80
+        )
+
+    [17] => Array
+        (
+            [OFFER NUMBER] => HEAGAG00210005
+            [ORIGIN] => Menlo Menlo Defense Distribution Center Albany 814 RADFORD BLVD SUITE 20326   317041128
+            [OCITY] => ALBANY
+            [OST] => GA
+            [DESTINATION] => Menlo Menlo NAVAL AIR WARFARE CENTER AIR DIV 47179 VAUGHN ROAD  SUPPLY CTR BLDG 665 RECEIVING OFF 206705000
+            [DCITY] => PATUXENT RIVER
+            [DST] => MD
+            [PickUpStartCDT] => 05-23-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-24-2011
+            [DeliveryEndCDT] => 05-26-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 2
+            [WEIGHT] => 17600
+            [VOLUME] => 1416.666
+            [HAZMAT] => 
+            [OZIP] => 31704
+            [DZip] => 20670
+            [OverDim] => 
+            [LEN] => 180
+            [WID] => 85
+            [HGT] => 80
+        )
+
+    [18] => Array
+        (
+            [OFFER NUMBER] => HEAGAG00210006
+            [ORIGIN] => Menlo Menlo Defense Distribution Center Albany 814 RADFORD BLVD SUITE 20326   317041128
+            [OCITY] => ALBANY
+            [OST] => GA
+            [DESTINATION] => Menlo Menlo NAVAL AIR WARFARE CENTER AIR DIV 47179 VAUGHN ROAD  SUPPLY CTR BLDG 665 RECEIVING OFF 206705000
+            [DCITY] => PATUXENT RIVER
+            [DST] => MD
+            [PickUpStartCDT] => 05-23-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-24-2011
+            [DeliveryEndCDT] => 05-26-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 2
+            [WEIGHT] => 17600
+            [VOLUME] => 1416.666
+            [HAZMAT] => 
+            [OZIP] => 31704
+            [DZip] => 20670
+            [OverDim] => 
+            [LEN] => 180
+            [WID] => 85
+            [HGT] => 80
+        )
+
+    [19] => Array
+        (
+            [OFFER NUMBER] => HEAGAG00210008
+            [ORIGIN] => Menlo Menlo Defense Distribution Center Albany 814 RADFORD BLVD SUITE 20326   317041128
+            [OCITY] => ALBANY
+            [OST] => GA
+            [DESTINATION] => Menlo Menlo NAVAL AIR WARFARE CENTER AIR DIV 47179 VAUGHN ROAD  SUPPLY CTR BLDG 665 RECEIVING OFF 206705000
+            [DCITY] => PATUXENT RIVER
+            [DST] => MD
+            [PickUpStartCDT] => 05-23-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-24-2011
+            [DeliveryEndCDT] => 05-26-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 1
+            [WEIGHT] => 8800
+            [VOLUME] => 708.333
+            [HAZMAT] => 
+            [OZIP] => 31704
+            [DZip] => 20670
+            [OverDim] => 
+            [LEN] => 180
+            [WID] => 85
+            [HGT] => 80
+        )
+
+    [20] => Array
+        (
+            [OFFER NUMBER] => HEAGAG00210016
+            [ORIGIN] => Menlo Menlo Defense Distribution Center Albany 814 RADFORD BLVD SUITE 20326   317041128
+            [OCITY] => ALBANY
+            [OST] => GA
+            [DESTINATION] => Menlo Menlo FY9125 436 APS TRTW INTRANSIT CRGO 550 ATLANTIC AVE  BLDG 550 CP 302 677 4390 199025061
+            [DCITY] => DOVER
+            [DST] => DE
+            [PickUpStartCDT] => 05-23-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-24-2011
+            [DeliveryEndCDT] => 05-26-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 8
+            [WEIGHT] => 17130
+            [VOLUME] => 931.468
+            [HAZMAT] => 
+            [OZIP] => 31704
+            [DZip] => 19902
+            [OverDim] => 
+            [LEN] => 108
+            [WID] => 62
+            [HGT] => 98
+        )
+
+    [21] => Array
+        (
+            [OFFER NUMBER] => HEAGAG00210019
+            [ORIGIN] => Menlo Menlo Defense Distribution Center Albany 814 RADFORD BLVD SUITE 20326   317041128
+            [OCITY] => ALBANY
+            [OST] => GA
+            [DESTINATION] => Menlo Menlo XRA W7N8 USPFO ACTIVITY WI ARNG 1 WILLIAMS STREET   546185002
+            [DCITY] => CAMP DOUGLAS
+            [DST] => WI
+            [PickUpStartCDT] => 05-23-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-24-2011
+            [DeliveryEndCDT] => 05-27-2011
+            [STATE] => Awaiting
+            [EQPT] => AV3
+            [PCS] => 23
+            [WEIGHT] => 9292
+            [VOLUME] => 483
+            [HAZMAT] => 
+            [OZIP] => 31704
+            [DZip] => 54618
+            [OverDim] => 
+            [LEN] => 42
+            [WID] => 36
+            [HGT] => 24
+        )
+
+    [22] => Array
+        (
+            [OFFER NUMBER] => HEAGAG00210073
+            [ORIGIN] => Menlo Menlo Defense Distribution Center Albany 814 RADFORD BLVD SUITE 20326   317041128
+            [OCITY] => ALBANY
+            [OST] => GA
+            [DESTINATION] => Menlo Menlo FORCE PROTECTION INDUSTRIES IN BLDG 1 ATTN: VIRGINIA PHELPS  9801 HIGHWAY 78 29456
+            [DCITY] => LADSON
+            [DST] => SC
+            [PickUpStartCDT] => 05-24-2011
+            [PickUpEndCDT] => 05-25-2011
+            [DeliveryStartCDT] => 05-25-2011
+            [DeliveryEndCDT] => 05-26-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 8
+            [WEIGHT] => 37120
+            [VOLUME] => 1440
+            [HAZMAT] => 
+            [OZIP] => 31704
+            [DZip] => 29456
+            [OverDim] => 
+            [LEN] => 108
+            [WID] => 60
+            [HGT] => 48
+        )
+
+    [23] => Array
+        (
+            [OFFER NUMBER] => HEAGAG00210082
+            [ORIGIN] => Menlo Menlo Defense Distribution Center Albany 814 RADFORD BLVD SUITE 20326   317041128
+            [OCITY] => ALBANY
+            [OST] => GA
+            [DESTINATION] => Menlo Menlo FORCE PROTECTION INDUSTRIES IN BLDG 1  9801 HIGHWAY 78 29456
+            [DCITY] => LADSON
+            [DST] => SC
+            [PickUpStartCDT] => 05-24-2011
+            [PickUpEndCDT] => 05-25-2011
+            [DeliveryStartCDT] => 05-25-2011
+            [DeliveryEndCDT] => 05-26-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 8
+            [WEIGHT] => 37120
+            [VOLUME] => 1440
+            [HAZMAT] => 
+            [OZIP] => 31704
+            [DZip] => 29456
+            [OverDim] => 
+            [LEN] => 108
+            [WID] => 60
+            [HGT] => 48
+        )
+
+    [24] => Array
+        (
+            [OFFER NUMBER] => HEAGAG00210084
+            [ORIGIN] => Menlo Menlo Defense Distribution Center Albany 814 RADFORD BLVD SUITE 20326   317041128
+            [OCITY] => ALBANY
+            [OST] => GA
+            [DESTINATION] => Menlo Menlo FORCE PROTECTION INDUSTRIES IN BLDG 1  9801 HIGHWAY 78 29456
+            [DCITY] => LADSON
+            [DST] => SC
+            [PickUpStartCDT] => 05-24-2011
+            [PickUpEndCDT] => 05-25-2011
+            [DeliveryStartCDT] => 05-25-2011
+            [DeliveryEndCDT] => 05-26-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 8
+            [WEIGHT] => 37120
+            [VOLUME] => 1440
+            [HAZMAT] => 
+            [OZIP] => 31704
+            [DZip] => 29456
+            [OverDim] => 
+            [LEN] => 108
+            [WID] => 60
+            [HGT] => 48
+        )
+
+    [25] => Array
+        (
+            [OFFER NUMBER] => S548086220
+            [ORIGIN] => Menlo Menlo BEACHMASTER UNIT 2 1745 10TH STREET   23459
+            [OCITY] => VIRGINIA BEACH
+            [OST] => VA
+            [DESTINATION] => Menlo Menlo COMMANDER (CODE 884) MARINE CORPS LOGISTICS BASE 814 RADFORD BLVD  31704
+            [DCITY] => ALBANY
+            [DST] => GA
+            [PickUpStartCDT] => 05-24-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-26-2011
+            [DeliveryEndCDT] => 05-26-2011
+            [STATE] => Awaiting
+            [EQPT] => A30
+            [PCS] => 1
+            [WEIGHT] => 30955
+            [VOLUME] => 3141
+            [HAZMAT] => Hazmat
+            [OZIP] => 23459
+            [DZip] => 31704
+            [OverDim] => 
+            [LEN] => 390
+            [WID] => 98
+            [HGT] => 142
+        )
+
+    [26] => Array
+        (
+            [OFFER NUMBER] => S548095950
+            [ORIGIN] => Menlo Menlo BEACHMASTER UNIT 2 1745 10TH STREET   23459
+            [OCITY] => VIRGINIA BEACH
+            [OST] => VA
+            [DESTINATION] => Menlo Menlo COMMANDER (CODE 84) MARINE CORPS LOGISTICS BASE 814 RADFORD BLVD  31704
+            [DCITY] => ALBANY
+            [DST] => GA
+            [PickUpStartCDT] => 05-24-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-26-2011
+            [DeliveryEndCDT] => 05-26-2011
+            [STATE] => Awaiting
+            [EQPT] => A30
+            [PCS] => 1
+            [WEIGHT] => 30955
+            [VOLUME] => 3141
+            [HAZMAT] => Hazmat
+            [OZIP] => 23459
+            [DZip] => 31704
+            [OverDim] => 
+            [LEN] => 390
+            [WID] => 98
+            [HGT] => 142
+        )
+
+    [27] => Array
+        (
+            [OFFER NUMBER] => S548739030
+            [ORIGIN] => Menlo Menlo Fort Bragg BLDG J-1745 COOK AND KNOX  28310
+            [OCITY] => FORT BRAGG
+            [OST] => NC
+            [DESTINATION] => Menlo Menlo SABIN METAL COPERATION 1647 WHEATLAND CENTER ROAD   14546
+            [DCITY] => SCOTTSVILLE
+            [DST] => NY
+            [PickUpStartCDT] => 05-23-2011
+            [PickUpEndCDT] => 05-23-2011
+            [DeliveryStartCDT] => 05-25-2011
+            [DeliveryEndCDT] => 05-25-2011
+            [STATE] => Awaiting
+            [EQPT] => AV3
+            [PCS] => 25
+            [WEIGHT] => 21032
+            [VOLUME] => 1389
+            [HAZMAT] => 
+            [OZIP] => 28310
+            [DZip] => 14546
+            [OverDim] => 
+            [LEN] => 40
+            [WID] => 48
+            [HGT] => 50
+        )
+
+    [28] => Array
+        (
+            [OFFER NUMBER] => S548854087
+            [ORIGIN] => Menlo Menlo ARMY STRATEGIC LOGISTICS ACTIVITY TRANSPORTATION OFFICER 103 GUIDANCE ROAD, BLDG 317  29445
+            [OCITY] => GOOSE CREEK
+            [OST] => SC
+            [DESTINATION] => Menlo Menlo DLA DISTRIBUTION RED RIVER DLA DISTRIBUTION DEPOT RED RIVER HIGHWAY 82 WEST  75507
+            [DCITY] => RED RIVER ARMY DEPO
+            [DST] => TX
+            [PickUpStartCDT] => 05-20-2011
+            [PickUpEndCDT] => 05-20-2011
+            [DeliveryStartCDT] => 05-21-2011
+            [DeliveryEndCDT] => 05-21-2011
+            [STATE] => Awaiting
+            [EQPT] => AV3
+            [PCS] => 13
+            [WEIGHT] => 13756
+            [VOLUME] => 871
+            [HAZMAT] => Hazmat
+            [OZIP] => 29445
+            [DZip] => 75507
+            [OverDim] => 
+            [LEN] => 59
+            [WID] => 46
+            [HGT] => 89
+        )
+
+    [29] => Array
+        (
+            [OFFER NUMBER] => S548868657
+            [ORIGIN] => Menlo Menlo FISC NORFOLK BLDG 276   23709
+            [OCITY] => PORTSMOUTH
+            [OST] => VA
+            [DESTINATION] => Menlo Menlo TRIDENT REFIT FACILITY 1150 USS LOS ANGELES ROAD SWSSW BLDG 6003 M/F SYSTEM STOCK  315476600
+            [DCITY] => KINGS BAY
+            [DST] => GA
+            [PickUpStartCDT] => 05-23-2011
+            [PickUpEndCDT] => 05-23-2011
+            [DeliveryStartCDT] => 05-25-2011
+            [DeliveryEndCDT] => 05-25-2011
+            [STATE] => Awaiting
+            [EQPT] => A30
+            [PCS] => 2
+            [WEIGHT] => 4520
+            [VOLUME] => 1536
+            [HAZMAT] => 
+            [OZIP] => 23709
+            [DZip] => 31547
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [30] => Array
+        (
+            [OFFER NUMBER] => S548948638
+            [ORIGIN] => Menlo Menlo Fort Bragg BLDG J-1745 COOK AND KNOX  28310
+            [OCITY] => FORT BRAGG
+            [OST] => NC
+            [DESTINATION] => Menlo Menlo TRANSPORTATION OFFICER MIS REC DDSP NEW CUMBERLAND FACILITY BLDG MISSION DOOR 113 - 134  17070
+            [DCITY] => NEW CUMBERLAND
+            [DST] => PA
+            [PickUpStartCDT] => 05-24-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-26-2011
+            [DeliveryEndCDT] => 05-26-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 16
+            [WEIGHT] => 21440
+            [VOLUME] => 752
+            [HAZMAT] => 
+            [OZIP] => 28310
+            [DZip] => 17070
+            [OverDim] => 
+            [LEN] => 36
+            [WID] => 48
+            [HGT] => 47
+        )
+
+    [31] => Array
+        (
+            [OFFER NUMBER] => S548990808
+            [ORIGIN] => Menlo Menlo ABB INC BU 8308 PANAMA CITY BEACH PKWY HWY 98  32407
+            [OCITY] => PANAMA CITY BEACH
+            [OST] => FL
+            [DESTINATION] => Menlo Menlo TRANSPORTATION OFFICER   FB4497 BUILDING 550, ATLANTIC STREET   19902
+            [DCITY] => DOVER AIR FORCE BAS
+            [DST] => DE
+            [PickUpStartCDT] => 05-24-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-27-2011
+            [DeliveryEndCDT] => 05-27-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 6
+            [WEIGHT] => 25719
+            [VOLUME] => 1456
+            [HAZMAT] => 
+            [OZIP] => 32407
+            [DZip] => 19902
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [32] => Array
+        (
+            [OFFER NUMBER] => S548993576
+            [ORIGIN] => Menlo Menlo ABB INC BU 8308 PANAMA CITY BEACH PKWY HWY 98  32407
+            [OCITY] => PANAMA CITY BEACH
+            [OST] => FL
+            [DESTINATION] => Menlo Menlo TRANSPORTATION OFFICER   FB4497 BUILDING 550, ATLANTIC STREET   19902
+            [DCITY] => DOVER AIR FORCE BAS
+            [DST] => DE
+            [PickUpStartCDT] => 05-24-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-27-2011
+            [DeliveryEndCDT] => 05-27-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 6
+            [WEIGHT] => 25719
+            [VOLUME] => 1456
+            [HAZMAT] => 
+            [OZIP] => 32407
+            [DZip] => 19902
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [33] => Array
+        (
+            [OFFER NUMBER] => S549002093
+            [ORIGIN] => Menlo Menlo ABB INC BU 8308 PANAMA CITY BEACH PKWY HWY 98  32407
+            [OCITY] => PANAMA CITY BEACH
+            [OST] => FL
+            [DESTINATION] => Menlo Menlo TRANSPORTATION OFFICER   FB4497 BUILDING 550, ATLANTIC STREET   19902
+            [DCITY] => DOVER AIR FORCE BAS
+            [DST] => DE
+            [PickUpStartCDT] => 05-24-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-27-2011
+            [DeliveryEndCDT] => 05-27-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 6
+            [WEIGHT] => 25719
+            [VOLUME] => 1456
+            [HAZMAT] => 
+            [OZIP] => 32407
+            [DZip] => 19902
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [34] => Array
+        (
+            [OFFER NUMBER] => S549018310
+            [ORIGIN] => Menlo Menlo ABB INC BU 8308 PANAMA CITY BEACH PKWY HWY 98  32407
+            [OCITY] => PANAMA CITY BEACH
+            [OST] => FL
+            [DESTINATION] => Menlo Menlo TRANSPORTATION OFFICER   FB4497 BUILDING 550, ATLANTIC STREET   19902
+            [DCITY] => DOVER AIR FORCE BAS
+            [DST] => DE
+            [PickUpStartCDT] => 05-24-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-27-2011
+            [DeliveryEndCDT] => 05-27-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 4
+            [WEIGHT] => 17146
+            [VOLUME] => 971
+            [HAZMAT] => 
+            [OZIP] => 32407
+            [DZip] => 19902
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [35] => Array
+        (
+            [OFFER NUMBER] => S549060819
+            [ORIGIN] => Menlo Menlo AVN BDE ATTN SSG ROBINSON HANGAR 860 N LIGHTNING ROAD SSG CHISOLM 912-346-2371  31409
+            [OCITY] => HUNTER AAF
+            [OST] => GA
+            [DESTINATION] => Menlo Menlo RIC WC6 LAKEHURST NJ AGSE CERDEC FLIGHT ACTIVITY HANGER 5, BLDG 194  08733
+            [DCITY] => LAKEHURST
+            [DST] => NJ
+            [PickUpStartCDT] => 05-24-2011
+            [PickUpEndCDT] => 05-25-2011
+            [DeliveryStartCDT] => 06-01-2011
+            [DeliveryEndCDT] => 06-01-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 2
+            [WEIGHT] => 23766
+            [VOLUME] => 2560
+            [HAZMAT] => 
+            [OZIP] => 31409
+            [DZip] => 08733
+            [OverDim] => 
+            [LEN] => 240
+            [WID] => 96
+            [HGT] => 96
+        )
+
+    [36] => Array
+        (
+            [OFFER NUMBER] => S549060849
+            [ORIGIN] => Menlo Menlo AVN BDE ATTN SSG ROBINSON HANGAR 850 N LIGHTNING ROAD SSG CHISOLM 912-346-2371  31409
+            [OCITY] => HUNTER AAF
+            [OST] => GA
+            [DESTINATION] => Menlo Menlo RIC WC6 LAKEHURST NJ AGSE CERDEC FLIGHT ACTIVITY HANGER 5, BLDG 194  08733
+            [DCITY] => LAKEHURST
+            [DST] => NJ
+            [PickUpStartCDT] => 05-23-2011
+            [PickUpEndCDT] => 05-24-2011
+            [DeliveryStartCDT] => 05-31-2011
+            [DeliveryEndCDT] => 05-31-2011
+            [STATE] => Awaiting
+            [EQPT] => AF3
+            [PCS] => 3
+            [WEIGHT] => 13140
+            [VOLUME] => 1764
+            [HAZMAT] => 
+            [OZIP] => 31409
+            [DZip] => 08733
+            [OverDim] => 
+            [LEN] => 144
+            [WID] => 84
+            [HGT] => 84
+        )
+
+    [37] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [38] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [39] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [40] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [41] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [42] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [43] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [44] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [45] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [46] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [47] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [48] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [49] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [50] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [51] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [52] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [53] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [54] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [55] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [56] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [57] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [58] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [59] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [60] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [61] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [62] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [63] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [64] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [65] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [66] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [67] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [68] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [69] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [70] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [71] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [72] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [73] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [74] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [75] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [76] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [77] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [78] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [79] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [80] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [81] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [82] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [83] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [84] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [85] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [86] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [87] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [88] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [89] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [90] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [91] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [92] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [93] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [94] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [95] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [96] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [97] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [98] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [99] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [100] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [101] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [102] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [103] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [104] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [105] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [106] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [107] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [108] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [109] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [110] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [111] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [112] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [113] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [114] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [115] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [116] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [117] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+    [118] => Array
+        (
+            [OFFER NUMBER] => 
+            [ORIGIN] => 
+            [OCITY] => 
+            [OST] => 
+            [DESTINATION] => 
+            [DCITY] => 
+            [DST] => 
+            [PickUpStartCDT] => 
+            [PickUpEndCDT] => 
+            [DeliveryStartCDT] => 
+            [DeliveryEndCDT] => 
+            [STATE] => 
+            [EQPT] => 
+            [PCS] => 
+            [WEIGHT] => 
+            [VOLUME] => 
+            [HAZMAT] => 
+            [OZIP] => 
+            [DZip] => 
+            [OverDim] => 
+            [LEN] => 
+            [WID] => 
+            [HGT] => 
+        )
+
+)

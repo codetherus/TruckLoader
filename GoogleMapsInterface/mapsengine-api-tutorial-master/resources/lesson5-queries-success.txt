@@ -1,0 +1,1 @@
+You can see the response in the box below. It still contains GeoJSON objects, but it only returns information about features whose `Population` is less than 2 million, since this was specified in the query.

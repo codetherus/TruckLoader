@@ -1,0 +1,15 @@
+##Create Table II##  
+The body of the POST request to create a table has to be JSON. It needs to have:
+
+* `projectId`: The project ID to which the table belongs.
+* `name`: The table asset name.
+* `schema`: A schema object containing the schema for this table. A schema object should contain:
+	* `columns`: An array of the table's column information. Each object in the array contains a column `name` and a `type`. Allowed types are integer, double, string, mixedGeometry, points, lineStrings, and polygons. The first object in the array should have the name `geometry` and you should specify the geometry type of the features in the table.
+
+There are also several optional parameters that can be included in the body, which are:
+
+* `description`: The table asset description.
+* `tags`: An array of text strings, with each string representing a tag for the table.
+
+###Exercise###  
+Try to create a POST request body to create an empty table to your project. You can create a table with any schema you want. Remember to use the project ID specified in the box below. The project ID is the ID of the project you chose in 'Create a Free Project' lesson. We have provided the URL and the header of the request for you, so you don't need to change them. For reference, you can visit the previous page (Create Table I) to see what the body of the request should look like.

@@ -1,0 +1,39 @@
+<!--
+  This is the contact page for the lbj home page.
+-->
+{literal}
+<style>
+    label{
+        text-align: right;
+        width: 100px;
+        display: inline-block;
+        margin-bottom: 3px;
+    }  
+
+</style>
+{/literal}
+<p><b>Call us at (208) 845-0853</b></p><br/>
+<a href="mailto:jake@loadsbyjake.com?subject=Contact Request">Email Us</a>
+
+<div id="contactdiv">
+    Contact Form - please fill out and submit.<br/>
+    <form id="form3">
+    <label>Name:</label>
+    <input class="firstinput" size="40" id="name"  name="name"/><br/>
+    <label>Email:</label>
+    <input size="40" id="email" name="email"/><br/>
+    <label>Phone:</label>
+    <input size="40" id="phone" name="phone"/><br/>
+    <label>Comments:</label><br/>
+    <textarea rows="6" cols="40" 
+              id="comments" name="comments" 
+              style="margin-left: 55px;">
+    </textarea>
+    </form>
+    <br/>
+    <div style="width:50px; margin: 0 auto">
+        <input type="button" value="Submit"
+        onclick="xajax_ProcessContactRequest(xajax.getFormValues('form3'))"/>
+    </div>
+
+</div>

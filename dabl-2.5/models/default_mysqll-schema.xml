@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="jake">
+  <table name="broker_agents" phpName="BrokerAgents">
+    <column name="id" phpName="Id" type="BIGINT" size="20" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="brokerid" phpName="Brokerid" type="BIGINT" size="20" required="false"/>
+    <column name="agent_name" phpName="AgentName" type="VARCHAR" size="40" required="false"/>
+    <column name="agent_phone" phpName="AgentPhone" type="VARCHAR" size="40" required="false"/>
+    <column name="agent_fax" phpName="AgentFax" type="VARCHAR" size="40" required="false"/>
+    <column name="agent_email" phpName="AgentEmail" type="VARCHAR" size="60" required="false"/>
+    <index name="brokerid">
+      <index-column name="brokerid"/>
+    </index>
+    <index name="agent_name">
+      <index-column name="agent_name"/>
+    </index>
+  </table>
+  <table name="brokers" phpName="Brokers">
+    <column name="id" phpName="Id" type="BIGINT" size="20" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="name" phpName="Name" type="VARCHAR" size="40" required="false"/>
+    <column name="company" phpName="Company" type="VARCHAR" size="40" required="false"/>
+    <column name="address1" phpName="Address1" type="VARCHAR" size="40" required="false"/>
+    <column name="address2" phpName="Address2" type="VARCHAR" size="40" required="false"/>
+    <column name="city" phpName="City" type="VARCHAR" size="40" required="false"/>
+    <column name="state" phpName="State" type="VARCHAR" size="2" required="false"/>
+    <column name="zip" phpName="Zip" type="VARCHAR" size="10" required="false"/>
+    <column name="phone" phpName="Phone" type="VARCHAR" size="40" required="false"/>
+    <column name="cell" phpName="Cell" type="VARCHAR" size="40" required="false"/>
+    <column name="fax" phpName="Fax" type="VARCHAR" size="40" required="false"/>
+    <column name="notes" phpName="Notes" type="LONGVARCHAR" required="false"/>
+  </table>
+  <table name="call_checks" phpName="CallChecks">
+    <column name="id" phpName="Id" type="BIGINT" size="20" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="loadid" phpName="Loadid" type="BIGINT" size="20" required="false"/>
+    <column name="driverid" phpName="Driverid" type="BIGINT" size="20" required="false"/>
+    <column name="agentid" phpName="Agentid" type="BIGINT" size="20" required="false"/>
+    <column name="time_stamp" phpName="TimeStamp" type="TIMESTAMP" required="false"/>
+    <column name="notes" phpName="Notes" type="LONGVARCHAR" required="false"/>
+    <index name="loadid">
+      <index-column name="loadid"/>
+    </index>
+    <index name="driverid">
+      <index-column name="driverid"/>
+    </index>
+    <index name="agentid">
+      <index-column name="agentid"/>
+    </index>
+    <index name="time_stamp">
+      <index-column name="time_stamp"/>
+    </index>
+  </table>
+  <table name="drivers" phpName="Drivers">
+    <column name="id" phpName="Id" type="BIGINT" size="20" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="agentid" phpName="Agentid" type="BIGINT" size="20" required="false"/>
+    <column name="name" phpName="Name" type="VARCHAR" size="40" required="false"/>
+    <column name="driver_alias" phpName="DriverAlias" type="VARCHAR" size="40" required="false"/>
+    <column name="unload_date" phpName="UnloadDate" type="VARCHAR" size="25" required="false"/>
+    <column name="location" phpName="Location" type="VARCHAR" size="40" required="false"/>
+    <column name="equipment" phpName="Equipment" type="LONGVARCHAR" required="false"/>
+    <column name="tlength" phpName="Tlength" type="VARCHAR" size="10" required="false"/>
+    <column name="ttype" phpName="Ttype" type="VARCHAR" size="40" required="false"/>
+    <column name="home_town" phpName="HomeTown" type="VARCHAR" size="40" required="false"/>
+    <column name="preferences" phpName="Preferences" type="LONGVARCHAR" required="false"/>
+    <column name="truck_no" phpName="TruckNo" type="VARCHAR" size="20" required="false"/>
+    <column name="telephone" phpName="Telephone" type="VARCHAR" size="30" required="false"/>
+    <column name="comments" phpName="Comments" type="LONGVARCHAR" required="false"/>
+    <column name="home_office" phpName="HomeOffice" type="VARCHAR" size="40" required="false"/>
+    <column name="office_numbers" phpName="OfficeNumbers" type="LONGVARCHAR" required="false"/>
+    <column name="message_voice_mail" phpName="MessageVoiceMail" type="VARCHAR" size="40" required="false"/>
+    <column name="canada" phpName="Canada" type="VARCHAR" size="10" required="false"/>
+    <column name="no_canada" phpName="NoCanada" type="TINYINT" size="1" required="false"/>
+    <column name="twic" phpName="Twic" type="VARCHAR" size="10" required="false"/>
+    <column name="no_twic" phpName="NoTwic" type="TINYINT" size="1" required="false"/>
+    <column name="f4ft_tarps" phpName="F4ftTarps" type="TINYINT" size="1" required="false"/>
+    <column name="f6ft_tarps" phpName="F6ftTarps" type="TINYINT" size="1" required="false"/>
+    <column name="f8ft_tarps" phpName="F8ftTarps" type="TINYINT" size="1" required="false"/>
+    <column name="no_tarps" phpName="NoTarps" type="TINYINT" size="1" required="false"/>
+    <column name="pipe_stakes" phpName="PipeStakes" type="VARCHAR" size="10" required="false"/>
+    <column name="load_status" phpName="LoadStatus" type="TINYINT" size="1" required="false"/>
+    <column name="no_pipe_stakes" phpName="NoPipeStakes" type="TINYINT" size="1" required="false"/>
+    <column name="driving_limitations" phpName="DrivingLimitations" type="LONGVARCHAR" required="false"/>
+    <column name="load_levelers" phpName="LoadLevelers" type="VARCHAR" size="10" required="false"/>
+    <column name="no_load_levelers" phpName="NoLoadLevelers" type="TINYINT" size="1" required="false"/>
+    <column name="load_options" phpName="LoadOptions" type="LONGVARCHAR" required="false"/>
+    <column name="loads_completed" phpName="LoadsCompleted" type="INTEGER" size="11" required="false"/>
+    <column name="upload_comment" phpName="UploadComment" type="LONGVARCHAR" required="false"/>
+    <column name="email" phpName="Email" type="VARCHAR" size="50" required="false"/>
+    <column name="unload_month" phpName="UnloadMonth" type="TINYINT" size="4" required="true" defaultValue="0"/>
+    <column name="unload_day" phpName="UnloadDay" type="TINYINT" size="4" required="true" defaultValue="0"/>
+    <column name="status" phpName="Status" type="VARCHAR" size="10" required="true" defaultValue="1"/>
+    <column name="origin_city" phpName="OriginCity" type="VARCHAR" size="30" required="false"/>
+    <column name="origin_state" phpName="OriginState" type="VARCHAR" size="2" required="false"/>
+    <column name="destination_city" phpName="DestinationCity" type="VARCHAR" size="30" required="false"/>
+    <column name="destination_state" phpName="DestinationState" type="VARCHAR" size="2" required="false"/>
+    <column name="rating" phpName="Rating" type="VARCHAR" size="4" required="false"/>
+    <column name="pole_bunks" phpName="PoleBunks" type="VARCHAR" size="10" required="false"/>
+    <column name="loadid" phpName="Loadid" type="BIGINT" size="20" required="false"/>
+    <column name="canada_limitations" phpName="CanadaLimitations" type="LONGVARCHAR" required="false"/>
+    <column name="phone_numbers" phpName="PhoneNumbers" type="LONGVARCHAR" required="false"/>
+    <column name="officeid" phpName="Officeid" type="BIGINT" size="20" required="false"/>
+    <column name="dldeliverydate" phpName="Dldeliverydate" type="DATE" required="false"/>
+    <column name="dldeliverylocation" phpName="Dldeliverylocation" type="VARCHAR" size="30" required="true"/>
+    <column name="notes" phpName="Notes" type="LONGVARCHAR" required="false"/>
+    <column name="zones" phpName="Zones" type="LONGVARCHAR" required="false"/>
+    <index name="driver">
+      <index-column name="name"/>
+    </index>
+    <index name="unload_date">
+      <index-column name="unload_date"/>
+    </index>
+    <index name="location">
+      <index-column name="location"/>
+    </index>
+    <index name="truck_no">
+      <index-column name="truck_no"/>
+    </index>
+    <index name="telephone">
+      <index-column name="telephone"/>
+    </index>
+    <index name="home_office">
+      <index-column name="home_office"/>
+    </index>
+    <index name="message_voice_mail">
+      <index-column name="message_voice_mail"/>
+    </index>
+    <index name="canada">
+      <index-column name="canada"/>
+    </index>
+    <index name="no_canada">
+      <index-column name="no_canada"/>
+    </index>
+    <index name="twic">
+      <index-column name="twic"/>
+    </index>
+    <index name="no_twic">
+      <index-column name="no_twic"/>
+    </index>
+    <index name="4ft_tarps">
+      <index-column name="f4ft_tarps"/>
+    </index>
+    <index name="6ft_tarps">
+      <index-column name="f6ft_tarps"/>
+    </index>
+    <index name="8ft_tarps">
+      <index-column name="f8ft_tarps"/>
+    </index>
+    <index name="no_tarps">
+      <index-column name="no_tarps"/>
+    </index>
+    <index name="pipe_stakes">
+      <index-column name="pipe_stakes"/>
+    </index>
+    <index name="no_pipe_stakes">
+      <index-column name="no_pipe_stakes"/>
+    </index>
+    <index name="load_levelers">
+      <index-column name="load_levelers"/>
+    </index>
+    <index name="no_load_levelers">
+      <index-column name="no_load_levelers"/>
+    </index>
+    <index name="loads_completed">
+      <index-column name="loads_completed"/>
+    </index>
+    <index name="tlength">
+      <index-column name="tlength"/>
+    </index>
+    <index name="ttype">
+      <index-column name="ttype"/>
+    </index>
+    <index name="userid">
+      <index-column name="agentid"/>
+    </index>
+    <index name="driver_status">
+      <index-column name="status"/>
+    </index>
+    <index name="origin_city">
+      <index-column name="origin_city"/>
+    </index>
+    <index name="origin_state">
+      <index-column name="origin_state"/>
+    </index>
+    <index name="destination_city">
+      <index-column name="destination_city"/>
+    </index>
+    <index name="destination_state">
+      <index-column name="destination_state"/>
+    </index>
+    <index name="rating">
+      <index-column name="rating"/>
+    </index>
+    <index name="upload_comment">
+      <index-column name="upload_comment"/>
+    </index>
+  </table>
+  <table name="load_history" phpName="LoadHistory">
+    <column name="id" phpName="Id" type="BIGINT" size="20" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="driverid" phpName="Driverid" type="BIGINT" size="20" required="false"/>
+    <column name="pickup_date" phpName="PickupDate" type="DATE" required="false"/>
+    <column name="unload_date" phpName="UnloadDate" type="DATE" required="false"/>
+    <column name="corp_id" phpName="CorpId" type="VARCHAR" size="20" required="false"/>
+    <column name="source" phpName="Source" type="VARCHAR" size="50" required="false"/>
+    <column name="destination" phpName="Destination" type="VARCHAR" size="50" required="false"/>
+    <column name="contract_pdf" phpName="ContractPdf" type="VARCHAR" size="60" required="false"/>
+    <column name="notes" phpName="Notes" type="LONGVARCHAR" required="false"/>
+    <index name="driverid">
+      <index-column name="driverid"/>
+    </index>
+    <index name="unload_date">
+      <index-column name="unload_date"/>
+    </index>
+    <index name="pickup_date">
+      <index-column name="pickup_date"/>
+    </index>
+    <index name="source">
+      <index-column name="source"/>
+    </index>
+    <index name="destination">
+      <index-column name="destination"/>
+    </index>
+    <index name="corp_id">
+      <index-column name="corp_id"/>
+    </index>
+  </table>
+  <table name="loads" phpName="Loads">
+    <column name="id" phpName="Id" type="BIGINT" size="20" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="load_number" phpName="LoadNumber" type="VARCHAR" size="20" required="false"/>
+    <column name="driverid" phpName="Driverid" type="BIGINT" size="20" required="false"/>
+    <column name="agentid" phpName="Agentid" type="BIGINT" size="20" required="false"/>
+    <column name="booking_date" phpName="BookingDate" type="DATE" required="false"/>
+    <column name="dispatched" phpName="Dispatched" type="TINYINT" size="4" required="false"/>
+    <column name="pickup_date" phpName="PickupDate" type="DATE" required="false"/>
+    <column name="delivery_date" phpName="DeliveryDate" type="DATE" required="false"/>
+    <column name="pickup_location" phpName="PickupLocation" type="VARCHAR" size="30" required="false"/>
+    <column name="delivery_location" phpName="DeliveryLocation" type="VARCHAR" size="30" required="false"/>
+    <column name="line_haul" phpName="LineHaul" type="FLOAT" required="false"/>
+    <column name="accessorial" phpName="Accessorial" type="FLOAT" required="false"/>
+    <column name="gross" phpName="Gross" type="FLOAT" required="false"/>
+    <column name="brokerageid" phpName="Brokerageid" type="VARCHAR" size="40" required="false"/>
+    <column name="broker_agent" phpName="BrokerAgent" type="VARCHAR" size="40" required="false"/>
+    <column name="broker_phone" phpName="BrokerPhone" type="VARCHAR" size="30" required="false"/>
+    <column name="addtocontracts" phpName="Addtocontracts" type="TINYINT" size="4" required="false"/>
+    <column name="broker_notes" phpName="BrokerNotes" type="LONGVARCHAR" required="false"/>
+    <column name="load_notes" phpName="LoadNotes" type="LONGVARCHAR" required="false"/>
+    <column name="load_experience" phpName="LoadExperience" type="VARCHAR" size="20" required="false"/>
+    <column name="load_options" phpName="LoadOptions" type="LONGVARCHAR" required="false"/>
+    <column name="driver_name" phpName="DriverName" type="VARCHAR" size="40" required="false"/>
+    <column name="officeid" phpName="Officeid" type="BIGINT" size="20" required="false"/>
+    <column name="agent_phone" phpName="AgentPhone" type="VARCHAR" size="30" required="false"/>
+    <column name="truckstop_id" phpName="TruckstopId" type="BIGINT" size="20" required="false"/>
+    <index name="load_number">
+      <index-column name="load_number"/>
+    </index>
+    <index name="driverid">
+      <index-column name="driverid"/>
+    </index>
+    <index name="agentid">
+      <index-column name="agentid"/>
+    </index>
+    <index name="booking_date">
+      <index-column name="booking_date"/>
+    </index>
+    <index name="pickup_date">
+      <index-column name="pickup_date"/>
+    </index>
+    <index name="delivery_date">
+      <index-column name="delivery_date"/>
+    </index>
+    <index name="pickup_location">
+      <index-column name="pickup_location"/>
+    </index>
+    <index name="delivery_location">
+      <index-column name="delivery_location"/>
+    </index>
+    <index name="brokerageid">
+      <index-column name="brokerageid"/>
+    </index>
+    <index name="driver_name">
+      <index-column name="driver_name"/>
+    </index>
+  </table>
+  <table name="offices" phpName="Offices">
+    <column name="id" phpName="Id" type="BIGINT" size="20" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="name" phpName="Name" type="VARCHAR" size="40" required="false"/>
+    <column name="address1" phpName="Address1" type="VARCHAR" size="40" required="false"/>
+    <column name="address2" phpName="Address2" type="VARCHAR" size="40" required="false"/>
+    <column name="city" phpName="City" type="VARCHAR" size="40" required="false"/>
+    <column name="state" phpName="State" type="VARCHAR" size="2" required="false"/>
+    <column name="shortname" phpName="Shortname" type="VARCHAR" size="10" required="false"/>
+    <index name="name">
+      <index-column name="name"/>
+    </index>
+    <index name="shortname">
+      <index-column name="shortname"/>
+    </index>
+  </table>
+  <table name="options" phpName="Options">
+    <column name="id" phpName="Id" type="BIGINT" size="20" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="opt_name" phpName="OptName" type="VARCHAR" size="40" required="false"/>
+    <column name="opt_value" phpName="OptValue" type="VARCHAR" size="40" required="false"/>
+    <index name="opt_name">
+      <index-column name="opt_name"/>
+    </index>
+  </table>
+  <table name="page_attributes" phpName="PageAttributes">
+    <column name="id" phpName="Id" type="BIGINT" size="20" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="page_name" phpName="PageName" type="VARCHAR" size="30" required="false"/>
+    <column name="page_title" phpName="PageTitle" type="VARCHAR" size="60" required="false"/>
+    <column name="menu" phpName="Menu" type="TINYINT" size="1" required="false"/>
+    <column name="search" phpName="Search" type="TINYINT" size="1" required="false"/>
+    <index name="page_name">
+      <index-column name="page_name"/>
+    </index>
+  </table>
+  <table name="phones" phpName="Phones">
+    <column name="id" phpName="Id" type="BIGINT" size="20" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="contact_type" phpName="ContactType" type="VARCHAR" size="10" required="false"/>
+    <column name="entityid" phpName="Entityid" type="BIGINT" size="20" required="false"/>
+    <column name="entity" phpName="Entity" type="VARCHAR" size="60" required="false"/>
+    <column name="entity_type" phpName="EntityType" type="VARCHAR" size="10" required="false"/>
+    <column name="entity_name" phpName="EntityName" type="VARCHAR" size="40" required="false"/>
+    <index name="contact_type">
+      <index-column name="contact_type"/>
+    </index>
+    <index name="entityid">
+      <index-column name="entityid"/>
+    </index>
+    <index name="contact_value">
+      <index-column name="entity"/>
+    </index>
+    <index name="entity_type">
+      <index-column name="entity_type"/>
+    </index>
+  </table>
+  <table name="private_notes" phpName="PrivateNotes">
+    <column name="id" phpName="Id" type="BIGINT" size="20" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="user" phpName="User" type="BIGINT" size="20" required="false"/>
+    <column name="driver" phpName="Driver" type="BIGINT" size="20" required="false"/>
+    <column name="comments" phpName="Comments" type="LONGVARCHAR" required="false"/>
+    <index name="user">
+      <index-column name="user"/>
+    </index>
+    <index name="driver">
+      <index-column name="driver"/>
+    </index>
+  </table>
+  <table name="reminders" phpName="Reminders">
+    <column name="id" phpName="Id" type="BIGINT" size="20" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="userid" phpName="Userid" type="BIGINT" size="20" required="false"/>
+    <column name="subject" phpName="Subject" type="VARCHAR" size="80" required="false"/>
+    <column name="message" phpName="Message" type="LONGVARCHAR" required="false"/>
+    <column name="frequency" phpName="Frequency" type="VARCHAR" size="10" required="false"/>
+    <column name="startdate" phpName="Startdate" type="TIMESTAMP" required="false"/>
+    <column name="enddate" phpName="Enddate" type="TIMESTAMP" required="false"/>
+    <column name="lastdate" phpName="Lastdate" type="TIMESTAMP" required="false"/>
+    <column name="nextdate" phpName="Nextdate" type="TIMESTAMP" required="false"/>
+    <column name="driverid" phpName="Driverid" type="BIGINT" size="20" required="false"/>
+    <column name="loadid" phpName="Loadid" type="BIGINT" size="20" required="false"/>
+  </table>
+  <table name="savedloader" phpName="Savedloader">
+    <column name="id" phpName="Id" type="BIGINT" size="20" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="driver" phpName="Driver" type="VARCHAR" size="40" required="false"/>
+    <column name="driver_alias" phpName="DriverAlias" type="VARCHAR" size="40" required="false"/>
+    <column name="unload_date" phpName="UnloadDate" type="VARCHAR" size="25" required="false"/>
+    <column name="location" phpName="Location" type="VARCHAR" size="40" required="false"/>
+    <column name="equipment" phpName="Equipment" type="LONGVARCHAR" required="false"/>
+    <column name="tlength" phpName="Tlength" type="VARCHAR" size="10" required="false"/>
+    <column name="ttype" phpName="Ttype" type="VARCHAR" size="40" required="false"/>
+    <column name="home_town" phpName="HomeTown" type="VARCHAR" size="40" required="false"/>
+    <column name="preferences" phpName="Preferences" type="LONGVARCHAR" required="false"/>
+    <column name="truck_no" phpName="TruckNo" type="VARCHAR" size="20" required="false"/>
+    <column name="telephone" phpName="Telephone" type="VARCHAR" size="30" required="false"/>
+    <column name="comments" phpName="Comments" type="LONGVARCHAR" required="false"/>
+    <column name="home_office" phpName="HomeOffice" type="VARCHAR" size="40" required="false"/>
+    <column name="office_numbers" phpName="OfficeNumbers" type="LONGVARCHAR" required="false"/>
+    <column name="message_voice_mail" phpName="MessageVoiceMail" type="VARCHAR" size="40" required="false"/>
+    <column name="canada" phpName="Canada" type="TINYINT" size="1" required="false"/>
+    <column name="no_canada" phpName="NoCanada" type="TINYINT" size="1" required="false"/>
+    <column name="twic" phpName="Twic" type="TINYINT" size="1" required="false"/>
+    <column name="no_twic" phpName="NoTwic" type="TINYINT" size="1" required="false"/>
+    <column name="f4ft_tarps" phpName="F4ftTarps" type="TINYINT" size="1" required="false"/>
+    <column name="f6ft_tarps" phpName="F6ftTarps" type="TINYINT" size="1" required="false"/>
+    <column name="f8ft_tarps" phpName="F8ftTarps" type="TINYINT" size="1" required="false"/>
+    <column name="no_tarps" phpName="NoTarps" type="TINYINT" size="1" required="false"/>
+    <column name="pipe_stakes" phpName="PipeStakes" type="TINYINT" size="1" required="false"/>
+    <column name="no_pipe_stakes" phpName="NoPipeStakes" type="TINYINT" size="1" required="false"/>
+    <column name="driving_limitations" phpName="DrivingLimitations" type="LONGVARCHAR" required="false"/>
+    <column name="load_levelers" phpName="LoadLevelers" type="TINYINT" size="1" required="false"/>
+    <column name="no_load_levelers" phpName="NoLoadLevelers" type="TINYINT" size="1" required="false"/>
+    <column name="load_options" phpName="LoadOptions" type="LONGVARCHAR" required="false"/>
+    <column name="loads_completed" phpName="LoadsCompleted" type="INTEGER" size="11" required="false"/>
+    <column name="upload_comment" phpName="UploadComment" type="LONGVARCHAR" required="false"/>
+    <index name="driver">
+      <index-column name="driver"/>
+    </index>
+    <index name="unload_date">
+      <index-column name="unload_date"/>
+    </index>
+    <index name="location">
+      <index-column name="location"/>
+    </index>
+    <index name="truck_no">
+      <index-column name="truck_no"/>
+    </index>
+    <index name="telephone">
+      <index-column name="telephone"/>
+    </index>
+    <index name="home_office">
+      <index-column name="home_office"/>
+    </index>
+    <index name="message_voice_mail">
+      <index-column name="message_voice_mail"/>
+    </index>
+    <index name="canada">
+      <index-column name="canada"/>
+    </index>
+    <index name="no_canada">
+      <index-column name="no_canada"/>
+    </index>
+    <index name="twic">
+      <index-column name="twic"/>
+    </index>
+    <index name="no_twic">
+      <index-column name="no_twic"/>
+    </index>
+    <index name="4ft_tarps">
+      <index-column name="f4ft_tarps"/>
+    </index>
+    <index name="6ft_tarps">
+      <index-column name="f6ft_tarps"/>
+    </index>
+    <index name="8ft_tarps">
+      <index-column name="f8ft_tarps"/>
+    </index>
+    <index name="no_tarps">
+      <index-column name="no_tarps"/>
+    </index>
+    <index name="pipe_stakes">
+      <index-column name="pipe_stakes"/>
+    </index>
+    <index name="no_pipe_stakes">
+      <index-column name="no_pipe_stakes"/>
+    </index>
+    <index name="load_levelers">
+      <index-column name="load_levelers"/>
+    </index>
+    <index name="no_load_levelers">
+      <index-column name="no_load_levelers"/>
+    </index>
+    <index name="loads_completed">
+      <index-column name="loads_completed"/>
+    </index>
+    <index name="tlength">
+      <index-column name="tlength"/>
+    </index>
+    <index name="ttype">
+      <index-column name="ttype"/>
+    </index>
+    <index name="upload_comment">
+      <index-column name="upload_comment"/>
+    </index>
+  </table>
+  <table name="truck_inbound" phpName="TruckInbound">
+    <column name="id" phpName="Id" type="BIGINT" size="20" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="agent" phpName="Agent" type="VARCHAR" size="20" required="true"/>
+    <column name="unit" phpName="Unit" type="VARCHAR" size="20" required="true"/>
+    <column name="truck_number" phpName="TruckNumber" type="VARCHAR" size="20" required="true"/>
+    <column name="equipment" phpName="Equipment" type="VARCHAR" size="40" required="true"/>
+    <column name="driver" phpName="Driver" type="VARCHAR" size="40" required="true"/>
+    <column name="cell" phpName="Cell" type="VARCHAR" size="40" required="true"/>
+    <column name="origin_city" phpName="OriginCity" type="VARCHAR" size="20" required="true"/>
+    <column name="origin_state" phpName="OriginState" type="VARCHAR" size="20" required="true"/>
+    <column name="dest_city" phpName="DestCity" type="VARCHAR" size="20" required="true"/>
+    <column name="dest_state" phpName="DestState" type="VARCHAR" size="20" required="true"/>
+    <column name="delivery_month" phpName="DeliveryMonth" type="VARCHAR" size="20" required="true"/>
+    <column name="delivery_day" phpName="DeliveryDay" type="VARCHAR" size="20" required="true"/>
+    <column name="delivery_date" phpName="DeliveryDate" type="VARCHAR" size="12" required="true"/>
+    <column name="comments" phpName="Comments" type="LONGVARCHAR" required="true"/>
+    <column name="report_date" phpName="ReportDate" type="VARCHAR" size="20" required="true"/>
+    <column name="telephone" phpName="Telephone" type="VARCHAR" size="30" required="false"/>
+    <index name="agent">
+      <index-column name="agent"/>
+    </index>
+    <index name="unit">
+      <index-column name="unit"/>
+    </index>
+    <index name="truck_number">
+      <index-column name="truck_number"/>
+    </index>
+    <index name="equipment">
+      <index-column name="equipment"/>
+    </index>
+    <index name="driver">
+      <index-column name="driver"/>
+    </index>
+    <index name="cell">
+      <index-column name="cell"/>
+    </index>
+    <index name="origin_city">
+      <index-column name="origin_city"/>
+    </index>
+    <index name="origin_state">
+      <index-column name="origin_state"/>
+    </index>
+    <index name="dest_city">
+      <index-column name="dest_city"/>
+    </index>
+    <index name="dest_state">
+      <index-column name="dest_state"/>
+    </index>
+    <index name="delivery_month">
+      <index-column name="delivery_month"/>
+    </index>
+    <index name="delivery_day">
+      <index-column name="delivery_day"/>
+    </index>
+    <index name="delivery_date">
+      <index-column name="delivery_date"/>
+    </index>
+    <index name="report_date">
+      <index-column name="report_date"/>
+    </index>
+  </table>
+  <table name="truck_loader" phpName="TruckLoader">
+    <column name="id" phpName="Id" type="BIGINT" size="20" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="userid" phpName="Userid" type="BIGINT" size="20" required="false"/>
+    <column name="driver" phpName="Driver" type="VARCHAR" size="40" required="false"/>
+    <column name="driver_alias" phpName="DriverAlias" type="VARCHAR" size="40" required="false"/>
+    <column name="unload_date" phpName="UnloadDate" type="VARCHAR" size="25" required="false"/>
+    <column name="location" phpName="Location" type="VARCHAR" size="40" required="false"/>
+    <column name="equipment" phpName="Equipment" type="LONGVARCHAR" required="false"/>
+    <column name="tlength" phpName="Tlength" type="VARCHAR" size="10" required="false"/>
+    <column name="ttype" phpName="Ttype" type="VARCHAR" size="40" required="false"/>
+    <column name="home_town" phpName="HomeTown" type="VARCHAR" size="40" required="false"/>
+    <column name="preferences" phpName="Preferences" type="LONGVARCHAR" required="false"/>
+    <column name="truck_no" phpName="TruckNo" type="VARCHAR" size="20" required="false"/>
+    <column name="telephone" phpName="Telephone" type="VARCHAR" size="30" required="false"/>
+    <column name="comments" phpName="Comments" type="LONGVARCHAR" required="false"/>
+    <column name="home_office" phpName="HomeOffice" type="VARCHAR" size="40" required="false"/>
+    <column name="office_numbers" phpName="OfficeNumbers" type="LONGVARCHAR" required="false"/>
+    <column name="message_voice_mail" phpName="MessageVoiceMail" type="VARCHAR" size="40" required="false"/>
+    <column name="canada" phpName="Canada" type="TINYINT" size="1" required="false"/>
+    <column name="no_canada" phpName="NoCanada" type="TINYINT" size="1" required="false"/>
+    <column name="twic" phpName="Twic" type="TINYINT" size="1" required="false"/>
+    <column name="no_twic" phpName="NoTwic" type="TINYINT" size="1" required="false"/>
+    <column name="f4ft_tarps" phpName="F4ftTarps" type="TINYINT" size="1" required="false"/>
+    <column name="f6ft_tarps" phpName="F6ftTarps" type="TINYINT" size="1" required="false"/>
+    <column name="f8ft_tarps" phpName="F8ftTarps" type="TINYINT" size="1" required="false"/>
+    <column name="no_tarps" phpName="NoTarps" type="TINYINT" size="1" required="false"/>
+    <column name="pipe_stakes" phpName="PipeStakes" type="TINYINT" size="1" required="false"/>
+    <column name="load_status" phpName="LoadStatus" type="TINYINT" size="1" required="false"/>
+    <column name="no_pipe_stakes" phpName="NoPipeStakes" type="TINYINT" size="1" required="false"/>
+    <column name="driving_limitations" phpName="DrivingLimitations" type="LONGVARCHAR" required="false"/>
+    <column name="load_levelers" phpName="LoadLevelers" type="TINYINT" size="1" required="false"/>
+    <column name="no_load_levelers" phpName="NoLoadLevelers" type="TINYINT" size="1" required="false"/>
+    <column name="load_options" phpName="LoadOptions" type="LONGVARCHAR" required="false"/>
+    <column name="loads_completed" phpName="LoadsCompleted" type="INTEGER" size="11" required="false"/>
+    <column name="upload_comment" phpName="UploadComment" type="LONGVARCHAR" required="false"/>
+    <column name="email" phpName="Email" type="VARCHAR" size="50" required="false"/>
+    <column name="unload_month" phpName="UnloadMonth" type="TINYINT" size="4" required="true" defaultValue="0"/>
+    <column name="unload_day" phpName="UnloadDay" type="TINYINT" size="4" required="true" defaultValue="0"/>
+    <column name="driver_status" phpName="DriverStatus" type="TINYINT" size="1" required="true" defaultValue="1"/>
+    <column name="origin_city" phpName="OriginCity" type="VARCHAR" size="30" required="false"/>
+    <column name="origin_state" phpName="OriginState" type="VARCHAR" size="2" required="false"/>
+    <column name="destination_city" phpName="DestinationCity" type="VARCHAR" size="30" required="false"/>
+    <column name="destination_state" phpName="DestinationState" type="VARCHAR" size="2" required="false"/>
+    <column name="rating" phpName="Rating" type="VARCHAR" size="4" required="false"/>
+    <index name="driver">
+      <index-column name="driver"/>
+    </index>
+    <index name="unload_date">
+      <index-column name="unload_date"/>
+    </index>
+    <index name="location">
+      <index-column name="location"/>
+    </index>
+    <index name="truck_no">
+      <index-column name="truck_no"/>
+    </index>
+    <index name="telephone">
+      <index-column name="telephone"/>
+    </index>
+    <index name="home_office">
+      <index-column name="home_office"/>
+    </index>
+    <index name="message_voice_mail">
+      <index-column name="message_voice_mail"/>
+    </index>
+    <index name="canada">
+      <index-column name="canada"/>
+    </index>
+    <index name="no_canada">
+      <index-column name="no_canada"/>
+    </index>
+    <index name="twic">
+      <index-column name="twic"/>
+    </index>
+    <index name="no_twic">
+      <index-column name="no_twic"/>
+    </index>
+    <index name="4ft_tarps">
+      <index-column name="f4ft_tarps"/>
+    </index>
+    <index name="6ft_tarps">
+      <index-column name="f6ft_tarps"/>
+    </index>
+    <index name="8ft_tarps">
+      <index-column name="f8ft_tarps"/>
+    </index>
+    <index name="no_tarps">
+      <index-column name="no_tarps"/>
+    </index>
+    <index name="pipe_stakes">
+      <index-column name="pipe_stakes"/>
+    </index>
+    <index name="no_pipe_stakes">
+      <index-column name="no_pipe_stakes"/>
+    </index>
+    <index name="load_levelers">
+      <index-column name="load_levelers"/>
+    </index>
+    <index name="no_load_levelers">
+      <index-column name="no_load_levelers"/>
+    </index>
+    <index name="loads_completed">
+      <index-column name="loads_completed"/>
+    </index>
+    <index name="tlength">
+      <index-column name="tlength"/>
+    </index>
+    <index name="ttype">
+      <index-column name="ttype"/>
+    </index>
+    <index name="userid">
+      <index-column name="userid"/>
+    </index>
+    <index name="driver_status">
+      <index-column name="driver_status"/>
+    </index>
+    <index name="origin_city">
+      <index-column name="origin_city"/>
+    </index>
+    <index name="origin_state">
+      <index-column name="origin_state"/>
+    </index>
+    <index name="destination_city">
+      <index-column name="destination_city"/>
+    </index>
+    <index name="destination_state">
+      <index-column name="destination_state"/>
+    </index>
+    <index name="rating">
+      <index-column name="rating"/>
+    </index>
+    <index name="upload_comment">
+      <index-column name="upload_comment"/>
+    </index>
+  </table>
+  <table name="uploaded_loads" phpName="UploadedLoads">
+    <column name="id" phpName="Id" type="BIGINT" size="20" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="offer_number" phpName="OfferNumber" type="VARCHAR" size="15" required="true"/>
+    <column name="ocity" phpName="Ocity" type="VARCHAR" size="30" required="true"/>
+    <column name="ost" phpName="Ost" type="VARCHAR" size="2" required="true"/>
+    <column name="ozip" phpName="Ozip" type="VARCHAR" size="11" required="true"/>
+    <column name="dcity" phpName="Dcity" type="VARCHAR" size="30" required="true"/>
+    <column name="dst" phpName="Dst" type="VARCHAR" size="2" required="true"/>
+    <column name="dzip" phpName="Dzip" type="VARCHAR" size="15" required="true"/>
+    <column name="pickup_start" phpName="PickupStart" type="DATE" required="true"/>
+    <column name="pickup_end" phpName="PickupEnd" type="DATE" required="true"/>
+    <column name="delivery_start" phpName="DeliveryStart" type="DATE" required="true"/>
+    <column name="delivery_end" phpName="DeliveryEnd" type="DATE" required="true"/>
+    <column name="state" phpName="State" type="VARCHAR" size="30" required="true"/>
+    <column name="weight" phpName="Weight" type="INTEGER" size="11" required="true"/>
+    <column name="volume" phpName="Volume" type="INTEGER" size="11" required="true"/>
+    <column name="hazmat" phpName="Hazmat" type="VARCHAR" size="10" required="true"/>
+    <column name="over_dim" phpName="OverDim" type="VARCHAR" size="10" required="true"/>
+    <column name="len" phpName="Len" type="INTEGER" size="11" required="true"/>
+    <column name="wid" phpName="Wid" type="INTEGER" size="11" required="true"/>
+    <column name="hgt" phpName="Hgt" type="INTEGER" size="11" required="true"/>
+    <column name="eqpt" phpName="Eqpt" type="VARCHAR" size="10" required="true"/>
+    <column name="origin" phpName="Origin" type="VARCHAR" size="80" required="true"/>
+    <column name="destination" phpName="Destination" type="VARCHAR" size="80" required="true"/>
+    <column name="truckstop_id" phpName="TruckstopId" type="BIGINT" size="20" required="true"/>
+    <index name="offer_number">
+      <index-column name="offer_number"/>
+    </index>
+  </table>
+  <table name="uploads_equipment_map" phpName="UploadsEquipmentMap">
+    <column name="id" phpName="Id" type="BIGINT" size="20" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="spreadsheet_code" phpName="SpreadsheetCode" type="VARCHAR" size="10" required="true"/>
+    <column name="truckstop_code" phpName="TruckstopCode" type="VARCHAR" size="15" required="true"/>
+    <column name="dat_code" phpName="DatCode" type="VARCHAR" size="15" required="true"/>
+    <index name="spreadsheet_code">
+      <index-column name="spreadsheet_code"/>
+    </index>
+  </table>
+  <table name="user_history" phpName="UserHistory">
+    <column name="id" phpName="Id" type="BIGINT" size="20" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="user1" phpName="User1" type="VARCHAR" size="20" required="false"/>
+    <column name="user2" phpName="User2" type="VARCHAR" size="20" required="false"/>
+    <column name="user3" phpName="User3" type="VARCHAR" size="20" required="false"/>
+    <column name="driver" phpName="Driver" type="VARCHAR" size="40" required="false"/>
+  </table>
+  <table name="users" phpName="Users">
+    <column name="id" phpName="Id" type="BIGINT" size="20" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="user" phpName="User" type="VARCHAR" size="20" required="true"/>
+    <column name="password" phpName="Password" type="VARCHAR" size="20" required="true"/>
+    <column name="level" phpName="Level" type="VARCHAR" size="10" required="false"/>
+    <column name="list_level" phpName="ListLevel" type="VARCHAR" size="10" required="false"/>
+    <column name="user_name" phpName="UserName" type="VARCHAR" size="30" required="false"/>
+    <column name="officeid" phpName="Officeid" type="BIGINT" size="20" required="false"/>
+    <column name="phone" phpName="Phone" type="VARCHAR" size="40" required="false"/>
+    <column name="fax" phpName="Fax" type="VARCHAR" size="40" required="false"/>
+    <column name="email" phpName="Email" type="VARCHAR" size="40" required="false"/>
+    <column name="theme" phpName="Theme" type="VARCHAR" size="20" required="false"/>
+    <column name="google_id" phpName="GoogleId" type="LONGVARCHAR" required="false"/>
+    <column name="google_password" phpName="GooglePassword" type="LONGVARCHAR" required="false"/>
+    <column name="calendar_html" phpName="CalendarHtml" type="LONGVARCHAR" required="false"/>
+    <index name="user">
+      <index-column name="user"/>
+    </index>
+    <index name="password">
+      <index-column name="password"/>
+    </index>
+    <index name="level">
+      <index-column name="level"/>
+    </index>
+    <index name="user_name">
+      <index-column name="user_name"/>
+    </index>
+  </table>
+  <table name="zip_code" phpName="ZipCode">
+    <column name="id" phpName="Id" type="INTEGER" size="11" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="zip_code" phpName="ZipCode" type="VARCHAR" size="5" required="true"/>
+    <column name="city" phpName="City" type="VARCHAR" size="50" required="false"/>
+    <column name="county" phpName="County" type="VARCHAR" size="50" required="false"/>
+    <column name="state_name" phpName="StateName" type="VARCHAR" size="50" required="false"/>
+    <column name="state_prefix" phpName="StatePrefix" type="VARCHAR" size="2" required="false"/>
+    <column name="area_code" phpName="AreaCode" type="VARCHAR" size="3" required="false"/>
+    <column name="time_zone" phpName="TimeZone" type="VARCHAR" size="50" required="false"/>
+    <column name="lat" phpName="Lat" type="FLOAT" required="true"/>
+    <column name="lon" phpName="Lon" type="FLOAT" required="true"/>
+    <column name="location" phpName="Location" type="VARCHAR" size="60" required="false"/>
+    <index name="zip_code">
+      <index-column name="zip_code"/>
+    </index>
+    <index name="location">
+      <index-column name="location"/>
+    </index>
+    <index name="city">
+      <index-column name="city"/>
+    </index>
+    <index name="state_prefix">
+      <index-column name="state_prefix"/>
+    </index>
+    <index name="location_2">
+      <index-column name="location"/>
+    </index>
+  </table>
+</database>

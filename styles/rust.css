@@ -1,0 +1,52 @@
+/*
+  Truck loader app style sheet - #CBB4A9 theme
+*/
+* {
+ /* background-color: #997E6C*/
+}
+/* Body tweek for IE quirks */
+body{
+	color: white;
+  background-color: white;  
+  
+}
+fieldset{
+	border: 3px solid #CBB4A9;
+}
+/* more of same... */
+#wrapper{
+  color: white;  
+  border: 3px solid #CBB4A9;
+  background-color: #997E6C;  
+}
+#headerv2{
+	background-color: #997E6C;
+	color: #CBB4A9;
+}
+
+#content{
+	border: 1px solid green;
+  background-color: #997E6C;
+}
+/* Page footer div */
+#footer{
+	color: white;
+}
+label{
+	color: black;
+}	
+
+/* Appleize the site */
+input, select, textarea{
+  color: black;
+  background-color: white;
+  border: 1px solid #FFFFFF;    
+}
+input[type='button']{
+  color: white;
+  background-color: gray;
+  }
+input[type='submit']{
+  background-color: gray;
+  }
+  

@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JQ Button Testing</title>
+<link rel="stylesheet" type="text/css" media="screen" href="JQueryUI/css/mint-choc/jquery-ui-1.8.6.custom.css" />
+<script type="text/javascript" src="JQueryUI/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="JQueryUI/js/jquery-ui-1.8.5.custom.min.js"></script>
+<style>
+  .ui-button .ui-button-text { display: block; line-height: 0.5; font-size: 0.7em;}
+  .ui-button-text-only .ui-button-text { padding: .2em .2em; }
+  .ui-buttonset{ margin-left: 0; margin-right: 0; display: inline-block; }
+  .lbl{
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+    margin-left: 5px;
+    font-size: 0.9em;
+    text-align: right;
+  }
+  .lbl2{
+    display: inline-block;
+    width: 90px;
+    margin-left: 5px;
+    font-size: 0.9em;
+    text-align: right;
+    }
+  #leftcol{
+    margin-left: 30px;
+    border: 1px solid black;
+    padding: 3px;
+    width: 200px;
+    color: white;
+    background-color: black;
+  }
+  
+</style>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+  jQuery(".bset").buttonset();
+
+});
+</script>
+
+</head>
+<body>
+<br/><br/><br/><br/><br/><br/><br/>
+<div id="leftcol"> <!-- Start of radio/check div -->
+
+<label class="lbl">Canada?:</label>
+<div class="bset" id="canada" >
+<input type="radio" id="canada1" name="rbcanada"/> <label for="canada1">Yes</label>
+<input type="radio" id="canada2" name="rbcanada"/> <label for="canada2">No</label>
+<input type="radio" id="canada3" name="rbcanada"/> <label for="canada3">??</label>
+</div><br/>
+
+<label class="lbl">TWIC?:</label>
+<div class="bset">
+<input type="radio" id="twic1" name="rbtwic"/> <label for="twic1">Yes</label>
+<input type="radio" id="twic2" name="rbtwic"/> <label for="twic2">No</label>
+<input type="radio" id="twic3" name="rbtwic"/> <label for="twic3">??</label>
+</div><br/>
+
+<label class="lbl2">Pipe Stakes?:</label>
+<div class="bset">
+<input type="radio" id="pipe_stakes1" name="rbpipe_stakes"/> <label for="pipe_stakes1">Yes</label>
+<input type="radio" id="pipe_stakes2" name="rbpipe_stakes"/> <label for="pipe_stakes2">No</label>
+<input type="radio" id="pipe_stakes3" name="rbpipe_stakes"/> <label for="pipe_stakes3">??</label>
+</div><br/>
+
+<label class="lbl2">Load Levelers?:</label>
+<div class="bset">
+<input type="radio" id="load_levelers1" name="rbload_levelers"/> <label for="load_levelers1">Yes</label>
+<input type="radio" id="load_levelers2" name="rbload_levelers"/> <label for="load_levelers2">No</label>
+<input type="radio" id="load_levelers3" name="rbload_levelers"/> <label for="load_levelers3">??</label>
+</div><br/>
+
+<label class="lbl2">Pole Bunks?:</label>
+<div class="bset">
+<input type="radio" id="pole_bunks1" name="rbpole_bunks"/> <label for="pole_bunks1">Yes</label>
+<input type="radio" id="pole_bunks2" name="rbpole_bunks"/> <label for="pole_bunks2">No</label>
+<input type="radio" id="pole_bunks3" name="rbpole_bunks"/> <label for="pole_bunks3">??</label>
+</div><br/>
+
+<label class='lbl2'>Tarps:</label>
+<div class="bset">
+<input type='checkbox' id="f4ft" name="f4ft"/><label for='f4ft'>4ft</label>
+<input type='checkbox' id="f6ft" name="f6ft"/><label for='f6ft'>6ft</label>
+<input type='checkbox' id="f8ft" name="f8ft"/><label for='f8ft'>8ft</label>
+</div ><br/>
+</div>
+</body>
+</html> 

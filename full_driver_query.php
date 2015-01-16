@@ -1,0 +1,36 @@
+<?php
+//All text driver query
+select * from drivers 
+where name like '%$s%' 
+||tlength like '%$s%' 
+||ttype like '%$s%' 
+||home_town like '%$s%' 
+||preferences like '%$s%' 
+||truck_no like '%$s%'
+||comments like '%$s%' 
+||home_office like '%$s%'
+||canada like '%$s%' 
+||twic like '%$s%' 
+||pipe_stakes like '%$s%' 
+||driving_limitations like '%$s%'
+||load_levelers like '%$s%' 
+||load_options like '%$s%' 
+||email like '%$s%' 
+||pole_bunks like '%$s%'
+||canada_limitations like '%$s%'
+//All text load query
+select * from loads
+where booking_date like '%$s%'
+|| load_number like '%$s%'
+|| pickup_date like '%$s%'
+|| delivery_date like '%$s%'
+|| pickup_location like '%$s%'
+|| delivery_location like '%$s%'
+|| brokerageid like '%$s%'
+|| broker_agent like '%$s%'
+|| broker_phone like '%$s%'
+|| broker_notes like '%$s%'
+|| load_notes like '%$s%'
+|| load_experience like '%$s%'
+|| load_options like '%$s%'
+?>

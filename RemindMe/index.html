@@ -1,0 +1,452 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="Generator" content="Me and My Carpal Tunnel 4.0">
+<meta name="ProgId" content="Identification? You don't need to see our Identification.">
+<meta name="Keywords" content="
+reminder,email reminder,remind me, remindme,mail reminders,remind,reminder service,email reminder service,free email reminders
+
+">
+<meta name="Description" content="
+RemindMe is a free, Perl/CGI email reminder service program. With RemindMe, you can set
+up your own email reminder service for your website's visitors.
+">
+<script language="JavaScript" src="http://tesol.net/scripts/tooltips.js">
+// Note from Kristina: the javascript that makes those nifty little info
+// info boxes pop out when you run your mouse over the links on this
+// page is copyrighted as below. You can see the source by following the .js
+// link. (I've put it in like this to save download time for people, as it's
+// quite long. I did NOT write this JavaScript! It was written by Sharon Paine as
+// outlined below. FYI. :-)
+//
+// This code is from Dynamic Web Coding www.dyn-web.com
+// Copyright 2002 by Sharon Paine Permission granted to use this code as long 
+// as this entire notice is included.
+// Permission granted to SimplytheBest.net to feature script in its
+// DHTML script collection at http://simplythebest.net/scripts/dhtml_scripts.html
+</script>
+<style type="text/css">
+body,td,a,p,dl,dt,dd,ol,li { font-family: arial,sans-serif; }
+.content { font-family: arial,sans-serif; font-size: 13px; }
+.titles {font-family: arial,sans-serif; font-size: 14px; }
+h{font-size: 14px;}
+b{font-weight: bold;}
+</style>
+<title>RemindMe: A Simple Perl/CGI Email Reminder Program</title>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<center>
+<a name="top">
+<table border=0 width="675">
+<tr><td bgcolor="#0000FF">
+<table border=0 cellpadding=5 width="100%">
+ <tr><td bgcolor="#FFFFFF" width="100%">
+ <p align="center">
+ <b> <font face="Arial" size="2">Note: I've done some work on the site here recently.<br>Some things may not work quite right. Don't panic! :-) <br>Just <a href=/scriptmail.html>drop me an email</a> if you see something strange.</font></b>
+ </p>
+ </td></tr></table>
+</td></tr></table>
+</a></center>
+<center></center>
+<center>
+<table border="0" cellpadding="6" cellspacing="0" width="600" height=100%>
+  <tr>
+    <td width="93" style="border-style: solid; border-color: #000000">
+      <p align="center"><a href="http://www.tesol.net/scripts/"><img border="0" src="http://www.tesol.net/scripts/images/sfe.gif" width="135" height="84" alt="Scripts for Educators: Free Perl/CGI programs since 1996"></a></td>
+    <td width="1" bgcolor="#FFFFCC" style="border-top-style: solid; border-bottom-style: solid;border-color: #000000">&nbsp;</td>
+    <td nowrap width="350" bgcolor="#FFFFCC" style="border-top-style: solid; border-bottom-style: solid;border-color: #000000">
+	<div class="titles">
+      <p align="center"><font size="5" face="Arial">RemindMe:<br>Perl/CGI Email Reminders </font></p>
+	</div>
+    </td>
+    <td width="1" bgcolor="#FFFFCC" style="border-top-style: solid; border-bottom-style: solid; border-color: #000000">&nbsp;</td>
+    <td width="107" bgcolor="#CCCCFF" style="border-style: solid; border-color: #000000">
+      <p align="center"><font face="Arial"><b>Need Help?<br>
+      <a href="http://tesol.net/scripts/FAQ/">Try the FAQ!</a><br>
+      <font size="2"><a href="http://tesol.net/scripts/forum/">Hit the Forum!</a></font><br>
+      <a href="http://tesol.net/scriptmail.html">Contact Me!</a></b></font></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="133" height="100%" rowspan="6" bgcolor="#000000">
+    <table border="0" height="100%"><tr><td bgcolor="#000000" height="100%" valign="top"><table cellpadding="3" border="0" height="100%" width="139"><tr><td bgcolor="#FFFFFF" height="100%" valign="top" width="131">
+     <p  style="background: #ccccff"><font size="2" color="#0000FF" face="Arial"><strong>Programs
+     &amp; Scripts&nbsp;<br>
+     </strong></font></p>
+     <strong><font face="Arial" size="2">Quizzes/Tests</font></strong>
+     <font face="Arial" size="1"><br>
+     <a href="http://tesol.net/scripts/QuizTest/" onMouseover="doTooltip(event,0);" onmouseout="hideTip();">QuizTest</a><br>
+      <a href="http://tesol.net/scripts/RandomQuiz/" onMouseover="doTooltip(event,1);" onmouseout="hideTip();">RandomQuiz</a><br>
+      <a href="http://tesol.net/scripts/SFESurvey/index.html" onMouseover="doTooltip(event,2);" onmouseout="hideTip();">SFESurvey</a></font>
+     <p><strong><font face="Arial" size="2">Make Your Own..</font></strong><font face="Arial" size="1"><br>
+     <a href="http://tesol.net/scripts/SillySite/" onMouseover="doTooltip(event,3);" onmouseout="hideTip();">Web Page</a><br>
+     <a href="http://tesol.net/scripts/SillyCount/" onMouseover="doTooltip(event,4);" onmouseout="hideTip();">Page
+     Counter</a><br>
+     <a href="http://tesol.net/scripts/AutoCGIMail/" onMouseover="doTooltip(event,5);" onmouseout="hideTip();">
+      Email form</a><br>
+      <br>
+     </font>
+      <strong><font face="Arial" size="2">Interaction</font></strong><font face="Arial" size="1"><br>
+     <a href="http://tesol.net/scripts/RemindMe" onMouseover="doTooltip(event,6);" onmouseout="hideTip();">RemindMe!</a><br>
+     <a href="http://tesol.net/scripts/CGI-Subscribe/" onMouseover="doTooltip(event,7);" onmouseout="hideTip();">CGI-Subscribe</a><br>
+     <a href="http://tesol.net/scripts/Chat-N-Time/" onMouseover="doTooltip(event,8);" onmouseout="hideTip();">
+      Chat-N-Time</a><br>
+     <a href="http://tesol.net/scripts/SFEChat/" onMouseover="doTooltip(event,49);" onmouseout="hideTip();">
+      SFEChat</a><br>
+     <a href="http://tesol.net/scripts/Votesie" onMouseover="doTooltip(event,9);" onmouseout="hideTip();">Votesie<br>
+     </a><a href="http://tesol.net/scripts/MakeBook" onMouseover="doTooltip(event,10);" onmouseout="hideTip();">MakeBook</a></font></p>
+     <p><strong><font face="Arial" size="2">Calculators</font></strong><font face="Arial" size="1"><br>
+     <a href="http://tesol.net/scripts/VeryInteresting/" onMouseover="doTooltip(event,11);" onmouseout="hideTip();">VeryInteresting</a><br>
+     <a href="http://tesol.net/scripts/AffordaBilly/" onMouseover="doTooltip(event,12);" onmouseout="hideTip();">
+      AffordaBilly</a><br>
+     <a href="http://tesol.net/scripts/PayBackTime/" onMouseover="doTooltip(event,13);" onmouseout="hideTip();">
+      PayBackTime</a><br>
+     <a href="http://tesol.net/scripts/SFEBMIcalc/" onMouseover="doTooltip(event,47);" onmouseout="hideTip();">SFEBMIcalc</a><br>
+     <a href="http://tesol.net/scripts/MetaboCalc/" onMouseover="doTooltip(event,48);" onmouseout="hideTip();">MetaboCalc</a><br>
+     <a href="http://tesol.net/scripts/Quadratic-O-Matic/" onMouseover="doTooltip(event,14);" onmouseout="hideTip();">
+     Quadratic-O-Matic</a></font></p>
+      <p><b><font face="Arial" size="2">Information Lookup</font><font face="Arial" size="1"><br>
+      </font>
+      </b><font face="Arial" size="1"><a href="http://tesol.net/scripts/SillySearch/" onMouseover="doTooltip(event,15);" onmouseout="hideTip();">SillySearch (site search)</a><br>
+      <a href="http://tesol.net/scripts/VocabSearch" onMouseover="doTooltip(event,16);" onmouseout="hideTip();">
+      VocabSearch</a><br>
+      <a href="http://tesol.net/scripts/QAMaker/" onMouseover="doTooltip(event,17);" onmouseout="hideTip();">
+      QAMaker</a><br>
+      <a href="http://tesol.net/scripts/AddrBook/" onMouseover="doTooltip(event,18);" onmouseout="hideTip();">
+      AddrBook</a></font></p>
+     <p><b><font face="Arial" size="2">Puzzles</font></b><font face="Arial" size="1"><br>
+      <a href="http://tesol.net/scripts/CrosswordMaker/" onMouseover="doTooltip(event,19);" onmouseout="hideTip();">
+      CrosswordMaker</a><br>
+      <a href="http://tesol.net/scripts/SFEWordSearch/" onMouseover="doTooltip(event,20);" onmouseout="hideTip();">
+      SFEWordSearch</a><br>
+     <p><b><font face="Arial" size="2">Other scripts</font></b><font face="Arial" size="1"><br>
+     <a href="http://tesol.net/scripts/SFELinkAdd/" onMouseover="doTooltip(event,50);" onmouseout="hideTip();">SFELinkAdd</a><br>
+     <a href="http://tesol.net/scripts/Quotesie/" onMouseover="doTooltip(event,46);" onmouseout="hideTip();">Quotesie</a><br>
+     <a href="http://tesol.net/scripts/SFEBanner/" onMouseover="doTooltip(event,21);" onmouseout="hideTip();">SFEBanner</a><br>
+      <a href="http://tesol.net/scripts/GradeORama/" onMouseover="doTooltip(event,22);" onmouseout="hideTip();">
+      GradeORama</a><br>
+      <a href="http://tesol.net/scripts/HeadCount/" onMouseover="doTooltip(event,44);" onmouseout="hideTip();">
+      HeadCount</a><br>
+      <a href="http://tesol.net/scripts/Web-B-Mail/" onMouseover="doTooltip(event,23);" onmouseout="hideTip();">
+      Web-B-Mail</a></font><br>
+     <p><b><font face="Arial" size="2">Games</font></b><font face="Arial" size="1"><br>
+      <a href="http://tesol.net/scripts/SFEHangman/" onMouseover="doTooltip(event,45);" onmouseout="hideTip();">
+      SFEHangman</a><br>
+      <a href="http://tesol.net/scripts/SFEBlackJack/" onMouseover="doTooltip(event,42);" onmouseout="hideTip();">SFEBlackJack</a><br>
+      <a href="http://tesol.net/scripts/SFEPoker/" onMouseover="doTooltip(event,43);" onmouseout="hideTip();">SFEPoker</a><br>
+	</font>
+     <p  style="background: #ccccff"><font size="2" color="#0000FF" face="Arial"><strong>Other Resources<br>
+     </strong></font></p>
+<p><b><font size="2" face="Arial">About this Site<br>
+     </font></b><font face="Arial" size="1"><a href="http://tesol.net/scripts/me.html"  onMouseover="doTooltip(event,24);" onmouseout="hideTip();">Who's
+     Kristina? :-)</a></font>
+     <p><b><font face="Arial" size="2">Help &amp; Support</font><font face="Arial" size="1"><br>
+     </font>
+      </b>
+      <font face="Arial" size="1"><a href="http://www.tesol.net/scripts/help.html"  onMouseover="doTooltip(event,25);" onmouseout="hideTip();">Getting
+      started</a><br>
+      <a href="http://www.tesol.net/scripts/FAQ"  onMouseover="doTooltip(event,26);" onmouseout="hideTip();">Check the FAQ!</a><br>
+      <a href="http://www.tesol.net/scripts/forum" onMouseover="doTooltip(event,27);" onmouseout="hideTip();">Discussion forum</a><br>
+      <a href="http://www.tesol.net/scriptmail.html" onMouseover="doTooltip(event,28);" onmouseout="hideTip();">Request Support</a><br>
+      <a href="http://www.tesol.net/scripts/SFEList" onMouseover="doTooltip(event,29);" onmouseout="hideTip();">Mailing Lists</a></font><p>
+      <b><font face="Arial" size="2">Offsite
+     Resources</font></b><font face="Arial" size="1"><br>
+      <a href="http://www.tesol.net/scripts/Otherstuff" onMouseover="doTooltip(event,30);" onmouseout="hideTip();">Links and other stuff</a><br>
+      <a href="http://www.tesol.net/scripts/isptable.html" onMouseover="doTooltip(event,31);" onmouseout="hideTip();">Web Hosting providers</a><br>
+     <a href="http://tesol.net/scripts/tutorialtable.html" onMouseover="doTooltip(event,32);" onmouseout="hideTip();">Online&nbsp;tutorials</a><br>
+     <a href="http://www.cgilance.com/cgi-bin/fl/r.cgi?sfescripts" target="_blank" onMouseover="doTooltip(event,33);" onmouseout="hideTip();">Custom Programming<br>
+     </a>
+     <a href="http://tesol.net/hotscripts/" target="_blank" onMouseover="doTooltip(event,34);" onmouseout="hideTip();">More Scripts (HotScripts)</a><br>
+     <a href="http://www.sitesforteachers.com/perl/rankem.pcgi?id=kristina" target="_blank" onMouseover="doTooltip(event,35);" onmouseout="hideTip();">Sites for Teachers</a></font>
+     <p>
+     
+     <font face="Arial" size="2"><b>Support This Site!</b></font><br>
+     <font face="Arial" size="1"><a href="http://tesol.net/donate/" onMouseover="doTooltip(event,36);" onmouseout="hideTip();">Donate - not
+     just money!</a><br>
+     <font face="Arial" size="1"><a href="http://www.visualpeace.com/" target="_blank" onMouseover="doTooltip(event,37);" onmouseout="hideTip();">Buy from VisualPeace</a><br>
+	  <font face="Arial" size="1"><a href="http://www.everythingsonline.com/" target="_blank" onMouseover="doTooltip(event,41);" onmouseout="hideTip();">Buy from Everything's Online!</a><br>
+	  <font face="Arial" size="1"><a href="http://www.monstermadness.com/" target="_blank" onMouseover="doTooltip(event,38);" onmouseout="hideTip();">Buy from MonsterMadness</a><br>
+	  <font face="Arial" size="1"><a href="http://tesol.net/scripts/books.html" onMouseover="doTooltip(event,39);" onmouseout="hideTip();">Buy from Amazon.com</a><br>
+     <font face="Arial" size="1"><a href="http://www.qksrv.net/click-1195027-8219039" target="_blank"  onMouseover="doTooltip(event,40);" onmouseout="hideTip();">Get Dental Coverage: $99/year</a><img src="http://www.qksrv.net/image-1195027-8219039" width="1" height="1" border="0">
+     </font>
+      <p>&nbsp;
+     </font></font></font></font>
+      </td></tr></table></td></tr></table></td>
+    <td width="1" rowspan="6"></td>
+    <td valign="top" width="418">
+	<div class="content">
+      <dl>
+        <p align="center">[<font face="Arial" size="2"><a href="#demo">Demo</a>]
+        [<a href="#whosusing">Who's using?</a>] [<a href="#sysreq">System
+        Requirements</a>]
+ [<a href="#download">Download</a>!] [<a href="#bugfix">Bug&nbsp;Fix&nbsp;Announcements</a>]
+        [<a href="http://tesol.net/scripts/RemindMe/working/Changelog">Changelog</a>]
+        [<a href="http://tesol.net/scripts/pages.cgi?RemindMeLicense">License</a>]</font>
+        <p><font size="3"><b>Program Summary</b></font></p>
+<font face="Arial" size="2">[Version 3.0.14 Released 03/10/2007]</font><br><br>
+
+RemindMe is a simple program that lets users sign up to receive 
+auto-reminders by email about a date they choose at a designated interval 
+before that date. Users can select whether to be reminded only once, daily,
+weekly, bi-weekly, monthly, bi-monthly, quarterly, semi-anually, or every year,
+and whether to be reminded any number of days in advance of that date, from
+one day to one year. Users may also select an option to view, edit, or delete
+any pending reminders.
+	
+        <p align="right"><a href="#top">top</a></p>
+        <hr><a name="demo">&nbsp;</a>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+        <p><b>Working Demo</b></p>
+
+<a
+href="http://www.tesol.net/scripts/RemindMe/working/remindme.cgi">A
+Working version of the user interface</a> is online for you to try
+out. NOTE: this is a demo of the interfaces only. The reminders file
+gets cleared out periodically, so don't expect to get sent reminders
+from this demo. To prevent abuse, I have disabled emailing from the script.
+Please use the username test@tesol.net and the password 'test' to log in
+and see how the rest of it looks.
+<br><br>
+
+With the admin interface, you can change your password or modify
+the footer text that is sent out with each reminder.  In <a
+href="http://www.tesol.net/scripts/RemindMe/working/remindme.cgi?admin">the demo version of the admin interface</a>, I have removed the
+ability to permanently change the password or the footer, but the program
+will operate as usual without actually making the changes.  Use the
+password "password" to try it out.
+	
+        <p align="right"><a href="#top">top</a></p>
+        <hr>
+
+	<hr>
+        <p><b><a name="whosusing">Who's Using RemindMe?</a></b></p>
+        <p>&nbsp;If you've gotten RemindMe to work, send me the address of your
+        website and I'll post a link to it.<br><br>
+
+I seem to get a lot of requests for help with this script, but I don't
+have many URL's of people using it.  Here are a few I've found. If you've
+got it up and running, please let me know!<P>
+<a target="_blank" href="http://www.abstageation.com/">Abstageation</a> is using it: check out "Day Reminder"</a>.
+<a href="http://www.jensenconnection.com/">JensenConnection.com</a>. This is a family news and information site. They are using RemindMe for their event reminder.<br>
+<a href="http://www.mynameday.com/">MyNameDay.com Reminder Service</a><br>
+<a href="http://www.rolebo.com">Rolebo! (A Travel site)</a><br>
+<a href="http://www.acemailorder.com/">Ace Mail Order.com</a><br>
+<a href="http://www.sweetreat.com/">Sweet Treat - Quality Gifts since 1976</a><br>
+<a href="http://cyberereminder.com/">Cyber E Reminder.com</a><br>
+<a href="http://www.antiquingonline.com/">Antiquing On Line - Vintage &
+Victorian Jewelry</a><br>
+<a href="http://adam2.org/cgi/remindme/remindme.cgi">Adam2.org</a><br>
+<br>
+v 2.0 users:
+<a href="http://www.freshflowermarket.com/">FreshFlowerMarket.com</a><br>
+<br>
+<br>If you're using it, let me know and get free traffic for your site from your link here! :-)
+	
+        <p align="right"><a href="#top">top</a></p>
+        <hr>
+
+        <p><b><a name="sysreq">System Requirements</a></b></p>
+        The web server where this script will be installed must have Perl 5.000 or
+        higher. Scripts that send email require that "Sendmail" or "qmail-inject"
+	be available on Unix/Linux-type systems. Scripts that send email under
+	Windows-based systems require use of the Socket Perl module (Socket.pm).
+	All scripts may require the Perl CGI module, CGI.pm . 
+	
+        <p>This script is NOT supported on the following web hosting
+        providers:</p>
+        <blockquote>
+          <p>Tripod.com</p>
+          <p>Angelfire.com</p>
+          <p>Lycos.com</p>
+        </blockquote>
+	<p>Also, sorry, but the scripts are not supported under mod_perl, 
+	PerlEx, or speedy_cgi as
+	I don't have any way to test them in that environment. :-(</p>
+        <p>You must be able to execute cgi programs on your web server. If
+        you're not sure whether you have permission to do this, or are not sure
+        how to configure the files, please ask your system administrator, or
+        check the web pages of your web hosting provider for Help or Support
+        information. For a free web hosting provider who supports CGI scripts, or
+	low-cost web hosting providers, you can try looking at
+	<a href="http://tesol.net/scripts/isptable.html">the "Some Places to Host
+	your Website" page</a> I've put together.<br><br>
+	The web server must support both the GET and POST request methods. (Ask your
+	hosting provider about this if you're not sure.)<br><br>
+        <b>Please remember: you get what you pay for, and free web hosting
+        services are often worth what you pay for them.</b></p>
+        <p align="right"><a href="#top">top</a></p>
+        <hr>
+  <p><b><a name="download">Download!</a></b></p>
+        <p><font color="#000000">But first, the obligatory plea for funding. :-)
+        <table border="0">
+          <tbody>
+            <tr>
+              <td bgColor="#000000">
+                <table border="0">
+                  <tbody>
+                    <tr>
+                      <td bgColor="#00ffff">
+                      <b><font face="Arial" size="2">(Scroll down if you don't want to read this part. You
+                      do NOT have to give money to download these scripts!)</b><br>
+                      <br>
+			<font face="Arial" size="2"><b>Like
+                        the scripts? Give me a dollar, or say thanks!&nbsp;</b></font><br><br>
+			</font><font face="Arial" size="2"><br>
+                      If you like the scripts, you can <a href="http://www.tesol.net/scripts/PayPal/donate.html">send
+                      me cash through PayPal, Amazon, or through snail mail</a>
+                      or you can <a href="http://www.tesol.net/scripts/PayPal/more.html">show
+                      your support in other ways</a>. Remember: only about one
+                      out of 100 people who download the scripts even says
+                      &quot;Thanks.&quot; :-)</font></td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+        </table>
+      &nbsp;
+        <p>All the files you need are contained in these packages. Download it
+        in the format you wish.</p>
+        <dl>
+          <dd>Gzipped Tar format: <a href="http://tesol.net/scripts/remindme.tar.gz">remindme.tar.gz</a>
+          <dd>Zip format: <a href="http://tesol.net/scripts/remindme.zip">remindme.zip</a></dd>
+        </dl>
+	<br>
+	
+	<br>
+        On a Unix-type system, if you have console or command prompt access, you
+        may unzip the tar.gz file by typing 'gunzip &lt; remindme.tar.gz | tar -xvf
+        -'. If you're not very familiar with Unix, you may want to ask someone
+        who is to help you. The latest version of Stuffit for the Mac will also
+        handle tar.gz files.
+        <p>If you have MS Windows, there is a program called WinZip (available
+        at <a href="http://tucows.greatbasin.net">TuCows</a>) which will
+        uncompress and de-archive tar/gz files as well as Zip files.</p>
+        <p>The package contains the following files:<br><br>
+       
+<dl>
+<dt> <a href="http://www.tesol.net/scripts/RemindMe/remindme.script">remindme.cgi</a>: 
+	<dd>the actual program that processes the data from the forms
+	and sends the reminders. 
+
+<dt><a href="http://www.tesol.net/scripts/RemindMe/remindme.cron">remindme.cron</a>
+	<dd>A template file for the cron job to run the auto-reminder.
+<dt>
+<dt><a href="http://www.tesol.net/scripts/RemindMe/allreminders">allreminders</a>
+	<dd>Just a plain text file which will contain the list of reminders.
+	Yours should be empty.
+<dt><a 
+href="http://www.tesol.net/scripts/RemindMe/footer">footer</a>
+	<dd>Another plain text file that contains text which will be appended
+	to all messages sent by RemindMe.
+
+<dt> <a href="http://www.tesol.net/scripts/RemindMe/passfile.txt">passfile.txt</a>
+	<dd> The password file for the program.  The default password
+	is simply "password," so I suggest you change this immediately
+	or anyone who knows about this program will be able to use
+	your form. :)
+
+<dt> <a href="http://www.tesol.net/scripts/RemindMe/README.remindme">README.remindme</a>
+	<dd>contains information on how to get started using the
+	program. READ THIS before you get started!
+</dl>
+	
+        <p align="right"><a href="#top">top</a></p>
+        <hr>
+     
+        <p><a name="bugfix"><b>Bug Fix Announcements</b></a></p>
+        I <b>strongly recommend</b> that you sign up here for update and bug fix
+        announcements about this script. I will not spam you with advertising: I
+        just want to make sure you have the latest fixes. :-)
+        <p><br>
+        The program will send a confirmation message to your email address when
+        you sign up. In order to get on the announcement list, you MUST click on
+        the confirmation link contained in that email message. This is to
+        protect you from someone signing you up as a joke, and to protect me
+        from being accused of spamming. Since update announcements are sometimes
+        few and far between, sometimes people forget that they've subscribed and
+        report me for sending junk mail. Luckily, the system logs the address,
+        time, and date of everyone who signs up so that I can prove I'm only
+        sending to people who asked for it. :-)
+        <p>After a major release, you may get one or two messages a week.
+        Mostly, though, I'm afraid it's less than once a month.&nbsp;
+        <p>You may also sign up for announcements about other scripts on 
+        <a href="http://tesol.net/scripts/SFEList/sfelist.cgi">the
+        main Scripts for Educators Mailing List page.</a>&nbsp;
+        <p>This list is ONLY for announcements specifically about RemindMe:
+        <p>
+        <form method="POST" action="http://tesol.net/scripts/SFEList/index.cgi">
+        <table border="0">
+          <tbody>
+            <tr>
+              <th>Name:</th>
+              <td><input name="Name" size="20"></td>
+            </tr>
+            <tr>
+              <th>Email:</th>
+              <td><input name="Email" size="20"></td>
+            </tr>
+            <input type="hidden" value="RemindMe" name="ListName"><input type="hidden" value="Subscribe" name="FA">
+            <tr>
+              <th colSpan="2"><input type="submit" value="Sign up for Updates!"></form>
+            </tr>
+          </tbody>
+        </table>
+        <p align="right"><a href="#top">top</a></p>
+        <dt>&nbsp;
+      </dl>
+    </td>
+    <td width="1" rowspan="6"></td>
+    <td valign="top" width="107" bgcolor="#000000" rowspan="6">
+      <p align="center">
+<table border=0 width=120 height="100%">
+ <tr>
+  <td width=120 bgcolor="#FFFFFF" height="100%">
+<table border=0><tr>
+  <td width=120 bgcolor="#ccccFF">
+ <font size=2 color=#0000FF><b>Support this Site</b></font>
+  </td></tr></table>
+<br>
+<font size=1 face="Arial">If you've found some of these scripts useful, or just
+want to help with money or other means, here are
+some options!</font><br><br>
+     <font face="Arial" size="1"><a href="http://tesol.net/scripts/scriptsdetails.html">Give my scripts a good rating!</a></font><br>
+<br>
+     <font face="Arial" size="1"><a href="http://tesol.net/donate/" onMouseover="doTooltip(event,36);" onmouseout="hideTip();">Donate - not
+     just money!</a></font><br>
+<br>
+     <font face="Arial" size="1"><a href="http://www.visualpeace.com/" target="_blank" onMouseover="doTooltip(event,37);" onmouseout="hideTip();">Buy from VisualPeace</a></font><br>
+<br>
+          <font face="Arial" size="1"><a href="http://www.everythingsonline.com/" target="_blank" onMouseover="doTooltip(event,41);" onmouseout="hideTip();">Buy from Everything's Online!</a><br>
+<br>
+          <font face="Arial" size="1"><a href="http://www.monstermadness.com/" target="_blank" onMouseover="doTooltip(event,38);" onmouseout="hideTip();">Buy from MonsterMadness</a><br>
+<br>
+          <font face="Arial" size="1"><a href="http://tesol.net/scripts/books.html" onMouseover="doTooltip(event,39);" onmouseout="hideTip();">Buy from Amazon.com</a><br>
+<br>
+     <font face="Arial" size="1"><a href="http://www.qksrv.net/click-1195027-8219039" target="_blank"  onMouseover="doTooltip(event,40);" onmouseout="hideTip();">Get Dental Coverage: $99/year
+</a><img src="http://www.qksrv.net/image-1195027-8219039" width="1" height="1" border="0">
+
+<br>
+ </td>
+</tr>
+   </table><br>
+      </p>
+	</div>
+    </td>
+  </tr>
+  
+</table>
+<div id="tipDiv" style="position:absolute; visibility:hidden; z-index:100"></div>
+</body>
+

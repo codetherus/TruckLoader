@@ -1,0 +1,6 @@
+# This is a file to keep track of users who have opted in to your
+# mailing list. It is in this format:
+# Email|token|Name|Request IP Addr|Request Date|Confirm IP Addr|Confirm Date
+# Where "Request IP Addr" is the IP address the user was logged onto when
+# they first requested to subscribe, and "Confirm IP Addr" is the IP
+# Address the user was logged onto when they confirmed their opt-in.

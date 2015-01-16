@@ -1,0 +1,23 @@
+##Queries##  
+If you want to query a table for specific data, you can add additional parameters to a List Features request. Each parameter requires a value which can be an integer, string or condition. The diagram below illustrates how these parameters fit into the structure of a HTTP request.  
+![query-structure](images/query-structure.png)
+
+Some common query parameters include:
+
+* `intersects`: Get features which intersect with a geometry (point, polygon, circle, linestring).
+* `limit`: Create an upper bound of the number of features returned.
+* `select`: Specifies which properties of the features will be shown in the result.
+* `where`: Create a condition that must be fulfilled by the features returned. The supported operators are >, <, >=, <=, =, and <>.
+* `orderBy`: Specify the ordering of the features returned (ascending/descending). It is ascending by default. You have to specify a `limit` of less than or equal to 75 if you want to use this parameter.
+
+For example, if you only want to find 'Paris' in the 'Famous Cities' table, and only display the `Name` property, you could request:  
+`https://www.googleapis.com/mapsengine/v1/tables`  
+`/{publicTableId}/features`  
+`?version=published&key={userAPIKey}`  
+`&select=Name&where=Name='Paris'`.
+
+For more information regarding queries and a full list of available parameters, you can read the [Google Maps Engine API Documentation for list features](//developers.google.com/maps-engine/documentation/read).
+
+###Exercise###  
+Try to query the 'Famous Cities' table to list cities whose `Population` is
+less than 2 million. Use the table ID `{publicTableId}` and your valid API Key for the URL, then click 'Get'.

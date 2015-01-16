@@ -1,0 +1,23 @@
+<?php
+/*
+  Daily upload log viewer
+*/
+require_once("commons.php");
+$smarty->assign("pgtitle", "DAT Log Viewer"); 
+$smarty->assign("domenu", 1);
+//Build the record for editing
+function DisplayLog()
+{
+  if (!file_exists("DATlog.txt"))
+    return "No log file available.";
+  $s = file_get_contents("DATlog.txt")."<br/><hr style='color:green'>";
+  
+  $s = str_replace("\n","<br/>",$s);
+  return $s;
+}
+$smarty->assign("editdata",DisplayLog());
+
+//$xajax->configure('debug',true);
+$xajax->processRequest();
+GenerateSmartyPage();
+?>

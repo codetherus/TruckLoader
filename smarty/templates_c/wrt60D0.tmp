@@ -1,0 +1,25 @@
+<?php /* Smarty version 2.6.21, created on 2014-01-29 19:24:40
+         compiled from common_scripts.tpl */ ?>
+<link rel='stylesheet' href='styles/basestyle.css'/>
+<link rel='stylesheet' href='styles/truckloader.css'>
+<link rel='stylesheet' href='calendar/calendar.css' title='calendar'/>
+<link rel='stylesheet' href='styles/jquery.autocomplete.css'/>
+<link rel='stylesheet' href='styles/jquery-ui-1.7.3.custom.css'/>
+<link rel='stylesheet' href='styles/flexigrid.css?v=1'/>
+<script language="javascript" src="calendar/setLongDateFormat.js"></script>
+<script language="javascript" src="calendar/calendar.js"></script>
+<script language="javascript" src="scripts/tickler_overlay.js"></script>
+<script language="javascript" src="scripts/zend_reminder_overlay.js"></script>
+<script language="javascript" src="scripts/common.js"></script>
+<script language="javascript" src="scripts/jquery.autocomplete.js"></script>
+<script language="javascript" src="scripts/flexigrid.js"></script>
+<script language="javascript" src="scripts/shortcut.js?v=1"></script>
+<script language="javascript" src="scripts/global_search.js?v=1"></script>
+<script language="javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
+<script language="javascript" src="scripts/jquery-ui-1.7.3.custom.min.js"></script>
+<script language="javascript" src="scripts/tablesort.js"></script>
+<link rel='stylesheet' href='styles/global_search.css'/>
+<link rel='stylesheet' href='styles/brainjarmenu.css'/>
+<script language="javascript" src="scripts/brainjarmenu.js"></script>
+<script language="javascript" src="scripts/jquery.tablesorter.min.js"></script>
+<link rel='stylesheet' href='scripts/tablesorterstyle.css'/>

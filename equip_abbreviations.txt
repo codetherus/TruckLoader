@@ -1,0 +1,61 @@
+2F   Two 24 or 28 foot flats 
+ANIM  Animal Carrier 
+AUTO  Auto Carrier 
+BTR  BTrain/Supertrain (Canada only) 
+BELT  Conveyer Belt 
+BOAT  Boat Hauling Trailer 
+CH    Convertible Hopper 
+CONT  Container Trailer 
+DD    Double Drop 
+DUMP  Dump Trucks 
+ENDP  End Dump 
+F    Flatbed 
+FA   Flatbed Airride 
+FEXT  Stretch Trailers or Extendable Flats 
+FINT  Flat Intermodal 
+FT    Flat with Tarps 
+FV   Flatbed or Van 
+FVR  Flatbed, Van, or Reefer 
+FWS  Flatbed With Sides 
+HOPP  Hopper Bottom 
+HOTS  Hot Shot 
+HS   Hot Shot 
+HTU  Haul and Tow Unit 
+LAF  Landoll Flatbed 
+LB    Lowboy 
+LDOT  LoadOut are empty trailers you haul 
+LIVE  Live Bottom Trailer 
+MAXI  Maxi or Double Flat Trailers 
+MBHM  Mobile Home FZ, VZ, etc  The "Z" denotes a Hazardous Material load.
+PNEU  Pneumatic 
+PO   Power Only (towaway) 
+R    Refrigerated Carrier 
+RGN  Removable Goose Neck & MultiAxle Heavy Haulers
+RGNE  RGN Extendable
+RINT  Refrigerated Intermodal
+ROLL  Roll Top Conestoga
+RPD  Ref. Carrier W/Plant Decking 
+RX   Reefer Pallet Exchange
+SD   Step Deck
+SD/F  Step Deck or Flat
+SDL  Step Deck w/Loading Ramps
+SPEC  Unspecified Specialized Trailers
+SV   Straight Van
+SV22  22' Van
+TANK  Tanker (Please specify Food grade, liquid, bulk, etc. in your posting)
+TEAM  Team Driver Needed
+V    Van
+VOT  Open Top
+V53  53' Van
+VA   Airride/Logistical Van
+VB   Blanket Wrap Van
+VC   Curtain Van
+VCAR  Cargo Vans (1 Ton capacity)
+VINT  Van Intermodal
+VIV  Vented Insulated Van
+VLG  Van with Lift Gate
+VM   Moving Van
+VR   Van or Reefer
+VV   Vented Van
+VX   Van Pallet Exchange
+WALK  Walking Floor

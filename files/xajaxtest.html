@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>Xajax Test</title>
+<?php $xajax->printJavascript(); ?>
+</head>
+<body>
+<form id="form1">
+<input type="text" id="name" name="name"/>
+  <input type="button" value="Click Me" onclick="xajax_test(xajax.getFormValues('form1'))"/>
+</form>
+</body>
+</html>

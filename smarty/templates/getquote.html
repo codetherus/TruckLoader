@@ -1,0 +1,77 @@
+<!--
+  This is the get a quote page for the lbj home page
+-->
+{literal}
+<style>
+    fieldset{
+        width: 65%; 
+        border: 1px solid gray;
+    }
+    label{
+        display: inline-block;
+        width: 150px;
+        font-weight: bold;
+        text-align: right;
+    }
+    em{
+        color: red;
+    }
+    input{
+        margin-bottom: 3px;
+        margin-right: 2px;
+    }
+    input[type='checkbox'], input[type='radio']{
+        margin-right: 3px;
+    }
+    .centered {
+        margin: 0 auto;
+    }
+
+</style>
+{/literal}
+<div style="margin-top: 20px;">
+    <form id="form2">
+        <fieldset style="margin-left: 15px; width: 98%">
+            <label><b><em>* Required</em></b></label><br/>
+            <label>Contact Name:<em>*</em></label>
+            <input class="firstinput" id="contactname" name="contactname"/>
+            <label>Phone Number:<em>*</em></label>
+            <input id="phone" name="phone"/><br/>
+            <label>Email:<em>*</em></label>
+            <input id="email" name="email"/>
+            <label>Company<em>*</em>:</label>
+            <input id="company" name="company"/><br/>
+            <label>Commodity:<em>*</em></label>
+            <input id="commodity" name="commodity"/>
+            <label>Weight:<em>*</em></label>
+            <input id="weight" name="weight"/><br/>
+            <label>Origin:<em>*</em></label>
+            <input id="origin" name="origin"/>
+            <label>Destination:<em>*</em></label>
+            <input id="destination" name="destination"/><br/>
+            <label>Type:<em>*</em></label>
+            <input type="radio" name="loadtype" value="Truck"/>Truck&nbsp;
+            <input type="radio" name="loadtype" value="Self Loader"/>Self Loader<br/>
+            <label>Length (feet):</label>&nbsp;
+            <input type='checkbox' id='l1' name=lengths[] value='0-50'/>0-50&nbsp;
+            <input type='checkbox' id='l2'  name=lengths[] value='55-65'/>55-65&nbsp;
+            <input type='checkbox' id='l3'  name=lengths[] value='70-75'/>70-75&nbsp;
+            <input type='checkbox' id='l4'  name=lengths[] value='80-85'/>80-85&nbsp;
+            <input type='checkbox' id='l5'  name=lengths[] value='90-95'/>90-95&nbsp;
+            <input type='checkbox' id='l6'  name=lengths[] value='100'/>100&nbsp;
+            <input type='checkbox' id='l7'  name=lengths[] value='105'/>105&nbsp;
+            <input type='checkbox' id='l8'  name=lengths[] value='110-115'/>110-115&nbsp;
+            <input type='checkbox' id='l9'  name=lengths[] value='120'/>120&nbsp;
+            <input type='checkbox' id='20'  name=lengths[] value='Other'/>Other<br/>
+            <label>Comments:</label><br/>
+            <textarea style="margin-left:100px;" id="comments" name="comments" rows="5" cols="55"></textarea>
+            <br/>
+            <br/>
+            <div class="centered"style=" width:150px;">
+                <input type="button" value="Submit" onclick="xajax_sendQuoteRequest(xajax.getFormValues('form2'));"/>
+                <input type="reset" value="Reset Form"/>
+            </div>
+            </form>
+        </fieldset>
+    </form>
+</div>

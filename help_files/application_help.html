@@ -1,0 +1,231 @@
+<div style="margin:50px;color:black;">
+<a name="index"></a> <!-- Back to top link -->
+<center><h1 style="color: black;">Application Help</h1></center><p>This is a work in progress...</p>
+<p>This web application is designed to help you in managing truck drivers
+ and truck loads.</p>
+<p>The main pages are:</p>
+<ul>
+<li><a href=#drivers">Driver Management</a> - manages all information specific to a driver.</li>
+<li><a href="#loads">Load Management</a> - manages all information specific to one load.</li>
+<li><a href="#todays loads">Todays Loads</a> - finds loads being delivered within the last few days up to today.</li>
+<li><a href="#radius">Radius Search</a> - finds drivers available within x miles of a city.</li>
+</ul>
+<p>Other pages of interest include:</p>
+<ul>
+<li><a href="#broker management">Broker Management</a> - 
+used to maintain the brokers that you deal with regularly.</li>
+<li><a href="#phones">Contacts/Phone Management</a> - used to maintain various contact numbers for drivers,
+ agents and brokers.</li>
+<li><a href="#reminders">Reminders</a> - used to setup the "tickler" events that notify you via email of things
+ you want to remember.</li>
+<li><a href="#themes">Themes</a> - used to change the color scheme of your displays.</li>
+</ul>
+<h3><a name="drivers">Driver Management</a></h3>
+<p>The driver management page is used to maintain the table of drivers that you do business with.</p> 
+<p>Fields:</p>
+<ul>
+<li>Driver - the driver's name. This is an <a href="#autosuggest">autosuggest</a> field that, when you type in it, presents a dropdown list
+of names containing what you have typed. Choose a driver by clicking the name or use the arrow keys to highlight
+if and press the tab key. Read the driver record by keying Alt+D.
+</li>
+<li>Pickup <a href="#dates">Date</a> is the date the driver is to pick up the current load. Click the calendar icon next to the 
+field to open a calendar and pick a date.</li>
+<li>Delivery date is the scheduled delivery date. Again, use the calendar icon to choose a date.</li>
+<li>Pickup Location is the place at which the load will be picked up. This is an autosuggest field that presents
+a dropdown list of cities as you type. Select one just like you selected a driver.</li>
+<li>Delivery Location is where the load will be unloaded. It is an autosuggest field.</li>
+<li>Contact Numbers is a list of phone and email values.</li>
+<li>Driver Comments is a text area in which you may type any comments specific to the driver.</li>
+<li>Canada is a dropdown indicating wether or not the driver may enter Canada. Click the down arrow icon and choose
+one.</li>
+<li>TWIC is a dropdown indicating wether or not the driver has a TWIC permit.</li>
+<li>Tarps is a set of checkboxes indicating what tarps the driver has available. Click to check all that apply.</li> 
+<li>Pipe Stakes - Choose one to indicate if the truck has pipe stakes.</li>
+<li>Load Levelers - choose one.
+<li>Pole Bunks - choose one.</li>
+<li>Truck # is the number assigned to the driver's truck.</li>
+<li>Load # is the number of the current load for this driver. IF you change it an click the "Update" button, You
+will be asked if this is a new load. If you respond affirmative, the load related information from the page will 
+be used to create a new load record and, after any other driver updates, you will be directed to the loads page
+with the new load record displayed where you may make any needed edits.</li>
+<li>Home Office holds the location of the drivers home. It is an autosuggest field.</li>
+<li>Rating lets you rate a driver using a number. This causes the driver to float to the top of the lists.</li>
+<li>Length is the driver's trailer length.</li>
+<li>Trailer is the drivers trailer type.</li>
+<li>Home Town - autosuggest for the driver's home town.</li>
+<li>Driver Limitations is a text area in which you may note any limitations on this driver.</li>
+<li>Check Call: Use this to make a record of driver contacts. The info you enter will be saved in the check call
+table with your id, the driver id, a timestamp and the message. The messages will be listed on the loads page.</li>
+</li>Load Options is another text area where you may enter any optional info about loads the driver can handle.</li>
+<li>Driver Agent is the name of the agent assigned to this driver. CHoose one from the dropdown is desired.</li>
+<li>Agent Info displays the contact information for the agent.</li>
+</ul>
+<p>Driver Page Hot Keys:</p>
+<ul>
+<li>Alt+D reads the driver record for this driver name.</li>
+<li>Alt+L switchws to the load page displaying the load from the driver page.</li>
+<li>Alt+C opens the contact/phone edtor in a new tab.</li>
+<li>Alt+S changes the focus to the <a href="#search">search input box</a> in the upper right corner of the
+page.</li>
+</li>Alt+B opens the broker editor in a new tab.</li>
+</ul>
+<a href="#index">Back to Top</a>
+<h3><a name="loads">Load Management</a></h3>
+<p>This page manages the loads associated with a driver. It can be accessed directly
+<p>Fields:</p>
+<ul>
+<li>Load # is the number you assign to the load. It must be unique. It is an autosuggest
+ field.</li>
+<li>Driver is the name of the driver the load is assigned to. It is an autosuggest field</li>
+<li>Phone Number List is read from the contact/phone when the record is created or read.</li>
+<li>ATI Agent is the agent assigned to the load. It may be different than that assigned to
+the driver.</li>
+<li>Booking Date is the date the load is booked. Use the calendar control to assign it.</li>
+</li>Dispatched - Check to indocate that the load has been dispatched.
+<li>Pickup and Delivery Dates: Use the calander controls to assign.</li>
+<li>Pickup and Delivery locations: Auto suggest location fields.</li>
+<li>Line Haul...</li>
+<li>Accessorables...</li>
+<li>Gross is the sum of Line Haul and Accessorable. It is computed for you when you tab
+off of the Accessorable field.</li>
+<li>Check Calls is a list of contact records for the driver.</li>
+<li>Brokerage Co. is an auto suggest to choose the brokerage for the load.</li>
+<li>Broker Agent is the agent at the broker.</li>
+<li>Broker Phone is autoloaded from the contact/phone table.</li>
+<li>Load Experience is notes about the overall experience with the load. Problems,
+good things, etc.</li>
+<li>Add to Contracts: Check to add to our contracts.</li>
+<li>Load Notes general notes about the load.</li>
+</ul>
+<p>Loads Page Hot Keys:</p>
+<ul>
+<li>Alt+L displays the load whose load number is currently displayed.</li>
+<li>Ald+D switched to the driver page for the currently displayed load.</li>
+<li>Alt+H displkays a list of the drivers loads - current and past - from which
+ you may choose for display.</li>
+<li>Alt+B opens the broker editor in a new tab.</li>
+<li>Alt+S moves the cursor the the earch input in the upper right corner.</li>
+</ul>
+<a href="#index">Back to Top</a>
+<h3><a name="todays loads">Todays Loads</a></h3> 
+<p>This page lists loads being delivered today and for the last few days. 
+<p>Fields:</p>
+<ul>
+<li>Unload Date is the date being unloaded. It defaults to today but you can change
+it using the calendar control to its right.</li>
+<li>Agent can be used to filter loads for a particular agent.</li>
+<li>Driver Status may be used to filter the status of the drivers. IT defaults to 
+active only but you may choose inactive only or both active and inactive.</li>
+</ul>
+<p>When you click the submit button a list of qualified loads will be displayed from
+which you may choose one. The load will display.</li>
+<p>You may use the searcn input in the uper right corner to run the "global search" 
+tool.</p>
+<a href="#index">Back to Top</a>
+<h3><a name="radius">Radius Search</a></h3>
+<p>The radius search feature makes it possible for you to find loads that are being
+delivered to a city or within some miles of the city.</p>
+<p>Fields:</p>
+<ul>
+<li>City: You may type just a city in one of the following formats:</li>
+  <ul>
+  <li>Houston (This requires that you select a state...)</li>
+  <li>Houston, tx</li>
+  <li>Houston tx</li>
+  </ul>
+<li>State: Use the drop down list to selecet a state is not provided in the city.</li>
+<li>Radius: This specifys the search radius around the city. It defaults to 50 miles
+but you may set it to any value that suits.</li>
+<li>Search - click to initiate the search.</li>
+</ul>
+<p>The search displays a list of qualified loads.<br/><br/>
+Click the driver link to load that driver's record or click the "Map" link to view
+the Google map of the route from the delivery location to the city in a new tab.</p>
+<a href="#index">Back to Top</a>
+<h3><a name="autosuggest">Autosuggest</a></h3>
+<p>The driver and loads pages have several fields in them that respond to what 
+you type in them. These are referred to as "autosuggest" fields. That is they cause an
+external search to be made and the results displayed in a list below the field.<br/><br/>
+You then access one of the list items by clicking on it or using the arrow keys to
+move to one of them followed by the tab key. Either way the field is populated with the chosen value.
+<br/><br/>
+Names, load numbers, locations and brokers are setup as autosuggest fields.
+<h3><a name="dates">Date Formats</a></h3>
+<p>All dates in the application are expressed in the form "yyyy-mm-dd". If you type in 
+a date please adhere to this "standard." <br/>
+"Timestamp" dates are in the form "yyyy-mm-dd hh:mm:ss." These values are generally
+controlled by the programs.
+</p>
+<a href="#index">Back to Top</a>
+<h3><a name="broker management">Broker Management</h3>
+<p>The broker management page is used to keep track of the brokers that you deal with.</p>
+<p>Fields:</p>
+<ul>
+<li>Name is a short name that you use to refer to the brokerage.</li>
+<li>Company is the full name of the brokerage company.</li>
+<li>Address, City, State and zip are standard address fields.</li>
+<li>Phone, Cell and Fax are the contact numbers for the brokerage.</li>
+<li>Notes is anything you want to say about the brokerage.</li>
+</ul>
+<p>The "Find" button presents a list of brokerages from which you may choose one for
+ display by clicking on the link.</p>
+<a href="#index">Back to Top</a>
+<h3><a name="phones">Contacts/Phone Management</h3>
+<p>This page is used to maintain phone numbers and email addresses for drivers, agents and brokers.</p>
+<p>Fields:</p>
+<ul>
+<li>Contact Type is a list of the available types.</li>
+<li>Entity Type is a list to choose if the record is  a driver, agent or broker.</li>
+<li>Entity is a list of drivers, agents or brokers depending on the entity type chosen.</li>
+<li>Number is the contact number or email for the contact.</li>
+</ul>
+<a href="#index">Back to Top</a>
+<h3><a name="reminders">Reminders</h3>
+<p>The application has a system for sending you emails at selected intervals. You use the reminders managemant
+page to setup the reminder messages.</p>
+<p>Fields:</p>
+<ul>
+<li>Subject is the email subject line.</li>
+<li>Message is the email body.</li>
+<li>Frequency is a list of intervals to send the email.</li>
+<li>Begin Date/Time is when to start sending you messages. Use the calendar icon to display the calendar and
+choose a date and time.</li>
+<li>End Date/Time is the last time you want the message sent. Again use the calendar to set it up.</li>
+</ul>
+<p>The "List" button will display a list of the reminders you have setup so that you can choose on to edit.</p>
+<a href="#index">Back to Top</a>
+<h3><a name="themes">Themes</a></h3>
+<p>The "Themes" item on the menu bar presents a list of color schemes that you can choose from to set your color
+scheme. There are currently 3 themes defined:</p>
+<ul>
+<li>Default is the original black and white color scheme.</li>
+<li>Blue sets things to a few shades of blue.</li>
+<li>Rust sets a brown theme.</li>
+</ul>
+<p>When you choose a theme it is changes immediately and is permanent until you change it.</p>
+<a href="#index">Back to Top</a>
+<h3><a name="search">Global Search Feature</a></h3>
+<p>Many of the pages are supplied with a box in the upper right corner labeled 
+"Search: followed by a magnifying glass icon.<br/><br/>
+When you type more than 2 characters in this box a search is initiated against the
+drivers,loads,users,brokers and broker agents database tables.<br/><br/>
+Results are displayed in a grid format with column headings. At least one of the 
+fields in each row is a link (blue underlined text) to a record in the tables.<br/><br/>
+You may click on the column headings to sort the results for the table on that column.<br/><br/>
+When you clck a link, the appropriate table's page is opened and the record is displayed.
+</p>
+
+<table border="1" cellspacing="5" cellpadding="5">
+<caption><b>You may limit the search by typing one of these characters in the first position</b></caption>
+<tr><th>Character<th>Description<th>Searches<th>Example</tr>
+<tr><td><b>!</b><td>Exclamation point<td> searches only the drivers.<td>!all searches drivers for "all"</tr>
+<tr><td><b>@</b><td>At sign<td>searches only the loads.<td>@ne searched loads for "ne".</tr>
+<tr><td><b>^</b><td>Circumflex<td>searches both drivers and loads.<td>^ke searches both for "ke"</tr>
+<tr><td><b>#</b><td>Pound sign<td> searches only the users.<td>#ja searches users for "ja"</tr>
+<tr><td><b>$</b><td>Dollar sign<td>searches only the brokers.<td>$fr searches brokers for "fr".</tr>
+<tr><td><b>%</b><td>Percent sign<td>searches only the broker agents.<td>%fr searches broker agents for "fr".</tr>
+<tr><td><b>Any Other</b><td>&nbsp<td>Normal search - all tables<td>all searches all for "all"</tr>
+</table>
+<a href="#index">Back to Top</a>
+</div>
+</html>

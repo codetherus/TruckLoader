@@ -1,0 +1,11 @@
+<html><head>
+<title>Upload a .pdf to a database</title>
+<h2>Please select your .pdf</h2>
+<form enctype=multipart/form-data action=pdfstore.php method=post>
+<input type=hidden name=MAX_FILE_SIZE value=1000000>
+<input type=hidden name=completed value=1>
+Please choose a .pdf to upload: <input type=file name=imagefile><br>
+Please enter the title of that document: <input name=whatsit><br>
+then: <input type=submit></form><br>
+</body>
+</html> 

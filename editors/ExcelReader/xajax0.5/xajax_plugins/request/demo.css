@@ -1,0 +1,188 @@
+body {
+	font-size:13px;
+	font-family:"Lucida Grande","Trebuchet MS",Verdana,sans-serif;
+	color:#333;
+	background:url(img/content_bg.gif) top left repeat-x;
+}
+h1 {
+	margin:4px;
+	margin-left:20px;
+	color:#7F1F3A;
+}
+h2 {
+	color:#7F1F3A;
+	margin:4px 2px 2px 0px;
+	border-bottom:1px solid #7F1F3A;
+}
+h3 {
+	margin:12px 2px 8px 0px;
+	color:#7F1F3A;
+	border-bottom:1px solid #7F1F3A;
+
+}
+
+h4 {
+	font-size:14px;
+	margin-bottom:2px;
+	color:#7F1F3A;
+
+}
+
+pre {
+	color:#666;
+	margin-left:4px;
+}
+
+p {
+	margin-top:2px;
+}
+
+a {
+ color:#C20229;
+}
+
+ul {
+	margin:0px;
+}
+.formLabel {
+	margin-top:4px;
+	float:left;width:120px;
+ 
+}
+.formField {
+	margin-top:4px;
+	float:left;width:350px;
+
+}	
+
+#docs {
+	margin-top:10px;
+	border:1px solid #c0c0c0;
+	background: #fAfAfA;
+	padding:10px;
+	margin-left:20px;
+	width:980px;
+	min-height:325px;
+}
+
+#example {
+	margin-top:10px;
+	border:1px solid #c0c0c0;
+	background: #fAfAfA;
+	padding:10px;
+	float:left;
+	width:410px;
+	min-height:325px;
+	margin-left:20px;
+}
+#response {
+	border:1px solid #c0c0c0;
+	background: #fAfAfA;
+	padding:10px;
+	float:left;
+	width:530px;
+	margin-left:20px;
+	margin-top:10px;
+}
+#copyright {
+	font-size:8px;
+	margin-left:20px;
+}
+
+		div.topTab {
+			height:21px;
+			width:400px;
+			overflow:hidden;		
+		}
+		
+		.leftHandle {
+			background:url(/ccds/img/top-tab-move-left.gif) top left no-repeat;
+			width:25px;
+			height:21px;
+			position:absolute;
+			top:0px;
+			left:0px
+		}
+
+		.rightHandle {
+			background:url(/ccds/img/top-tab-move-right.gif) top left no-repeat;
+			width:25px;
+			height:21px;
+			position:absolute;
+			top:0px;
+			right:0px
+		}
+		
+		div.topTab .tabPanelItem	{
+			float:left;
+			display:inline;
+			height:21px;
+			color:#fff;
+			font-weight:bold;
+			background:url(/ccds/img/top-tab-bg.gif) top left repeat-x;
+			cursor:pointer;
+			display:inline;
+		}
+		
+		div.topTab .tabPanelItemActive{
+			float:left;
+			height:22px;
+			background:#aaa;
+			color:#333;
+			font-weight:bold;
+			background:url(/ccds/img/top-tab-bg-active.gif) top left repeat-x;
+			cursor:pointer;
+			display:inline;
+		}
+
+		div.topTab .tabPanelItem .title {
+			float:left;
+			margin-left:2px;
+		}
+
+		div.topTab .tabPanelItemActive  .title {
+			float:left;
+			margin-left:2px;
+		}
+
+		div.topTab .tabPanelItem .close {
+			margin-left:4px;
+			float:left;
+			width:20px;
+			color:red;
+			cursor:pointer;
+			background:url(/ccds/img/top-tab-close.gif) top left no-repeat;
+		}
+
+		div.topTab .tabPanelItemActive .close {
+			margin-left:4px;
+			float:left;
+			width:20px;
+			color:red;
+			cursor:pointer;
+			background:url(/ccds/img/top-tab-close-active.gif) top left no-repeat;
+		}
+
+		div.topTab .tabPanelItem .tabLeft {
+			float:left;
+			width:3px;
+			background:url(/ccds/img/top-tab-left.gif) top left no-repeat;
+		}
+
+		div.topTab .tabPanelItem .tabRight {
+			float:left;
+			width:3px;
+			background:url(/ccds/img/top-tab-right.gif) top left no-repeat;
+		}
+
+		div.topTab .tabPanelItemActive .tabLeft {
+			float:left;
+			width:3px;
+			background:url(/ccds/img/top-tab-left-active.gif) top left no-repeat;
+		}
+
+		div.topTab .tabPanelItemActive .tabRight {
+			float:left;
+			width:3px;
+			background:url(/ccds/img/top-tab-right-active.gif) top left no-repeat;
+		}		

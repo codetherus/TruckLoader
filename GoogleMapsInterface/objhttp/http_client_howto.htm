@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Http php object client v0.5 - v0.5.1 howto</title>
+<style type="text/css">
+*{font-size:14px;font-family:sans-serif;margin:0;padding:0;line-height:140%}
+a{color:#0000c0;text-decoration:none;border-bottom: 1px #0000e5 dashed;margin-bottom:1px;display:inline-block}
+a:hover{border-bottom-style:solid}
+h1{font-size:22px;margin-bottom:22px}
+h2{font-size:18px;margin-bottom:18px;margin-top:25px}
+p,pre{margin-bottom:15px}
+body{margin:10px}
+ul,ol{list-style-position:inside}
+.code{white-space:pre-line}
+.contents, .code{border:1px dotted #e77315;padding:10px}
+.contents .lp{display:inline-block;width:28px}
+.var{color:#251959;font-weight:bold}
+.comment{color:#898887}
+ul#data_method, ul#cache_settings{padding-left:12px}
+ul#data_method li, ul#cache_settings li{padding-bottom:12px}
+ul#data_method li div, ul#cache_settings, li div{padding-left:30px;padding-top:2px}
+.document_version{font-size:10px}
+</style>
+</head>
+<body>
+<h1>Http php object client v0.5 - v0.5.1 how-to</h1>
+
+<section class="document_version">Document version: 0.5/2 (08.06.2014)</section>
+
+<h2>Table of contents</h2>
+<section class="contents">
+	<span class="lp">1. </span><a href="#requirements">Requirements</a><br />
+	<span class="lp">2. </span><a href="#basic_usage">Basic usage</a><br />
+	<span class="lp">3. </span><a href="#creating_url">Creating url</a><br />
+	<span class="lp">4. </span><a href="#creating_request">Creating request</a><br />
+	<span class="lp">5. </span><a href="#post_with_files">Post request with files</a><br />
+	<span class="lp">6. </span><a href="#http_basic_auth">Http basic auth</a><br />
+	<span class="lp">7. </span><a href="#http_response">Http_Response</a><br />
+	<span class="lp">8. </span><a href="#advanced_usage">Advanced usage</a><br />
+	<span class="lp">9. </span><a href="#modify_settings">Modify settings</a><br />
+	<span class="lp">10. </span><a href="#cookie_proxy">Http_Cookie_Proxy</a><br />
+	<span class="lp">11. </span><a href="#benchmarking">Benchmarking</a><br />
+	<span class="lp">12. </span><a href="#http_client_history">Http client history</a><br />
+	<span class="lp">13. </span><a href="#http_client_cache">Http client cache</a><br />
+	<span class="lp">14. </span><a href="#bug_reporting">Bug reporting</a><br />
+	<span class="lp">15. </span><a href="#more_features">More features</a><br />
+	<span class="lp">16. </span><a href="#donating">Donating</a>
+</section>
+
+<h2 id="requirements">1. Requirements</h2>
+<ul>
+	<li>PHP 5.4 or newer (5.5.11/5.4.27 or newer recommended - see <a href="https://bugs.php.net/bug.php?id=66833">https://bugs.php.net/bug.php?id=66833</a>).</li>
+	<li>Libssl - only for https (your system propably already have it).</li>
+	<li>PECL intl >= 1.0.2, PECL idn >= 0.1 - in a case to work with IDN host names (hosts with non-ascii chars).</li>
+</ul>
+
+<h2 id="basic_usage">2. Basic usage</h2>
+
+<p>Simple class loader:</p>
+<pre class="code"><span style="color: #007700">function </span><span style="color: #0000BB">autoLoader</span><span style="color: #007700">(</span><span class="var">$class</span><span style="color: #007700">)
+{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;require_once(</span><span style="color: #DD0000">'lib/' </span><span style="color: #007700">. </span><span style="color: #0000BB">str_replace</span><span style="color: #007700">(</span><span style="color: #DD0000">'_'</span><span style="color: #007700">, </span><span style="color: #DD0000">'/'</span><span style="color: #007700">, </span><span class="var">$class</span><span style="color: #007700">) . </span><span style="color: #DD0000">'.php'</span><span style="color: #007700">);
+}
+
+</span><span style="color: #0000BB">spl_autoload_register</span><span style="color: #007700">(</span><span style="color: #DD0000">'autoLoader'</span><span style="color: #007700">);</span>
+</pre>
+
+<p><strong>Example 1.</strong> Get file (response) contents via http:</p>
+
+<pre class="code"><span style="color: #000000"><span class="var">$file </span><span style="color: #007700">= (new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://domain.com/file.tgz'</span><span style="color: #007700">))-&gt;</span><span style="color: #0000BB">send</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">getResponse</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">getBody</span><span style="color: #007700">();
+</span><span class="comment">// other way:
+</span><span class="var">$request </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://domain.com/file.tgz'</span><span style="color: #007700">);
+</span><span class="var">$file </span><span style="color: #007700">= </span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getResponse</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">getBody</span><span style="color: #007700">();</span><span class="comment"> // __toString() is a alias of getBody()
+</span><span class="var">$file </span><span style="color: #007700">= </span><span class="var">$request</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">getBody</span><span style="color: #007700">();</span><span class="comment"> // __invoke() is a alias of getResponse()
+// method send() is called automatically in getResponse() when wasn't before.</span></span>
+</pre>
+
+<p>Using alias added in v0.5:</p>
+
+<pre class="code"><span class="var">$file </span><span style="color: #007700">= </span><span style="color: #0000BB">Http_Client</span><span style="color: #007700">::</span><span style="color: #0000BB">get</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://domain.com/file.tgz'</span><span style="color: #007700">)-&gt;</span><span style="color: #0000BB">getBody</span><span style="color: #007700">();
+</span><span class="comment">// or:
+</span><span class="var">$file </span><span style="color: #007700">= </span><span style="color: #0000BB">Http_Client</span><span style="color: #007700">::</span><span style="color: #0000BB">get_</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://domain.com/file.tgz'</span><span style="color: #007700">);</span></span></pre>
+
+<p><strong>Example 2.</strong> Send post data via https, display headers and save a local file with content from a response http body:</p>
+
+<pre class="code"><span style="color: #000000"><span class="var">$response </span><span style="color: #007700">= (new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'https://ssl.domain.com/something.htm'</span><span style="color: #007700">)-&gt;</span><span style="color: #0000BB">setPost</span><span style="color: #007700">([</span><span style="color: #DD0000">'aaa' </span><span style="color: #007700">=&gt; </span><span style="color: #0000BB">123</span><span style="color: #007700">, </span><span style="color: #DD0000">'bbb' </span><span style="color: #007700">=&gt; </span><span style="color: #0000BB">456</span><span style="color: #007700">])-&gt;</span><span style="color: #0000BB">setPostValue</span><span style="color: #007700">(</span><span style="color: #DD0000">'ccc'</span><span style="color: #007700">, </span><span style="color: #DD0000">'789'</span><span style="color: #007700">)-&gt;</span><span style="color: #0000BB">getResponse</span><span style="color: #007700">());
+echo </span><span style="color: #DD0000">"Headers:\n" </span><span style="color: #007700">. </span><span style="color: #0000BB">$response</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getHeadersSource</span><span style="color: #007700">(); </span><span class="comment">// Raw response http head (string with all headers without trailing \r\n\r\n)
+</span><span style="color: #007700">echo </span><span style="color: #DD0000">"Headers (print_r()):\n"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span class="var">$response</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getHeadersAll</span><span style="color: #007700">()); </span><span class="comment">// or: echo "Headers (print_r($response-&gt;getHeaders())):\n";
+</span><span style="color: #0000BB">file_put_contents</span><span style="color: #007700">(</span><span style="color: #DD0000">'localfile.htm'</span><span style="color: #007700">, </span><span class="var">$response</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getBody</span><span style="color: #007700">());</span></span>
+</pre>
+
+<p>Note: getResponse() can be called many times, first call of it (or send()) will trigger send(), next time(s) will just return the same response object.</p>
+
+<p><span style="color: #bb0000">Note:</span> Setters can NOT be called when request was sent before. In this case exception will be throwed.</p>
+
+<h2 id="creating_url">3. Creating url</h2>
+
+<p>Constructor of class Http_Request takes one required argument (optionally second arg is a <a href="#cookie_proxy">&quot;cookie proxy&quot;</a>). It can be url in string, url in a Http_Url/Url object or instance of Http_Request_Data. Http_Request_Data also can take string url or object as first parameter. If You provide something else than Http_Request_Data, it will create instance of this class. Same thing is doing with url's.</p>
+
+<p>Remember one thing, every objects given into args of Http_Request constructor (Http_Request_Data, Http_Url/Url or Http_Cookie_Proxy) are always cloned, so if You want call some methods of those objects, you must use forwarding methods in Http_Request (for ex.: $request->getUri()).</p>
+
+<p><span style="color: #bb0000">Note:</span> You cant call any of setters (forwarders mostly) when request was used to sent, but You can do it after cloning Http_Request - in this case, request object is almost &quot;new&quot; - you can send it again, with optionally called setters before.</p>
+
+<pre class="code"><span style="color: #000000"><span class="var">$request </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://domain.com/'</span><span style="color: #007700">);
+</span><span class="var">$request </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://domain.com/path'</span><span style="color: #007700">);
+</span><span class="var">$request </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://domain.com/something?page=info'</span><span style="color: #007700">);
+</span><span class="var">$request </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(new </span><span style="color: #0000BB">Http_Request_Data</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://domain.com/something?page=info'</span><span style="color: #007700">));
+</span><span class="var">$request </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(new </span><span style="color: #0000BB">Http_Url</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://domain.com/something?page=info'</span><span style="color: #007700">));
+</span><span class="var">$request </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(new </span><span style="color: #0000BB">Url</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://domain.com/something?page=info'</span><span style="color: #007700">));
+</span><span class="var">$request </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(new </span><span style="color: #0000BB">Http_Request_Data</span><span style="color: #007700">(new </span><span style="color: #0000BB">Http_Url</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://domain.com/something?page=info'</span><span style="color: #007700">)));</span></span>
+</pre>
+
+<p>Host name in url are always required for requests. But for example, url can be easly generated with Http_Url class basing only on path (with or without http url query).</p>
+
+<pre class="code"><span style="color: #000000"><span class="var">$url </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Url</span><span style="color: #007700">(</span><span style="color: #DD0000">'/path?a=b'</span><span style="color: #007700">); </span><span class="comment">// $url = new Http_Url('/path');
+</span><span class="var">$url</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setScheme</span><span style="color: #007700">(</span><span style="color: #DD0000">'http'</span><span style="color: #007700">); </span><span class="comment">// or $url-&gt;setDefaultScheme('http');
+</span><span class="var">$url</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setHost</span><span style="color: #007700">(</span><span style="color: #DD0000">'somehost.com'</span><span style="color: #007700">); </span><span class="comment">// or $url-&gt;setDefaultHost('somehost.com');
+
+</span><span class="var">$request </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span class="var">$url</span><span style="color: #007700">);</span></span>
+</pre>
+
+<p>This defaults are used only when given string in constructor doesn't have something. So if You provide '/path/to/file' and You call $url->setDefaultScheme('http'); and $url->setHost('somehost.com'); then generated url string ($url->getUrl() or $url->__toString()) will be: &quot;http://somehost.com/path/to/file&quot;. But if string in constructor will have scheme and host, then defaults will be not used. For a &quot;hard&quot; change, remove &quot;Default&quot; from method name (ex.: setDefaultHost -> setHost).</p>
+
+<p>Same code is used when following 'Location' header (http redirects). Exacly setDefault...();</p>
+
+<p>In a v0.5 scheme is not required (in parsing textual url only). If not provided, 'http' will be used.</p>
+
+<h2 id="creating_request">4. Creating request</h2>
+
+<p>Changing (default) method.</p>
+
+<pre class="code"><span style="color: #000000"><span class="var">$request </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'xyz.com'</span><span style="color: #007700">);
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setMethod</span><span style="color: #007700">(</span><span style="color: #0000BB">Http_Request_Data</span><span style="color: #007700">::</span><span class="var">METHOD_POST</span><span style="color: #007700">);</span></span>
+</pre>
+
+<p>In normal situation, post (or other) method will be selected automatically when needed</p>
+
+<pre class="code"><span style="color: #000000"><span class="var">$request </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://xyz.com'</span><span style="color: #007700">);
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setPostValue</span><span style="color: #007700">(</span><span style="color: #DD0000">'foo'</span><span style="color: #007700">, </span><span style="color: #DD0000">'bar'</span><span style="color: #007700">);
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">send</span><span style="color: #007700">();</span></span>
+</pre>
+
+<p>It will send something like this:</p>
+<pre class="code">
+POST / HTTP/1.1
+Host: xyz.com
+Content-Length: 7
+
+foo=bar
+</pre>
+
+<p>GET variables (url query) can be set only with Http_Url::setQuery() or by hand manipulating textual url.</p>
+
+<pre class="code"><span class="var">$request </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://xyz.com'</span><span style="color: #007700">);
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setQuery</span><span style="color: #007700">(</span><span style="color: #DD0000">'foo=bar'</span><span style="color: #007700">);
+</span><span class="comment">// or:
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setQuery</span><span style="color: #007700">([</span><span style="color: #DD0000">'foo' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'bar'</span><span style="color: #007700">]);
+</span><span class="comment">// or:
+</span><span class="var">$request </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://xyz.com?foo=bar'</span><span style="color: #007700">);
+</span></pre>
+
+<p>Request data methods is something different than http method.</p>
+
+<ul id="data_method">
+	<li>
+		<span style="color: #0000BB">Http_Request</span><span style="color: #007700">::</span><span class="var">DATA_METHOD_AUTO</span>
+		<div>Select automatically when sending - recommended.</div>
+	</li>
+	<li>
+		<span style="color: #0000BB">Http_Request</span><span style="color: #007700">::</span><span class="var">DATA_METHOD_GET</span>
+		<div>Http method GET - default.</div>
+	</li>
+	<li>
+		<span style="color: #0000BB">Http_Request</span><span style="color: #007700">::</span><span class="var">DATA_METHOD_HEAD</span>
+		<div>Http method HEAD. Selected automatically when used Http_Request_Data::setMethod(Http_Request_Data::METHOD_HEAD).</div>
+	</li>
+	<li>
+		<span style="color: #0000BB">Http_Request</span><span style="color: #007700">::</span><span class="var">DATA_METHOD_POST</span>
+		<div>Http method POST, set when post values was set by setPost()/setPostValue() (application/x-www-form-urlencoded) or when used Http_Request_Data::setMethod(Http_Request_Data::METHOD_POST).</div>
+	</li>
+	<li>
+		<span style="color: #0000BB">Http_Request</span><span style="color: #007700">::</span><span class="var">DATA_METHOD_POST_MULTIPART</span>
+		<div>Http method POST with files (Content-Type: multipart/form-data).</div>
+	</li>
+	<li>
+		<span style="color: #0000BB">Http_Request</span><span style="color: #007700">::</span><span class="var">DATA_METHOD_POST_RAW</span>
+		<div>Http method POST with raw data body (Content-Type: application/octet-stream). Selected automatically when used Http_Request::setRawData() and when header 'X-HTTP-Method-Override' with value 'PUT' was added before (setHeader() or setHeaderIfNotExist()).</div>
+	</li>
+		<span style="color: #0000BB">Http_Request</span><span style="color: #007700">::</span><span class="var">DATA_METHOD_PUT</span>
+		<div>Http put. Selected automatically when used Http_Request_Data::setMethod(Http_Request_Data::METHOD_PUT).</div>
+	</li>
+	<li>
+		<span style="color: #0000BB">Http_Request</span><span style="color: #007700">::</span><span class="var">DATA_METHOD_PATCH</span>
+		<div>Http method PATCH.</div>
+	</li>
+	<li>
+		<span style="color: #0000BB">Http_Request</span><span style="color: #007700">::</span><span class="var">DATA_METHOD_DELETE</span>
+		<div>Http method DELETE.</div>
+	</li>
+	<li>
+		<span style="color: #0000BB">Http_Request</span><span style="color: #007700">::</span><span class="var">DATA_METHOD_TRACE</span>
+		<div>Http method TRACE.</div>
+	</li>
+	<li>
+		<span style="color: #0000BB">Http_Request</span><span style="color: #007700">::</span><span class="var">DATA_METHOD_OPTIONS</span>
+		<div>Http method OPTIONS.</div>
+	</li>
+	<li>
+		<span style="color: #0000BB">Http_Request</span><span style="color: #007700">::</span><span class="var">DATA_METHOD_CONNECT</span>
+		<div>Http method CONNECT.</div>
+	</li>
+</ul>
+
+<p>Simple example of it:</p>
+
+<pre class="code"><span style="color: #0000BB">$request </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'https://my-storage.server.local/put_me_here.ext'</span><span style="color: #007700">);
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setDataMethod</span><span style="color: #007700">(</span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">::</span><span class="var">DATA_METHOD_PUT</span><span style="color: #007700">);
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setRawData</span><span style="color: #007700">(</span><span style="color: #DD0000">'Some content. Text or binary.'</span><span style="color: #007700">);
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">send</span><span style="color: #007700">();
+
+</span><span class="comment">// PUT emulating:
+
+</span><span class="var">$request </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'https://my-storage.server.local/put_me_here.ext'</span><span style="color: #007700">);
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setHeader</span><span style="color: #007700">(</span><span style="color: #DD0000">'X-HTTP-Method-Override'</span><span style="color: #007700">, </span><span style="color: #DD0000">'PUT'</span><span style="color: #007700">); </span><span class="comment">// setHeaderIfNotExist() can be used instead if needed.
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setRawData</span><span style="color: #007700">(</span><span style="color: #DD0000">'Some content. Text or binary.'</span><span style="color: #007700">);
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">send</span><span style="color: #007700">(); </span><span class="comment">// DATA_METHOD_POST_RAW will be selected automatically.
+
+// Selecting PUT with Http_Request_Data:
+
+</span><span class="var">$requestData </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request_Data</span><span style="color: #007700">(</span><span style="color: #DD0000">'https://my-storage.server.local/put_me_here.ext'</span><span style="color: #007700">);
+</span><span class="var">$requestData</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setMethod</span><span style="color: #007700">(</span><span style="color: #0000BB">Http_Request_Data</span><span style="color: #007700">::</span><span class="var">METHOD_PUT</span><span style="color: #007700">);
+</span><span class="var">$requestData</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setRawData</span><span style="color: #007700">(</span><span style="color: #DD0000">'Some content. Text or binary.'</span><span style="color: #007700">);
+</span><span class="var">$request </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span class="var">$requestData</span><span style="color: #007700">);
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">send</span><span style="color: #007700">(); </span><span class="comment">// DATA_METHOD_PUT will be selected automatically.</span></pre>
+
+<p>Upper, in brackets, there are 'Content-Type' header set by setHeaderIfNotExist() depending on selected method. In v0.5 this behaviour is disabled when 'useDefaultHeaders' setting is disabled.</p>
+
+<p>When leaved default DATA_METHOD_AUTO, method will be automatically selected depending on used setPost()/setPostValue(), setFile()/setFiles(), setRawData() or manually changed method by setMethod(Http_Request_Data::METHOD_POST).</p>
+
+<p>When instance of Http_Request is created, then Http_Request_Data is not available directly. Getters are forwarded every time, but setters only when Http_Request is not &quot;prepared&quot; (request is not sent yet - Http_Client is calling Http_Request::prepare() before sent).</p>
+
+<p><strong>Set header using its name and value:</strong><br />
+<span style="color: #0000BB">Http_Request</span><span style="color: #007700">::</span><span style="color: #0000BB">setHeader</span><span style="color: #007700">(</span><span class="var">$name</span><span style="color: #007700">, </span><span class="var">$value</span><span style="color: #007700">);</span><br />
+<span class="comment">// or:</span><br />
+<span style="color: #0000BB">Http_Request_Data</span><span style="color: #007700">::</span><span style="color: #0000BB">setHeader</span><span style="color: #007700">(</span><span class="var">$name</span><span style="color: #007700">, </span><span class="var">$value</span><span style="color: #007700">);</span>
+</p>
+
+<p><strong>Set header if was not set before:</strong><br />
+<span style="color: #0000BB">Http_Request</span><span style="color: #007700">::</span><span style="color: #0000BB">setHeaderIfNotExist</span><span style="color: #007700">(</span><span class="var">$name</span><span style="color: #007700">, </span><span class="var">$value</span><span style="color: #007700">);</span><br />
+<span class="comment">// or:</span><br />
+<span style="color: #0000BB">Http_Request_Data</span><span style="color: #007700">::</span><span style="color: #0000BB">setHeaderIfNotExist</span><span style="color: #007700">(</span><span class="var">$name</span><span style="color: #007700">, </span><span class="var">$value</span><span style="color: #007700">);</span>
+</p>
+
+<h2 id="post_with_files">5. Post request with files</h2>
+
+<pre class="code"><span style="color: #000000"><span class="var">$file_1 </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request_Data_File</span><span style="color: #007700">;
+</span><span class="var">$file_1</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setContent</span><span style="color: #007700">(</span><span style="color: #0000BB">file_get_contents</span><span style="color: #007700">(</span><span style="color: #DD0000">'/tmp/somefile.txt'</span><span style="color: #007700">)); </span><span class="comment">// set contents of file
+</span><span class="var">$file_1</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setFileName</span><span style="color: #007700">(</span><span style="color: #DD0000">'foo.txt'</span><span style="color: #007700">); </span><span class="comment">// set file name that will be shown in http request
+</span><span class="var">$file_1</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setInputName</span><span style="color: #007700">(</span><span style="color: #DD0000">'input_file_1'</span><span style="color: #007700">); </span><span class="comment">// set name of html form input
+
+</span><span class="var">$file_2 </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request_Data_File</span><span style="color: #007700">;
+</span><span class="var">$file_2</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setContent</span><span style="color: #007700">(</span><span style="color: #0000BB">file_get_contents</span><span style="color: #007700">(</span><span style="color: #DD0000">'/tmp/secondfile.txt'</span><span style="color: #007700">)); </span><span class="comment">// set contents of file
+</span><span class="var">$file_2</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setFileName</span><span style="color: #007700">(</span><span style="color: #DD0000">'bar.txt'</span><span style="color: #007700">); </span><span class="comment">// set file name that will be shown in http request
+</span><span class="var">$file_2</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setInputName</span><span style="color: #007700">(</span><span style="color: #DD0000">'input_file_2'</span><span style="color: #007700">); </span><span class="comment">// set name of html form input
+
+</span><span class="var">$request </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://somehost.com/submit_form_with_files.php'</span><span style="color: #007700">);
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setFile</span><span style="color: #007700">(</span><span class="var">$file_1</span><span style="color: #007700">);
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setFile</span><span style="color: #007700">(</span><span class="var">$file_2</span><span style="color: #007700">);
+</span><span class="comment">// or: $request-&gt;setFiles([$file_1, $file_2]);
+</span><span style="color: #007700">echo </span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getResponse</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">getBody</span><span style="color: #007700">();</span></span>
+</pre>
+
+<p>Offcourse, binary files are allowed. Encoding is not changed in any case.</p>
+
+<p>Http method will be changed automatically on sending (because files was added).</p>
+
+<h2 id="http_basic_auth">6. Http basic auth</h2>
+
+<pre class="code"><span style="color: #0000BB">$request </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'https://user:pass@private-server.com'</span><span style="color: #007700">);
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">send</span><span style="color: #007700">();
+</span><span class="var">// or:
+</span><span class="var">$request </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'https://private-server.com'</span><span style="color: #007700">);
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setUser</span><span style="color: #007700">(</span><span style="color: #DD0000">'user'</span><span style="color: #007700">); </span><span class="comment">// setUser(), setPass() and many other setters are forwarder to internally instances of Http_Request_Data or Http_Url (last one in this case).
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setPass</span><span style="color: #007700">(</span><span style="color: #DD0000">'pass'</span><span style="color: #007700">);
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">send</span><span style="color: #007700">();
+</span></pre>
+
+<p>Login credentials in opposite to typically browsers are not cached, with one exception - exacly only on following Location.</p>
+
+<h2 id="http_response">7. Http_Response</h2>
+
+<p>Http_Client allows to get responses on demand. Not depend on pipelining enabled or disabled.</p>
+
+<pre class="code"><span style="color: #000000"><span class="var">$req_1 </span><span style="color: #007700">= (new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://domain.com/1.htm'</span><span style="color: #007700">))-&gt;</span><span style="color: #0000BB">send</span><span style="color: #007700">();
+</span><span class="var">$req_2 </span><span style="color: #007700">= (new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://domain.com/2.htm'</span><span style="color: #007700">))-&gt;</span><span style="color: #0000BB">send</span><span style="color: #007700">();
+</span><span class="var">$req_3 </span><span style="color: #007700">= (new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://domain.com/3.htm'</span><span style="color: #007700">))-&gt;</span><span style="color: #0000BB">send</span><span style="color: #007700">();
+
+echo </span><span class="var">$req2</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getResponse</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">getBody</span><span style="color: #007700">();</span></span></pre>
+
+<p>Normally, response from socket is readed only when getResponse() is called. To change this behaviour (recommended only when You have some problems, for example: with cookies, or when you work with many requests and many cookies) use this:</p>
+
+<pre class="code"><span style="color: #000000"><span style="color: #0000BB">Http_Settings</span><span style="color: #007700">::</span><span style="color: #0000BB">getInstance</span><span style="color: #007700">()-&gt;</span><span class="var">keepAliveGetResponseOnlyOnDemand </span><span style="color: #007700">= </span><span style="color: #0000BB">false</span><span style="color: #007700">;
+</span><span class="comment">// See into Http_Settings_Base and Http_Request_Base for much more settings/options.</span></span>
+</pre>
+
+<p>Eventually, You can hardcode defaults into Http_Settings class (extended from Http_Settings_Base)</p>
+
+<p>Something more in Http_Response:</p>
+
+<pre class="code"><span style="color: #000000"><span class="var">$response </span><span style="color: #007700">= (new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://xyz.com'</span><span style="color: #007700">))-&gt;</span><span style="color: #0000BB">getResponse</span><span style="color: #007700">();
+</span><span class="var">$response</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getRequest</span><span style="color: #007700">(); </span><span class="comment">// get (originally) request object used to get this response
+</span><span class="var">$response</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getUrl</span><span style="color: #007700">(); </span><span class="comment">// get textual url
+</span><span class="var">$response</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getPort</span><span style="color: #007700">(); </span><span class="comment">// get port from url (0 if not given in url or by call setPort() previously)
+</span><span class="var">$response</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getPortReal</span><span style="color: #007700">(); </span><span class="comment">// get real port used to sent (80/443 or other when url was have non-standard port)</span></span>
+</pre>
+
+<h2 id="advanced_usage">8. Advanced usage</h2>
+
+<p>Some examples of advanced usage:</p>
+
+<pre class="code"><span style="color: #000000"><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setHeadersOrder</span><span style="color: #007700">(...); </span><span class="comment">// auto, ascending, descending, gecko, webkit or array with headers names
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setUseDefaultHeaders</span><span style="color: #007700">(bool); </span><span class="comment">// use defaults headers described by Http_Requests
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setHeader</span><span style="color: #007700">(</span><span style="color: #0000BB">name</span><span style="color: #007700">, </span><span style="color: #0000BB">value</span><span style="color: #007700">); </span><span class="comment">// set header into http request
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setHeaderIfNotExist</span><span style="color: #007700">(</span><span style="color: #0000BB">name</span><span style="color: #007700">, </span><span style="color: #0000BB">value</span><span style="color: #007700">); </span><span class="comment">// set header only if wasn't set before
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setHeader</span><span style="color: #007700">(</span><span style="color: #DD0000">'foo'</span><span style="color: #007700">, </span><span style="color: #DD0000">''</span><span style="color: #007700">); </span><span class="comment">// drop header named foo
+</span><span style="color: #0000BB">Http_Cookie_Handler</span><span style="color: #007700">::</span><span style="color: #0000BB">getInstance</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">getCookiesForRequest</span><span style="color: #007700">(</span><span class="var">$request</span><span style="color: #007700">); </span><span class="comment">// get cookies corresponding to given request
+</span><span style="color: #0000BB">Http_Cookie_Handler</span><span style="color: #007700">::</span><span style="color: #0000BB">getInstance</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">deleteCookie</span><span style="color: #007700">(...); </span><span class="comment">// delete given cookie</span></span>
+</span><span style="color: #0000BB">Http_Settings</span><span style="color: #007700">::</span><span style="color: #0000BB">getInstance</span><span style="color: #007700">()-&gt;</span><span class="var">dropSessionCookiesOnExit</span><span style="color: #007700"> = </span><span style="color: #0000BB">false</span><span style="color: #007700">;</span>
+</pre>
+
+<p><span style="color: #bb0000">NOTE:</span> Before v0.5 (v0.4 and older) cookie objects was NOT cloned before storing or returning.</p>
+
+<p>Following Location:</p>
+
+<pre class="code"><span style="color: #000000"><span class="var">$request </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://domain.com/redirect_me'</span><span style="color: #007700">); </span><span class="comment">// will receive header: Location: /redirected_page
+</span><span class="var">$response </span><span style="color: #007700">= </span><span style="color: #0000BB">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">send</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">getResponse</span><span style="color: #007700">(</span><span style="color: #0000BB">True</span><span style="color: #007700">/</span><span style="color: #0000BB">false</span><span style="color: #007700">); </span><span class="comment">// true or no prarams - follow location, false - dont follow
+</span><span style="color: #007700">echo </span><span class="var">$response</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getRequest</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">getUrl</span><span style="color: #007700">(); </span><span class="comment">// will print http://domain.com/redirect_me or http://domain.com/redirected_page</span></span>
+</pre>
+
+<p>NOTE: On following (http redirects), new Http_Request object is created (by Http_Client).</p>
+
+<p>If You wanna make redirects by hand (for ex. when you need additional data to send after redirect)...</p>
+
+<pre class="code"><span style="color: #000000"><span class="var">$request </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://domain.com/redirect_me'</span><span style="color: #007700">);
+</span><span class="var">$response </span><span style="color: #007700">= </span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">send</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">getResponse</span><span style="color: #007700">(</span><span style="color: #0000BB">false</span><span style="color: #007700">); </span><span class="comment">// dont follow
+
+</span><span class="var">$location </span><span style="color: #007700">= </span><span class="var">$response</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getHeader</span><span style="color: #007700">(</span><span style="color: #DD0000">'Location'</span><span style="color: #007700">); </span><span class="comment">// see also: getHeaders(), getHeadersAll() and getHeaderSource()
+
+</span><span style="color: #007700">if(</span><span style="color: #0000BB">strlen</span><span style="color: #007700">(</span><span class="var">$location</span><span style="color: #007700">))</span><span class="comment"> // not null and not null length string
+<span style="color: #007700">{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="var">$url </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Url</span><span style="color: #007700">(</span><span class="var">$location</span><span style="color: #007700">);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="var">$url</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setDefaultHost</span><span style="color: #007700">(</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getHost</span><span style="color: #007700">()); </span><span class="comment">// or: $url-&gt;setDefaultHost($response-&gt;getHost());
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="var">$url</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setDefaultScheme</span><span style="color: #007700">(</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getScheme</span><span style="color: #007700">());  </span><span class="comment">// or: $url-&gt;setDefaultScheme($response-&gt;getScheme());
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// $url->setDefaultUser($request->getUser());
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// $url->setDefaultPass($request->getPass());
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="var">$redirectedRequest </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span class="var">$url</span><span style="color: #007700">); </span><span class="comment">// In here You can use new variable like here or use previous var if You dont need previous request object
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// add here something to new request object ($redirectedRequest) if You need to
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="var">$response </span><span style="color: #007700">= </span><span class="var">$redirectedRequest</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getResponse</span><span style="color: #007700">(); </span><span class="comment">// overwrite $response variable or use new one if You need to
+</span><span style="color: #007700">}
+else
+{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="comment">// do something... or not
+</span><span style="color: #007700">}</span></span>
+</pre>
+
+<p>To disable referer, use this setting:</p>
+
+<pre class="code"><span style="color: #000000"><span style="color: #0000BB">Http_Settings</span><span style="color: #007700">::</span><span style="color: #0000BB">getInstance</span><span style="color: #007700">()-&gt;</span><span class="var">sendRefererOnRedirects </span><span style="color: #007700">= </span><span style="color: #0000BB">false</span><span style="color: #007700">;</span></span>
+</pre>
+
+<p>To sent same requests, You must clone request object, because one request obj. can be used to sent only once.</p>
+
+<p>In this case, &quot;prepared send-data&quot; and objects keeped in properties are cloned (__clone()) and requestId are reset to 0.</p>
+
+<pre class="code"><span style="color: #000000"><span class="var">$request_1 </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://my-preety-domain.com/'</span><span style="color: #007700">);
+</span><span class="var">$response_1 </span><span style="color: #007700">= </span><span style="color: #0000BB">$request_1</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getResponse</span><span style="color: #007700">();
+
+</span><span class="var">$request_2 </span><span style="color: #007700">= clone </span><span class="var">$request_1</span><span style="color: #007700">;
+</span><span class="var">$response_2 </span><span style="color: #007700">= </span><span class="var">$request_2</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getResponse</span><span style="color: #007700">();
+
+</span><span class="var">$request_3 </span><span style="color: #007700">= clone </span><span class="var">$request_1</span><span style="color: #007700">;
+</span><span class="var">$response_3 </span><span style="color: #007700">= </span><span class="var">$request_3</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getResponse</span><span style="color: #007700">();</span></span>
+</pre>
+
+<h2 id="modify_settings">9. Modify settings</h2>
+
+<p>Settings can be modified in two ways:</p>
+
+<p>1. Modify virtual properties of settings object (ex.: Http_Settings::getInstance()->dirStorage = '/var/pool/php/http_client/storage')</p>
+
+<p>2. Modify Http_Settings (extended from Http_Settings_Base) by overwrite property _defaults</p>
+
+<p>Every sets are commented in a class Http_Settings_Base.</p>
+
+<p>If you try to set or get something that is not in _defaults, then Http_Settings_Exception will be throwed.</p>
+
+<h2 id="cookie_proxy">10. Http_Cookie_Proxy</h2>
+
+<p>In normal situation, cookies are handled by a Http_Cookie_Handler (singleton), but sometimes, other handler would be needed or just one (or more) temporary cookie in one (ore more) request.</p>
+
+<p>Second argument in constructor of Http_Request gets optionally instance of Http_Cookie_Proxy_Interface (in your eventually new class based on Http_Cookie_Proxy_Interface, all methods from Http_Cookie_Proxy are recommended to be written, because someday in new versions something can be changed). Right now, we will concetrate on originally Http_Cookie_Proxy.</p>
+
+<p>In easiest, and very often situation, one temporary cookie will be needed. Thats meen, we create some request object and we want here to send (in this request) one more cookie, or replace stored one. Btw. this temporary cookie is not stored anywhere, only in cookie proxy object until it will be destroyed (as I was say before, Http_Request constructor will clone cookie proxy object, so be carrefull with cloning request object).</p>
+
+<p>Basicly to set this temporary cookie, just do something like this:</p>
+
+<pre class="code"><span style="color: #000000"><span class="var">$request </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://i-eat-all-your-cookies.com/'</span><span style="color: #007700">);
+
+</span><span class="var">$cookie </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Cookie</span><span style="color: #007700">;
+</span><span class="var">$cookie</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">name </span><span style="color: #007700">= </span><span style="color: #DD0000">'yummy'</span><span style="color: #007700">;
+</span><span class="var">$cookie</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">value </span><span style="color: #007700">= </span><span style="color: #DD0000">'and poisoned'</span><span style="color: #007700">; </span><span class="comment">// or: $cookie = new Http_Cookie('yummy', 'and poisoned'); // for more about it, just read Http_Cookie class code, its short.
+
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setTempCookie</span><span style="color: #007700">(</span><span class="var">$cookie</span><span style="color: #007700">); </span><span class="comment">// it will forward into internally object of Http_Cookie_Proxy, exacly: Http_Cookie_Proxy::setTempCookie()
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">send</span><span style="color: #007700">();</span></span>
+</pre>
+
+<p>To do something more - to use other cookie handler, or even other cookie proxy, see this code:</p>
+
+<pre class="code"><span style="color: #000000"><span class="var">$otherHandler </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Cookie_Handler_Modified</span><span style="color: #007700">;
+
+</span><span class="var">$cookieProxy </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Cookie_Proxy</span><span style="color: #007700">(</span><span class="var">$otherHandler</span><span style="color: #007700">); </span><span class="comment">// or use Http_Cookie_Proxy::setCookieHandler($otherHandler)
+
+</span><span class="var">$cookieProxy</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setSettingReceiveCookies</span><span style="color: #007700">(</span><span style="color: #0000BB">false</span><span style="color: #007700">); </span><span class="comment">// disable (or enable by using true) receiving (and storing) new/replaced cookies (by cookie handler) in requests using this cookie proxy object ONLY.
+</span><span class="var">$cookieProxy</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setSettingSendCookies</span><span style="color: #007700">(</span><span style="color: #0000BB">false</span><span style="color: #007700">); </span><span class="comment">// disable (or enable by using true) sending stored cookies (by cookie handler, temporary cookies will work anyway) in requests using this cookie proxy object ONLY.
+
+</span><span class="var">$cookieProxy</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setTempCookie</span><span style="color: #007700">(new </span><span style="color: #0000BB">Http_Cookie</span><span style="color: #007700">(</span><span style="color: #DD0000">'foo'</span><span style="color: #007700">, </span><span style="color: #DD0000">'bar'</span><span style="color: #007700">)); </span><span class="comment">// temp cookies will always work, not depend on settings in proxy and Http_Settings
+
+</span><span class="var">$request </span><span style="color: #007700">= new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://somewhere.com'</span><span style="color: #007700">, </span><span class="var">$cookieProxy</span><span style="color: #007700">);
+
+</span><span class="comment">// Http_Settings::getInstance()-&gt;receiveCookiesByDefault = false; // globally disable receiving (and storing) new/replaced cookies
+// Http_Settings::getInstance()-&gt;sendCookiesByDefault = false; // globally disable sending cookies
+
+</span><span class="var">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">send</span><span style="color: #007700">();</span></span>
+</pre>
+
+<p><span style="color: #bb0000">IMPORTANT NOTE:</span> In a cookie proxy, settingReceiveCookies and settingSendCookies defaults are taken from Http_Settings in a constructor of cookie proxy.</p>
+
+<p><span style="color: #bb0000">NOTE:</span> By default, session cookies are deleted when Http_Cookie_Handler::__destruct() is triggered (php exiting mostly). To change this behaviour, change 'dropSessionCookiesOnExit' setting to false.</p>
+
+<h2 id="benchmarking">11. Benchmarking</h2>
+
+<p>Version 0.5 have added feature to get precious time of write and read socket.</p>
+
+<p>To work it correctly (get time of waiting+getting response), disable setting 'keepAliveGetResponseOnlyOnDemand' or always get responses objects after sending by call getResponse().</p>
+
+<pre class="code"><span style="color: #007700">function </span><span style="color: #0000BB">autoLoader</span><span style="color: #007700">(</span><span style="color: #0000BB">$class</span><span style="color: #007700">)
+{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;require_once(</span><span style="color: #DD0000">'lib/' </span><span style="color: #007700">. </span><span style="color: #0000BB">str_replace</span><span style="color: #007700">(</span><span style="color: #DD0000">'_'</span><span style="color: #007700">, </span><span style="color: #DD0000">'/'</span><span style="color: #007700">, </span><span style="color: #0000BB">$class</span><span style="color: #007700">) . </span><span style="color: #DD0000">'.php'</span><span style="color: #007700">);
+}
+
+</span><span style="color: #0000BB">spl_autoload_register</span><span style="color: #007700">(</span><span style="color: #DD0000">'autoLoader'</span><span style="color: #007700">);
+
+for(</span><span style="color: #0000BB">$i</span><span style="color: #007700">=</span><span style="color: #0000BB">1</span><span style="color: #007700">;</span><span style="color: #0000BB">$i</span><span style="color: #007700">&lt;=</span><span style="color: #0000BB">10</span><span style="color: #007700">;</span><span style="color: #0000BB">$i</span><span style="color: #007700">++)
+{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$start </span><span style="color: #007700">= </span><span style="color: #0000BB">microtime</span><span style="color: #007700">(</span><span style="color: #0000BB">true</span><span style="color: #007700">);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$response </span><span style="color: #007700">= (new </span><span style="color: #0000BB">Http_Request</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://server/file.txt'</span><span style="color: #007700">))-&gt;</span><span style="color: #0000BB">send</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">getResponse</span><span style="color: #007700">();
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$end </span><span style="color: #007700">= </span><span style="color: #0000BB">microtime</span><span style="color: #007700">(</span><span style="color: #0000BB">true</span><span style="color: #007700">);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$socketReading </span><span style="color: #007700">= (</span><span style="color: #0000BB">$r</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getTimeReceived</span><span style="color: #007700">() - </span><span style="color: #0000BB">$response</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getTimeSent</span><span style="color: #007700">()) * </span><span style="color: #0000BB">1000</span><span style="color: #007700">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo </span><span style="color: #DD0000">"Reading socket:      </span><span style="color: #0000BB">$socketReading</span><span style="color: #DD0000"> ms\n"</span><span style="color: #007700">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$everything </span><span style="color: #007700">= (</span><span style="color: #0000BB">$end </span><span style="color: #007700">- </span><span style="color: #0000BB">$start</span><span style="color: #007700">) * </span><span style="color: #0000BB">1000</span><span style="color: #007700">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo </span><span style="color: #DD0000">"Processing request:  " </span><span style="color: #007700">. ((</span><span style="color: #0000BB">$response</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getTimeSent</span><span style="color: #007700">() - </span><span style="color: #0000BB">$start</span><span style="color: #007700">) * </span><span style="color: #0000BB">1000</span><span style="color: #007700">) . </span><span style="color: #DD0000">" ms\n"</span><span style="color: #007700">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo </span><span style="color: #DD0000">"Processing response: " </span><span style="color: #007700">. ((</span><span style="color: #0000BB">$end </span><span style="color: #007700">- </span><span style="color: #0000BB">$response</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getTimeReceived</span><span style="color: #007700">()) * </span><span style="color: #0000BB">1000</span><span style="color: #007700">) . </span><span style="color: #DD0000">" ms\n"</span><span style="color: #007700">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo </span><span style="color: #DD0000">"Processing all:      " </span><span style="color: #007700">. (</span><span style="color: #0000BB">$everything </span><span style="color: #007700">- </span><span style="color: #0000BB">$socketReading</span><span style="color: #007700">) . </span><span style="color: #DD0000">" ms\n"</span><span style="color: #007700">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo </span><span style="color: #DD0000">"Everything:          " </span><span style="color: #007700">. </span><span style="color: #0000BB">$everything </span><span style="color: #007700">. </span><span style="color: #DD0000">" ms\n"</span><span style="color: #007700">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo </span><span style="color: #DD0000">"--------------\n"</span><span style="color: #007700">;
+}</span></pre>
+
+<p>It will output something like this:</p>
+
+<img alt="Benchmarking screenshot" src="data:image/gif;base64,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" />
+
+<p>As You can see, first request can take a &quot;little&quot; more time. Reason of this is mostly reading, parsing and compiling class files. Once per month TLD effective list can be updated, so it can take some time too - but only when cookies are parsed in response.</p>
+
+<h2 id="http_client_history">12. Http client history</h2>
+
+<p>Every request can be logged. There are three types of history log.</p>
+
+<p>Every one log type writing can be enabled/disabled in Http_Settings. Setting names are: 'historyFileInTxtMicroTime', 'historyFileInTxtTimeInRFC1036', 'historyFileSerialized'.</p>
+
+<p>First two is human readable. Format of it is listed below:</p>
+
+<p>historyFileInTxtMicroTime: pid(posix) requestId network_address(ip) time(x.y) data_method(with stripped 'DATA_METHOD_') URL</p>
+
+<p>historyFileInTxtTimeInRFC1036: pid(posix) requestId network_address(ip) time(RFC 1036: Wdy, DD Mon YY HH:MM:SS +0000) data_method(with stripped 'DATA_METHOD_') URL</p>
+
+<p>Sample of serialized format (historyFileSerialized) is:</p>
+
+<pre>
+[
+    [4383282] =>
+        [
+            [pid] => 9756
+            [time] => 1400439182.5964
+            [url] => 'http://feeds.feedburner.com/phpclasses-xml?format=xml'
+            [addr] => 74.125.232.129
+            [data_method] => GET
+            [data_method_bitwise] => 2
+            [request_line] => 'GET /phpclasses-xml?format=xml HTTP/1.1'
+            [request_header] => 'Host: feeds.feedburner.com
+Connection: Keep-Alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: HTTP(s) norbert_ramzes php object client v0.5
+Accept-Encoding: gzip, deflate
+Accept-Language: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+Accept-Charset: utf-8,ISO-8859-2;q=0.7,*;q=0.3
+If-Modified-Since: Sun, 18 May 2014 18:37:15 GMT
+If-None-Match: tktKDPdPBIt4VSBMMf4IYhOdcFM'
+            [status] => 304
+            [status_raw] => '304 Not Modified'
+            [response_header] => 'HTTP/1.1 304 Not Modified
+Date: Sun, 18 May 2014 18:53:02 GMT
+Server: GSE
+Alternate-Protocol: 80:quic'
+        ]
+]
+</pre>
+
+<h2 id="http_client_cache">13. Http client cache</h2>
+
+<p>Version 0.5 have added caching with similar behaviour to typical browsers.</p>
+
+<p>List of available setting names related to http client cache:</p>
+
+<ul id="cache_settings">
+	<li>
+		httpCacheEnabled<br />
+		<div>- [bool] True to enable http caching and storaging (writing and reading), false to disable (available only for GET requests).</div>
+	</li>
+	<li>
+		httpCacheDefaultMaxAge<br />
+		<div>- [int|null] Default max-age (max time to reuse response without recheck when server doesn't explain this), 0 or null to always ask for newer data.</div>
+	</li>
+	<li>
+		httpCacheStorageSizeLimit<br />
+		<div>- [int|null] Limit http response size to store in a file in bytes (41943040 = 40MB). 0 or null to disable storing cache in files.</div>
+	</li>
+	<li>
+		httpCacheVarSizeLimit<br />
+		<div>- [int|null] Limit http response size to store in a variable in bytes (163840 = 160KB). 0 or null to disable.</div>
+	</li>
+	<li>
+		httpCacheVarSumSizeLimit<br />
+		<div>- [int|null] Limit http responses sumarical size to store in a variable in bytes (3145728 = 3MB). 0 or null to disable.</div>
+	</li>
+	<li>
+		httpCacheUnallowedHosts<br />
+		<div>- [array] Disable http cache/storage on this host(s). Host name is a value of array element. Empty array to disable.</div>
+	</li>
+	<li>
+		httpCacheUnallowedUrls<br />
+		<div>- [array] Disable cache/storage on this url(s). Url is a value of array element. Empty array to disable. NOTE: Compared url's doesn't have query.</div>
+	</li>
+</ul>
+
+<p>Caching is available only when response have necessary headers, '200 OK' response status, request method was GET and without user credentials (http basic auth). Cookies and other things isn't checked (TODO).</p>
+
+<h2 id="bug_reporting">14. Bug reporting</h2>
+
+<p>If You have encountred any problems, or You have any feature request. Please tell me about it and provide as much details as You can.</p>
+
+<p>In the above mentioned facts, send me an email to the address norbert [at] linux dot pl</p>
+
+<h2 id="more_features">15. More features</h2>
+
+<p>This package has some more features not desribed here, but everything is inline-documented.</p>
+
+<h2 id="donating">15. Donating</h2>
+
+<p>If You wannna to &quot;keep-alive&quot; this project, please donate: <a href="bitcoin:1NA3D5yf6AfuSnrr15pb6T2UkDRt19RtWC?amount=0.01&message=donation">BTC 1NA3D5yf6AfuSnrr15pb6T2UkDRt19RtWC</a>.</p>
+
+<footer class="document_version">Document version: 0.5/2 (08.06.2014)<br />Note from me: always do code in KISS rule. (Fully) object code is not always good, if You dont agree with that, try to learn more and make practice much much more.<br />Author: Norbert Kiszka</footer>
+
+</body>
+</html>

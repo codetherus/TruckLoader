@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- clientid for mapsengine-api-tutorial.googleplex.com :  -->
+    <meta name="google-signin-clientid" content="363281989429-gs4fumrgmddk3rpnsrh95en0ptlc7k75.apps.googleusercontent.com"/>
+    <meta name="google-signin-scope" content="https://www.googleapis.com/auth/mapsengine"/>
+    <link href="resources/tutorial.css" rel="stylesheet" type="text/css"/>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="resources/markdown.js"></script>
+    <script src="resources/tutorial.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=refreshAuth" type="text/javascript" async="true"></script>
+    <base target="_blank">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-47071139-1', 'mapsengine-api-tutorial.appspot.com');
+    </script>
+  </head>
+  <body>
+    <div class="overlay">
+      <div class="submission">Submitting... Please wait...</div>
+    </div>
+    <div class="content">
+      <!--SIDEBAR MENU-->
+      <div class="menu-area hidden-by-default">
+        <div class="lesson-menu"></div>
+        <div class="documentation-link menu">
+          <a href="//developers.google.com/maps-engine">GME API Documentation</a>
+        </div>
+      </div>
+      <!--LESSON-->
+      <div class="lesson">
+        <div class="instructions">
+          <h2>Welcome to the Google Maps Engine API tutorial!</h2>
+          <p>This tutorial will take you through getting set up as a Google developer and beginning to manage your data and interact with Google Maps Engine using the API. You will learn how to read public data from a Google Maps Engine project as well as create your own personal project and add data to it.
+          <p>Are you as poised and ready as this cat to begin the tutorial?
+          <p><a <img alt="introduction-cat-image" title="Meow!" src="images/introduction-cat.jpg"></a>"><img alt="introduction-cat-image" title="Meow!" src="images/introduction-cat.jpg"></a>
+          <br><em>Underlying image by <a href="//www.flickr.com/photos/12632039@N05">Jennifer Barnard</a> used under <a href="//creativecommons.org/licenses/by-sa/2.0">CC-BY-SA-2.0</a>.</em>
+        </div>
+        <div class="inventory butter-bar hidden-by-default"></div>
+        <!--REQUEST-->
+        <div class="request hidden-by-default">
+          <input type="button" id="show-button" class="kennedy-button gray-button lesson-button pointer invisible-by-default" value="Show Answer" onclick="activeLesson.showAnswer()">
+          <div class="answer butter-bar hidden-by-default"></div>
+          <div class="url hidden-by-default">
+            <div class="input-label"></div>
+            <textarea class="input" placeholder="Type your answer here."></textarea>
+            <div class="hidden-input"></div>
+          </div>
+          <div class="header hidden-by-default">
+            <div class="input-label">Header</div>
+            <div class="input"></div>
+          </div>
+          <div class="body hidden-by-default"> 
+            <div class="input-label">Body</div>
+            <textarea class="input" placeholder="Type the body of your request here."></textarea>
+            <div class="hidden-input"></div>
+          </div>
+          <form class="project-menu hidden-by-default">
+            <select class="project-list">
+            </select>
+          </form>
+          <input type="button" class="kennedy-button blue-button submit-button pointer lesson-button" onclick="activeLesson.submit()"/>
+        </div>
+        <!--FEEDBACK-->
+        <div class="feedback hidden-by-default">
+          <div class="ribbon">Great work!</div>
+          <div class="message"></div>
+        </div>
+        <!--OTHER BUTTONS/LINKS-->
+        <input type="button" class="kennedy-button green-button next-button pointer hidden-by-default" onclick="activeLesson.next.update()">
+        <input type="button" class="kennedy-button blue-button signin-button pointer hidden-by-default" value="Sign In and Resume" onclick="signinAndResume()">
+        <a href="//developers.google.com/maps-engine">
+          <input type="button" class="kennedy-button blue-button documentation-button pointer hidden-by-default" value="Go to Documentation Page">
+        </a>
+        <!--RESPONSE-->
+        <div class="response hidden-by-default">
+          <div class="response-label">Response</div>
+          <div class="response-content"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

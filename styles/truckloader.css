@@ -1,0 +1,207 @@
+/*
+  Truck loader app style sheet
+*/
+/* Use to flag required fields */
+em{
+	color: red;
+	margin-right: 3px;
+}
+/* Body tweek for IE quirks */
+body{
+	margin: 0;
+	padding:0;
+	text-align: center;
+	min-width: 800px;
+  background-color: black;
+	font-size: 14px;
+	/*background-image: url("../images/droppedImage.gif") ;*/
+	background-position: top center;
+	background-repeat: no-repeat;
+	color: white;
+  height: 100%;
+}
+fieldset{
+	border: 3px solid green;
+	display: block;
+}
+
+/* more of same... */
+#wrapper{
+	text-align: left;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 55%;
+	background-color: black;
+  /*margin-top: 155px;*/
+  color: white;
+}
+/* Page head div */
+#header{
+	margin-top: 10px;
+  margin-bottom: 10px; 
+  padding-right: 15px;
+	text-align: center;
+	height: 55px;
+	font-size: 1.5em;
+	background-color: black;
+	color: lime;
+}
+#headerv2{
+	margin-bottom: 10px; 
+  padding-right: 15px;
+	text-align: left;
+  vertical-align: middle;
+	height: 55px;
+	font-size: 1.5em;
+	background-color: black;
+	color: lime;
+  border-bottom: 1px solid lime;
+}
+
+#header img{
+	 float:left;
+	 height: 110px;
+}
+#content{
+	width:350px;
+	margin: 50px auto;
+	border: 1px solid green;
+}
+#leftcontent{
+	display: inline;
+	float:left;
+	width:31%;
+	padding-left:5px;
+	padding-right:5px;
+}
+#centercontent{
+	display: inline;
+	float:left;
+	width: 32%;
+	border-left: 1px solid green;
+	border-right: 1px solid green;
+	padding-left:5px;
+	padding-right:5px;
+	
+}
+#rightcontent{
+	display: inline;
+	float:right;
+	width:34%;
+
+}	
+
+/* Page footer div */
+#footer{
+	height: 20px;
+	font-size: 10px;
+	/*width: 800px;*/
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 4px;
+	color: white;
+	clear:both;
+	width: 90%;
+}
+#navigation{
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#floatboxcontent{
+	display: none;
+	text-align: left;
+}
+#staffmenu{
+	display: inline-block;
+	height: 25px;
+	font-size: 10px;
+	margin-bottom: 3px;	
+	float:left;
+	padding-left: 20px;
+}
+#staffmenu a{
+	display: inline-block;
+	text-decoration: none;
+	color:black;
+}	
+#staffmenu a:hover{
+	color: green;
+	text-decoration: underline;
+}
+table{
+	border-collapse: collapse;
+	border: 1px solid green;	
+}	
+label{
+	display: inline-block;
+	width: 100px; /* May need to be set on a per page basis...*/
+	text-align: right;
+	margin-right: 2px;
+	color: white;
+  font-weight: bold;
+}	
+#notecontent{
+	margin-left: 20px;
+}
+#mainhead{
+	margin-top: 160px;
+	padding-left: 325px;
+	text-align: left;
+}
+/* Appleize the site Ugh!*/
+input, select, textarea{
+  color: white;
+  background-color: black;
+  -moz-border-radius: 3px;
+  border: 1px solid gray;    
+  margin:0px;
+  padding:0px;
+  margin-bottom: 5px;
+  font-size: smaller;
+}
+input[type='button']{
+  border: none;  
+  background-color: gray;
+  }
+input[type='submit']{
+  border: none;  
+  background-color: gray;
+  }
+  #driver_search_div {    
+    display: none;
+    margin: 10px;
+    position: absolute; 
+    z-index: 9999;
+    top: 0px; 
+    left:0px; 
+    width:98%;
+    height: 95%;    
+    background-color: black;    
+  }
+  #load_search_div {    
+    display: none; 
+    margin: 10px;
+    position: absolute; 
+    z-index: 9999;
+    top: 0px; 
+    left:0px; 
+    width:98%;
+    height: 95%;    
+    background-color: black;    
+  }
+
+  /* Hidden div for the loads page */
+  #loadsdisplay{    
+    display: none; 
+    margin: 10px;
+    position: absolute; 
+    z-index: 9999;
+    top: 58px; 
+    left:0px; 
+    width:98%;
+    height: 95%;    
+    /*border: 1px solid red;*/
+    background-color: black;    
+  }

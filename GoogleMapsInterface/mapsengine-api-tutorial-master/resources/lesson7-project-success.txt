@@ -1,0 +1,1 @@
+You now have your own private project which has a unique projectID: {userProjectId}. To find out how to get this ID for yourself, continue to the 'Next Lesson'.

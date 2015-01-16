@@ -1,0 +1,422 @@
+.hidden-by-default {
+  display: none;
+}
+
+/* Link */
+a:link {
+  color: #1155CC;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #6611CC;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #DD4B39;
+}
+
+/* Cover for Submission */
+.overlay {
+  background-color: rgba(204, 204, 204, 0.6);
+  display: none;
+  height: 100%;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 100;
+}
+
+.submission {
+  background-color: #F9EDBE;
+  color: #000000;
+  font-family: arial;
+  font-size: 13px;
+  font-weight: bold;
+  left: 500px;
+  padding: 10px;
+  position: fixed;
+  top: 20px;
+}
+
+/* HTML Content */
+.content {
+  margin-bottom: 20px;
+}
+
+/* Navigation */
+.menu-area {
+  background-color: #FFFFFF;
+  float: left;
+  padding: 0px;
+}
+
+.menu {
+  background-color: white;
+  border: none;
+  display: block;
+  font-family: Arial;
+  margin-bottom: 15px;
+  position: relative;
+  text-align: left;
+}
+
+.menu.documentation-link {
+  border-top: 1px solid #EBEBEB;
+  font-size: 14px;
+  height: 24px;
+  margin-left: 20px;
+  padding-top: 16px;
+}
+
+.chapter {
+  font-size: 14px;
+  font-weight: bold;
+  height: 24px;
+  margin-left: 20px;
+}
+
+.lesson-link {
+  display: inline-block;
+  font-size: 14px;
+  height: 24px;
+  margin-left: 18px;
+  vertical-align: baseline;
+}
+
+.tick-image {
+  display: inline-block;
+  height: 20px;
+  margin-left: 28px;
+  vertical-align: top;
+  visibility: hidden;
+}
+
+/* Navigation Colour */
+.locked {
+  color: #CCCCCC;
+}
+
+.locked a:hover {
+  cursor: default;
+  text-decoration: none;
+}
+
+.locked a:active {
+  color: #CCCCCC;
+}
+
+.unlocked {
+  color: #000000;
+}
+
+.active {
+  color: #DD4B39;
+}
+
+/* Buttons */
+.pointer:hover {
+  cursor: pointer;
+}
+
+.kennedy-button {
+  border-radius: 2px;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 11px;
+  height: 27px;
+  margin-top: 10px;
+  min-width: 87px;
+}
+
+.submit-button {
+  margin-right: 0px;
+  margin-top: 10px;
+}
+
+.blue-button {
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  color: white;
+}
+
+.green-button {
+  background-color: #3d9400;
+  border: 1px solid #29691d;
+  color: white;
+}
+
+.gray-button {
+  background-color: #F8F8F8;
+  border: 1px solid #C6C6C6;
+  color: black;
+}
+
+#show-button {
+  margin-top: 20px;
+}
+
+.kennedy-button:disabled {
+  opacity: 0.5;
+}
+
+.lesson-button {
+  margin-left: 564px;
+}
+
+/* Lesson */
+.lesson {
+  display: block;
+  line-height: 1.5;
+  margin: 10px;
+  margin-left: 300px;
+  width: 650px;
+}
+
+/* Instruction Area */
+.instructions {
+  display: block;
+  font-family: arial;
+  font-size: 13px;
+  height: auto;
+  margin-top: 20px;
+  word-wrap: break-word;
+}
+
+.instructions h3 {
+  font-size: 14px;
+  margin: 0px;
+  margin-top:40px;
+}
+
+/* `Code` In Markdown */
+code {
+  background: #F8F8F8;
+  border: 1px solid #C6C6C6;
+  border-radius: 4px;
+  font-family: monospace;
+  padding: 2px;
+  white-space: pre-wrap;
+}
+
+/* Inventory Area */
+.inventory {
+  margin-top: 10px;
+}
+
+.butter-bar {
+  background-color: #F9EDBE;
+  border: 1px solid #FBCB43;
+  box-shadow: 4px 4px 8px #CCC;
+  -moz-box-shadow: 4px 4px 8px #CCC;
+  -webkit-box-shadow: 4px 4px 8px #CCC;
+  color: black;
+  font-family: arial;
+  font-size: 12px;
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+.butter-bar h3 {
+  font-size: 13px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.butter-bar code {
+  background: none;
+  border: none;
+}
+
+/* Answer */
+.answer {
+  display: block;
+  margin-top: 20px;
+  word-wrap: break-word;
+}
+
+.answer p {
+  margin: 0px;
+}
+
+/* The input boxes */
+.input{
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 4px 4px 8px #CCC;
+  -moz-box-shadow: 4px 4px 8px #CCC;
+  -webkit-box-shadow: 4px 4px 8px #CCC;
+  color: black;
+  display: block;
+  font-family: monospace;
+  font-size: 13px;
+  height: auto;
+  line-height: 1.5;
+  min-height: 21px;
+  overflow-y: hidden;
+  resize: none;
+  width: 645px;
+  word-wrap: break-word;
+}
+
+.input:disabled {
+  background-color: #EEEEEE;
+  opacity: 0.5;
+}
+
+.input-label {
+  color: black;
+  font-family: arial;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding-left: 0px;
+}
+
+.url {
+  margin-top: 20px; 
+}
+
+.url .input-label {
+  margin-top: 0px;
+}
+
+.url .input {
+  min-height: 21px;
+}
+
+.alert {
+  border-color: #DD4B39;
+}
+
+.hidden-input {
+  display: none;
+  font-family: monospace;
+  font-size: 13px;
+  height: auto;
+  line-height: 1.5;
+  overflow-y: hidden;
+  white-space: pre-wrap;
+  width: 647px;
+  word-wrap: break-word;
+}
+
+.url .hidden-input {
+  min-height: 21px;
+}
+
+.header .input {
+  background-color: #EEEEEE;
+  opacity: 0.5;
+  white-space: pre;
+  width: 650px;
+}
+
+.body .input {
+  min-height: 200px;
+}
+
+.body .hidden-input {
+  min-height: 200px;
+}
+
+/* Project List Dropdown */
+.project-list {
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  height: 40px;
+  margin: 10px;
+  margin-bottom: 0px;
+  padding: 8px;
+  -webkit-background-clip: padding-box; /* for Safari */
+  width: 300px;
+}
+
+/* Success Ribbon */
+.ribbon {
+  background-color: #3D9400;
+  border-radius: 2px;
+  color: white;
+  font-family: arial;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 40px;
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+/* Success/Failure Message */
+.success {
+  color: black;
+}
+
+.failure {
+  color: #DD4B39;
+}
+
+.message {
+  display: block;
+  font-family: arial;
+  font-size: 13px;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* Output area */
+.response {
+  border: 1px solid #999999;
+  box-shadow: 4px 4px 8px #CCC;
+  -moz-box-shadow: 4px 4px 8px #CCC;
+  -webkit-box-shadow: 4px 4px 8px #CCC;
+  margin-top: 20px;
+}
+
+.response-label {
+  background-color: #CCCCCC;
+  border-bottom: 1px solid #999999;
+  color: black;
+  font-family: arial;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 3px;
+  padding-left: 10px;
+}
+
+.response-content {
+  background-color: white;
+  color: black;
+  font-family: monospace;
+  font-size: 13px;
+  height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Cat images */
+img[alt=introduction-cat-image], img[alt=finish-cat-image] {
+  display: block;
+  height: 300px;
+  margin-top: 20px;
+}
+
+/* Table image */
+img[alt=table], img[alt=url-structure], img[alt=query-structure] {
+  display: block;
+  width: 650px;
+}
+
+/* Styling of elements on focus */
+*:focus {
+  outline: 0;
+}

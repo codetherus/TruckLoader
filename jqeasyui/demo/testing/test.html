@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Testing - jQuery EasyUI</title>
+	<link rel="stylesheet" type="text/css" href="../../themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="../../themes/icon.css">
+	<link rel="stylesheet" type="text/css" href="../demo.css">
+	<script type="text/javascript" src="../../jquery.min.js"></script>
+	<script type="text/javascript" src="../../jquery.easyui.min.js"></script>
+  <script>
+  $(document).ready(function()
+  {
+  $('#cc').calendar({
+	onSelect: function(date){
+		$("#thedate").val((date.getMonth()+1)+"/"+date.getDate()+"/"+date.getFullYear());
+    $("#thedate").show();
+    $("#cc").hide();
+	}
+  });
+  
+  });
+  function showCalendar()
+  {
+    $("#cc").show();
+  }
+  </script>
+</head>
+<body>
+	<h2>Basic Pagination</h2>
+	<div class="demo-info">
+		<div class="demo-tip icon-tip"></div>
+		<div>The user can change page number and page size on page bar.</div>
+	</div>
+	<div style="margin:10px 0;"></div>
+	<div class="easyui-pagination" data-options="total:114,pageSize:20" style="border:1px solid #ddd;"></div>
+  <div id="tt" class="easyui-tabs" style="width:500px;height:250px;">
+    <div title="Tab1" style="padding:20px;display:none;">
+        tab1
+    </div>
+    <div title="Tab2" data-options="closable:true" style="overflow:auto;padding:20px;display:none;">
+        tab2
+    </div>
+    <div title="Tab3" data-options="iconCls:'icon-reload',closable:true,current:new Date()" style="padding:20px;display:none;">
+        tab3
+    </div>
+  </div>
+  <div id="cc" class="easyui-calendar" style="display:none;width:180px;height:180px;"></div> 
+  Date:<input id="thedate" /><img src="cal.gif" onclick="showCalendar()"/>  
+</body>
+</html>

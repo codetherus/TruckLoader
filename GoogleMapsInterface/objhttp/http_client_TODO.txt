@@ -1,0 +1,11 @@
+1. Streaming
+2. Partially requests.
+3. Add some methods to Http_Request to know if it was redirected and from where to where.
+4. Use 'priority' in cookies (coded partially in v0.5).
+5. Cookie limits (coded partially in v0.5).
+6. Optionally prohibition of setting cookie from other host.
+7. Bandwidth limits.
+8. Http proxy connections.
+9. Body response directly to a file if requested.
+10. Get time of waiting for response (Now we have time of socket write and time when response is fully readed).
+11. Drop cache when server name doesnt match and resend request.

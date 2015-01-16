@@ -1,0 +1,26 @@
+/*#####################################
+//## phpFe - PHP File explorer
+//## IE specific CSS stylesheet
+//#####################################
+*/
+
+/* Font-sizes seems to bug alot in IE,
+   not sure whether or not to use this hack
+
+body, table {
+	font-size: small !important;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	font-size: x-small;
+}
+html>body, html>table {
+	font-size: small;
+}
+*/
+
+thead th#col_check { padding: 0; width: 1.3em; }
+tbody td.chk { padding: 0; }
+
+input, select { margin: 0; }
+input.button { padding: 0 0.1em; }
+input.chk { margin: -2px 0; }

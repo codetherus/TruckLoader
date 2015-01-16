@@ -1,0 +1,6 @@
+##Login and Authorization##  
+Now you have learned to read public tables, you are ready to learn how to create your own table and add data to it. In order to manage data on behalf of a user, many Google APIs (including the Maps Engine API) use the OAuth 2.0 protocol which uses a _token_ to identify an application's permissions to read or modify data on behalf of a user.
+
+Permissions can be granted by a pop-up which displays what actions the application would like to take on a user's behalf. If a user chooses to 'Accept', the application then receives a unique authorization token and uses it to request only information that the user has allowed it access to.
+
+To demonstrate this process, and so that this tutorial can help you manage your private data, click on the 'Sign In' button below. You will only need to do this once, unless you sign out of your Google account.

@@ -1,0 +1,108 @@
+Response to projects list query
+ "projects": [
+  {
+   "id": "13112725006252346903",
+   "name": "Loads By Jake Maps"
+  }
+ ]
+
+------------------------------------------------------
+Response to map create of LBJ Main Map
+{
+ "id": "13112725006252346903-11613121305523030954",
+ "etag": "\"16918560776360203984\"",
+ "projectId": "13112725006252346903",
+ "name": "LBJ Main Map",
+ "description": "Main map for Loads by Jake maps project",
+ "tags": [
+ ],
+ "writersCanEditPermissions": false,
+ "creationTime": "2014-09-23T05:28:37.654Z",
+ "lastModifiedTime": "2014-09-23T05:28:37.654Z",
+ "contents": [
+ ],
+ "defaultViewport": [
+  -180,
+  -90,
+  180,
+  90
+ ],
+ "versions": [
+ ],
+ "processingStatus": "notReady",
+ "publishingStatus": "notPublished",
+ "creatorEmail": "edrobinsonjr@gmail.com",
+ "lastModifierEmail": "edrobinsonjr@gmail.com"
+}
+-------------------------------------------------
+Response to table creste of Drivers Table
+
+{
+ "id": "13112725006252346903-09757940799309423091",
+ "etag": "\"7705326671635563433\"",
+ "projectId": "13112725006252346903",
+ "name": "Drivers",
+ "description": "",
+ "tags": [
+ ],
+ "writersCanEditPermissions": false,
+ "schema": {
+  "primaryKey": "Driver Name",
+  "primaryGeometry": "geometry",
+  "columns": [
+   {
+    "name": "geometry",
+    "type": "points"
+   },
+   {
+    "name": "Driver Name",
+    "type": "string"
+   },
+   {
+    "name": "Delivery Location",
+    "type": "string"
+   },
+   {
+    "name": "Delivery Date",
+    "type": "string"
+   },
+   {
+    "name": "Equipment",
+    "type": "string"
+   }
+  ]
+ },
+ "sourceEncoding": "UTF-8",
+ "processingStatus": "complete",
+ "bbox": [
+  -180,
+  -90,
+  180,
+  90
+ ],
+ "creationTime": "2014-09-23T05:46:22.535Z",
+ "lastModifiedTime": "2014-09-23T05:46:22.535Z"
+}
+-------------------------------------------------
+Response to Driver layer create
+{
+ "id": "13112725006252346903-17488941626782682984",
+ "etag": "\"12391623032174162622\"",
+ "projectId": "13112725006252346903",
+ "name": "Drivers Layer",
+ "description": "Layer containing driver features",
+ "processingStatus": "ready",
+ "publishingStatus": "notPublished",
+ "tags": [
+ ],
+ "writersCanEditPermissions": false,
+ "creationTime": "2014-09-23T05:53:48.446Z",
+ "lastModifiedTime": "2014-09-23T05:53:48.446Z",
+ "datasourceType": "table",
+ "layerType": "vector",
+ "datasources": [
+  {
+   "id": "13112725006252346903-09757940799309423091"
+  }
+ ]
+}

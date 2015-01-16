@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <script src="https://apis.google.com/js/client.js"></script>
+    <script>
+      function auth() {
+        var config = {
+          'client_id': '700318837628-29bc38gesa2qk5jacq0s8kh36dso2sqo.apps.googleusercontent.com',
+          'scope': 'https://www.googleapis.com/auth/urlshortener',
+		  'immediate': true
+        };
+        gapi.auth.authorize(config, function() {
+          console.log('login complete');
+          console.log(gapi.auth.getToken());
+        });
+      }
+    </script>
+  </head>
+
+  <body>
+    <button onclick="auth();">Authorize</button>
+  </body>
+</html>

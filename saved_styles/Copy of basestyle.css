@@ -1,0 +1,301 @@
+/*
+  Base styling for loadsbyjake.com
+  Override / define colors in the optional style sheets.
+*/
+/* Use to flag required fields */
+em{
+	color: red;
+	margin-right: 3px;
+}
+body{
+	margin: 0;
+	padding:0;
+	text-align: center;
+	min-width: 800px;
+	font-size: 14px;
+	background-position: top center;
+	background-repeat: no-repeat;
+  height: 100%;
+}
+table{
+	border-collapse: collapse;
+	border: 1px solid green;	
+}	
+/* Global search input */
+#search_term{
+  background-color: white;
+  color: black;
+}
+#wrapper{
+	text-align: left;
+	width: 950px;
+  margin: 10px auto;
+  padding: 10px;
+  -moz-border-radius: 5px;  
+  border: 3px solid gray;
+}
+#headerv2{
+	/*border-bottom: 1px solid green;*/
+	margin-top: 10px;
+  margin-bottom: 10px; 
+  padding-right: 15px;  
+  padding-top: 5px;  
+  padding-left: 5px;
+	text-align: left;
+	height: 55px;
+	font-size: 1.5em;
+  -moz-border-radius: 5px;
+  border-bottom: 1px solid;
+    
+}
+#header img{
+	 float:left;
+	 height: 110px;
+}
+#content{
+	width:350px;
+	margin: 50px auto;
+}
+
+#leftcontent{
+	display: inline;
+	float:left;
+	width:31%;
+	padding-left:5px;
+	padding-right:5px;
+}
+#centercontent{
+	display: inline;
+	float:left;
+	width: 32%;
+	/*border-left: 1px solid green;
+	border-right: 1px solid green;*/
+	padding-left:5px;
+	padding-right:5px;
+	
+}
+#rightcontent{
+	display: inline;
+	float:left;
+	width:32%;
+
+}	
+/* Page footer div */
+#footer{
+	height: 20px;
+	font-size: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 4px;
+	clear:both;
+	width: 90%;
+}
+#floatboxcontent{
+	display: none;
+	text-align: left;
+}
+table{
+	border-collapse: collapse;
+	border: 1px solid green;	
+}	
+label{
+	display: inline-block;
+	width: 100px; /* May need to be set on a per page basis...*/
+	text-align: right;
+	margin-right: 2px;
+  font-weight: bold;
+}	
+#notecontent{
+	margin-left: 20px;
+}
+/* Appleize the site */
+input, select, textarea{
+  -moz-border-radius: 3px;
+  margin:0px;
+  padding:0px;
+  margin-bottom: 5px;
+  font-size: small;
+}
+input[type='button']{
+  border: none;  
+  }
+input[type='submit']{
+  border: none;  
+  }
+/* Style spans otherwise not connected */
+.spantext{
+  font-size: 12px; 
+  font-weight: bold; 
+  color: white;
+}
+#mainhead{
+	margin-top: 160px;
+	padding-left: 325px;
+	text-align: left;
+}
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv{
+position:absolute;
+top: 0;
+border: 1px solid #BBB; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+font:normal 10px Verdana;
+line-height:15px;
+z-index:100;
+background-color: white;
+width: 150px;
+text-align: left;
+visibility: hidden;
+}
+.dropmenudiv ul{
+  list-style-type: none;
+  padding: 2px 0;
+  text-align: left;
+}
+.dropmenudiv a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #BBB; /*THEME CHANGE HERE*/
+padding: 2px 0;
+text-decoration: none;
+font-weight: bold;
+color: black;
+}
+.dropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #F0F0F0;
+}
+* html .dropmenudiv a{ /*IE only hack*/
+width: 100%;
+}
+/* Global search table styles */
+.odd{
+  background-color: #DFDFDF;
+}
+
+/* Styling for the driver contact and email overlays. */
+  #drivercontacts{
+    display: none;
+    position: absolute;
+    top: 225px;
+    left: 270px;
+    z-index: 10;
+    background-color: white;
+    color: black;
+    width: 300px;
+    -moz-border-radius: 3px;
+  }
+  #drivercontacts label{
+    text-align: right;
+    width: 230px;
+    color: black;}
+  #drivercontacts input[type="text"]{
+    color: white;
+  }
+
+  #drivermail{
+    display: none;
+    position: absolute;
+    top: 225px;
+    left: 270px;
+    z-index: 10;  
+    background-color: #BCBCBC;
+    color: black;
+    width: 465px;
+    padding-left: 20px;
+    -moz-border-radius: 3px;
+  }
+  #drivermail label{
+    text-align: right;
+    width: 230px;
+    color: black;}
+  #drivermail input[type="text"]{
+    color: white;
+  }
+
+  #emessage{
+    width: 450px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    cursor: text;
+  }  
+  .remessage{
+    width: 450px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    cursor: text;
+  }  
+
+  
+  #brokeragentoverlay{
+    display: none;
+    position: absolute;
+    top: 225px;
+    left: 370px;
+    z-index: 10;
+    background-color: white;
+    color: black;
+    width: 400px;
+    -moz-border-radius: 3px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  #brokereditoroverlay{
+    left: 200px;
+    top: 120px;
+    width: 290px;
+    display: none;
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    color: black;
+    -moz-border-radius: 3px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  #brokereditoroverlay label{
+    text-align: left;
+    width: 230px;
+    color: black;
+    margin-left: 5px;}
+  
+  #brokeragentoverlay label{
+    text-align: left;
+    width: 230px;
+    color: black;
+    margin-left: 20px;}
+
+  #brokeragentoverlay #brokereditoroverlay input[type="text"]{
+    color: white;
+    /*margin-left: 20px;*/
+  }
+  
+  #remindersoverlay{
+    display: none;
+    position: absolute;
+    top: 150px;
+    left: 210px;
+    z-index: 10;
+    background-color: white;
+    color: black;
+    width: 200px;
+    -moz-border-radius: 3px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 3px solid gray;
+  }
+  #remindersoverlay label{
+    text-align: left;
+    width: 230px;
+    color: black;
+    margin-left: 0px;
+  }
+    
+  #remindersoverlay input[type="text"]{
+    color: white;
+    /*margin-left: 20px;*/
+  }
+  

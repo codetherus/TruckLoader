@@ -1,0 +1,1 @@
+'token' => string '{"access_token":"ya29.1gABCMVagc3CEdtKm5Y3PR_Hla8ES1zCNQQHmEOTE8Pl1KuNMNzN469IbO-8mG60pNf5sBphbt4j6g","token_type":"Bearer","expires_in":3600,"refresh_token":"1/WhwkYZPRbBLFpkIW_bpYRT7ItQ_3hSy2lZOxXf4as7EMEudVrK5jSpoR30zcRFq6","created":1418064904}'

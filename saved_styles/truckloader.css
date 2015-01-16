@@ -1,0 +1,341 @@
+/*
+  Truck loader app style sheet
+*/
+/* Use to flag required fields */
+em{
+	color: red;
+	margin-right: 3px;
+}
+/* Body tweek for IE quirks */
+body{
+	margin: 0;
+	padding:0;
+  margin: 50px auto;  
+  /*border: 1px solid gray;  */
+  
+	text-align: center;
+  width: 950px;
+	min-width: 800px;
+  background-color: white;
+	font-size: 14px;
+	/*background-image: url("../images/droppedImage.gif") ;*/
+	background-position: top center;
+	background-repeat: no-repeat;
+	color: white;
+  height: 100%;
+  background-color: black;
+}
+fieldset{
+	border: 3px solid green;
+	display: block;
+}
+
+/* more of same... */
+#wrapper{
+	text-align: left;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+  margin-bottom: 10px;
+	height: 55%;
+	background-color: black;
+  /*margin-top: 155px;*/
+  color: white;  
+  -moz-border-radius: 5px;
+}
+/* Page head div */
+#header{
+	/*border-bottom: 1px solid green;*/
+	margin-top: 10px;
+  margin-bottom: 10px; 
+  padding-right: 15px;
+	text-align: center;
+	height: 55px;
+	font-size: 1.5em;
+	background-color: black;
+	color: lime;
+  -moz-border-radius: 5px;
+}
+#headerv2{
+	/*border-bottom: 1px solid green;*/
+	margin-top: 10px;
+  margin-bottom: 10px; 
+  padding-right: 15px;  
+  padding-top: 5px;  
+  padding-left: 5px;
+	text-align: left;
+	height: 55px;
+	font-size: 1.5em;
+	background-color: black;
+	color: lime;
+  border-bottom: 1px solid lime;  
+  -moz-border-radius: 5px;
+}
+
+#header img{
+	 float:left;
+	 height: 110px;
+}
+#content{
+	width:350px;
+	margin: 50px auto;
+	border: 1px solid green;
+}
+#leftcontent{
+	display: inline;
+	float:left;
+	width:31%;
+	padding-left:5px;
+	padding-right:5px;
+}
+#centercontent{
+	display: inline;
+	float:left;
+	width: 32%;
+	border-left: 1px solid green;
+	border-right: 1px solid green;
+	padding-left:5px;
+	padding-right:5px;
+	
+}
+#rightcontent{
+	display: inline;
+	float:right;
+	width:34%;
+
+}	
+
+/* Page footer div */
+#footer{
+	height: 20px;
+	font-size: 10px;
+	/*width: 800px;*/
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 4px;
+	color: white;
+	clear:both;
+	width: 90%;
+}
+#navigation{
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#floatboxcontent{
+	display: none;
+	text-align: left;
+}
+#staffmenu{
+	display: inline-block;
+	height: 25px;
+	font-size: 10px;
+	margin-bottom: 3px;	
+	float:left;
+	padding-left: 20px;
+}
+#staffmenu a{
+	display: inline-block;
+	text-decoration: none;
+	color:black;
+}	
+#staffmenu a:hover{
+	color: green;
+	text-decoration: underline;
+}
+table{
+	border-collapse: collapse;
+	border: 1px solid green;	
+}	
+label{
+	display: inline-block;
+	width: 100px; /* May need to be set on a per page basis...*/
+	text-align: right;
+	margin-right: 2px;
+	color: white;
+  font-weight: bold;
+}	
+#notecontent{
+	margin-left: 20px;
+}
+#mainhead{
+	margin-top: 160px;
+	padding-left: 325px;
+	text-align: left;
+}
+/* Appleize the site */
+input, select, textarea{
+  color: white;
+  background-color: black;
+  -moz-border-radius: 3px;
+  border: 1px solid gray;    
+  margin:0px;
+  padding:0px;
+  margin-bottom: 5px;
+  font-size: smaller;
+}
+input[type='button']{
+  border: none;  
+  background-color: gray;
+  }
+input[type='submit']{
+  border: none;  
+  background-color: gray;
+  }
+  #driver_search_div {    
+    display: none;
+    margin: 10px;
+    position: absolute; 
+    z-index: 9999;
+    top: 0px; 
+    left:0px; 
+    width:98%;
+    height: 95%;    
+    background-color: black;    
+  }
+  #load_search_div {    
+    display: none; 
+    margin: 10px;
+    position: absolute; 
+    z-index: 9999;
+    top: 0px; 
+    left:0px; 
+    width:98%;
+    height: 95%;    
+    background-color: black;    
+  }
+  
+  /* Hidden div for the loads page  NOT USED*/
+  #loadsdisplay{    
+    display: none; 
+    margin: 10px;
+    position: absolute; 
+    z-index: 9999;
+    top: 58px; 
+    left:0px; 
+    width:98%;
+    height: 95%;    
+    /*border: 1px solid red;*/
+    background-color: black;    
+  }
+  /* Div for the search tool display*/
+ #search_results{
+    display: none;
+    position: absolute; 
+    z-index: 9998;
+    top: 120px; 
+    width: 950px;
+    height: 75%;    
+    background-color: white;
+    color: black;
+    overflow: auto; 
+    border: 3px solid white;
+   }
+  #search_term{
+    margin-left: 10px;
+    background-color: white;
+    color: black;
+  }
+  #search_results h1{color:  #233E99;} 
+  #search_results table{border: 2px solid black;} 
+  #search_results th{background-color: #A8EBEE; color: black }
+  #search_results td{ font-size:11px; font-family:arial;vertical-align:top;}
+  #search_results a{font-size:11px; font-family:arial;}
+  #search_results.odd_row{background-color:#E5E5E5 ;}
+  #search_results.even_row{background-color:#f5f5f5;}
+
+  #search_term{
+    margin-left: 10px;
+    background-color: white;
+  }
+  
+/* Chrome Menu Styling */
+.chromestyle{
+width: 100%;
+font-weight: bold;
+font-size: 12px;
+background-color: black;
+}
+
+.chromestyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+background-color: black;
+}
+
+.chromestyle ul{
+/*border: 1px solid #BBB;*/
+width: 90%;
+/*background: url(chromebg.gif) center center repeat-x; /*THEME CHANGE HERE*/
+/*padding: 2px 0;*/
+margin: auto;
+text-align: center; /*set value to "left", "center", or "right"*/
+color: white;
+background-color: black;
+
+}
+
+.chromestyle ul li{
+display: inline;
+color: white;
+background-color: black;
+}
+
+.chromestyle ul li a{
+padding: 4px 7px;
+margin: 0;
+text-decoration: none;
+border-right: 1px solid gray; /*#DADADA;*/
+border-left: 1px solid gray; /*#DADADA;*/
+color: white;
+background-color: black;
+
+}
+
+.chromestyle ul li a:hover, .chromestyle ul li a.selected{ /*script dynamically adds a class of "selected" to the current active menu item*/
+background: url(chromebg-over.gif) center center repeat-x; /*THEME CHANGE HERE*/
+color: black;
+}
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv{
+position:absolute;
+top: 0;
+border: 1px solid #BBB; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+font:normal 10px Verdana;
+line-height:15px;
+z-index:100;
+background-color: white;
+width: 150px;
+text-align: left;
+visibility: hidden;
+}
+.dropmenudiv ul{
+  list-style-type: none;
+  padding: 2px 0;
+  text-align: left;
+}
+
+.dropmenudiv a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #BBB; /*THEME CHANGE HERE*/
+padding: 2px 0;
+text-decoration: none;
+font-weight: bold;
+color: black;
+}
+
+* html .dropmenudiv a{ /*IE only hack*/
+width: 100%;
+}
+
+.dropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #F0F0F0;
+}

@@ -1,0 +1,506 @@
+GTC Central Dispatch - (888)-661-5145	Transport Investments 	ATI Central Dispatch - (800)-284-1900
+	A.J.	13	Barry	Ne Ext 1
+	Kristen	12	Truck Inbound Report	Jen	W/Mw E. 4
+	Luann	11	Keith	ME Ext 2
+	Melissa	14	Mary	SE Ext 3
+Agent	Unit/Equipment	Driver	Cell	Origin	Destination	Delivery	Comments
+	UNK	AFL	260805	53'  VAN	DAVID WRIGHT	(256) 259-6085	LA VERGNE	TN	SCOTTSBORO	AL	10	/	8	TWIC                                                                         
+	AF107	AFL	281702	48' SD 5 Axle	BOBBY RACKOW	(256) 609-2936	ALLENDALE	SC	LITTLEVILLE	AL	10	/	9	48' Flat                                                                        
+	AF709	AFL	225803	48' Flat	EDWARD TOBIN	(330) 974-9068	WURTLAND	KY	TUSCALOOSA	AL	10	/	27	DNC/CALL AF709                                                     
+	AF188	AFL	288001	UNKNOWN	SUSAN WELCH	OCALA	FL	BIRMINGHAM	AL	10	/	27
+	GT359	GTC	7525	48' SD 5 Axle	STEPHEN HANN	(330) 465-8851	WOOSTER	OH	DECATUR	AL	10	/	28	TWIC/                                                                        
+	GT194	GTC	91295	48' SD Conest 	IRA NEWMAN	(517) 404-6109	QUANTICO	VA	HUNTSVILLE	AL	10	/	29	TWIC/ 8'W x 9'10"H INSIDE-                                    
+	GT913	GTC	41244	6XDDExtRGN	MATTHEW KOLB	(618) 407-1177	CARLYLE	IL	TALLADEGA	AL	10	/	29	                                                                                   
+	UNK	ATI	182801	48' Flat	ALVIN JONES	(219) 951-6502	WAXHAW	NC	PELHAM	AL	10	/	29	4' tarps                                                                        
+	UNK	ATI	200007	48' Flat	NAHUMAN SLEDGE	(205) 292-2434	HAMLET	NC	ANNISTON	AL	10	/	29
+	GT097	GTC	71076	48' SD 5 Axle	JACOB INSINGA	(870) 373-1977	EDISON	NJ	MONTGOMERY	AL	10	/	30	TEAM/TWIC/42K# MAX-                                         
+	UNK	ATI	190701	48' Flat	FREDDIE ISBELL	(205) 368-1453	WALNUT RIDGE	AR	JASPER	AL	10	/	31
+	GT001	GTC	41169	7 Axle DD RGN	RALPH HARRIOTT	(570) 228-1335	SELIGMAN	AZ	MILLPORT	AL	11	/	2	                                                                                   
+	UNK	ATI	199501	48' Flat	STEVEN JOHNSTON	(740) 244-2940	WORCESTER	MA	CALVERT	AL	11	/	2	48 FLAT                                                                     
+	UNK	ATI	A800202	48' Flat	CARMEN MARTONE	(203) 747-2379	HYDE PARK	MA	CALVERT	AL	11	/	3	                                                                                   
+	GT225	GTC	71023	51' SD 5 Axle	ALTON COULTER	(989) 708-8835	CADILLAC	MI	BIRMINGHAM	AL	11	/	3	TWIC/35" DH -                                                          
+	GT492	GTC	91323	53' SD 6X	WILLIAM CAIN	(801) 388-4000	GLENWILLOW	OH	PINE BLUFF	AR	10	/	26	40" DCK HGT/MT 10-26 NEEDS WEST                   
+	UNK	GTC	7835	5 Axle DD RGN	WILLIAM ANTHONY	(501) 908-4999	OPELOUSAS	LA	CONWAY	AR	10	/	26	TWIC/                                                                        
+	UNK	GTC	41321	9 X DD RGN	SHANE HUFFSTICKLER	(612) 810-8734	JACKSON	MS	DES ARC	AR	10	/	27	CAN BE 6-11 X DDRGN                                            
+	UNK	ATI	13208	51' Flat	JERRY COLLINS	(501) 258-5449	TULSA	OK	CURTIS	AR	10	/	30	TWIC  46k # max                                                       
+	GT345	GTC	9660	5 Axle DD RGN	CHARLES HARRELL	(216) 401-9123	BOUCHERVILLE	PQ	LITTLE ROCK	AR	11	/	2	TWIC                                                                         
+	GT869	GTC	8136	5 Axle DD RGN	RUSSELL DAVIS	(304) 617-6473	GATESVILLE	TX	PHOENIX	AZ	10	/	29	5XDDRGN CALL TERMINAL 71-3 740-852-7446   
+	GT869	GTC	9732	5 Axle DD RGN	ROBERT RECORD	GATESVILLE	TX	PHOENIX	AZ	10	/	29	TWIC -CALLTERM 36-4                                          
+	UNK	GTC	7860	48' SD 5 Axle	ROBIN HENGSTELER	          	EL PASO	TX	TUCSON	AZ	10	/	29	TWIC/                                                                        
+	AT541	ATI	186401	48' Flat	RICARDO MCGOWAN	(623) 587-9118	MONTEBELLO	CA	GOLDEN VALLEY	AZ	10	/	30
+	UNK	ATI	A803601	48' Step Deck	HOWARD WRIGHT	(501) 772-8240	HILLSBORO	TX	SAFFORD	AZ	11	/	2	TEAM- TWIC                                                            
+	UNK	ATI	195301	53' Step Deck	SAMUEL HICKMAN	(253) 548-8607	HOUSTON	TX	LANGLEY	BC	10	/	19	                                                                                   
+	AT544	ATI	194201	48' Step Deck	GARY FORBERG	(253) 548-8607	EASLEY	SC	ANAHEIM	CA	10	/	24
+	UNK	AFL	251803	53'  VAN	TIMOTHY WARNER	(203) 757-1707	IRVINE	CA	APPLE VALLEY	CA	10	/	27	                                                                                   
+	GT878	GTC	91185	48' Flat	RONALD SKAGGS	(727) 534-4324	HOUSTON	TX	MERCED	CA	10	/	28	                                                                                   
+	UNK	GTC	91337	48' SD 6 Axle	GARY EASON	(801) 505-3844	POPE VALLEY	CA	BARSTOW	CA	10	/	29	TWIC - ROOM OPEN TO POPE VALLEY CA         
+	GT001	GTC	81095	48' SD 5 Axle	CURTIS HOWARD	(563) 419-4344	STURTEVANT	WI	SANTA MARIA	CA	10	/	30	HAS 5XDDRGN-NEEDS CALIF LOAD                      
+	GT001	GTC	91337	48' SD 6 Axle	GARY EASON	(801) 505-3844	GRAND JUNCTION	CO	POPE VALLEY	CA	10	/	30	TWIC - ROOM OPEN TO POPE VALLEY CA         
+	UNK	ATI	130402	Step Deck	KENNETH AHNER	(843) 424-6656	WILMINGTON	NC	BARSTOW	CA	10	/	30	TWIC  -  52' stepdeck                                                 
+	AT001	ATI	167802	50' Step Deck	TERRY HARGRAVES	(931) 994-3687	COLUMBIA	SC	ORANGE	CA	11	/	2	50' stepdeck w/ ramps - NO TWIC 45k # max            
+	Friday, October 30, 2009	Page 1 of 12
+This report includes only a small percentage of TII's total trucks.  For a complete list  log onto Weblink on our website, www.thetii.com
+
+Agent	Unit/Equipment	Driver	Cell	Origin	Destination	Delivery	Comments
+	AT549	ATI	A804001	48' Flat	JEFFREY ODELL	(330) 601-2786	PARKMAN	OH	LOS ANGELES	CA	11	/	2	                                                                                   
+	GT850	GTC	91339	UNKNOWN	HARVEY RUNYAN	(307) 272-4769	LEXINGTON	KY	OAKLAND	CA	11	/	3	TWIC-HAS 48' FLAT   5 STOPS                                
+	UNK	ATI	190501	48' Step Deck	ROBERT LIGHT	(334) 437-0377	SALINEVILLE	OH	OAKLAND	CA	11	/	5	Flatbed                                                                        
+	UNK	ATI	103004	48' Step Deck	GILBERT DENNIS	(901) 523-7040	BETHLEHEM	PA	LOS ANGELES	CA	11	/	6	Call Rusty 901-523-7040                                            
+	GT062	GTC	41056	8 Axle DD RGN	WILL ROBINSON	(970) 396-7948	COMMERCE CITY	CO	AURORA	CO	10	/	8	                                                                                   
+	UNK	GTC	3393	8 Axle Lowboy 	RICHARD CUMMINGS	(412) 956-6824	RIO BLANCO	CO	RIO BLANCO	CO	10	/	20	                                                                                   
+	GT062	GTC	41312	6 Axle Stepdeck 	WILLIAM 	(714) 335-0900	LOOMIS	NE	AURORA	CO	10	/	27	RELOAD 06-2      37K# MAX                                    
+	GT721	GTC	7932	48' Flat	ROGER NEWSOM	(740) 352-4450	RICHFIELD	UT	FORT LUPTON	CO	10	/	30	TWIC/                                                                        
+	GT225	GTC	71304	48' Flat	LONNIE WILLIAMS	(614) 446-4454	FAYETTEVILLE	NC	FORT CARSON	CO	10	/	30	                                                                                   
+	GT062	GTC	41110	8 Axle DD RGN	ANTHONY KOCHER	(513) 673-3790	MOBERLY	MO	AURORA	CO	10	/	30	TWIC/                                                                 also 
+	AF180	AFL	H803402	48' Flat	JOHN ANDERSON	(740) 294-7653	NORWALK	OH	SNOWMASS 	CO	11	/	2	                                                                                   
+	GT002	GTC	7465	5 Axle DD RGN	JOHNNIE MCKENZIE	(859) 583-7297	HEFLIN	AL	DENVER	CO	11	/	2	TWIC-                                                                        
+	GT252	GTC	41257	50' SD 6X	STEVEN ABELL	(573) 795-2329	HOUSTON	TX	RIFLE	CO	11	/	4	TWIC - NOT CA LEGAL-  MT10/21                         
+	GT252	GTC	1263	9 X DD RGN	DONNIE HARVEY	HOUSTON	TX	RIFLE	CO	11	/	4	NOT CA LEGAL-                                                       
+	GT002	GTC	91158	7X DD RGN 	GREG ASHLEY	(618) 322-3725	HOUSTON	TX	MILFORD	CT	11	/	3	ON 8 AXLES EXT                                                      
+	GT002	GTC	91157	8X DD RGN 	CURTIS ABELL	(217) 617-5744	HOUSTON	TX	MILFORD	CT	11	/	3	TWIC-  28K# MAX - LEGAL-                                   
+	UNK	ATI	104016	48' Flat	CARL BENNER	(814) 280-7109	HOUSTON	TX	MILFORD	CT	11	/	3	TWIC CALL HERB 814-422-0598                            
+	AF211	AFL	286701	UNKNOWN	TERRY ALLEN	(740) 632-5921	MIDDLETOWN	OH	RAMOS ARIZPE	CU	10	/	25
+	GT713	GTC	8113	R G N	LARRY BURKS	(502) 439-5012	NEW HAMPTON	IA	WILMINGTON	DE	10	/	30	CALL 740-852-7446 - 6XRGXEXT - 50' WELL- 
+	UNK	GTC	9577	8 Axle DD RGN	ROBERT DANIELS	(727) 421-2063	WAVERLY	KY	SAINT 	FL	10	/	26	TWIC/NEEDS VA OR CALIF AREA                          
+	UNK	GTC	9754	48' SD 5 Axle	GREGORY FUCHS	(813) 713-6278	MELBOURNE	FL	TAMPA	FL	10	/	27	TWIC/43K MAX/                                                       
+	AT541	ATI	198101	48' F w/LbrTrp	RANDALL YOUNGBLOOD	(407) 394-2493	LOUISVILLE	AL	FROSTPROOF	FL	10	/	29	4' tarps and 8' end curtains                                           
+	AF010	AFL	272401	53'  VAN	ARTHUR WILSON	(256) 283-6333	IVYLAND	PA	ST PETERSBURG	FL	10	/	29	                                                                                   
+	AT045	ATI	150901	48' Flat	CHARLES FRALEY	(813) 469-6009	LA VERGNE	TN	JACKSONVILLE	FL	10	/	30	TWIC 34' and 40k to FL                                             
+	UNK	ATI	190301	48' Flat	JIMMIE HINSON	(334) 464-6129	TYNDALL AFB	FL	PANAMA CITY	FL	10	/	30
+	UNK	AFL	254501	48' Flat	WILLIAM HAYES	(304) 633-6989	RAMOS ARIZPE	CU	TAMPA	FL	10	/	30	                                                                                   
+	GT496	GTC	7579	48' SD 5 Axle	LOUIE REPP	(920) 960-8779	MENOMONEE 	WI	BOCA RATON	FL	10	/	31	TWIC- HAS RAMPS-                                                 
+	AF111	AFL	251803	53'  VAN	TIMOTHY WARNER	(203) 757-1707	THERMAL	CA	LAKELAND	FL	11	/	1	                                                                                   
+	GT359	GTC	71010	48' Flat	CHARLES HUNT	(740) 464-8129	WOOSTER	OH	ORLANDO	FL	11	/	2	                                                                                   
+	UNK	ATI	200701	Step Deck	GARY ( RICH ) BROWN	(217) 316-6114	TUCSON	AZ	FT LAUDERDALE	FL	11	/	2
+	GT002	GTC	41313	48' SD 6 Axle	DAVID HUBBARD	(513) 600-7421	MEDINA	OH	TAMPA	FL	11	/	2	TWIC/ 38" DCK HGT/44K MX-                                
+	UNK	ATI	198201	48' Flat	JULIO ROSARIO	(561) 723-2980	POMPANO BCH	FL	POMPANO 	FL	11	/	2	48' Flatbed   6' Tarps                                                   
+	UNK	GTC	91178	7 Axle DD RGN	LEWIS (HERMAN) 	(678) 378-7033	JACKSONVILLE	FL	TALLAPOOSA	GA	10	/	23	                                                                                   
+	UNK	GTC	9608	53' Step Deck	OTIS CHANNELL	(770) 656-8404	WICHITA FALLS	TX	TAYLORSVILLE	GA	10	/	27	TWIC-                                                                        
+	AF128	AFL	240004	53' Reefer	DONALD HENDRICHSEN	(517) 404-1905	BRYAN	OH	MCDONOUGH	GA	10	/	28
+	UNK	GTC	7617	48' SD 5 Axle	JOHN PHILIP	(229) 815-1531	BUHL	AL	COBB	GA	10	/	28	                                                                                   
+	UNK	ATI	166502	48' Flat	BRYAN NELSON	(419) 465-3075	CARROLLTON	TX	DACULA	GA	10	/	29	TWIC CALL KAREN 419-465-3075 or 419-239-
+	AT536	ATI	197601	48' Step Deck	KIRK BUCHANAN	(940) 390-1851	MOSES LAKE	WA	BACONTON	GA	10	/	30	                                                                                   
+	AF017	AFL	225017	48' Flat	ALLEN SMITH	(330) 646-3820	NILES	OH	BUFORD	GA	10	/	30	                                                                                   
+	GT002	GTC	7231	48' Flat	JERRY MILLER	(417) 252-3136	WOODLAND	CA	ACWORTH	GA	11	/	2	S/O TX                                                                        
+	Friday, October 30, 2009	Page 2 of 12
+This report includes only a small percentage of TII's total trucks.  For a complete list  log onto Weblink on our website, www.thetii.com
+
+Agent	Unit/Equipment	Driver	Cell	Origin	Destination	Delivery	Comments
+	GT713	GTC	8002	UNKNOWN	KENNETH MARKER	(740) 506-0136	FREDRICKSBURG	OH	CLINTON	IA	10	/	22	HAS 53'SD - CALL 740-852-7446- LONDON OH     
+	GT001	GTC	71214	50' SD 5 Axle	GARY STAFFORD	(713) 822-6563	SALT LAKE CITY	UT	KNOXVILLE	IA	10	/	26	RAMPS/34"DCK HGT/44K MAX-                             
+	GT713	GTC	7615	5 Axle DD RGN	WALTER DOOLEY	(740) 244-9566	WARRENDALE	PA	IOWA CITY	IA	10	/	30	                                                                                   
+	GT134	GTC	7995	50' SD 6X	KARL SCHRAGE	(618) 407-6424	NEWTON	IL	BURLINGTON	IA	10	/	30	TWIC  HAS POLE TRL                                             
+	UNK	ATI	A801104	48' Flat	JAMES SMITH	(814) 952-3294	WHEATLAND	PA	DES MOINES	IA	11	/	2	4' tarps                                                                        
+	AF001	AFL	273601	5 Axle DD RGN	RICKY LEHEW	(615) 491-7608	HENDERSON	NV	LOCKPORT	IL	10	/	3	41k max                                                                      
+	UNK	GTC	7570	45' Flat	REAL HOULE	(312) 720-8550	CEDAR RAPIDS	IA	STERLING	IL	10	/	26	                                                                                   
+	UNK	GTC	71264	48' Flat	MICHAEL SHAFER	(309) 221-0619	FLOODWOOD	MN	MONMOUTH	IL	10	/	26	                                                                                   
+	UNK	GTC	9656	50' SD 5 Axle	MATTHEW BUDDE	(618) 292-4653	MARION	IL	FARINA	IL	10	/	26	NEEDS WI                                                                  
+	UNK	GTC	7991	UNKNOWN	BRYAN MERKLE	(618) 781-0983	SAINT LOUIS	MO	ALHAMBRA	IL	10	/	26	RELOAD 13-4                                                            
+	AF001	AFL	225012	UNKNOWN	RICK HILL	(330) 544-9180	WHEATLAND	PA	CHICAGO	IL	10	/	27	                                                                                   
+	UNK	GTC	4981	7 Axle DD RGN	MIROSLAV TOUS	(847) 951-8011	SUPERIOR	WI	CHICAGO	IL	10	/	27	TWIC-                                                                        
+	UNK	GTC	7460	48' Flat	STEVEN SIMPSON	(815) 674-9205	SULLIVAN	MO	KEMPTON	IL	10	/	27	                                                                                   
+	GT134	GTC	71285	UNKNOWN	JASON WILLIAMS	CHICAGO	IL	ALHAMBRA	IL	10	/	28
+	UNK	GTC	9569	50' SD 6X	DERLE BUDDE	(618) 780-5008	OAK GROVE	MO	GRANITE CITY	IL	10	/	28	TWIC/34" DECK HEIGHT                                         
+	GT499	GTC	71130	48' DD RGN	FREDERIC CORNELL	SHERMAN	TX	PLAINFIELD	IL	10	/	29	TWIC/CALL 262-642-6222-                                      
+	UNK	GTC	7918	48' SD 5 Axle	BYRON BUNDY	(309) 221-7510	CASEY	IL	MONMOUTH	IL	10	/	29	TWIC- ROOM OPEN TO IL                                      
+	GT134	GTC	7931	48' Flat	STEPHEN KUYATH	(618) 920-3065	HIGHLAND	IL	SCHILLER 	IL	10	/	29	                                                                                   
+	GT124	GTC	91181	48' SD 6 Axle	KEITH MAY	(870) 584-8281	ROUND ROCK	TX	NORTHLAKE	IL	10	/	30	TEAM/TWIC- W/W GT124                                       
+	GT383	GTC	9104	50' SD 5 Axle	VICTOR ANGELINE, JR.	(732) 672-6854	HAYWOOD	WV	CHICAGO	IL	10	/	30	TWIC/HAS RAMPS/NEEDS SOUTH                          
+	AF208	AFL	280201	48' Flat	MIKE DURST	(740) 627-6044	HOUSTON	TX	BOURBONNAIS	IL	10	/	31	TWIC                                                                         
+	AT001	ATI	175002	48' Step Deck	TOMMY MYERS	(517) 712-7453	LAREDO	TX	MONMOUTH	IL	10	/	31	                                                                                   
+	AT541	ATI	183401	48' Step Deck	JAMES PRUITT	(251) 253-2393	DILLWYN	VA	GRANITE CITY	IL	11	/	1	45k # max                                                                   
+	GT134	GTC	7930	48' Flat	MICHAEL LANDMANN	(618) 803-9012	MONCURE	NC	JASPER	IN	9	/	19	TWIC/CALL 800-294-8908                                       
+	UNK	GTC	41288	Trailer Pool	STEPHEN OSBORNE	HESSTON	KS	CENTERVILLE	IN	9	/	30	TWIC/ HAS 53'SD CALL TONY @765-462-9594     
+	UNK	GTC	41256	UNKNOWN	 UNKNOWN	FORT CAMPBELL	KY	BATH	IN	10	/	10	NO DRIVER                                   48SD/35" DCK 
+	UNK	GTC	3851	8 Axle DD RGN	JERRY HENSLEY	(513) 839-0788	MIAMI	FL	BATH	IN	10	/	15	TWIC -                                                                       
+	GT991	GTC	71253	45' Flat	ROBERT MILLER	(724) 355-6633	SOUTH BEND	IN	FORT WAYNE	IN	10	/	23	                                                                                   
+	UNK	GTC	3920	7 Axle Lowboy	JOHN PIECHOCKI	(219) 712-3670	CASPER	WY	LAKE VILLAGE	IN	10	/	23	TWIC/CAN SCALE 90K IN SOME STATES              
+	UNK	GTC	3896	6XDDExtRGN	JOHN KECK	(765) 506-0894	DELPHOS	OH	COLUMBIA 	IN	10	/	26	TWIC/                                                                        
+	GT702	GTC	91051	48' SD 6 Axle	HAROLD RANDALL	(419) 234-8970	LIMA	OH	BUTLER	IN	10	/	27	RELOADING 70-2                                                      
+	AF001	AFL	H800701	Flat	JAMES MASON	(256) 776-4255	MADISON	IL	WATERLOO	IN	10	/	28	DNC/call AF188 - TWIC                                            
+	GT702	GTC	41052	8 Axle DD RGN	RON BRENNEMAN	(419) 236-0547	LIMA	OH	EAST CHICAGO	IN	10	/	29	TWIC/HAS 10XDDRGN/                                            
+	AF017	AFL	226023	48' Flat	THOMAS BAEZ	(330) 544-9180	GIRARD	OH	MOUNT 	IN	10	/	29	Don't call driver/call AF017                                        
+	UNK	GTC	71094	53' SD 5X	GRANT COLE	(217) 653-4963	PIQUA	OH	GASTON	IN	10	/	29	TWIC- MT                                                                 
+	GT002	GTC	71019	48' Flat	STEVEN BELL	(740) 649-9932	MONTGOMERY	AL	INDIANAPOLIS	IN	10	/	30	TEAM/TWIC/                                                            
+	GT878	GTC	71301	48' SD 5 Axle	RICKY LOWE	(440) 396-0011	CINCINNATI	OH	EAST CHICAGO	IN	10	/	30	                                                                                   
+	GT271	GTC	7378	48' Flat	BILL SULLIVAN	(314) 580-8704	BENSALEM	PA	EDWARDSPORT	IN	10	/	30	                                                                                   
+	GT702	GTC	91266	7 Axle DD RGN	JAMES HORNSBY	(513) 490-9800	LIMA	OH	EAST CHICAGO	IN	10	/	30	TWIC-                                                                        
+	GT271	GTC	41014	48' SD 5 Axle	LARRY YORK	(219) 712-0940	BENSALEM	PA	EDWARDSPORT	IN	10	/	30	TWIC/ 42K# MAX -                                                   
+	Friday, October 30, 2009	Page 3 of 12
+This report includes only a small percentage of TII's total trucks.  For a complete list  log onto Weblink on our website, www.thetii.com
+
+Agent	Unit/Equipment	Driver	Cell	Origin	Destination	Delivery	Comments
+	UNK	ATI	183801	3 axle 51' step	LOUIS QUINN	(330) 277-9022	CARNESVILLE	GA	FT WAYNE	IN	10	/	30	51'  TWIC                                                                   
+	UNK	MTI	649	48' Step Deck	CHARLES GROESBECK	(313) 477-2849	HOUSTON	TX	BUTLERVILLE	IN	11	/	2	                                                                                   
+	AF001	AFL	281001	48' F w/LbrTrp	CLINTON FLETCHER	(989) 916-6131	ABINGDON	VA	INDIANAPOLIS	IN	11	/	2	 TWIC/ 4' TARPS/CHAINS                                         
+	GT359	GTC	7440	48' SD 5 Axle	WAYNE SCHULTZ	(440) 503-1924	CANTON	OH	PORTAGE	IN	11	/	3	TWIC - HAS 20' 20K# OPEN TO IN/IL AREA          
+	UNK	GTC	8115	R G N	BRADLEY FOX	(580) 823-0189	FORT STOCKTON	TX	KIOWA	KS	10	/	1	CALL 740-852-7446 - 6XRGN                                   
+	UNK	GTC	8013	UNKNOWN	BRADLEY(JUNIOR) FOX	(316) 619-5449	JOLIETTE	ND	KIOWA	KS	10	/	20	HAS 8XRGN                                                               
+	GT055	GTC	71237	UNKNOWN	MICHAEL BARRICK	(618) 910-8881	FONTANA	CA	WICHITA	KS	10	/	26	48' FL                                                                         
+	GT062	GTC	71316	48' SD 5 Axle	PAUL HOWARD	(303) 250-0585	SAINT JOSEPH	MO	TOPEKA	KS	10	/	28	                                                                                   
+	GT062	GTC	71316	48' SD 5 Axle	PAUL HOWARD	(303) 250-0585	SAINT JOSEPH	MO	TOPEKA	KS	10	/	28	                                                                                   
+	UNK	GTC	7532	6X DD RGN	JEFFREY KAEDING	(412) 576-7813	WICHITA	KS	EMPORIA	KS	10	/	28	TWIC/NO TARPS                                                      
+	UNK	ATI	189101	53' Reefer	JOHN COOPER	(316) 217-0105	WICHITA	KS	WICHITA	KS	10	/	29	do not call - driver quitting                                          
+	GT134	GTC	41286	56'SD9XEXT	MICHAEL NICHOLS	(618) 267-9833	OWENSBORO	KY	CATLETTSBURG	KY	10	/	8	                                                                                   
+	GT194	GTC	7168	Trailer Pool	RUSSELL RICHES	BALTIMORE	MD	MADISONVILLE	KY	10	/	28	TWIC/ 7XRGNEXT   CALL TERM 35-2                   
+	GT705	GTC	9854	48' SD 5 Axle	GORDON ZELLNER	(216) 905-9867	NORWALK	OH	FORT CAMPBELL	KY	10	/	29	TWIC/                                                                        
+	GT705	GTC	7902	UNKNOWN	WILLIAM LEACH	(419) 572-1012	NORWALK	OH	FORT CAMPBELL	KY	10	/	29	TWIC - HAS 50'STEP CONNESTOGA                       
+	GT705	GTC	7673	48' SD 5 Axle	ARLIE KEEL	(419) 450-1095	NORWALK	OH	FORT CAMPBELL	KY	10	/	29	                                                                                   
+	GT123	GTC	91231	48' Flat	RAMON VELEZ	(516) 850-8970	BUTLER	IN	BOWLING GREEN	KY	10	/	29	TWIC/NEEDS GA AREA                                            
+	AF709	AFL	225802	48' SD 5 Axle	TIMOTHY WILKS	(330) 883-6974	WARREN	OH	OPELOUSAS	LA	9	/	19	DNC /CALL AF709                                                    
+	AF188	AFL	286201	UNKNOWN	RICHARD MCINTIRE	(256) 244-4523	MERIDIAN	CA	GRAND CANE	LA	10	/	24
+	GT002	GTC	71118	45' Flat	JOSEPH JENNINGS	(618) 267-6740	CORNELL	WI	VILLE PLATTE	LA	10	/	24	                                                                                   
+	UNK	GTC	9866	48' SD 5 Axle	JAMES DONNELLY	(618) 407-3862	AMELIA	LA	LAFAYETTE	LA	10	/	29	                                                                                   
+	UNK	AFL	287001	UNKNOWN	CLARENCE TAYLOR	(318) 286-2028	OLD WASHINGTON	OH	NATCHITOCHE	LA	10	/	29
+	GT991	GTC	7419	48' SD 6 Axle	W JOHN ROUSSELLE, JR.	(504) 723-4726	MENTOR	OH	BELLE CHASSE	LA	11	/	2	TWIC-42K MAX-                                                      
+	GT003	GTC	41281	7 Axle Lowboy	JAMES HANCOCK	(870) 279-0871	EMMAUS	PA	LYNN	MA	10	/	26	                                                                                   
+	UNK	GTC	9900	6X DD RGN	DERALD MUELLER	(406) 370-0667	HUDSON	NH	STURBRIDGE	MA	10	/	29	TWIC/ 244" WB  CAN DO AK AND WEST CAN -   
+	AF127	AFL	280901	48' Flat	WILLIAM DATA JR	(330) 268-5969	PITTSBURGH	PA	WESTFIELD	MA	10	/	30	TWIC                                                                         
+	UNK	ATI	142702	48' Step Deck	CHARLES WANDALL SR	(912) 552-7600	PROSPECT	PA	WOBURN	MA	11	/	2	38' and 43k available to MA                                        
+	AT531	ATI	20061	48' FLAT	CARLTON RHODEN	(609) 841-2042	SPARROWS POIN	MD	BALTIMORE	MD	10	/	28	AT202 Flat/ Call 800-777-0057                                 
+	GT134	GTC	7972	UNKNOWN	DAVID SMITH	NEWTON	IL	BALTIMORE	MD	10	/	29	CALL TERMINAL 13-4                                             
+	GT134	GTC	41317	UNKNOWN	MITCHELL SCHAFFER	(618) 593-5339	NEWTON	IL	BALTIMORE	MD	10	/	29	W/W 13-4                                                                   
+	GT134	GTC	3402	7 Axle Lowboy	DAVID THOMAS	(419) 290-2410	NEWTON	IL	BALTIMORE	MD	10	/	29	RELOAD 25-5-                                                           
+	GT227	GTC	71027	8 Axle DD RGN	LARRY HENSLEY	(513) 255-1426	SHADY GROVE	PA	BALTIMORE	MD	10	/	29	TWIC/                                                                        
+	AF001	AFL	H801701	UNKNOWN	JERRE "KEITH" 	(256) 776-4255	PHILLIPSBURG	NJ	BISHOPVILLE	MD	10	/	30	DNC/call AF188 - TWIC/coil cert                               
+	UNK	GTC	91099	13 Axle Lowboy	RALPH SNIDER	(405) 596-6227	DETROIT	MI	DETROIT	MI	10	/	26	34' WELL-                                                                  
+	GT225	GTC	71272	48' Flat	JOHN GOODRICH	(231) 920-3863	BELPRE	OH	HOLLAND	MI	10	/	27	                                                                                   
+	GT225	GTC	7970	48' Flat	BOBBY HOEL	PITTSBURGH	PA	GRAND RAPIDS	MI	10	/	27	TWIC/CALL 231-824-6471                                       
+	GT132	GTC	71274	48' F w/Sides	TIM MOBLEY	WEST CHICAGO	IL	POTTERVILLE	MI	10	/	28	WW132                                                                      
+	GT225	GTC	7649	50' SD 5 Axle	NEIL MELVIN	(616) 886-1468	HOLLAND	MI	CADILLAC	MI	10	/	29	TWIC-                                                                        
+	GT225	GTC	7787	48' Flat	DAVID MCGUIRE	HOUSTON	TX	MASON	MI	10	/	30	TWIC/CALL 231-824-6471                                       
+	GT713	GTC	71336	48' SD 5 Axle	THOMAS RYCHENER	(208) 405-9083	WARRENDALE	PA	KAWKAWLIN	MI	10	/	30
+	Friday, October 30, 2009	Page 4 of 12
+This report includes only a small percentage of TII's total trucks.  For a complete list  log onto Weblink on our website, www.thetii.com
+
+Agent	Unit/Equipment	Driver	Cell	Origin	Destination	Delivery	Comments
+	AF141	AFL	286001	48' SD 5 Axle	LYLE UBERSOX	(414) 238-3947	MADISON	WI	EDINA	MN	9	/	15
+	MT001	MTI	683	48' Step Deck	TIMOTHY LOEHR	(906) 440-5678	SAULT STE MARIE	ON	FERGUS FALLS	MN	10	/	24
+	AF001	AFL	320303	48' SD 5 Axle	JERRY TRAPP	(770) 241-8025	CAMBRIDGE	OH	BENA	MN	10	/	26	                                                                                   
+	AT341	ATI	153301	48' Step Deck	LEE FUSSMAN	(906) 630-0355	SAULT STE MARIE	ON	FERGUS FALLS	MN	10	/	26
+	UNK	GTC	6845	48' SD 5 Axle	LINDELL MOTLEY	(507) 382-8696	BENA	MN	NEW RICHLAND	MN	10	/	27	TWIC/-OOS                                                                
+	UNK	MTI	690	48' Step Deck	DAVID CHURCH	(906) 630-2549	SUDBURY	ON	FERGUS FALLS	MN	10	/	28
+	GT721	GTC	71320	48' SD 5 Axle	CRAIG MINER	          	SIDNEY	NE	COON RAPIDS	MN	10	/	29	CALL NANCY 712-544-2259                                    
+	AT001	ATI	103005	UNKNOWN	DANIEL HARP	(440) 994-4489	MEMPHIS	TN	FERGUS FALLS	MN	10	/	30	CALL Rusty 901-523-7040                                        
+	AT525	ATI	143902	48' Flat	EFRAIN GIL	(917) 743-9738	DAVENPORT	FL	SAINT CHARLES	MN	11	/	3	TWIC                                                                         
+	AT483	ATI	180601	48' F w/LbrTrp	WILLIAM TOUSEY	(920) 265-7418	LOLITA	TX	MINNEAPOLIS	MN	11	/	3	TWIC                                                                         
+	GT227	GTC	41042	53' SD 8 Axle 	MICHAEL NICHOLS	(618) 267-9833	O FALLON	MO	SAINT LOUIS	MO	10	/	20	                                                                                   
+	GT701	GTC	7764	48' SD 5 Axle	JON DAVIS	(419) 957-8518	NORTH BALTIMO	OH	ROGERSVILLE	MO	10	/	29	TWIC/CALL TERM 70-1                                           
+	GT062	GTC	91074	8 Axle DD RGN	DARWIN LINDSEY	(314) 602-0545	MOBERLY	MO	FENTON	MO	10	/	29	4X TRAC                                                                    
+	GT701	GTC	71302	5XDDEXT non 	THOMAS GIERKE	(419) 957-2777	FINDLAY	OH	PONTOTOC	MS	10	/	24	TWIC/HAS DDEXT  CALL TERM 70-1                    
+	GT062	GTC	71267	50'SD5X/RAMP	GARY HANSEN	(303) 887-9299	WILMINGTON	OH	LOUISVILLE	MS	10	/	29	35" DCK HGT -43K MAX-                                        
+	UNK	ATI	A803502	UNKNOWN	ROBERT QUINTANA	(228) 235-1237	HOUSTON	TX	OCEAN SPRINGS	MS	10	/	30
+	UNK	GTC	41221	6X DD RGN	KENNETH DAVIS	(406) 396-2556	CALGARY	AB	PARADISE	MT	10	/	26	TWIC/ NO TARPS- CALL 406-826-2015- MT         
+	AT544	ATI	195401	53' Step Deck	MICHAEL BROPHY	(253) 548-8607	TACOMA	WA	HAVRE	MT	10	/	28
+	AT540	ATI	200401	UNKNOWN	JAMES SMITH	HUNTINGTON	WV	HAVRE	MT	11	/	4
+	GT701	GTC	71210	48' SD 5 Axle	KRISS DECK	(419) 306-5234	FINDLAY	OH	SEMORA	NC	10	/	29	TWIC/CALL TERM 70-1                                           
+	UNK	MTI	697	48' Flat	SEAN WALKER	(336) 963-0508	BALTIMORE	MD	RANDLEMAN	NC	10	/	29
+	GT002	GTC	71279	48' SD 5 Axle	JOHN HOGG	(586) 713-9444	OSHKOSH	WI	RALEIGH	NC	10	/	29	 MAX O/D-10'W-                                                       
+	GT702	GTC	91114	48' SD Conest 	COREY BOYD	(717) 729-7550	URBANA	OH	TARBORO	NC	10	/	30	HAS RAMPS-needs TX                                               
+	UNK	ATI	3107	48' Step Deck	TEDDY THOMAS	(904) 631-5239	JOHNSON CITY	KS	WILMINGTON	NC	10	/	30	 TWIC                                                                        
+	UNK	ATI	2291	48' FLAT	WILLIAM POLAND	(252) 266-5563	GASTONIA	NC	ROCKY MOUNT	NC	10	/	30	TWIC card                                                                  
+	UNK	ATI	147503	UNKNOWN	GEORGE LYONS	(419) 483-8121	PRINCETON	WV	RALEIGH	NC	10	/	30	53 ' sd                                                                          
+	GT055	GTC	71237	Trailer Pool	MICHAEL BARRICK	(618) 910-8881	COMMERCE	CA	REIDSVILLE	NC	11	/	2	48' FL                                                                         
+	UNK	ATI	151101	48' Flat	HERMAN SHULTZ	(910) 619-9905	JULIETTE	GA	ROBBINS	NC	11	/	2	TWIC CARD                                                              
+	UNK	ATI	136902	48' F w/LbrTrp	JOHNNY LEE	(843) 907-7973	CHARLOTTE	NC	WILMINGTON	NC	11	/	2	                                                                                   
+	UNK	GTC	7412	48' SD 6 Axle	PAUL MILLER	(605) 366-5156	GLASGOW	MT	RALEIGH	ND	10	/	5	TWIC/ - 42K MAX- OR 2ND CELL#303-434-9803  
+	UNK	GTC	41028	48' SD 6 Axle	DARYL CAMPBELL	(641) 745-0235	MORINVILLE	AB	JAMESTOWN	ND	10	/	26	TWIC/                                                                        
+	GT061	GTC	3327	53' SD 7 Axle 	JAMES CUNNINGHAM	(412) 889-1905	CONCORDIA	KS	MINOT	ND	10	/	28	TWIC                                                                         
+	GT134	GTC	7784	5 Axle DD RGN	LONNIE PHIPPS	(513) 571-4373	HARTFORD CITY	IN	FARGO	ND	10	/	29	TWIC/RELOADING FOR 13-4 TO ND                      
+	UNK	GTC	3333	53'SD9Xext	KEVIN OSBORNE	(605) 231-0257	OAK CREEK	WI	ONEILL	NE	9	/	29	TWIC/ mt 7/6                                                             
+	GT713	GTC	8003	UNKNOWN	CHARLES LOUGH	(740) 490-8400	CINCINNATI	OH	OMAHA	NE	10	/	10	HAS 53'SD - CALL 740-852-7446                              
+	AT544	ATI	193901	48' Flat	JEFFREY GERRINGA	(253) 548-8607	PORTLAND	OR	VALLEY	NE	10	/	26
+	UNK	GTC	3563	7 Axle DD RGN	LEE DURAND	(307) 399-9182	ROCK SPRINGS	WY	NORTH PLATTE	NE	10	/	27	                                                                                   
+	UNK	GTC	3559	7 Axle Lowboy	WILLIE DURAND	(307) 399-9182	ROCK SPRINGS	WY	NORTH PLATTE	NE	10	/	27	                                                                                   
+	AT538	ATI	189801	48' Flat	J L BROGDON	(256) 506-3975	VINCENT	AL	HASTINGS	NE	10	/	28
+	GT002	GTC	71211	48' Flat	JOHN NEACE	(937) 728-0113	HAMDEN	CT	CRETE	NE	10	/	30	HAS ROOM OPEN MONDAY OMAHA NE TO TX  
+	Friday, October 30, 2009	Page 5 of 12
+This report includes only a small percentage of TII's total trucks.  For a complete list  log onto Weblink on our website, www.thetii.com
+
+Agent	Unit/Equipment	Driver	Cell	Origin	Destination	Delivery	Comments
+	UNK	ATI	190001	UNKNOWN	TONY PERRIN	(205) 260-9634	ROME	GA	HASTINGS	NE	11	/	2	48' FLATBED                                                             
+	UNK	GTC	41252	48' SD 6X Ext	DOUGLAS BOUDREAU	(603) 767-6272	NORTH HAVERHI	NH	FARMINGTON	NH	10	/	27	TWIC/32" DCK HGT/35K MX-                                 
+	UNK	ATI	191301	48' Flat	JAMES FEATHERS	(814) 381-1785	ANDOVER	MA	NOTTINGHAM	NH	10	/	30	                                                                                   
+	GT124	GTC	71001	UNKNOWN	GLENN PETERSON	(717) 860-5770	NORTHLAKE	IL	EAST RIVERTON	NJ	10	/	13	TWIC/w/w 12-4                                                          
+	GT124	GTC	7821	48' SD 5 Axle	MELVIN BOLLMAN JR.	(814) 285-7828	NORTHLAKE	IL	EAST RIVERTON	NJ	10	/	20	READY 10-28                                                            
+	UNK	ATI	167001	R G N	GUY LINK	(573) 205-9168	NEWARK	NJ	NEWARK	NJ	10	/	27	6 AXLES                                                                     
+	UNK	GTC	7845	48' SD 5 Axle	PATRICK NOLAN	(717) 816-8635	WHITE PLAINS	NY	PAULSBORO	NJ	10	/	29	TWIC -                                                                       
+	AT436	ATI	3780	48' Flat	JOSEPH WINE	(304) 904-2369	LAMAR	SC	ELIZABETH	NJ	10	/	30	TWIC                                                                         
+	UNK	ATI	104021	48' Flat	DARYL ASHCOM	(814) 421-1888	EAGLE PASS	TX	WOODBRIDGE	NJ	11	/	2	TWIC 48' Flat CALL HERB 814-422-0598                
+	UNK	ATI	800801	48' Flat	KINDYA HILL	(910) 461-1972	MCBEE	SC	HOWELL	NJ	11	/	2	TWIC                                                                         
+	AT483	ATI	171001	48' Step Deck	DAVID COOMER	(612) 578-3521	BENTON	KY	WHITING	NJ	11	/	2	8' 10k # open going east                                              
+	GT225	GTC	7649	50' SD 5 Axle	NEIL MELVIN	(616) 886-1468	SAGINAW	MI	KIRTLAND AFB	NM	11	/	2	TWIC-                                                                        
+	GT062	GTC	41057	8 Axle DD RGN	GREGORY STEARNS	(970) 978-6753	WILMINGTON	OH	HENDERSON	NV	10	/	28	TWIC-                                                                        
+	AF160	AFL	283201	48' Flat	ROBERT HUNTLEY	(814) 431-8000	YOUNGSTOWN	OH	LANCASTER	NY	5	/	26	Don't call driver/call AF160 needs tags                        
+	AT538	ATI	190101	UNKNOWN	JOSEPH ISBELL	(205) 383-0579	VANDIVER	AL	DUNKIRK	NY	8	/	20	AT538 TRAILER POOL                                            
+	UNK	GTC	3571	6 Axle Lowboy	BRIAN SABOL	(412) 613-0500	CHICAGO	IL	PORT CRANE	NY	9	/	14	MT                                                                             
+	UNK	ATI	171101	Schnobble	ROBERT TRUSIEVITZ	(607) 368-6052	FOWLER	IN	BATH	NY	10	/	2
+	UNK	GTC	3926	7 Axle Lowboy	LAWRENCE NEVILLE	(607) 349-9654	TINTON FALLS	NJ	KIRKWOOD	NY	10	/	26	                                                                                   
+	GT003	GTC	91177	48' Flat	JOHN MOSER	(419) 544-1692	CADET	MO	NEWARK VALLEY	NY	10	/	29	TWIC -                                                                       
+	GT850	GTC	71241	51' SD 6 Axle	STEPHEN OCONNELL	(434) 770-2914	LEXINGTON	KY	SCHENECTADY	NY	10	/	30	35" DCK HGT -                                                          
+	GT134	GTC	71255	48' Flat	ANTHONY GARNER	(740) 703-0154	WATERTOWN	WI	BALDWINSVILLE	NY	10	/	30	                                                                                   
+	GT134	GTC	71201	UNKNOWN	DAVID HENNEY	WATERTOWN	WI	BALDWINSVILLE	NY	10	/	30	48' FLAT/ 352 TRK CALL 419-547-0406/                
+	GT134	GTC	71262	48' Flat	RICHARD BALDERSON	(419) 252-0626	WATERTOWN	WI	BALDWINSVILLE	NY	10	/	30	TWIC/                                                                        
+	GT359	GTC	91020	48' SD 6 Axle	VANCE MCCOURT	(330) 206-1149	WOOSTER	OH	CHEMUNG	NY	10	/	30	                                                                                   
+	UNK	ATI	178201	48' Flat	RICHARD ROHRMANN	(724) 333-6165	HUBBARD	OH	GREEN ISLAND	NY	10	/	30	                                                                                   
+	GT134	GTC	71104	48' SD 5 Axle	KENNETH MORRIS	(229) 425-0658	WATERTOWN	WI	BALDWINSVILLE	NY	10	/	31	TWIC/                                                                        
+	GT134	GTC	71261	Trailer Pool	RANDALL QUICK	(618) 610-0733	WATERTOWN	WI	BALDWINSVILLE	NY	11	/	2	TWIC/ 50' SD W/RAMPS                                           
+	GT134	GTC	71264	48' Flat	MICHAEL SHAFER	(309) 221-0619	WATERTOWN	WI	BALDWINSVILLE	NY	11	/	2	                                                                                   
+	GT134	GTC	7988	48' Flat	JOSEPH KENLEY	(618) 531-7366	WATERTOWN	WI	BALDWINSVILLE	NY	11	/	2	TWIC/                                                                        
+	GT134	GTC	71283	48' SD 5 Axle	MERLE BURNEM	(912) 270-0232	WATERTOWN	WI	BALDWINSVILLE	NY	11	/	2	TWIC/                                                                        
+	GT002	GTC	7959	48' SD 5X 	WILLIAM RICKABAUGH	(503) 784-7103	WEST JORDAN	UT	NIAGARA 	NY	11	/	2	                                                                                   
+	GT713	GTC	8324	UNKNOWN	ROBERT PACE	(740) 506-1933	FORT STEWART	GA	FORT DRUM	NY	11	/	2	5XRGN EXT-                                                             
+	AF180	AFL	274701	Flat	JOSHUA ELLIS	(740) 623-1920	NAVARRE	OH	HEATH	OH	6	/	29	48'F-53'V-53'SD ::                                                       
+	UNK	GTC	7899	48' SD 6 Axle	 UNKNOWN	SOMERSET	NY	YOUNGSTOWN	OH	9	/	9	35-9 UNIT - NO DRIVER   OOS                                 
+	UNK	AFL	226018	45' Flat	 UNKNOWN	YOUNGSTOWN	OH	YOUNGSTOWN	OH	1	/	8	                                                                                   
+	GT359	GTC	7898	48' SD 6 Axle	 UNKNOWN	DECATUR	AL	WARREN	OH	7	/	19	OOS                                                                            
+	UNK	AFL	226025	Flat	 UNKNOWN	CANTON	OH	NILES	OH	9	/	8	DO NOT CALL/CALL AF017                                    
+	UNK	AFL	228901	40' Flat	RICHARD GLESS	AKRON	OH	CORTLAND	OH	9	/	8	Don't call driver/call AF017                                        
+	UNK	GTC	3894	7 Axle Lowboy	FREDERICK STONE	(330) 283-4906	WEST SPRINGFIELD	MA	MINERAL RIDGE	OH	9	/	14	TWIC -OOS                                                                
+	UNK	GTC	8110	Trailer Pool	KEITH HOWARD	(740) 837-0136	REALITOS	TX	LONDON	OH	9	/	16	CALL 740-852-7446 - HAS 10X 38' DECK OR 33' 
+	Friday, October 30, 2009	Page 6 of 12
+This report includes only a small percentage of TII's total trucks.  For a complete list  log onto Weblink on our website, www.thetii.com
+
+Agent	Unit/Equipment	Driver	Cell	Origin	Destination	Delivery	Comments
+	UNK	AFL	225020	45' Flat	JOHN RIPPETH	          	SOLON	OH	NILES	OH	9	/	18	DNC/call AF017 - sitting in Niles                                
+	GT352	GTC	6971	48' SD 5 Axle	CHARLES SANDERSON	SANDUSKY	OH	CLYDE	OH	9	/	24	TWIC/HAS 48'F CALL 419-547-0406                       
+	UNK	GTC	8114	Trailer Pool	 UNKNOWN	LONDON	OH	CLEVELAND	OH	9	/	30	CALL 740-852-7446 13XRGN - 30' WELL               
+	GT991	GTC	41218	48' Flat	PHILLIP TRUSTER	(513) 200-2093	CAMPTON	KY	ELKTON	OH	10	/	8	TWIC/  HAS 5XRGN 29'4 WELL                               
+	UNK	GTC	9450	48' Flat	TIMOTHY DETMER	(419) 351-0874	WALBRIDGE	OH	NAPOLEON	OH	10	/	12	TWIC/                                                                        
+	AF709	AFL	225804	48' SD 5 Axle	GARY LUNDSTROM	(330) 716-2348	PISCATAWAY	NJ	CLEVELAND	OH	10	/	16	 DNC/CALL AF709                                                    
+	UNK	GTC	3951	9 X DD RGN	JOEL MORRIS	(412) 877-7234	BLOOMINGTON	MN	BLOOMINGBURG	OH	10	/	19	TWI  needs $$$$ -                                                      
+	AF017	AFL	226024	48' Flat	ALLEN SMITH	(330) 646-3820	MASURY	OH	RITTMAN	OH	10	/	19	                                                                                   
+	AF209	AFL	285701	48' Flat	CECIL ENGLE	(513) 543-6955	GHENT	KY	OTTAWA	OH	10	/	21
+	GT771	GTC	9908	48' SD 5 Axle	LOWELL AUSTIN	(419) 583-9644	ARCHBOLD	OH	MARION	OH	10	/	22	                                                                                   
+	AF017	AFL	297001	UNKNOWN	 UNKNOWN	YOUNGSTOWN	OH	CLEVELAND	OH	10	/	22
+	AF017	AFL	226022	48' Flat	ALFRED SCHULTZ	(330) 306-8491	HENDERSON	NC	WADSWORTH	OH	10	/	23	Don't call driver/call AF017                                        
+	UNK	AFL	261801	24FT Straight 	JOHN BORCHERS JR	(330) 518-4499	PULASKI	PA	NORTH 	OH	10	/	23	 32K MAX                                                                  
+	UNK	GTC	7744	45' Flat	THOMAS CULP	(814) 441-5757	CHEYENNE	WY	YOUNGSTOWN	OH	10	/	26	DEL 10-29                                                                  
+	AT001	ATI	189301	48' Step Deck	CHRISTOPHER BARRETT	(770) 733-4943	SEATTLE	WA	MOUNT 	OH	10	/	26	4 AXLE TRUCK - ROBERT FLIGG DRIVING           
+	AF160	AFL	261801	24FT Straight 	JOHN BORCHERS JR	(330) 518-4499	STRUTHERS	OH	RICHMOND	OH	10	/	27	 32K MAX                                                                  
+	AT438	ATI	166001	48' Flat	JOHN "JACK" BUTERA	(330) 534-0351	CONWAY	AR	WARREN	OH	10	/	27
+	UNK	GTC	91268	50' SD 5 Axle	CHARLES CURKENDALL	(330) 209-8420	INDIANA	PA	MASSILLON	OH	10	/	28	                                                                                   
+	AF209	AFL	285901	48' Flat	WILLIAM JACKSON	(859) 433-5578	COLUMBUS	MS	TOLEDO	OH	10	/	28
+	UNK	AFL	274701	Flat	JOSHUA ELLIS	(740) 623-1920	MORRISTOWN	TN	COSHOCTON	OH	10	/	28	48'F-53'V-53'SD ::                                                       
+	AF017	AFL	286501	UNKNOWN	GAIL BOLIVER	(330) 540-8628	PULASKI	PA	NILES	OH	10	/	28
+	AF017	AFL	226026	UNKNOWN	KRISTY ROUNDS	(330) 553-3072	CANFIELD	OH	NILES	OH	10	/	28
+	AF017	AFL	285202	45' Flat	DONALD WHITEHAIR	(330) 766-9143	CANFIELD	OH	NILES	OH	10	/	28	OUT OF SERVICE      DNC/Call AF017                      
+	GT061	GTC	8904	48' SD 5 Axle	CARL ISLEY	(419) 565-0541	SEATTLE	WA	MOUNT 	OH	10	/	29	TWIC/ PULLING RGN  EXT 32MAX                        
+	GT492	GTC	91038	48' SD 5 Axle	GRANT PRICE	(215) 776-1238	GLOUCESTER CITY	NJ	TOLEDO	OH	10	/	29	TWIC/ 2ND CELL 215-410-1597/                             
+	GT702	GTC	71053	48' SD 5 Axle	CHARLES EICHOLTZ	(419) 296-1354	SAINT MARYS	OH	LIMA	OH	10	/	29	 w/RAMPS OR FLAT W SIDES AVAIL                      
+	AF017	AFL	285201	45' Flat	HAROLD CASSEDAY	(330) 766-7458	LEETSDALE	PA	MASURY	OH	10	/	29	DNC/Call AF017                                                         
+	UNK	MTI	700	53' Step with 	JOHN WILLETT	(419) 236-9255	DALLAS	GA	WAPAKONETA	OH	10	/	29
+	UNK	ATI	A802903	48' Flat	JEREMY DURST	(419) 603-9735	FRANKFORT	IL	BELLEVUE	OH	10	/	29	TWIC                                                                         
+	GT382	GTC	7073	48' Flat	JOHN SCHWARTZ	(724) 333-3529	ELLWOOD CITY	PA	CANTON	OH	10	/	29	RELOADING 38-2                                                      
+	AF010	AFL	268104	45' Flat	JAMES GUISTE	(724) 971-8504	ELLWOOD CITY	PA	CANTON	OH	10	/	29	                                                                                   
+	GT359	GTC	9954	45' Flat	MATHEW SIMPSON	(330) 921-9022	WARREN	OH	ZANESVILLE	OH	10	/	29	RELOADING 35-9                                                      
+	UNK	GTC	6809	48' SD 5 Axle	PAUL MERCHBERGER	(412) 999-9620	OLEAN	NY	HUBBARD	OH	10	/	29	TWIC/34" DCK HGT/                                                
+	UNK	GTC	91149	45' Flat	JEFFERSON ADAMS 	(740) 357-1048	WARREN	OH	PIKETON	OH	10	/	29	TWIC-                                                                        
+	UNK	GTC	7950	48' SD 6 Axle	RICHARD SCOTT	(412) 418-7478	TOLEDO	OH	NEGLEY	OH	10	/	29	TWIC/34"DCK HGT HOME - CALL 330-426-4241  
+	UNK	GTC	71212	48' SD 5 Axle	GARY CAMPBELL	(419) 308-8015	TOLEDO	OH	WESTON	OH	10	/	29	                                                                                   
+	UNK	GTC	7805	48' SD 5 Axle	JAMES ROWLES	(419) 271-4858	FORT CAMPBELL	KY	FLAT ROCK	OH	10	/	29	TWIC                                                                         
+	UNK	GTC	7964	48' SD 5 Axle	DONALD WEHRLE	(419) 769-6518	FORT CAMPBELL	KY	EDON	OH	10	/	29	TWIC                                                                         
+	AF001	AFL	268104	45' Flat	JAMES GUISTE	(724) 971-8504	ELLWOOD CITY	PA	CANTON	OH	10	/	29	                                                                                   
+	GT492	GTC	71139	6X DD RGN	SCOTT BARTON	(260) 312-7514	GLOUCESTER CITY	NJ	TOLEDO	OH	10	/	30	TWIC/                                                                        
+	Friday, October 30, 2009	Page 7 of 12
+This report includes only a small percentage of TII's total trucks.  For a complete list  log onto Weblink on our website, www.thetii.com
+
+Agent	Unit/Equipment	Driver	Cell	Origin	Destination	Delivery	Comments
+	GT492	GTC	7924	51' SD 5 Axle	RICHARD SCHUENEMAN	(574) 370-0506	MARQUETTE	MI	GLENWILLOW	OH	10	/	30	TWIC/35" DECK HGT 244" WB-                              
+	GT492	GTC	41142	48' Flat	JEFFREY TISCHIO	(973) 517-0729	GLOUCESTER CITY	NJ	TOLEDO	OH	10	/	30	TWIC/                                                                        
+	UNK	GTC	7440	48' SD 5 Axle	WAYNE SCHULTZ	(440) 503-1924	CHEMUNG	NY	WESTLAKE	OH	10	/	30	TWIC - HAS 20' 20K# OPEN TO IN/IL AREA          
+	GT705	GTC	7003	UNKNOWN	RICHARD SANDERS	(330) 401-9532	MOUNT CLEMENS	MI	OTTAWA	OH	10	/	30	48'SD-                                                                         
+	AF126	AFL	224703	7X S/D Stretch	WILLIAM SMITH	(330) 581-3091	HOUSTON	TX	LORAIN	OH	10	/	30
+	UNK	ATI	134501	48' Flat	JAMES OLEAR	(216) 225-0977	DALTON	MA	MACEDONIA	OH	10	/	30	                                                                                   
+	UNK	ATI	380	UNKNOWN	THOMAS SNIVELY  JR	(740) 254-9220	HOUSTON	TX	GNADENHUTTEN	OH	10	/	30
+	UNK	ATI	127603	48' Flat	HOWARD CASH	(260) 312-7060	SAN ANTONIO	TX	SANDUSKY	OH	10	/	30	TWIC                                                                         
+	AF141	AFL	H800903	48' SD 5 Axle	LYLE UBERSOX	(414) 238-3947	BRADY	TX	CINCINNATI	OH	10	/	30
+	GT002	GTC	91100	52' SD 5 Axle	TONY EMERSON	(859) 351-6859	HIGH SPRINGS	FL	ELYRIA	OH	11	/	2	TWIC-                                                                        
+	GT705	GTC	71319	48' SD 5 Axle	ANDREW VOJACEK	(740) 817-0177	POYNETTE	WI	BOWLING GREEN	OH	11	/	2	HAS 28' OPEN TO OH/MI AREA                              
+	GT492	GTC	7499	48' SD 5 Axle	FREDERICK MITCHELL	(724) 263-6115	GLOUCESTER CITY	NJ	TOLEDO	OH	11	/	2	TWIC/                                                                        
+	GT492	GTC	6767	48' SD 6 Axle	FRED FISCHER, JR.	(412) 496-2334	GLOUCESTER CITY	NJ	TOLEDO	OH	11	/	2	TWIC/                                                                        
+	UNK	ATI	A801901	UNKNOWN	GREGORY BUCEY	(330) 301-2580	YOUNGSTOWN	OH	HUBBARD	OH	11	/	2	AT438 Yard truck                                                       
+	UNK	ATI	105001	48' Flat	JAMES SETTY	(740) 590-2938	JACKSON	OH	JACKSON	OH	12	/	28	OOS til further notice                                                  
+	AT001	ATI	3754	48' Flat	CARL HATCHER	(800) 521-2839	CLINTON	OK	MCALESTER	OK	7	/	23	                                                                                   
+	GT255	GTC	91103	7 Axle Lowboy 	JERRY (GERALD) RAMEY	(239) 281-3266	SPENCER	SD	TULSA	OK	10	/	25	                                                                                   
+	UNK	GTC	71152	50' Flat	THOMAS WARREN	(580) 230-9394	CARROLLTON	TX	SOPER	OK	10	/	26	TWIC/                                                                        
+	GT097	GTC	71303	51' SD 5 Axle	ED BURNS	(850) 394-7211	TYNDALL AFB	FL	OKLAHOMA 	OK	10	/	27	                                                                                   
+	GT874	GTC	91208	48' SD 5 Axle	WILLIAM DUDLEY	(843) 319-8419	GUTHRIE	KY	AFTON	OK	10	/	29	TWIC/                                                                        
+	UNK	GTC	7644	48' SD 5 Axle	CRAIG MORRIS	(330) 283-4385	SEALY	TX	OKLAHOMA 	OK	10	/	29	HAS 48'SD -                                                                
+	GT721	GTC	7813	48' Flat	NICHOLAS NATALE	(724) 651-3750	PUEBLO	CO	ENID	OK	10	/	30	                                                                                   
+	UNK	ATI	103007	48' Step Deck	HAROLD HENDRICKSON	(417) 291-0688	ALLENTOWN	PA	OKLAHOMA 	OK	10	/	30	CALL RUSTY 901-523-7040                                     
+	UNK	ATI	13207	Step Deck	WILLIAM  "TOM" SPIKES	(870) 740-0610	SAN ANTONIO	TX	OKLAHOMA 	OK	10	/	30	TWIC  35k # max                                                       
+	UNK	ATI	183701	50' Flat	BOBBY FREEMAN II	(330) 814-8079	TULSA	OK	TULSA	OK	10	/	30	25' LOTS OF ROOM OPEN TO IL,WI,MN                
+	UNK	ATI	170101	48' Step Deck	JERALD STEELE	(330) 488-4289	CANTON	OH	OKLAHOMA 	OK	10	/	30	no load levelers                                                           
+	AF141	MTI	502	UNKNOWN	DONALD LAMBERSON	(918) 385-1749	SPRINGFIELD	MO	VALLIANT	OK	10	/	30	48' flatbed                                                                   
+	UNK	GTC	41248	9 X DD RGN	 UNKNOWN	GRAND RAPIDS	MI	CLIFFORD	ON	8	/	10	OOS - REPAIRS - NO DRIVER                                   
+	UNK	GTC	41299	9 X DD RGN	GREG INGLIS	(262) 909-5047	OAK CREEK	WI	CLIFFORD	ON	10	/	28	                                                                                   
+	GT003	GTC	71307	6X DD RGN	ANDY PRIDHAM	(262) 909-9753	MILFORD	DE	SIOUX 	ON	10	/	30	                                                                                   
+	GT499	GTC	71228	53' Flat	CARL CARDOSI	NEW LISBON	WI	MCMINNVILLE	OR	10	/	27	TWIC/CALL262-642-6222-                                       
+	AT541	ATI	151001	53' Step Deck	JAMES STOY	(814) 222-1050	CANTON	MI	PORTLAND	OR	10	/	31	TWIC                                                                         
+	UNK	ATI	143003	48' Step Deck	HARVEY BENSLEY	(479) 567-9792	DAYTON	OH	PORTLAND	OR	11	/	6
+	UNK	AFL	587512	Hot Shot	PATRICIA PETERSON	(724) 588-2268	SARVER	PA	SARVER	PA	2	/	13
+	AF017	AFL	225011	45' Flat	 UNKNOWN	BROOKFIELD	OH	SARVER	PA	9	/	23	DNC/Call AF017 - Runs Local                                     
+	UNK	ATI	104014	48' Flat	 UNKNOWN	MIDDLESEX	NJ	STATE COLLEGE	PA	9	/	28	DRIVER QUIT  CALL HERB GROVE 814-422-0598 
+	AF023	AFL	587511	UNKNOWN	EDWARD BREESE	(724) 456-5439	SOMERSET	PA	CARLISLE	PA	10	/	21	DNC/CALL AF023                                                     
+	AF001	AFL	234101	48' Flat	DALE JOHNSON	(304) 544-2157	WYNNE	AR	NORTH WALES	PA	10	/	22	                                                                                   
+	GT991	GTC	71245	48' Flat	ROBERT GODDARD	(612) 237-6354	SLIPPERY ROCK	PA	SLIPPERY 	PA	10	/	23	RELOADING                                                              
+	UNK	GTC	7628	40' Flat	DAVID MEYER	(570) 850-6946	MEDINA	OH	MONTANDON	PA	10	/	23	                                                                                   
+	Friday, October 30, 2009	Page 8 of 12
+This report includes only a small percentage of TII's total trucks.  For a complete list  log onto Weblink on our website, www.thetii.com
+
+Agent	Unit/Equipment	Driver	Cell	Origin	Destination	Delivery	Comments
+	UNK	GTC	6573	48' SD 5 Axle	RICHARD HARRY	(724) 309-1618	BOSTON	MA	ALVERTON	PA	10	/	23	TWIC/                                                                        
+	UNK	GTC	7943	48' SD 5 Axle	CHARLES KLOSE II	(570) 412-7128	CHESTER	VA	MIFFLINBURG	PA	10	/	23	TWIC- MT 10/22                                                       
+	UNK	GTC	71239	48' SD 5 Axle	DAVID HARER	(570) 404-0656	RED LION	PA	COVINGTON	PA	10	/	26	TWIC - OUT OF SERVICE                                         
+	UNK	GTC	71195	Trailer Pool	RONALD GOLDSMITH	(260) 241-2161	MCALLEN	TX	MILTON	PA	10	/	28	HAS 48' FLAT                                                            
+	GT002	GTC	91292	8 Axle Lowboy	BRUCE KERR	(405) 820-1657	GREELEY	CO	DONORA	PA	10	/	29	TWIC/                                                                        
+	GT002	GTC	91260	6XDDExtRGN	MARK HATTZ	(281) 806-4180	GREELEY	CO	DONORA	PA	10	/	29	TWIC-                                                                        
+	GT097	GTC	91233	6X DD RGN	JAMES BLACK	(770) 363-7618	PANAMA CITY	FL	CHERRY 	PA	10	/	29	TWIC/NEEDS SOUTH                                               
+	UNK	ATI	122005	50' DD RGN	ROBERT"VIC" SULLIVAN	(412) 298-9807	GALETON	PA	BREEZEWOOD	PA	10	/	29	6 axle                                                                          
+	AF010	AFL	286601	UNKNOWN	DONALD RIDZON	(330) 233-0470	EVANSVILLE	IN	ERIE	PA	10	/	30
+	GT002	GTC	1263	9 X DD RGN	DONNIE HARVEY	GREELEY	CO	DONORA	PA	10	/	30	NOT CA LEGAL-                                                       
+	GT002	GTC	9788	48' Flat	RICHARD TRONCATTI	(301) 573-0254	DELTA	OH	MORRISVILLE	PA	10	/	30	TWIC/                                                                        
+	UNK	ATI	A800303	48' Flat	CRAIG MARKS	(609) 685-7266	WILMINGTON	DE	HELLERTOWN	PA	10	/	30	 TWIC                                                                        
+	UNK	ATI	142702	48' Step Deck	CHARLES WANDALL SR	(912) 552-7600	PROSPECT	PA	PROSPECT	PA	10	/	30	38' and 43k available to MA                                        
+	UNK	ATI	2279	48' FLAT	THOMAS LANCASTER JR	(240) 446-5447	CARNEGIE	PA	LANCASTER	PA	10	/	30	                                                                                   
+	UNK	ATI	3569	48' Flat	ALLEN CURRIE	(724) 516-6314	WARREN	OH	PITTSBURGH	PA	10	/	30	sidekit                                                                         
+	UNK	ATI	178901	48' Flat	DOUGLAS OSBORNE	(724) 967-1326	WEST PLAINS	MO	MERCER	PA	10	/	30	                                                                                   
+	UNK	ATI	3315	48' FLAT	RONALD RANSDORF	(412) 298-2436	VALLEY CITY	OH	MORRISVILLE	PA	10	/	30	TWIC CONESTOGA 97"                                            
+	UNK	ATI	13198	UNKNOWN	ANDREW GIERLACH	(724) 971-5641	TOLEDO	OH	WAMPUM	PA	10	/	30	  24 FT STRAIGHT TRUCK 12K MAX                     
+	GT002	GTC	7325	48'F 6X W/Sides	RODNEY RAUP	(570) 713-8003	DELTA	OH	MORRISVILLE	PA	10	/	30	TWIC/SIDE DOWN                                                    
+	GT002	GTC	71254	48' SD 5 Axle	ROGER SWARTZ	(570) 412-5750	DELTA	OH	MORRISVILLE	PA	10	/	30	TWIC/                                                                        
+	UNK	ATI	102101	48' Step Deck	GARY BOOHER	(724) 944-8515	STAUNTON	VA	ELLWOOD CITY	PA	10	/	30	TWIC                                                                         
+	UNK	AFL	587513	48' Flat	JOSEPH YOUNG	(724) 588-2268	TONAWANDA	NY	GREENVILLE	PA	10	/	30	CALL AF023 NO LOAD  MECHANIC                       
+	GT384	GTC	7253	48' SD 5 Axle	ROBERT CLEVENGER	(717) 860-7153	BORDENTOWN	NJ	GREENSBURG	PA	10	/	31	TWIC/                                                                        
+	GT116	GTC	91205	6X DD RGN	MARLIN ULSH	(717) 816-4249	GRANITE CITY	IL	HARRISBURG	PA	11	/	2	TWIC/ON 5 AXLES                                                   
+	GT713	GTC	8116	UNKNOWN	HAROLD (BUD) NELSON	(937) 527-3309	BATTLE CREEK	MI	CUDDY	PA	11	/	2	HAS 13 X /CALL 740-852-7446                                
+	GT225	GTC	71310	48' Flat	ROBERT CRACE	(606) 207-4405	GRANITE CITY	IL	NEW 	PA	11	/	2	TWIC/                                                                        
+	GT991	GTC	71271	53' F Conest 	EDWARD KUEHL	ELKHART	IN	READING	PA	11	/	3	                                                                                   
+	GT991	GTC	71271	53' F Conest 	EDWARD KUEHL	ELKHART	IN	READING	PA	11	/	3	                                                                                   
+	GT713	GTC	8112	UNKNOWN	MICAH MCCLURE	(817) 694-3665	WARRENDALE	PA	WARWICK	RI	10	/	28	CALL 740-852-7446 - 6 OR 7XRGN-EXT                 
+	UNK	ATI	136402	48' F w/LbrTrp	SION SANDERS	(843) 432-9377	RANDALLSTOWN	MD	GRESHAM	SC	8	/	21	                                                                                   
+	GT002	GTC	91170	48' Flat	GERMAINE SANDERS	(302) 547-6813	SPARROWS POIN	MD	COLUMBIA	SC	10	/	28	FINAL WOBURN MA 10/30                                      
+	UNK	ATI	112105	53' Flat	RONALD GRAHAM	(843) 229-6517	MARIETTA	GA	LYNCHBURG	SC	10	/	29	TWIC                                                                         
+	AF141	AFL	241001	53'  VAN	THOMAS PARKER	(706) 474-0024	MIDWAY	GA	LUGOFF	SC	10	/	30	DNC/CALL AF141                                                     
+	GT002	GTC	91338	7X DD RGN 	MICHAEL RUNYAN	(801) 633-7271	OSWEGO	IL	CHARLESTON 	SC	10	/	31	TWIC-                                                                        
+	GT001	GTC	91163	7 Axle DD RGN	RUSSELL SCOTT	(740) 607-2698	OSWEGO	IL	CHARLESTON 	SC	11	/	2	                                                                                   
+	UNK	ATI	A801801	48' Flat	ERNEST GRIBBLE JR	(330) 343-9700	OIL CITY	PA	YORK	SC	11	/	2	CALL 330-343-9700                                                  
+	UNK	ATI	182201	48' Flat	DAVID POWERS	(256) 206-5030	CHATTANOOGA	TN	STURGIS	SD	11	/	2	CALL PATTY 256-232-2544                                    
+	AF001	AFL	272205	48' Flat	 UNKNOWN	MIDDLETOWN	OH	LAVERGNE	TN	7	/	24	DNC/Call AF188 - coil cert                                         
+	AF001	AFL	282602	UNKNOWN	JERRE "KEITH" 	(256) 776-4255	ROCKPORT	IN	LAVERGNE	TN	10	/	9	DNC/CALL AF188 - coil cert  TWIC                         
+	UNK	ATI	103906	UNKNOWN	MAX SHEDDEN	(931) 349-1354	TEXARKANA	TX	CLARKSVILLE	TN	10	/	19	6 AXLE DD RGN EXT                                               
+	Friday, October 30, 2009	Page 9 of 12
+This report includes only a small percentage of TII's total trucks.  For a complete list  log onto Weblink on our website, www.thetii.com
+
+Agent	Unit/Equipment	Driver	Cell	Origin	Destination	Delivery	Comments
+	GT227	GTC	71135	48' Flat Stretch	VERNON TAYLOR	(618) 410-2672	LANCASTER	OH	MEMPHIS	TN	10	/	21	TWIC/FLAT EXT-  CALL  800-294-8908                
+	AF001	AFL	286401	48' Flat	JAMES BANKHEAD	(256) 417-7985	OAK CREEK	WI	PORTLAND	TN	10	/	26
+	UNK	GTC	71082	48' SD 6X Ext	RICK ROACH	(352) 650-2872	SPRING CITY	TN	TELLICO 	TN	10	/	26	39K# MAX  72'10" OPEN-MT 10/21                        
+	UNK	AFL	286601	UNKNOWN	DONALD RIDZON	(330) 233-0470	WETUMPKA	AL	NASHVILLE	TN	10	/	28
+	GT055	GTC	71237	Trailer Pool	MICHAEL BARRICK	(618) 910-8881	COMMERCE	CA	CLARKSVILLE	TN	10	/	29	48' FL                                                                         
+	AT538	ATI	191201	48' Flat	TIMOTHY MANUEL	(205) 222-7677	SAGINAW	AL	MEMPHIS	TN	10	/	29
+	AF036	AFL	301301	45' Flat	CHARLIE "JR" 	(931) 335-2226	LAVERGNE	TN	CLINTON	TN	10	/	29	H 931-788-3967                                                         
+	AF173	AFL	281001	48' F w/LbrTrp	CLINTON FLETCHER	(989) 916-6131	MIDLOTHIAN	TX	PINEY FLATS	TN	10	/	30	 TWIC/ 4' TARPS/CHAINS                                         
+	AF141	AFL	H802703	UNKNOWN	JAY TWEEDELL	(256) 706-6084	BOURBONNAIS	IL	JASPER	TN	10	/	30	48' flat                                                                        
+	AF107	AFL	260803	48' Flat w/Tarps	BOBBY RACKOW JR	VICTORIA	TX	CONROE	TX	10	/	22	                                                                                   
+	UNK	GTC	41356	UNKNOWN	MICHAEL JACK	(281) 995-1324	HOUSTON	TX	HOUSTON	TX	10	/	16	W/W 944                                                                    
+	AF208	AFL	280201	48' Flat	MIKE DURST	(740) 627-6044	PORTER	IN	LAREDO	TX	10	/	22	TWIC                                                                         
+	AF001	AFL	224702	UNKNOWN	JOHN FRANCE III	(330) 987-9302	PLEASANT GROV	UT	PHARR	TX	10	/	24	                                                                                   
+	AF001	AFL	286801	UNKNOWN	TEDDIE SINN	(219) 363-0350	PORTAGE	IN	BROWNSVILLE	TX	10	/	26
+	UNK	GTC	71223	48' SD 5 Axle	ROY LENOVER	(309) 221-3696	EL PASO	TX	FORT WORTH	TX	10	/	27	TWIC/                                                                        
+	GT944	GTC	71347	UNKNOWN	JOSE FERNANDEZ	(932) 724-7983	HOUSTON	TX	GALVESTON	TX	10	/	28	W/W 944                                                                    
+	AF136	AFL	273601	5 Axle DD RGN	RICKY LEHEW	(615) 491-7608	JACKSONVILLE	FL	FORT WORTH	TX	10	/	28	41k max                                                                      
+	AF128	AFL	249001	53'  VAN	SAMUEL HARRISON	(517) 238-8702	BREWTON	AL	SAN ANTONIO	TX	10	/	28	runs for AF128                                                            
+	UNK	GTC	91050	50' SD 5 Axle	LARRY SLAUGHTER	(361) 550-8611	MULESHOE	TX	THOMASTON	TX	10	/	28	TWIC- MT9/9                                                            
+	UNK	GTC	71250	48' Flat	FRANK GOODRICH	(239) 247-0779	JACKSON	MI	SEALY	TX	10	/	28	                                                                                   
+	UNK	GTC	41293	10 Axle Lowboy	MICHEAL (RICHARD) 	(303) 901-3355	HOUSTON	TX	SULPHUR 	TX	10	/	28	LEGAL IN CA AND CANADA- MT 10/16                
+	GT001	GTC	91084	8 Axle DD RGN	DAVID BUELTMANN	(936) 402-5519	MOSES LAKE	WA	ROUND ROCK	TX	10	/	29	TWIC- MT 9/29                                                         
+	UNK	ATI	191501	53' Step Deck	JON JOHNSON	(832) 493-3213	PASADENA	TX	DAYTON	TX	10	/	29	HAS H-D RAMPS                                                       
+	GT225	GTC	7763	45' Flat	MICHAEL IONESE	(330) 506-0334	STREETSBORO	OH	SEALY	TX	10	/	30	                                                                                   
+	AF001	AFL	879101	48' SD 6 Axle	JOHN THOMAS	(713) 304-4582	EGLIN AFB	FL	DYESS AFB	TX	10	/	30	TWIC/PSPRT - 60k legal                                            
+	MT001	MTI	699	50' Step Deck	MARK SCHLESSELMAN	(419) 996-9051	LOUISVILLE	KY	LA GRANGE	TX	10	/	30	                                                                                   
+	UNK	ATI	13168	53' Step Deck	MICHAEL RUSCHMEYER	(870) 456-1607	PEARLAND	TX	HILLSBORO	TX	10	/	30	                                                                                   
+	UNK	ATI	155501	48' Step Deck	KENNETH HUTTON	(281) 204-7541	OKLAHOMA CITY	OK	HOUSTON	TX	10	/	30	TWIC- has levelers                                                     
+	UNK	ATI	171701	48' DD RGN	GREGORY JONES	(865) 406-7604	PHOENIX	AZ	EL PASO	TX	10	/	30	TWIC  6 axle DD ext - 24" deck ht.                           
+	UNK	ATI	129402	53' Step Deck	OTTO CHRISTOFFERSON	(217) 306-6174	MIDLAND	TX	FORT WORTH	TX	10	/	30
+	GT061	GTC	41055	8 Axle Lowboy	JUDSON BARKER	(970) 539-1394	LONG BEACH	CA	HOUSTON	TX	11	/	1	                                                                                   
+	GT225	GTC	91340	48' Flat	PHILLIP MORENO	(260) 433-4404	CADILLAC	MI	SEALY	TX	11	/	2	                                                                                   
+	GT002	GTC	71296	48' Flat	TIMOTHY MOORE	(815) 341-3095	DECATUR	IL	HOUSTON	TX	11	/	2	                                                                                   
+	GT225	GTC	71047	48' SD 5 Axle	WINDELL WILSON	(570) 352-6483	CADILLAC	MI	SEALY	TX	11	/	2	                                                                                   
+	GT225	GTC	71209	48' SD 5 Axle	ALAN ELLERBUSCH	(618) 214-5563	CADILLAC	MI	HOUSTON	TX	11	/	2	TWIC/                                                                        
+	GT713	GTC	41341	UNKNOWN	ROBERT GOODWIN	(812) 736-1226	LEXINGTON	KY	HOUSTON	TX	11	/	2
+	UNK	ATI	3482	48' Step Deck	GALEN FISHER	(501) 269-1414	NEWARK	DE	CARROLLTON	TX	11	/	2	TWIC                                                                         
+	UNK	ATI	195801	48' Step Deck	MICHAEL PETERSON	(712) 260-4829	MONROE	OH	LAREDO	TX	11	/	2	                                                                                   
+	AF001	AFL	H800402	48' Flat	ROBERT  "JIM" WOLFE	(814) 853-2395	LACKAWANNA	NY	HOUSTON	TX	11	/	3	                                                                                   
+	UNK	ATI	2563	45' Flat	RONALD SARGENT	(570) 220-8822	NEWARK	DE	CARROLLTON	TX	11	/	3	                                                                                   
+	Friday, October 30, 2009	Page 10 of 12
+This report includes only a small percentage of TII's total trucks.  For a complete list  log onto Weblink on our website, www.thetii.com
+
+Agent	Unit/Equipment	Driver	Cell	Origin	Destination	Delivery	Comments
+	GT002	GTC	71211	48' Flat	JOHN NEACE	(937) 728-0113	OSHKOSH	WI	LAREDO	TX	11	/	3	HAS ROOM OPEN MONDAY OMAHA NE TO TX  
+	GT234	GTC	71060	50' SD 6X	TIMOTHY VIS	(920) 579-2330	STURGEON BAY	WI	HOUSTON	TX	11	/	5	TWIC/42K MAX-                                                       
+	UNK	GTC	3420	7 Axle Lowboy	JOHN CLAY	(801) 558-2489	SOUTH JORDAN	UT	SOUTH 	UT	10	/	8	DEL RIFLE CO 11/4                                                   
+	AT019	ATI	156801	48' Flat	HOLLIS WATERS	(765) 481-7901	PEARISBURG	VA	HUNTINGTON	UT	11	/	3	NEEDS A LOAD TO CHICAGO                                 
+	AF002	AFL	248704X2	UNKNOWN	 UNKNOWN	KING WILLIAM	VA	KING WILLIAM	VA	3	/	8	YARD TRUCK                                                           
+	GT323	GTC	3927	8 Axle Lowboy	TIMOTHY KENCH	(607) 759-8079	UTICA	NY	HAMPTON	VA	10	/	23	RELOAD AT38-5                                                       
+	AF010	AFL	254501	48' Flat	WILLIAM HAYES	(304) 633-6989	COVINGTON	KY	SUFFOLK	VA	10	/	23	                                                                                   
+	GT134	GTC	3572	48' Flat Stretch	DAVID HEGGIE	(704) 577-6224	NEWTON	IL	LORTON	VA	10	/	29	W/W 13-4 -HAS 5XDDRGN  41K# MAX                   
+	UNK	GTC	7766	48' SD 5 Axle	WARREN ANDERSON	(904) 571-9509	CANADYS	SC	STONY CREEK	VA	10	/	29	                                                                                   
+	GT322	GTC	71172	48' Flat	BRIAN WISHARD	(814) 285-6488	KITTANNING	PA	BREMO BLUFF	VA	10	/	30	TWIC/                                                                        
+	AT538	ATI	189901	48' Flat	DENNIS STEVENS	(205) 901-4023	CHILDERSBURG	AL	ST PAUL	VA	10	/	30	                                                                                   
+	UNK	ATI	166503	48' Step Deck	RONALD STIDHAM	(419) 239-3872	CINCINNATI	OH	SUFFOLK	VA	10	/	30	52 SD TWIC                                                               
+	GT134	GTC	7703	48' SD 5 Axle	WILLIAM DAWSON	(386) 453-3640	WATERTOWN	WI	WILLIAMSBUR	VA	11	/	2	TWIC-                                                                        
+	AT538	ATI	190201	48' Flat	TERRY ALLRED	(256) 347-0329	CHILDERSBURG	AL	ST PAUL	VA	11	/	2
+	AT538	ATI	190401	48' Flat	JOHN MCCAIN	(256) 276-0044	CHILDERSBURG	AL	ST PAUL	VA	11	/	2
+	GT776	GTC	1780	6X DD RGN	MICHAEL SHUGHART	(717) 422-1392	CORPUS CHRIST	TX	NORFOLK	VA	11	/	2	TWIC/                                                                        
+	UNK	ATI	148401	48' Flat	DAVID BRENNER JR	(813) 318-2507	TAMPA	FL	CHARLOTTESVI	VA	11	/	3	TWIC - ROOM OPEN AL TO FL                              
+	GT002	GTC	91193	53' SD 5X	RAYMOND REDD	(580) 927-5927	LAKELAND	FL	YAKIMA	WA	11	/	5	TEAM/TWIC-                                                            
+	GT499	GTC	71127	53' Step Deck	GLENN MAGNER	SUMMERVILLE	SC	FORT MCCOY	WI	8	/	24	TWIC/ - CALL 262-642-6222                                    
+	GT490	GTC	71275	48' SD 5 Axle	JAMES TRENTADUE	(262) 812-7607	NEW BERLIN	WI	NEW BERLIN	WI	10	/	26	TWIC-  MT                                                                
+	UNK	GTC	71107	UNKNOWN	BRYAN MERKLE	(618) 781-0983	TUSCUMBIA	MO	EAST TROY	WI	10	/	26	RELOADING 13-4                                                      
+	UNK	GTC	71125	UNKNOWN	JASON HEALEY	ELK GROVE VILLAGE	IL	EAST TROY	WI	10	/	26	CALL 262-642-6222/  Local truck                             
+	UNK	GTC	71129	Trailer Pool	CRAIG ANDERSEN	FRANKLIN	WI	EAST TROY	WI	10	/	26	TWIC - 53' FLAT - CALL 262-642-6222/                 
+	GT179	GTC	71211	48' Flat	JOHN NEACE	(937) 728-0113	CINCINNATI	OH	WAUNAKEE	WI	10	/	27	HAS ROOM OPEN MONDAY OMAHA NE TO TX  
+	AF001	AFL	225016	48' Flat	KIM SMITH	(330) 646-3295	WHEATLAND	PA	MILWAUKEE	WI	10	/	27	                                                                                   
+	GT499	GTC	91232	34' Hot Shot	CRAIG ANDERSEN	ELLWOOD CITY	PA	CUDAHY	WI	10	/	27	TWIC/CALL 262-642-6222/                                      
+	UNK	GTC	71243	48' Flat	STEVEN WRAY	(740) 645-4069	FARGO	ND	MADISON	WI	10	/	28	                                                                                   
+	GT499	GTC	71126	53' Step Deck	ROBERT SADENWASSER	SANFORD	ME	OCONOMOWOC	WI	10	/	29	TWIC/HAS 53' SD CALL 262-642-6222                    
+	GT002	GTC	7638	48' F w/Sides	MICHAEL GOOD	(330) 465-3345	POINT OF ROCK	WY	SUSSEX	WI	10	/	29	SIDES DOWN-                                                            
+	GT123	GTC	7892	48' SD 5 Axle	GARY GROESBECK	(419) 343-4623	KANSAS CITY	MO	MILWAUKEE	WI	10	/	30	TWIC/37" DCK HGT-                                                
+	UNK	ATI	183601	48' Step Deck	DWIGHT IMEL	(620) 474-1363	APPLETON	WI	APPLETON	WI	11	/	2	TWIC                                                                         
+	UNK	ATI	183701	50' Flat	BOBBY FREEMAN II	(330) 814-8079	LAWTON	OK	MILWAUKEE	WI	11	/	2	25' LOTS OF ROOM OPEN TO IL,WI,MN                
+	AT319	ATI	143503	7 AXLE RGN	MICHAEL GLOVER	(806) 683-2445	PENSACOLA	FL	RUPERT	WV	10	/	22	11 Axle                                                                       
+	GT134	GTC	7831	POLE TRAILER	ROBERT MCCABE	(618) 363-7031	BOWLING GREEN	KY	ROMNEY	WV	10	/	26	W/W 13-4                                                                   
+	AT319	ATI	144901	3 Axle Lowboy 	JAMES BOSE	(904) 923-5366	PENSACOLA	FL	RUPERT	WV	10	/	26	TWIC  12 axles- NOT EXT.                                       
+	GT134	GTC	71108	POLE TRAILER	MICHAEL SCHAFFER	(618) 781-6771	BOWLING GREEN	KY	ROMNEY	WV	10	/	28	TWIC  CALL 800-294-8908 -                                    
+	GT134	GTC	71284	POLE TRAILER	JEFFREY BAST	          	BOWLING GREEN	KY	ROMNEY	WV	10	/	28	W/W 13-4                                                                   
+	GT762	GTC	91224	48' Flat	JERRY COOPER	(330) 858-1849	BRISTOL	TN	MORGANTOWN	WV	10	/	30	TWIC/                                                                        
+	UNK	ATI	156001	48' Flat	WILLIAM KELLEY	(301) 471-8016	CLARK	NJ	CHARLESTON	WV	10	/	30	 TWIC                                                                        
+	AT045	ATI	104015	48' Flat	TIMOTHY BLEYER	(717) 623-4541	EL PASO	TX	BERKELEY 	WV	10	/	30	CALL HERB 814-422-0598                                       
+	Friday, October 30, 2009	Page 11 of 12
+This report includes only a small percentage of TII's total trucks.  For a complete list  log onto Weblink on our website, www.thetii.com
+
+Agent	Unit/Equipment	Driver	Cell	Origin	Destination	Delivery	Comments
+	AF010	AFL	286901	UNKNOWN	FLOYD MCLAUGHLIN	(304) 670-0168	NORCROSS	GA	WEIRTON	WV	10	/	30
+	AT319	ATI	3568	10 axle RGN	MITCHELL PUTZ	(713) 409-5930	GREENVILLE	SC	RUPERT	WV	11	/	2	                                                                                   
+	UNK	GTC	41173	48' SD 6X Ext	AUBREY DECKER	(307) 752-1682	GLASGOW	MT	RANCHESTER	WY	10	/	26	 58'L OPEN  40K# MAX-                                           
+	UNK	GTC	91332	48' Flat	WILLIAM PARKER	(307) 466-2984	KEARNEY	NE	GREEN RIVER	WY	10	/	27	READY 11-4                                                              
+	UNK	GTC	91331	Trailer Pool	TRENT KELLY	(281) 381-2094	SHERIDAN	WY	SHERIDAN	WY	10	/	27	READY 11-4 TWIC/has 6XDDRGN 23' WELL          
+	UNK	ATI	127202	48' Step Deck	JOHN "DAVE" LAFFERTY	(573) 259-9446	SANFORD	ME	GLENROCK	WY	11	/	1	TWIC  no ramps                                                         
+	UNK	ATI	174601	CHARLES BRIDGEMAN	(636) 667-5140	STEELVILLE	MO	GILLETTE	WY	11	/	2	RGN STRETCH 7 AXL                                               
+	UNK	ATI	194302	UNKNOWN	RALPH FAHSHOLTZ	(253) 548-8607	UNKNOWN	XX	UNKNOWN	XX	10	/	20
+	UNK	ATI	200001	UNKNOWN	 UNKNOWN	UNKNOWN	XX	UNKNOWN	XX	10	/	20
+	UNK	ATI	200002	UNKNOWN	JERRY JONES	(205) 886-2625	UNKNOWN	XX	UNKNOWN	XX	10	/	20
+	UNK	ATI	200003	UNKNOWN	WILLIE LACY	UNKNOWN	XX	UNKNOWN	XX	10	/	20
+	UNK	ATI	200004	UNKNOWN	HENRY JOHNSON	(334) 341-3683	UNKNOWN	XX	UNKNOWN	XX	10	/	20
+	UNK	ATI	200005	UNKNOWN	WILLIAM HAMILTON	(205) 561-9447	UNKNOWN	XX	UNKNOWN	XX	10	/	20
+	UNK	ATI	200006	UNKNOWN	JONATHAN CADDELL	(205) 331-3485	UNKNOWN	XX	UNKNOWN	XX	10	/	20
+	UNK	GTC	41376	UNKNOWN	JOHNNY MORGAN	(601) 826-1234	UNKNOWN	XX	UNKNOWN	XX	10	/	23
+	UNK	GTC	71352	UNKNOWN	STEVEN GAMMAGE	(713) 962-2340	UNKNOWN	XX	UNKNOWN	XX	10	/	26	W/W 944                                                                    
+	UNK	GTC	41377	UNKNOWN	ARNOLD POWELL	(601) 942-1460	UNKNOWN	XX	UNKNOWN	XX	10	/	26
+	UNK	ATI	107510	UNKNOWN	MARK DAVIS	(713) 705-2212	UNKNOWN	XX	UNKNOWN	XX	10	/	28
+	UNK	ATI	201001	UNKNOWN	DARRELL CATRON	(936) 545-3961	UNKNOWN	XX	UNKNOWN	XX	10	/	28
+	UNK	ATI	202001	UNKNOWN	LEE NAGEL	(440) 725-9737	UNKNOWN	XX	UNKNOWN	XX	10	/	28
+	Friday, October 30, 2009	Page 12 of 12
+This report includes only a small percentage of TII's total trucks.  For a complete list  log onto Weblink on our website, www.thetii.com

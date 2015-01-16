@@ -1,0 +1,84 @@
+link, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+body {
+    background: none repeat scroll 0 center #FFFFFF;
+    font-family: arial,sans-serif;
+    font-size: 12px;
+    height: 100%;
+    line-height: 1;
+    margin: 0;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+br.both {
+    clear: both;
+}
+#backgroundPopup {
+    background: none repeat scroll 0 0 #000000;
+    border: 1px solid #CECECE;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+#popupContact {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid #CECECE;
+    display: none;
+    font-size: 13px;
+    height: 384px;
+    padding: 12px;
+    position: fixed;
+    width: 408px;
+    z-index: 2;
+}
+#popupContact h1 {
+    border-bottom: 1px dotted #D3D3D3;
+    color: #6FA5FD;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 2px;
+    text-align: left;
+}
+#popupContactClose {
+    color: #6FA5FD;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    position: absolute;
+    right: 6px;
+    top: 4px;
+}
+#button {
+    margin: 100px;
+    text-align: center;
+}

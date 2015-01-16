@@ -1,0 +1,47 @@
+ "assets": [
+  {
+   "id": "13112725006252346903-12921502713420913455",
+   "etag": "\"14267917078947437627\"",
+   "projectId": "13112725006252346903",
+   "name": "LBJ Drivers",
+   "description": "",
+   "type": "layer",
+   "tags": [
+   ],
+   "writersCanEditPermissions": false,
+   "creationTime": "2014-10-14T21:54:08.318Z",
+   "lastModifiedTime": "2014-10-14T21:54:08.318Z",
+   "resource": "layers/13112725006252346903-12921502713420913455"
+  },
+  {
+   "id": "13112725006252346903-14495543923251622067",
+   "etag": "\"2423524394438892181\"",
+   "projectId": "13112725006252346903",
+   "name": "MapTrucks",
+   "description": "",
+   "type": "table",
+   "tags": [
+   ],
+   "writersCanEditPermissions": false,
+   "creationTime": "2014-10-14T21:55:46.627Z",
+   "lastModifiedTime": "2014-10-15T07:32:36.888Z",
+   "resource": "tables/13112725006252346903-14495543923251622067"
+  },
+  {
+   "id": "13112725006252346903-17234028967417318364",
+   "etag": "\"4188745651439438284\"",
+   "projectId": "13112725006252346903",
+   "name": "LBJ Map",
+   "description": "Loads by Jake Main Map",
+   "type": "map",
+   "tags": [
+   ],
+   "writersCanEditPermissions": false,
+   "creationTime": "2014-10-15T19:17:23.786Z",
+   "lastModifiedTime": "2014-10-15T19:17:23.786Z",
+   "resource": "maps/13112725006252346903-17234028967417318364"
+  }
+ ]
+}
+13112725006252346903-15363260755447510668
+https://www.google.com/maps/@39.927129,-101.136599,5z/data=!3m1!4b1!4m2!6m1!1szQzeakhmvnGs.kR8K0Fh9M6aA?hl=en

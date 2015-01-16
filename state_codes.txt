@@ -1,0 +1,50 @@
+ALABAMA                         AL s
+ALASKA                          AK w
+ARIZONA                         AZ w
+ARKANSAS                        AR c
+CALIFORNIA                      CA w
+COLORADO                        CO w
+CONNECTICUT                     CT ne
+DELAWARE                        DE ne
+DC                              DC ne
+FLORIDA                         FL s
+GEORGIA                         GA s
+IDAHO                           ID w
+ILLINOIS                        IL c
+INDIANA                         IN c
+IOWA                            IA c
+KANSAS                          KS c
+KENTUCKY                        KY s
+LOUISIANA                       LA c
+MAINE                           ME ne
+MARYLAND                        MD s
+MASSACHUSETTS                   MA ne
+MICHIGAN                        MI c
+MINNESOTA                       MN c
+MISSISSIPPI                     MS s
+MISSOURI                        MO c
+MONTANA                         MT w
+NEBRASKA                        NE c
+NEVADA                          NV w
+NEW HAMPSHIRE                   NH ne
+NEW JERSEY                      NJ ne
+NEW MEXICO                      NM w
+NEW YORK                        NY ne
+NORTH CAROLINA                  NC s
+NORTH DAKOTA                    ND c
+OHIO                            OH c
+OKLAHOMA                        OK c
+OREGON                          OR w
+PENNSYLVANIA                    PA ne
+RHODE ISLAND                    RI ne
+SOUTH CAROLINA                  SC s
+SOUTH DAKOTA                    SD c
+TENNESSEE                       TN s
+TEXAS                           TX c
+UTAH                            UT w
+VERMONT                         VT ne
+VIRGINIA                        VA s
+WASHINGTON                      WA w
+WEST VIRGINIA                   WV s
+WISCONSIN                       WI c
+WYOMING                         WY w

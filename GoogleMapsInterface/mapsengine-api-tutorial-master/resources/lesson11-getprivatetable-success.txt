@@ -1,0 +1,8 @@
+Congratulations, you are now able to access a private table! The response you got is almost the same as the one you would get by accessing a public table using your API Key. However, there might be some additional parameters, such as:
+
+* `tags`: An array of tags of the table.
+* `sourceEncoding`: The encoding method used.
+* `processingStatus`: The processing status of the table, which is always `complete`.
+* `bbox`: A bounding box, the smallest quadrilateral that contains the features in the table.
+* `creationTime`: The time when the table was created.
+* `lastModifiedTime`: The time when the table was last modified.

@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+<title>simpleMarquee</title>
+
+<link rel="stylesheet" href="ressource/style.css" type="text/css" media="screen" />
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="marquee.js"></script>
+<script type="text/javascript" src="jquery.mousewheel.min.js"></script>
+<script type="text/javascript">
+   
+      
+	 
+$(function(){
+   $('#marqueeBox1').marquee({
+        speed : 5,
+        coefAcc : 2,
+        eventAcc : 'down',
+        speedUp  : '#btUp1',
+        speedDown : '#btDown1',
+        clsSpeedDown : 'btDownVActive',
+        clsSpeedUp : 'btUpVActive',
+        clsDrag : 'onDrag',
+        draggable : true,
+        enableCookie : true,
+        enableScroll : true,
+        stepScroll : 30,
+        enableAnimateScroll : true,
+        animateScrollDuration : 250,
+        animateScrollEasing : 'linear'
+    });
+
+    $('#marqueeBox2').marquee({
+        speed : -5,
+        draggable : true,
+        clsDrag : 'onDrag',
+        enableCookie : true,
+        enableScroll : true,
+        stepScroll : 10,
+        enableAnimateScroll : true,
+        animateScrollDuration : 250,
+        animateScrollEasing : 'linear'
+    });
+
+    $('#marqueeBox3').marquee({
+        speed : 5,
+        vertical : false,
+        speedUp  : '#btUp3',
+        speedDown : '#btDown3',
+        clsSpeedDown : 'btDownHActive',
+        clsSpeedUp : 'btUpHActive',
+        clsDrag : 'onDrag',
+        draggable : true,
+        enableCookie : true,
+        enableScroll : true,
+        stepScroll : 10,
+        enableAnimateScroll : true,
+        animateScrollDuration : 250,
+        animateScrollEasing : 'linear'
+    });
+
+    $('#marqueeBox4').marquee({
+        speed : -5,
+        vertical : false,
+        draggable : true,
+        clsDrag : 'onDrag',
+        enableCookie : true,
+        enableScroll : true,
+        stepScroll : 10,
+        enableAnimateScroll : true,
+        animateScrollDuration : 250,
+        animateScrollEasing : 'linear'
+    });
+	
+});
+	 
+</script>
+</head>
+<body >
+   <a id='btUp1' class='btUpV'></a>
+   <div id='marqueeBox1' class='marqueeBoxV drag'>
+      <div id='contentBox1'>
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+      </div>
+   </div>
+   <a  id='btDown1' class='btDownV'></a>
+   <br />
+   <div id='marqueeBox2' class='marqueeBoxV'>
+      <div id='contentBox2'>
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+      </div>
+   </div>
+	
+	
+	
+    <div class='horizontale'>
+       <a  id='btUp3' class='btUpH'></a>
+       <div id='marqueeBox3' class='marqueeBoxH'>
+          <span id='contentBox3'>
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+          </span>
+       </div>
+       <a   id='btDown3' class='btDownH'></a>
+   </div>
+   <div class='horizontale'>
+       <div id='marqueeBox4' class='marqueeBoxH'>
+          <span id='contentBox4'>
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+             du blabla en HTML oui oui !! <img alt='' src='ressource/image.gif' />
+          </span>
+       </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <script>
+      function appendResults(text) {
+        var results = document.getElementById('results');
+        results.appendChild(document.createElement('P'));
+        results.appendChild(document.createTextNode(text));
+      }
+
+      function makeRequest() {
+		var request = gapi.client.load('coordinate','v1');
+        var request = gapi.client.coordinate.jobs.list({'teamId':'4H1lJJ99-aTtgICZEO8hHQ'});
+        request.then(function(response) {
+          appendResults(response.result.longUrl);
+        }, function(reason) {
+          console.log('Error: ' + reason.result.error.message);
+        });
+      }
+
+      function init() {
+        gapi.client.setApiKey('AIzaSyC8uw_FsjguolrY1tExs7gcbttD3UKCv0E');
+        gapi.client.load('urlshortener', 'v1').then(makeRequest);
+      }
+    </script>
+    <script src="https://apis.google.com/js/client.js?onload=init"></script>
+  </head>
+  <body>
+    <div id="results"></div>
+  </body>
+</html>

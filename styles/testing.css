@@ -1,0 +1,46 @@
+/* Testing CSS */
+html
+{ height: 100%;}
+*{
+  padding: 0;
+  margin: 0;
+} 
+body{
+	margin: 0;
+	padding:0;
+	text-align: center;
+	min-width: 800px;
+	font-size: 14px;
+	background-position: top center;
+	background-repeat: no-repeat;
+	color: black;
+  height: 100%;
+  border: 1px solid black;
+}
+
+#wrapper{
+	text-align: left;
+	width: 90%;
+  margin-left: auto;
+	margin-right: auto;
+	height: 85%;
+  border: 1px solid black;
+  margin-top: 60px;
+}
+ 
+#leftcol{
+  float: left;
+  display: inline;
+  height: 100%;
+  width: 20%;
+  display: inline;
+  border-right: 1px solid black;
+}
+
+#nav{
+  float: left;
+  border-bottom: 1px solid black;
+  height: 5%;
+  width: 79.9%;
+  display: inline;
+}

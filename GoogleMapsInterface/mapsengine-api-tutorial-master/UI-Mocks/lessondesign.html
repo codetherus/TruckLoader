@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lessons</title>
+  <link href="lessondesign.css" rel="stylesheet" type="text/css" />
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+  <script type="text/javascript" src="lessondesign.js"></script>
+</head>
+<body>
+  <div class = 'title-bar'>
+    <img src = "Images/GME-icon.png" class ="maps-icon"/>
+    <div class = 'title'>Google Maps Engine API Tutorial</div>
+  </div>
+  <div class = "menu"></div>
+  <div class = 'lesson'>
+    <div class = "instructions">
+      <h2>List Features</h2>
+      Besides viewing a public table's attributes, you can also access the table's features using a GET request. A feature is a data entry in a table, represented by each row in the table. It can be a point, polygon, or polyline.<br><br> 
+      The basic URL to access a features list is:<br>                  
+      https://www.googleapis.com/mapsengine/v1/tables/{tableId}/features?version=published&key={APIkey} <br><br>
+      One example of the URL:<br>
+      `https://www.googleapis.com/mapsengine/v1/tables/01512215508764088245-12798225287603138914/features?version=published&key=AIzaSyAllwffSbT4nwGqtUOvt7oshqSHowuTwN0`
+      <br>
+      <h3>EXERCISE</h3>  
+      Try to make the URL to list a table's features. Use the table ID = 15474835347274181123-14495543923251622067 and your valid API Key for the URL, then click submit. <br>
+    </div>
+
+    <div class = "inventory">
+     <b> Helpful Information</b><br>
+        table ID = 2838237982309820938029839283982938<br>
+        your API Key = AIza37038_kw3308jdsfkjdls
+    </div>
+    
+    <div class="request">
+      <div class="url" contenteditable = "true" tabindex="0"></div>
+      <input type="button" value="Get" class="get-button pointer"/>
+    </div>
+    
+    <div class = "feedback">
+      <div class = "ribbon">Congratulations! You entered the right URL!</div>
+      <div class = "message"></div>
+    </div>
+   
+    <input type="button" value="Next Lesson" class="general-button next-button pointer">
+  
+    <div class= "response">{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.3508,
+            48.8567
+          ]
+        },
+        "properties": {
+          "Name": "Paris",
+          "Population": "2211000",
+          "gx_id": "1"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -6.2597,
+            53.3478
+          ]
+        },
+        "properties": {
+          "Name": "Dublin",
+          "Population": "527612",
+          "gx_id": "2"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            12.5,
+            41.9
+          ]
+        },
+        "properties": {
+          "Name": "Rome",
+          "Population": "2753000",
+          "gx_id": "3"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            13.3833,
+            52.5167
+          ]
+        },
+        "properties": {
+          "Name": "Berlin",
+          "Population": "3502000",
+          "gx_id": "4"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.1833,
+            41.3833
+          ]
+        },
+        "properties": {
+          "Name": "Barcelona",
+          "Population": "1621000",
+          "gx_id": "5"
+        }
+      }
+    ]
+  }
+    </div>
+  </div>
+</body> 
+</html>

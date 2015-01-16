@@ -1,0 +1,43 @@
+[13-Feb-2011 17:11:15] PHP Parse error:  parse error, expecting `'{'' in C:\wamp\www\dabl\models\Drivers.php on line 3
+[13-Feb-2011 17:11:27] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'bu name' at line 1' in C:\wamp\www\dabl\libraries\dabl\adapter\DABLPDO.php:141
+Stack trace:
+#0 [internal function]: PDO->query('SELECT * FROM `...')
+#1 C:\wamp\www\dabl\libraries\dabl\adapter\DABLPDO.php(141): call_user_func_array(Array, Array)
+#2 C:\wamp\www\dabl\models\base\baseDrivers.php(854): DABLPDO->query('SELECT * FROM `...')
+#3 C:\wamp\www\dabl\models\base\baseDrivers.php(884): baseDrivers::fetch('SELECT * FROM `...')
+#4 C:\wamp\www\dabl\drivertest.php(8): baseDrivers::getAll('order bu name')
+#5 {main}
+  thrown in C:\wamp\www\dabl\libraries\dabl\adapter\DABLPDO.php on line 141
+[13-Feb-2011 17:31:13] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'PublishedDate' in 'where clause'' in C:\wamp\www\dabl\libraries\dabl\query\QueryStatement.php:127
+Stack trace:
+#0 C:\wamp\www\dabl\libraries\dabl\query\QueryStatement.php(127): PDOStatement->execute()
+#1 C:\wamp\www\dabl\libraries\dabl\query\Query.php(481): QueryStatement->bindAndExecute()
+#2 C:\wamp\www\dabl\models\base\baseDrivers.php(895): Query->doCount(Object(DBMySQL))
+#3 C:\wamp\www\dabl\libraries\dabl\query\QueryPager.php(137): baseDrivers::doCount(Object(Query))
+#4 C:\wamp\www\dabl\libraries\dabl\query\QueryPager.php(181): QueryPager->getTotal()
+#5 C:\wamp\www\dabl\libraries\dabl\query\QueryPager.php(81): QueryPager->getPageCount()
+#6 C:\wamp\www\dabl\libraries\dabl\query\QueryPager.php(58): QueryPager->setPageNum(1)
+#7 C:\wamp\www\dabl\driverpagingtest.php(18): QueryPager->__construct(Object(Query), 15, 1, 'Drivers')
+#8 {main}
+  thrown in C:\wamp\www\dabl\libraries\dabl\query\QueryStatement.php on line 127
+[13-Feb-2011 17:32:03] PHP Fatal error:  Call to undefined method QueryPager::isLast() in C:\wamp\www\dabl\driverpagingtest.php on line 24
+[13-Feb-2011 17:34:26] PHP Fatal error:  Call to undefined method QueryPager::isLast() in C:\wamp\www\dabl\driverpagingtest.php on line 24
+[13-Feb-2011 20:26:28] PHP Notice:  Undefined index: swapid in C:\wamp\www\Truck Loader\drivers_dabl.php on line 710
+[13-Feb-2011 20:26:44] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\Truck Loader\drivers_dabl.php on line 137
+[13-Feb-2011 20:26:51] PHP Fatal error:  Call to a member function getId() on a non-object in C:\wamp\www\Truck Loader\drivers_dabl.php on line 137
+[13-Feb-2011 20:27:11] PHP Fatal error:  Call to a member function getid() on a non-object in C:\wamp\www\Truck Loader\drivers_dabl.php on line 137
+[15-Mar-2011 16:37:23] PHP Warning:  include(models/Drivers.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in C:\wamp\www\Truck Loader\drivertest.php on line 6
+[15-Mar-2011 16:37:23] PHP Stack trace:
+[15-Mar-2011 16:37:23] PHP   1. {main}() C:\wamp\www\Truck Loader\drivertest.php:0
+[15-Mar-2011 16:37:23] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'models/Drivers.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\Truck Loader\drivertest.php on line 6
+[15-Mar-2011 16:37:23] PHP Stack trace:
+[15-Mar-2011 16:37:23] PHP   1. {main}() C:\wamp\www\Truck Loader\drivertest.php:0
+[28-Jun-2011 14:43:03] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1 no such table: drivers' in C:\wamp\www\Truck Loader\dabl\libraries\dabl\adapter\DABLPDO.php:141
+Stack trace:
+#0 [internal function]: PDO->query('SELECT * FROM [...')
+#1 C:\wamp\www\Truck Loader\dabl\libraries\dabl\adapter\DABLPDO.php(141): call_user_func_array(Array, Array)
+#2 C:\wamp\www\Truck Loader\dabl\models\base\baseDrivers.php(854): DABLPDO->query('SELECT * FROM [...')
+#3 C:\wamp\www\Truck Loader\dabl\models\base\baseDrivers.php(884): baseDrivers::fetch('SELECT * FROM [...')
+#4 C:\wamp\www\Truck Loader\dabl\drivertest.php(8): baseDrivers::getAll('where status = ...')
+#5 {main}
+  thrown in C:\wamp\www\Truck Loader\dabl\libraries\dabl\adapter\DABLPDO.php on line 141

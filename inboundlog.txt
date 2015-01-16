@@ -1,0 +1,438 @@
+GTC, 41248, 9 X DD RGN, , INGLIS, GREG, , , (262) 909-5047, MONTGOMERY, AL, EDMONTON, AB, , , 6/25,  , , , , , , 
+ATI, 212401, 50' SD 5 Axle, , WILLIAMS, WALLA, , , (205) 388-8175, VERNON, AL, BROOKS, AB, , , 7/3,  , , , , , , 
+ATI, 217001, 48' Flat, , WATERS, DAMON, , , (318) 417-1676, TAMPA, FL, DOTHAN, AL, , , 6/28, OOS        4' tarps no TWIC, , , , , , 
+AFL, 289300, 48' Flat, , MONICK, JOHN, , , (931) 639-0140, LAVERGNE, TN, HUNTSVILLE, AL, , , 6/29, , , , , , , 
+ATI, 223101, UNKNOWN, , REED, ROBIN, , , (256) 259-1275, HOLLYWOOD, AL, MOULTON, AL, , , 6/30, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+ATI, 226101, UNKNOWN, , BROWN, DANNY, , , (256) 259-1275, BURNS HARBOR, IN, DECATUR, AL, , , 6/30, 48'V - Av if agent will 1/2 c'missi, , , , , , 
+AFL, 400801, 53'  VAN, , MCINTIRE, RICHA, , , (256) 259-6020, NORTH VERSAI, PA, BIRMINGHAM, AL, , , 7/1, , , , , , , 
+ATI, 222601, UNKNOWN, , UTECH, DENNI, , , (256) 259-1275, CHICAGO, IL, MONTGOMERY, AL, , , 7/5, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+ATI, 191201, UNKNOWN, , MANUEL, TIMOT, , , (205) 222-7677, MACON, GA, SYLACAUGA, AL, , , 7/5, 48'F; Tlr. Pool, , , , , , 
+ATI, 190501, UNKNOWN, , LIGHT, ROBER, , , (334) 437-0377, JUSTIN, TX, SAGINAW, AL, , , 7/5, Flat (Tlr Pool), , , , , , 
+AFL, 272401, 53'  VAN, , WILSON, ARTHU, , , (256) 283-6333, GAINESVILLE, GA, ANNISTON, AL, , , 7/5,  , , , , , , 
+ATI, 192301, 48' Flat, , STEVENS, JOSEP, , , (205) 706-3064, MOODY, AL, BIRMINGHAM, AL, , , 7/6,  , , , , , , 
+GTC, 71428, 48' Flat, , COY, CARL, , , (740) 418-4795, YOUNGSTOWN, OH, AXIS, AL, , , 7/6, 20'L 25K# OPEN SOUTH, , , , , , 
+ATI, 218301, 48' F w/LbrTr, , MILLS, RONNI, , , (205) 496-3611, TUSCALOOSA, AL, EUTAW, AL, , , 7/6, 48'F - twic - AL coil cert, , , , , , 
+ATI, 187702, 48' Step Deck, , NEVELS, TOMA, , , (205) 246-6955, NORMAN, OK, TUSCALOOSA, AL, , , 7/6, twic, , , , , , 
+GTC, 71412, 48' Flat, , NEWSOM, ROGER, , , (740) 352-4450, WELLS, NV, MONTGOMERY, AL, , , 7/7, TWIC/, , , , , , 
+ATI, 501801, UNKNOWN, , BROWN, BARRY, , , (256) 259-1275, FREMONT, OH, ANNISTON, AL, , , 7/7, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+ATI, 135302, 48' Step Deck, , BOTTENFI, HERMA, , , (304) 377-1808, MAYFIELD VLG, OH, BIRMINGHAM, AL, , , 7/8,  , , , , , , 
+GTC, 3920, 7 Axle Lowboy, , YORK, LARRY, , , (219) 789-8021, PEORIA, IL, ATTALLA, AL, , , 7/8, w/w 89-3 TWIC/ CAN SCALE 90K IN SOM, , , , , , 
+ATI, 500901, UNKNOWN, , ANDREWS, TERRY, , , (256) 259-1275, SPARROWS POI, MD, FORT PAYNE, AL, , , 7/8, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+ATI, 502401, UNKNOWN, , PRESTWOO, JERRY, , , (256) 259-1275, SPARROWS POI, MD, FORT PAYNE, AL, , , 7/8, 48'F - Av if agent wil 1/2 c'missio, , , , , , 
+ATI, 500102, UNKNOWN, , GASS, GEORG, , , (256) 259-1275, SPARROWS POI, MD, FORT PAYNE, AL, , , 7/8, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+ATI, 501301, 48' Flat, , BEYE, GARY , , , (256) 259-1275, SPARROWS POI, MD, FORT PAYNE, AL, , , 7/8, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+GTC, 41293, 10 Axle Lowbo, , STANGL, MICHE, , , (303) 901-3355, WELLS, NV, MONTGOMERY, AL, , , 7/10, TWIC/LEGAL IN CA AND CANADA, , , , , , 
+GTC, 7231, 48' Flat, , MILLER, JERRY, , , (417) 252-3136, BATESVILLE, MS, BAY, AR, , , 7/5,  , , , , , , 
+ATI, 195801, 48' Step Deck, , PETERSON, MICHA, , , (712) 260-4829, BEEVILLE, TX, ATKINS, AR, , , 7/6,  , , , , , , 
+ATI, 13208, 51' Flat, , COLLINS, JERRY, , , (501) 258-5449, LUBBOCK, TX, CURTIS, AR, , , 7/8, TEAM - TWIC  46k max, , , , , , 
+GTC, 91100, 52' SD 5 Axle, , EMERSON, TONY, , , (859) 351-6859, KEWANEE, IL, SHOW LOW, AZ, , , 7/6, TWIC/, , , , , , 
+GTC, 91493, 8 Axle DD RGN, , BOOTH, DONAL, , , (313) 461-0575, ROUND ROCK, TX, PHOENIX, AZ, , , 7/8, WW 124 - TWIC -, , , , , , 
+GTC, 41057, 8 Axle DD RGN, , STEARNS, GREGO, , , (970) 978-6753, PEORIA, IL, PHOENIX, AZ, , , 7/9, TWIC/, , , , , , 
+GTC, 41257, 50' SD 6X, , ABELL, STEVE, , , (573) 795-2329, DECATUR, IL, NOGALES, AZ, , , 7/10, TWIC-NOT CA LEGAL, , , , , , 
+ATI, 189301, 48' Step Deck, , FLIGG, ROBER, , , (256) 493-1571, CHILDERSBURG, AL, VANCOUVER, BC, , , 7/4, *FC* - 48' step - 7 total axles, , , , , , 
+MTI, 300, UNKNOWN, , HAMILTON, HERMA, , , (623) 587-9118, SHERIDAN, OR, TWENTYNINE P, CA, , , 6/29, , , , , , , 
+MTI, 222, UNKNOWN, , WILLIAMS, JAMES, , , (256) 259-1275, SUFFOLK, VA, SAN JOSE, CA, , , 7/1, 48'F/Truck is only available if age, , , , , , 
+GTC, 71135, 48' Flat Stre, , TAYLOR, VERNO, , , (800) 294-8908, VICTORVILLE, CA, VAN NUYS, CA, , , 7/1,  TWIC/CALL800-294-8908, , , , , , 
+GTC, 7499, 48' SD 5 Axle, , MITCHELL, FREDE, , , (724) 263-6115, SEATTLE, WA, SAN DIEGO, CA, , , 7/5, TWIC/WW124, , , , , , 
+ATI, 223001, UNKNOWN, , BURT, JIMMY, , , (256) 259-1275, SCOTTSBORO, AL, SELMA, CA, , , 7/5, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+GTC, 7617, 48' SD 5 Axle, , PHILIP, JOHN, , , (229) 815-1531, OLYMPIA, WA, SAN DIEGO, CA, , , 7/5, TWIC/ WW124, , , , , , 
+ATI, 122006, 53' DD 3 Axle, , SULLIVAN, ROBER, , , (412) 298-9807, MONTGOMERY, AL, CHINA LAKE, CA, , , 7/6, RGN, , , , , , 
+GTC, 91074, 8 Axle DD RGN, , LINDSEY, DARWI, , , (314) 602-0545, RESERVE, LA, SOUTH LAKE T, CA, , , 7/6, 4X TRAC-, , , , , , 
+ATI, 501101, UNKNOWN, , MURPHY, CHRIS, , , (256) 259-1275, SCOTTSBORO, AL, RIVERSIDE, CA, , , 7/6, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+ATI, 501501, UNKNOWN, , WOLFE, JAMES, , , (256) 259-1275, SCOTTSBORO, AL, RIVERSIDE, CA, , , 7/6, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+GTC, 71490, 48' Flat, , SHAW, ALLEN, , , (620) 330-2996, BROOKLYN, NY, SAN RAFAEL, CA, , , 7/8, DEL 7/8, , , , , , 
+GTC, 91084, 8 Axle DD RGN, , BUELTMAN, DAVID, , , (936) 402-5519, GRAYLING, MI, HERLONG, CA, , , 7/8, TWIC- 28K# MAX LEGAL, , , , , , 
+GTC, 71490, 48' Flat, , SHAW, ALLEN, , , (620) 330-2996, SUNNYVALE, TX, MOFFETT FIEL, CA, , , 7/8, DEL 7/8, , , , , , 
+ATI, 180802, 48' Flat, , VANDENBA, SHANE, , , (205) 229-5956, SAN DIEGO, CA, SAN JOSE, CA, , , 7/8, , , , , , , 
+GTC, 91027, 8X DD RGN EXT, , HENSLEY, LARRY, , , (513) 255-1426, WEST COLUMBI, SC, SANTA CLARIT, CA, , , 7/8, TWIC/ 50'B 20K#MAX 29'1WELL 4XTRACT, , , , , , 
+ATI, 155501, 48' Step Deck, , HUTTON, KENNE, , , (281) 204-7541, HOUSTON, TX, HAYWARD, CA, , , 7/9, 46k Max - Levelers, , , , , , 
+GTC, 41414, 6 Axle Lowboy, , HEARN, ERIC, , , (740) 827-8258, VIRGINIA BEA, VA, CAMP PENDELT, CA, , , 7/10, TWIC/, , , , , , 
+GTC, 41434, 8 Axle DD RGN, , SYFERT, MURRY, , , (918) 633-3201, TULSA, OK, AURORA, CO, , , 7/7, TWIC/, , , , , , 
+GTC, 41474, 48' SD 5 Axle, , DAVIS, JAMES, , , (806) 570-5558, TEXARKANA, TX, FORT CARSON, CO, , , 7/7, TWIC/RAMPS, , , , , , 
+GTC, 9788, 48' Flat, , TRONCATT, RICHA, , , (301) 573-0254, ELKTON, MD, WASHINGTON, DC, , , 7/7, TWIC/, , , , , , 
+GTC, 7253, 48' SD 5 Axle, , CLEVENGE, ROBER, , , (717) 860-7153, ELKTON, MD, WASHINGTON, DC, , , 7/7, TWIC/, , , , , , 
+GTC, 7970, 48' Flat, , HOEL, BOBBY, , , (231) 824-6471, CADILLAC, MI, DOVER, DE, , , 7/7, TWIC/CALL 231-824-6471-, , , , , , 
+AFL, 300801, 48' Flat, , COIRO, LOUIS, , , (317) 645-5465, AMBRIDGE, PA, MIAMI, FL, , , 6/29, , , , , , , 
+GTC, 71303, 5 Axle DD RGN, , BURNS, ED, , , (850) 394-7211, PANAMA CITY, FL, MARIANNA, FL, , , 7/1, OOS WILL ADVISE - HAS 5XDDRGN, , , , , , 
+GTC, 71444, 48' SD 5 Axle, , ANDERSON, WARRE, , , (904) 571-9509, PUEBLO, CO, MIDDLEBURG, FL, , , 7/5, TWIC/43K MAX/, , , , , , 
+ATI, 3107, 48' Step Deck, , THOMAS, TEDDY, , , (904) 631-5239, JACKSONVILLE, FL, JACKSONVILLE, FL, , , 7/6, TWIC, , , , , , 
+ATI, 217501, 48' Flat, , KEEGAN, RONAL, , , (419) 680-2655, CHINO, CA, ESTERO, FL, , , 7/6, W/Conestoga, , , , , , 
+ATI, 190301, UNKNOWN, , HINSON, JIMMI, , , (334) 464-6129, BIRMINGHAM, AL, PANAMA CITY, FL, , , 7/6, 48' flatbed, , , , , , 
+GTC, 71076, 48' SD 5 Axle, , INSINGA, JACOB, , , (870) 373-1977, STUTTGART, AR, PALM SPRINGS, FL, , , 7/7, TWIC/42K# -, , , , , , 
+ATI, 500401, Flat, , WELLS, ALVIN, , , (256) 259-1275, FARIBAULT, MN, TAMPA, FL, , , 7/7, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+ATI, 501601, UNKNOWN, , BOUDREAU, RAINE, , , (256) 259-1275, SCOTTSBORO, AL, PEMBROKE PAR, FL, , , 7/7, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+GTC, 71118, 48' Flat, , JENNINGS, JOSEP, , , (618) 267-6740, ELK GROVE VI, IL, MIAMI, FL, , , 7/7,  , , , , , , 
+GTC, 71472, 50' Flat, , WILLIAMS, LONNI, , , (614) 446-4454, ELK GROVE VI, IL, MIAMI, FL, , , 7/7,  , , , , , , 
+GTC, 7860, 48F Conestoga, , HENGSTEL, ROBIN, , , (412) 788-3680, PALMDALE, CA, TYNDALL AFB, FL, , , 7/10, TWIC/97" W 98"H 47K# MAX-, , , , , , 
+ATI, 500201, UNKNOWN, , WRAY, KERRY, , , (256) 259-1275, SCOTTSBORO, AL, DALTON, GA, , , 6/23, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+ATI, 192302, UNKNOWN, , LEOPARD, DOUGL, , , (205) 283-3853, ALBERTVILLE, AL, ANDERSONVILL, GA, , , 6/24, 5x DD RGN, , , , , , 
+ATI, 142702, 48' Step Deck, , WANDALL , CHARL, , , (912) 552-7600, ORLANDO, FL, KINGSLAND, GA, , , 7/1, TWIC, , , , , , 
+ATI, 222602, UNKNOWN, , DUNCAN, GEORG, , , (256) 647-3052, OSHKOSH, WI, LA GRANGE, GA, , , 7/2, *FC* 48'F, , , , , , 
+GTC, 91233, 6X DD RGN, , BLACK, JAMES, , , (770) 363-7618, DIMONDALE, MI, CEDARTOWN, GA, , , 7/5, TWIC/, , , , , , 
+AFL, 320303, 48' SD 5 Axle, , TRAPP, JERRY, , , (770) 241-8025, ORLANDO, FL, AUGUSTA, GA, , , 7/5,  , , , , , , 
+ATI, 184201, UNKNOWN, , SMITH, WILLI, , , (334) 435-4437, MALCOLM, AL, GARDEN CITY, GA, , , 7/6, 48 FLAT, , , , , , 
+AFL, 400001, 48' Flat, , GONZALEZ, JOSE, , , (956) 970-2448, LAREDO, TX, SAVANNAH, GA, , , 7/8, , , , , , , 
+ATI, 155301, Stretch Blade, , GALVAN, ALEJA, , , (334) 702-1753, NEWTON, IA, DAVENPORT, IA, , , 6/24, Blade Tlr, , , , , , 
+ATI, 212102, UNKNOWN, , DEPEE, STEVE, , , (859) 576-2512, HEATH, OH, GREENE, IA, , , 6/30, 48' Flat, , , , , , 
+GTC, 41028, 48' SD 6 Axle, , CAMPBELL, DARYL, , , (641) 745-0235, LINCOLN, NE, FONTANELLE, IA, , , 7/1,  PASSPORT, , , , , , 
+MTI, 470, 48' Flat, , MARTIN, TIMOT, , , (623) 587-9118, BELLINGHAM, WA, DES MOINES, IA, , , 7/5, No Tarps - no coil racks, , , , , , 
+GTC, 91491, 51' SD 5 Axle, , EVANS, WELDO, , , (740) 403-0279, HEATH, OH, GREENE, IA, , , 7/5,  , , , , , , 
+ATI, 221801, UNKNOWN, , EARLEY J, ALBER, , , (334) 702-1753, PITTSBURGH, PA, AMERICAN FAL, ID, , , 6/20, , , , , , , 
+ATI, 209601, Schnobble, , THOMPSON, MICHA, , , (334) 702-1753, SHELDON, IL, AMERICAN FAL, ID, , , 6/29, Schnable tlr., , , , , , 
+ATI, 502501, UNKNOWN, , DERRICK, ALEX, , , (800) 511-1950, PITTSBURGH, PA, AMERICAN FAL, ID, , , 6/30, , , , , , , 
+GTC, 41321, 10 Axle Lowbo, , HUFFSTIC, SHANE, , , (612) 810-8734, DES ARC, AR, AMERICAN FAL, ID, , , 7/5, 8X DD RGN - TWIC/, , , , , , 
+ATI, 211101, 6XDDExtRGN, , STACEY, FRANK, , , (334) 702-1753, SHELDON, IL, AMERICAN FAL, ID, , , 7/7, Dedicated AT319, , , , , , 
+GTC, 91232, 34' Hot Shot, , ANDERSEN, CRAIG, , , (262) 642-6222, WOODSTOCK, IL, PALOS HILLS, IL, , , 6/27, TWIC/CALL 262-642-6222/, , , , , , 
+GTC, 71462, 48' SD 5 Axle, , LENOVER, ROY, , , (309) 221-3696, DICKINSON, ND, KIRKWOOD, IL, , , 6/27, 10'W MAX, , , , , , 
+GTC, 91461, 50' SD 5 Axle, , PEER, STEVE, , , (309) 582-4889, HOUSTON, PA, NORTH HENDER, IL, , , 6/28, TRK REPAIRS - WILL CALL - TWIC/RAMP, , , , , , 
+GTC, 71261, 45' Flat, , QUICK, RANDA, , , (618) 488-6600, BOWLING GREE, KY, WYANET, IL, , , 6/28, 45' FLAT/TWIC/CALL TERM 13-4 618-48, , , , , , 
+GTC, 71465, 53' SD 7 Axle, , MERKLE, DARYL, , , (800) 294-8908, BOWLING GREE, KY, WYANET, IL, , , 6/28, HAS 6XSDEXT CAN GO TO 8X, , , , , , 
+GTC, 71127, 53' Flat, , MAGNER, GLENN, , , (262) 642-6222, MEMPHIS, TN, SCHAUMBURG, IL, , , 6/29, TWIC/CALL TERM 49-9, , , , , , 
+GTC, 71107, 48' Flat, , MERKLE, BRYAN, , , (618) 781-0983, MADISON, IL, SPRINGFIELD, IL, , , 6/29, RELOADING 13-4, , , , , , 
+AFL, 282302, 50' Flat, , LAPE, DALE, , , (765) 427-0399, LAREDO, TX, EAST PEORIA, IL, , , 6/29,  , , , , , , 
+GTC, 41478, 6XDDExtRGN, , SCHAFFER, MICHA, , , (800) 294-8908, SAINT LOUIS, MO, LEMONT, IL, , , 7/1,                                    , , , , , , 
+GTC, 7570, 45' Flat, , HOULE, REAL, , , (312) 720-8550, ELK GROVE VI, IL, STERLING, IL, , , 7/1,  , , , , , , 
+ATI, 210602, 48' Flat, , MONTES, JAIME, , , (630) 486-0806, WHEATLAND, PA, GENEVA, IL, , , 7/5,  , , , , , , 
+AFL, 283801, 52' SD 5X Low, , RIDZON, MICHA, , , (330) 233-0774, PITTSBURGH, PA, LADD, IL, , , 7/5, 34" deck height - levelers - 40/12 , , , , , , 
+GTC, 71237, 48' Flat, , BARRICK, MICHA, , , (618) 910-8881, KANSAS CITY, MO, COLLINSVILLE, IL, , , 7/5,  , , , , , , 
+GTC, 7831, 48' Flat, , MCCABE, ROBER, , , (618) 363-7031, BOWLING GREE, KY, WYANET, IL, , , 7/6, 5XDDRGNEXT - 26' - 50'L WELL - 38K , , , , , , 
+GTC, 7831, 48' Flat, , MCCABE, ROBER, , , (618) 363-7031, BOWLING GREE, KY, WYANET, IL, , , 7/6, 5XDDRGNEXT - 26' - 50'L WELL - 38K , , , , , , 
+GTC, 3572, 48' Flat, , HEGGIE, DAVID, , , (704) 577-6224, BOWLING GREE, KY, WYANET, IL, , , 7/6, NEEDS KY -  HAS 48' FLAT  W/W 13-4, , , , , , 
+GTC, 3572, 48' Flat, , HEGGIE, DAVID, , , (704) 577-6224, BOWLING GREE, KY, WYANET, IL, , , 7/6, NEEDS KY -  HAS 48' FLAT  W/W 13-4, , , , , , 
+GTC, 7995, 50' SD 6X, , SCHRAGE, KARL, , , (618) 407-6424, MADISON, IL, WOOD RIVER, IL, , , 7/6, W/W 13-4   TWIC/45K# MAX, , , , , , 
+GTC, 9866, 48' SD 5 Axle, , DONNELLY, JAMES, , , (618) 407-3862, DE SOTO, MO, S ROXANA, IL, , , 7/6, TWIC/, , , , , , 
+GTC, 71481, 48' Flat, , MOBLEY, TIM, , ,  , FORT WAYNE, IN, CAROL STREAM, IL, , , 7/6, RELOADING 13-2, , , , , , 
+GTC, 7931, 48' Flat, , KUYATH, STEPH, , , (618) 920-3065, CHICAGO, IL, GRANITE CITY, IL, , , 7/7, CALL TERM 13-4, , , , , , 
+ATI, 102102, 48' Step Deck, , BOOHER, GARY, , , (724) 944-8515, TUSTIN, CA, GRANITE CITY, IL, , , 7/8,  , , , , , , 
+ATI, 211902, 5 Axle DD RGN, , SIPES, JOHNN, , , (210) 744-4275, FAIRMONT, WV, MACEDONIA, IL, , , 7/8,  37k # max 5 axle stepdeck equipmen, , , , , , 
+GTC, 71284, 48' Flat, , PORTER, JOHN, , ,  , CHICAGO, IL, ALHAMBRA, IL, , , 7/9, W/W 13-4, , , , , , 
+GTC, 41482, 7X DD RGN EXT, , HENSLEY, JERRY, , , (513) 839-0788, UNION DALE, PA, BATH, IN, , , 6/27, TWIC/, , , , , , 
+GTC, 9908, 48' SD 5 Axle, , AUSTIN, LOWEL, , , (419) 583-9644, DELTA, OH, BUTLER, IN, , , 6/28, RELOADING, , , , , , 
+ATI, 500105, 48' Flat, , YOUNG, JOHN, , , (256) 259-1275, SPRINGFIELD, NJ, ROCKPORT, IN, , , 7/1, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+AFL, 300101, 48' Flat, , BLOSSER, DAVID, , , (330) 303-3173, BUTLER, PA, FRANKFORT, IN, , , 7/5, , , , , , , 
+GTC, 3896, 6XDDExtRGN, , KECK, JOHN, , , (765) 506-0894, LIMA, OH, COLUMBIA CIT, IN, , , 7/5, ON 5X -  TWIC/, , , , , , 
+GTC, 71404, 50' SD 5 Axle, , MELVIN, NEIL, , , (231) 824-3933, NIAGARA FALL, NY, EAST CHICAGO, IN, , , 7/6, TWIC/, , , , , , 
+GTC, 71302, 48' SD 5 Axle, , DECK, KRISS, , , (419) 422-9801, WARREN, OH, WINAMAC, IN, , , 7/6, TWIC/CALL TERM 70-1, , , , , , 
+GTC, 41110, 8 Axle DD RGN, , KOCHER, ANTHO, , , (513) 673-3790, LENORE, WV, WEST HARRISO, IN, , , 7/7, TWIC                               , , , , , , 
+GTC, 71392, 48' Flat, , PLUBELL, TIMOT, , , (814) 592-8766, BUFFALO, NY, WHEATFIELD, IN, , , 7/7,  , , , , , , 
+GTC, 91430, 48' SD 5 Axle, , WILLARD, JAMES, , , (216) 310-7122, EXETER, PA, OAKLAND CITY, IN, , , 7/7, TWIC/, , , , , , 
+AFL, 370702, 45' Flat, , STEED, MARK, , , #Error, MIDDLETOWN, OH, GREENSBURG, IN, , , 7/8, , , , , , , 
+GTC, 41495, 6X DD RGN, , NEVILLE, LAWRE, , , (620) 313-0225, WICHITA, KS, LIBERTY, KS, , , 7/1, MT, , , , , , 
+AFL, 285801, 48' Flat, , MOSS, JAMES, , , (859) 485-8516, IUKA, MS, WILDER, KY, , , 6/24, GOES BY LARRY, , , , , , 
+GTC, 7465, 5 Axle DD RGN, , MCKENZIE, JOHNN, , , (859) 583-7297, BOWLING GREE, KY, BURGIN, KY, , , 6/27, -TWIC, , , , , , 
+ATI, 501202, UNKNOWN, , WILLIAMS, BILLY, , , (256) 259-1275, SCOTTSBORO, AL, SOMERSET, KY, , , 6/28, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+GTC, 91344, UNKNOWN, , HUMPHREY, JAMES, , , (614) 282-6820, LA GRANGE, KY, LOUISVILLE, KY, , , 7/1, TWIC/PASSPORT  -97"H    100" W INSI, , , , , , 
+AFL, 285901, 48' Flat, , JACKSON, WILLI, , , #Error, IUKA, MS, WILDER, KY, , , 7/7, GOES BY MICHAEL - DO NOT CALL HIM W, , , , , , 
+AFL, 285602, 45' Flat, , MCCLURE, R. J., , , (256) 599-0028, IUKA, MS, WILDER, KY, , , 7/7, , , , , , , 
+AFL, 290101, 48' Flat, , NEICE, WILLI, , ,  , IUKA, MS, WILDER, KY, , , 7/7,  , , , , , , 
+ATI, 153301, 48' Step Deck, , FUSSMAN, LEE, , , (906) 630-0355, SAULT SAINTE, ON, CORBIN, KY, , , 7/7, , , , , , , 
+MTI, 580, 48' Flat, , MACAULAY, DAVID, , , (985) 640-8691, UVALDE, TX, FRANKLINTON, LA, , , 6/24, 48 FLAT, , , , , , 
+ATI, 148401, 48' Flat, , BRENNER , DAVID, , , (813) 318-2507, ZEPHYRHILLS, FL, GOLDEN MEADO, LA, , , 7/6, TWIC, , , , , , 
+ATI, 150901, 48' Flat, , FRALEY, CHARL, , , (813) 469-6009, ZEPHYRHILLS, FL, GOLDEN MEADO, LA, , , 7/6, Booked until ? - TWIC, , , , , , 
+GTC, 9732, 5 Axle DD RGN, , RECORD, ROBER, , , (918) 445-9875, TULSA, OK, BROUSSARD, LA, , , 7/6, TWIC -CALLTERM 36-4/, , , , , , 
+ATI, 202901, 48' SD 5 Axle, , SINGLETO, LESTE, , , (318) 602-9497, MANSFIELD, TX, MANY, LA, , , 7/8, 48'stepw/ ramps, , , , , , 
+ATI, 214702, UNKNOWN, , NELSON, NATHA, , , (334) 702-1753, NEWTON, IA, SANDWICH, MA, , , 6/23, DEDICATED AT319, , , , , , 
+ATI, 222002, UNKNOWN, , PEEK, CHRIS, , , (256) 259-1275, SCOTTSBORO, AL, WOBURN, MA, , , 6/27, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+ATI, 501701, UNKNOWN, , PEEK, GREG, , , (256) 259-1275, SCOTTSBORO, AL, CANTON, MA, , , 6/30, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+GTC, 7703, 48' SD 5 Axle, , DAWSON, WILLI, , , (386) 453-3640, MIAMI, FL, MILFORD, MA, , , 7/5, TWIC/, , , , , , 
+MTI, 219, 48' Flat, , BOYD, THOMA, , , (256) 259-1275, SCOTTSBORO, AL, MANSFIELD, MA, , , 7/6, Av if agent will 1/2 c'mission w/AT, , , , , , 
+ATI, 3482, 48' Step Deck, , FISHER, GALEN, , , (501) 269-1414, ASHLAND, VA, MILFORD, MA, , , 7/7,  TWIC, , , , , , 
+ATI, 218101, UNKNOWN, , SIMMONS, JAMES, , , (281) 455-8933, BALTIMORE, MD, HAGERSTOWN, MD, , , 7/5, 7 axle DD RGN (26' well), , , , , , 
+GTC, 41470, 8 Axle DD RGN, , MOYANO, RANDY, , , (954) 895-0977, WAVERLY, IA, BALTIMORE, MD, , , 7/6, TWIC/NOT CA CERT, , , , , , 
+GTC, 91208, 48' SD 5 Axle, , DUDLEY, WILLI, , , (843) 319-8419, TEXARKANA, TX, ABERDEEN PRO, MD, , , 7/6, TWIC/, , , , , , 
+GTC, 7525, 48' SD 5 Axle, , HANN, STEPH, , , (330) 465-8851, WOOSTER, OH, JARRETTSVILL, MD, , , 7/6, TWIC/, , , , , , 
+ATI, 199502, 48' Flat, , JOHNSTON, STEVE, , , (906) 221-1541, IRON MOUNTAI, MI, STREET, MD, , , 7/8,  , , , , , , 
+GTC, 7419, 48' SD 6 Axle, , ROUSSELL, W JOH, , , (504) 723-4726, PINEVILLE, LA, HAGERSTOWN, MD, , , 7/8, TWIC/42K MAX/36" DCK HGT -, , , , , , 
+ATI, 500804, UNKNOWN, , LEMASTER, RONEY, , , (256) 259-1275, TOBYHANNA, PA, LIMESTONE, ME, , , 6/28, , , , , , , 
+ATI, 101432, UNKNOWN, , HOLDER, JOE, , , (800) 511-1950, BELINGTON, WV, MCBAIN, MI, , , 6/27, Dedicated AT319, , , , , , 
+AFL, 400601, 53' Flat, , MCMURRAY, LESTE, , , (419) 706-5175, LAREDO, TX, DETROIT, MI, , , 6/29, , , , , , , 
+GTC, 71319, 48' SD 5 Axle, , VOJACEK, ANDRE, , , (740) 817-0177, MONROE, LA, CHESTERFIELD, MI, , , 7/1,  , , , , , , 
+ATI, 210201, Flat, , SPENCER, LEVET, , , (219) 381-7019, ENNIS, TX, STERLING HEI, MI, , , 7/2, 48' FLATBED, , , , , , 
+GTC, 71023, 50' SD 5 Axle, , COULTER, ALTON, , , (989) 708-8835, ST HELEN, MI, ST HELEN, MI, , , 7/5, TWIC/35"DH/, , , , , , 
+GTC, 91020, 48' SD 6 Axle, , MCCOURT, VANCE, , , (330) 206-1149, HERMITAGE, PA, DEARBORN, MI, , , 7/5,  , , , , , , 
+ATI, 193501, 48' Flat, , MCHAM, EMMIT, , , (214) 516-9338, TEXARKANA, TX, WARREN, MI, , , 7/6, In MI on 7/7, , , , , , 
+GTC, 7924, 51' SD 5 Axle, , SCHUENEM, RICHA, , , (574) 370-0506, SOUTH BEND, IN, BENTON HARBO, MI, , , 7/10,  HOME OFF TIL 7/11 TWIC/35" DECK HG, , , , , , 
+GTC, 78136, 5 Axle DD RGN, , DAVIS, RUSSE, , , (304) 617-6473, LONG BEACH, CA, HOMER, MI, , , 7/11, 5X - 29' WELL/, , , , , , 
+ATI, 207801, Step Deck, , CHURCH, DAVID, , , (906) 630-2549, SAULT SAINTE, ON, FERGUS FALLS, MN, , , 7/5, , , , , , , 
+ATI, 174603, UNKNOWN, , BRIDGEMA, CHARL, , , (334) 702-1753, SOMERSET, PA, STEELVILLE, MO, , , 6/22, *FC* - DD RGN, , , , , , 
+GTC, 7378, 48' Flat, , SULLIVAN, BILL, , , (314) 580-8704, MARYLAND HTS, MO, ARNOLD, MO, , , 7/1, OOS WILL ADVISE - WORK ON TRUCK, , , , , , 
+GTC, 7991, Trailer Pool, , MERKLE, BRYAN, , , (618) 781-0983, SAINT LOUIS, MO, SAINT LOUIS, MO, , , 7/2, RELOAD 13-4, , , , , , 
+AFL, H802703, 48' Flat, , TWEEDELL, JAY, , , (256) 706-6084, ATTALLA, AL, LEES SUMMIT, MO, , , 7/5, 48' flat, , , , , , 
+GTC, 71094, 53' SD 5X, , COLE, GRANT, , , (217) 653-4963, MARCELINE, MO, WYACONDA, MO, , , 7/5, TWIC/RAMPS, , , , , , 
+GTC, 71209, 48' SD 5 Axle, , ELLERBUS, ALAN, , , (618) 214-5563, MARCELINE, MO, WYACONDA, MO, , , 7/5, TWIC/, , , , , , 
+ATI, 501001, UNKNOWN, , MICHAEL, BILLY, , , (256) 259-1275, FORT PAYNE, AL, STRAFFORD, MO, , , 7/6, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+GTC, 71284, 48' Flat, , WILLIAMS, JASON, , , (618) 488-6600, ALHAMBRA, IL, SAINT LOUIS, MO, , , 7/7, W/W 13-4, , , , , , 
+GTC, 71284, 48' Flat, , WILLIAMS, JASON, , , (618) 488-6600, ALHAMBRA, IL, SAINT LOUIS, MO, , , 7/8, W/W 13-4, , , , , , 
+ATI, 502001, Flat, , THORNTON, JOHN, , , (256) 259-1275, LA MIRADA, CA, OLIVE BRANCH, MS, , , 7/5, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+ATI, 502301, UNKNOWN, , WRAY, KENDA, , , (256) 259-1275, SCOTTSBORO, AL, HATTIESBURG, MS, , , 7/6, , , , , , , 
+GTC, 6845, 48' SD 5 Axle, , MOTLEY, LINDE, , , (507) 382-8696, GLENWILLOW, OH, LAUREL, MT, , , 6/29,  TWIC/PASSPORT/, , , , , , 
+AFL, 285102, 48' Flat, , ANDERSON, JOHN, , , (740) 294-7653, CAMBRIDGE, OH, LEXINGTON, NC, , , 6/21, , , , , , , 
+ATI, 2291, 48' FLAT, , POLAND, WILLI, , , (252) 266-5563, CLINTON, NC, ROCKY MOUNT, NC, , , 7/6, TWIC card, , , , , , 
+ATI, 210701, 48' Flat, , HILL, KINDY, , , (910) 461-1993, COLUMBIA, SC, ROCKINGHAM, NC, , , 7/6, TWIC, , , , , , 
+ATI, 501901, UNKNOWN, , MCCALOM, TERRY, , , (256) 259-1275, WICHITA, KS, WADESBORO, NC, , , 7/6, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+GTC, 71283, 48' SD 5 Axle, , BURNEM, MERLE, , , (912) 270-0232, SAVANNAH, GA, SANFORD, NC, , , 7/6, NEEDS AL OR MS AREA  -  TWIC/, , , , , , 
+GTC, 7787, 48' Flat, , MCGUIRE, DAVID, , , (231) 824-6471, CADILLAC, MI, FORT BRAGG, NC, , , 7/7, TWIC/CALL 231-824-6471, , , , , , 
+ATI, 151101, 48' Flat, , SHULTZ, HERMA, , , (910) 619-9905, GALION, OH, CORDOVA, NC, , , 7/7, TWIC  DEDICATED AT823, , , , , , 
+GTC, 1263, 9 X DD RGN, , HARVEY, DONNI, , , (412) 788-3680, HOUSTON, TX, KEENE, ND, , , 6/18, NOT CA LEGAL-, , , , , , 
+GTC, 91432, 48' SD 6 Axle, , SIAN, TAMAR, , , (406) 671-5266, HOUSTON, TX, KEENE, ND, , , 6/21,  , , , , , , 
+GTC, 91381, 48' Flat, , CHANNELL, THERE, , , (678) 642-6550, COVINGTON, PA, WILLISTON, ND, , , 7/4, TWIC, , , , , , 
+GTC, 71488, 48' SD 5 Axle, , SILVERS, RONAL, , , (641) 660-8027, SAN ANTONIO, TX, WALHALLA, ND, , , 7/5, , , , , , , 
+GTC, 71486, 48' Flat, , STRADLIN, JOSEP, , , (928) 386-5164, LONE STAR, TX, WILLISTON, ND, , , 7/10,  , , , , , , 
+AFL, 286102, 48' Flat, , SIMMONS, MICKE, , , (479) 322-1031, LONE STAR, TX, WILLISTON, ND, , , 7/10, 479.322.0065, , , , , , 
+ATI, 172901, 48' Flat, , CARTER, DONAL, , , (580) 317-7093, LONE STAR, TX, WILLISTON, ND, , , 7/10,  , , , , , , 
+GTC, 91224, 48' Flat, , COOPER, JERRY, , , (330) 858-1849, CANTON, OH, DAKOTA CITY, NE, , , 7/7, TWIC/, , , , , , 
+GTC, 91224, 48' Flat, , COOPER, JERRY, , , (330) 858-1849, CANTON, OH, DAKOTA CITY, NE, , , 7/7, TWIC/, , , , , , 
+ATI, 186301, 48' Flat, , HANSEN, DELBE, , , (402) 740-0734, SALT LAKE CI, UT, LEIGH, NE, , , 7/9, , , , , , , 
+GTC, 3571, 7 Axle Lowboy, , SABOL, BRIAN, , , (412) 613-0500, LINDON, UT, GONIC, NH, , , 6/24, NO TARPS/, , , , , , 
+GTC, 9104, 50' SD 5 Axle, , ANGELINE, VICTO, , , (732) 672-6854, MILFORD, DE, OLD BRIDGE, NJ, , , 6/28, TWIC/                              , , , , , , 
+GTC, 71403, 51' Flat, , JAY, THEOD, , , (814) 207-4343, CHICAGO, IL, MOORESTOWN, NJ, , , 6/30, RELOAD 19-3, , , , , , 
+ATI, A803301, 48' Flat, , LARMOND, TREVO, , , (856) 426-6762, TROY, OH, PORT NEWARK, NJ, , , 7/1, TWIC card, , , , , , 
+ATI, A804101, 48' Flat, , MARKS, CRAIG, , , (609) 685-7266, ROSELAND, NJ, PAULSBORO, NJ, , , 7/6, TWIC, , , , , , 
+GTC, 7325, 48'F 6X W/Sid, , RAUP, RODNE, , , (570) 713-8003, CLEVELAND, OH, CLAYTON, NJ, , , 7/6, TWIC/SIDES DOWN, , , , , , 
+ATI, 201201, 48' Step Deck, , JEFFERSO, RAYMO, , , (678) 656-3169, ANDERSONVILL, GA, EDGEWATER, NJ, , , 7/7, *FC*, , , , , , 
+ATI, 500104, UNKNOWN, , GANT, TERRY, , , (256) 259-1275, SCOTTSBORO, AL, ROSENHAYN, NJ, , , 7/7, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+AFL, H802703, 48' Flat, , TWEEDELL, JAY, , , (256) 706-6084, KANSAS CITY, MO, CHERRY HILL, NJ, , , 7/8, 48' flat, , , , , , 
+AFL, 879101, 48' SD 6 Axle, , THOMAS, JOHN, , , (713) 304-4582, HOUSTON, TX, STEPHENVILLE, NL, , , 7/3, TWIC/PSPRT - 60k legal, , , , , , 
+GTC, 71211, 48' Flat, , NEACE, JOHN, , , (937) 728-0113, WINCHESTER, KY, SHIPROCK, NM, , , 7/5,  , , , , , , 
+GTC, 41169, 7 Axle DD RGN, , HARRIOTT, RALPH, , , (570) 228-1335, GIDDINGS, TX, LAS VEGAS, NV, , , 6/24, TWIC/, , , , , , 
+GTC, 71476, 48' Flat, , STEVENSO, MICHA, , , (575) 936-0048, HOUSTON, TX, ELKO, NV, , , 7/4, TWIC/, , , , , , 
+MTI, 699, 50' Step Deck, , RAYBURN, CHARL, , , (419) 236-9722, WRIGHT PATTE, OH, HAWTHORNE, NV, , , 7/6,  , , , , , , 
+GTC, 9608, 53' SD 5X, , CHANNELL, OTIS, , , (770) 656-8404, GREENSBORO, NC, HAWTHORNE, NV, , , 7/9, TWIC/, , , , , , 
+GTC, 91415, 8 Axle DD RGN, , ROBERSON, HERMA, , , (678) 378-7033, MARIETTA, GA, SPARKS, NV, , , 7/10,  , , , , , , 
+ATI, 194002, UNKNOWN, , BROWN, KOREY, , , (253) 926-6755, HALLS, TN, FERNLEY, NV, , , 7/10,  , , , , , , 
+ATI, 204301, UNKNOWN, , SLAUTERB, TROY, , , (419) 707-1495, FREMONT, OH, VESTAL, NY, , , 7/1, Curtain Sides, , , , , , 
+ATI, 147506, 52' SD 5 Axle, , LYONS, GEORG, , , (419) 483-8121, AKRON, OH, SCARSDALE, NY, , , 7/2, No tarps, , , , , , 
+GTC, 71484, 48' SD 5 Axle, , BREWER, JOYCE, , , (214) 536-0332, FORT IRWIN, CA, FORT DRUM, NY, , , 7/5, TEAM/TWIC, , , , , , 
+ATI, 222401, UNKNOWN, , EVANS, CHRIS, , , (256) 259-1275, FYFFE, AL, PLATTSBURGH, NY, , , 7/5, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+ATI, 142001, 50' Flat, , NELSON, DAVID, , , (580) 212-4405, STUTTGART, AR, EAST SYRACUS, NY, , , 7/6,  , , , , , , 
+AFL, 271703, 48' SD 5 Axle, , BARABAS, RICHA, , , (814) 547-8531, MILLERSBURG, OH, VESTAL, NY, , , 7/6, TWIC - 10'2" tall, 45k max, , , , , , 
+ATI, 218501, 48' Flat, , STACEY, ROY, , , (618) 339-9649, DU QUOIN, IL, NEW YORK, NY, , , 7/7,  , , , , , , 
+GTC, 71264, 48' Flat, , SHAFER, MICHA, , , (309) 221-0619, STUTTGART, AR, GRAND ISLAND, NY, , , 7/10, DEL NY 7/12, , , , , , 
+GTC, 71496, 48' Flat, , LENOVER, JOHN, , , (309) 221-5958, STUTTGART, AR, GRAND ISLAND, NY, , , 7/12, TWIC, , , , , , 
+ATI, 156801, Stretch Blade, , WATERS, HOLLI, , , (765) 481-7901, GRAND FORKS, ND, CONVOY, OH, , , 6/16, HAS BLADE TRAILER TWIC AL COIL, , , , , , 
+ATI, 134501, 48' Flat, , OLEAR, JAMES, , , (216) 225-0977, EDGEWOOD, MD, MACEDONIA, OH, , , 6/20,  , , , , , , 
+AFL, 400701, 6X DD RGN, , SMITH, VIRGI, , , (513) 839-0790, EL PASO, TX, CINCINNATI, OH, , , 6/20, 513-839-0790 / RGN 26' in well / ca, , , , , , 
+ATI, 154907, UNKNOWN, , ANDERSON, ROBER, , , (334) 702-1753, MANITOWOC, WI, CONVOY, OH, , , 6/21, BLADE TRAILER, , , , , , 
+ATI, 220901, UNKNOWN, , KILCULLE, THOMA, , , (334) 702-1753, CONVOY, OH, CONVOY, OH, , , 6/22, , , , , , , 
+ATI, 219701, UNKNOWN, , DOSS, IRA, , , (334) 702-1753, MARION, OH, CONVOY, OH, , , 6/24, Schnable tlr., , , , , , 
+GTC, 9168, 48' SD 6 Axle, , SANDERSO, CHARL, , , (419) 547-0406, LAFAYETTE, IN, FREMONT, OH, , , 6/24, TWIC/42 MAX, , , , , , 
+ATI, A802301, Stretch Blade, , SILER, TIMOT, , , (765) 210-9330, GRAND FORKS, ND, CONVOY, OH, , , 6/24,  , , , , , , 
+ATI, 217701, Stretch Blade, , NIELSEN, ARLAN, , , (334) 702-1753, GRAND FORKS, ND, CONVOY, OH, , , 6/24, 48' step deck, , , , , , 
+ATI, 220002, UNKNOWN, , GREER, TERRY, , , (334) 702-1753, GRAND FORKS, ND, CONVOY, OH, , , 6/24, , , , , , , 
+ATI, 211801, Stretch Blade, , VAUGHN, DAVID, , , (334) 702-1753, GRAND FORKS, ND, CONVOY, OH, , , 6/24, DEDICATED AT319, , , , , , 
+ATI, 101430, UNKNOWN, , WEITING, DENNI, , , (602) 200-4128, VAN WERT, OH, CONVOY, OH, , , 6/25, Dedicated AT319, , , , , , 
+GTC, 9908, 48' SD 5 Axle, , AUSTIN, LOWEL, , , (419) 583-9644, ARCHBOLD, OH, DELTA, OH, , , 6/25, RELOADING, , , , , , 
+AFL, 287401, 48' Step Deck, , CONRAD, THOMA, , , (419) 509-1523, HUFFMAN, TX, MARYSVILLE, OH, , , 6/26, , , , , , , 
+ATI, 144904, UNKNOWN, , KENNEDY, MICHA, , , (800) 511-1950, MANITOWOC, WI, CONVOY, OH, , , 6/26, Schnable trlr, , , , , , 
+GTC, 3894, 7 Axle Lowboy, , STONE, FREDE, , , (330) 283-4906, MUKWONAGO, WI, MINERAL RIDG, OH, , , 6/27, TWIC/83-85K# MAX-    4XTRACTOR, , , , , , 
+ATI, A803601, Stretch Blade, , WRIGHT, HOWAR, , , (334) 702-1753, CONVOY, OH, CONVOY, OH, , , 6/27,  , , , , , , 
+AFL, 400301, 48' F w/LbrTr, , STROUSE, JAMES, , , (330) 275-7821, HOUSTON, TX, PAINESVILLE, OH, , , 6/27, , , , , , , 
+ATI, 217602, UNKNOWN, , HARDY, BRIAN, , , (334) 702-1753, GRAND FORKS, ND, CONVOY, OH, , , 6/27, Blade Trlr 217602A, , , , , , 
+ATI, 217601, UNKNOWN, , ALWELL, CHARL, , , (334) 702-1753, GRAND FORKS, ND, CONVOY, OH, , , 6/27, Blade trlr, , , , , , 
+ATI, 217603, UNKNOWN, , STAGNER, RICKY, , , (334) 702-1753, GRAND FORKS, ND, CONVOY, OH, , , 6/27, , , , , , , 
+ATI, 154908, Stretch Blade, , NAPIER, BRIAN, , , (334) 702-1753, GRAND FORKS, ND, CONVOY, OH, , , 6/27, , , , , , , 
+ATI, 204001, UNKNOWN, , LINDSAY, ROY ", , , (334) 702-1753, TOLEDO, OH, CONVOY, OH, , , 6/27, BLADE TRAILER, , , , , , 
+ATI, 101429, UNKNOWN, , COLLINS, LARRY, , , (334) 702-1753, MARION, OH, CONVOY, OH, , , 6/28,  , , , , , , 
+GTC, 48113, Trailer Pool, , BURKS, LARRY, , , (740) 852-7446, SAN ANTONIO, TX, LONDON, OH, , , 6/28, , , , , , , 
+ATI, 151706, Stretch Blade, , NOACK, RICHA, , , (320) 266-7079, GRAND FORKS, ND, CONVOY, OH, , , 6/28, BKD AT319, , , , , , 
+GTC, 7784, 5 Axle DD RGN, , PHIPPS, LONNI, , , (513) 571-4373, HILLSBORO, TX, SOMERVILLE, OH, , , 6/28, TWIC/ OOS VACATION, , , , , , 
+GTC, 41052, 46' SD 6 Axle, , BRENNEMA, RON, , , (419) 236-0547, LIMA, OH, MIDDLETOWN, OH, , , 6/29, TWIC/ALSO HAS 7-10X RGN AND 7-10XSD, , , , , , 
+AFL, 300901, 48' Flat, , HULTON, BRIAN, , , (330) 921-5099, CHICAGO, IL, YOUNGSTOWN, OH, , , 6/29, , , , , , , 
+ATI, 146007, Stretch Blade, , CASTLEMA, GORDO, , , (334) 702-1753, GRAND FORKS, ND, CONVOY, OH, , , 6/29, , , , , , , 
+ATI, 146006, Stretch Blade, , BUSBY, TAMAR, , , (334) 702-1753, GRAND FORKS, ND, CONVOY, OH, , , 6/29, , , , , , , 
+GTC, 7763, 45' Flat, , IONESE, MICHA, , , (330) 506-0334, TONAWANDA, NY, COLUMBIANA, OH, , , 6/29,  , , , , , , 
+AFL, 300001, 45' Flat 5 Ax, , COMBS, PAUL, , , (859) 750-2924, ROCKPORT, IN, MINSTER, OH, , , 6/29, , , , , , , 
+ATI, TL1111, 52' SD 5 Axle, , HARRIS, HOWAR, , , (419) 483-8121, FORT WORTH, TX, FOSTORIA, OH, , , 7/1, , , , , , , 
+AFL, TL1205, 48' SD 5 Axle, , DURST, JEREM, , , (419) 603-9735, HOUSTON, TX, CLEVELAND, OH, , , 7/1, , , , , , , 
+ATI, 502701, UNKNOWN, , CLAGUE, ROBER, , , (800) 511-1950, PITTSBURGH, PA, CONVOY, OH, , , 7/1, , , , , , , 
+GTC, 7003, 48' SD 5 Axle, , SANDERS, RICHA, , , (330) 401-9532, GRAFTON, WV, GNADENHUTTEN, OH, , , 7/1, LATE DELIVERY, , , , , , 
+GTC, 3402, 7 Axle Lowboy, , THOMAS, DAVID, , , (419) 290-2410, BURLINGTON, IA, TOLEDO, OH, , , 7/1,  , , , , , , 
+GTC, 41218, 5 Axle RGN, , TRUSTER, PHILL, , , (513) 200-2093, MILFORD, OH, SOMERVILLE, OH, , , 7/1, TWIC/NO TARPS/29'4 WELL, , , , , , 
+GTC, 71301, 48' Flat, , LOWE, RICKY, , , (440) 396-0011, TULSA, OK, ELYRIA, OH, , , 7/2, TWIC/ OOS WILL ADVISE, , , , , , 
+AFL, 224703, 48' Flat, , ATTEBERR, GUY, , , (832) 398-1457, ROCKY MOUNT, VA, BRUNSWICK, OH, , , 7/2, , , , , , , 
+GTC, 7638, 48' Flat, , GOOD, MICHA, , , (330) 465-3345, BREWTON, AL, WOOSTER, OH, , , 7/4,  , , , , , , 
+GTC, 71271, 53' F Conest , , KUEHL, EDWAR, , , (412) 788-3680, ELKHART, IN, PERRYSBURG, OH, , , 7/4, RELOADING, , , , , , 
+GTC, 9854, 52' SD 5 Axle, , ZELLNER, GORDO, , , (216) 905-9867, SHENANDOAH, VA, BELLEVUE, OH, , , 7/5, TWIC/HAS 52'SD HAS CNTAINR LOCKS/, , , , , , 
+GTC, 71480, 53' BEAVERTAI, , KOLB II, ALEX, , , (614) 264-6857, YOUNGSTOWN, OH, BRIDGEPORT, OH, , , 7/5,  , , , , , , 
+GTC, 91422, 48' Flat, , MOSER, JOHN, , , (419) 544-1692, POTTERVILLE, MI, GALION, OH, , , 7/5,  TWIC/, , , , , , 
+ATI, 156406, 48' Step Deck, , FREEMAN , BOBBY, , , (330) 814-8079, MEMPHIS, TN, STRUTHERS, OH, , , 7/5, TWIC, , , , , , 
+GTC, 9954, 45' Flat, , SIMPSON, MATHE, , , (330) 921-9022, KENTON, OH, NORTH CANTON, OH, , , 7/5, CALL TERM 35-9    330-797-0048, , , , , , 
+GTC, 41469, 8 Axle DD RGN, , ROBERTSO, CARL, , , (937) 776-5331, TROY, PA, MIDDLETON, OH, , , 7/5,  , , , , , , 
+GTC, 71431, 48' Flat, , RICKER, ROGER, , , (740) 404-4799, BUFFALO, NY, NEWARK, OH, , , 7/5, RELOADING, , , , , , 
+GTC, 7805, 48' SD 5 Axle, , ROWLES, JAMES, , , (419) 271-4858, WEST FINLEY, PA, FLAT ROCK, OH, , , 7/5, TWIC/, , , , , , 
+GTC, 71450, 48' Flat, , SCHLESSE, MARK, , , (419) 996-9051, CHICAGO, IL, CINCINNATI, OH, , , 7/6, SIDES UP-, , , , , , 
+ATI, 166503, 48' Step Deck, , STIDHAM, RONAL, , , (419) 239-3872, NORWALK, OH, MONROEVILLE, OH, , , 7/6,  TWIC/ AL COIL, , , , , , 
+GTC, 71445, 48' Step Deck, , GIERKE, THOMA, , , (419) 957-2777, BROOKLYN, NY, ALVADA, OH, , , 7/6, TWIC/HAS 5XRGNEXT, , , , , , 
+GTC, 71262, 48' Flat, , BALDERSO, RICHA, , , (419) 252-0626, SMITHFIELD, PA, SHELBY, OH, , , 7/6, TWIC/, , , , , , 
+GTC, 781095, Trailer Pool, , HOWARD, CURTI, , , (563) 419-4344, PERRYSBURG, OH, LONDON, OH, , , 7/7, 48'SD   34"DCK HGT, , , , , , 
+GTC, 41014, 48' SD 5 Axle, , ALLEN, MARK, , , (219) 712-0940, SOUTH HOLLAN, IL, COLUMBUS, OH, , , 7/7, 44K MAX/, , , , , , 
+GTC, 9660, 48' SD 6 Axle, , HARRELL, CHARL, , , (216) 401-9123, MASSILLON, OH, MACEDONIA, OH, , , 7/8, TWIC/ VACATION                     , , , , , , 
+AFL, 587708, 48' Flat, , BENTLEY, RANDY, , , #Error, ASHLAND, KY, HAMILTON, OH, , , 7/8, , , , , , , 
+GTC, 7902, 50' SD Conest, , LEACH, WILLI, , , (419) 572-1012, ECORSE, MI, MIDDLETOWN, OH, , , 7/8, TWIC -, , , , , , 
+GTC, 71243, 48' Flat, , WRAY, STEVE, , , (740) 645-4069, COALTON, KY, GALLIPOLIS, OH, , , 7/10,  , , , , , , 
+GTC, 91398, 8X DD RGN EXT, , HALAS, PETER, , , (918) 352-9808, KEENE, ND, DRUMRIGHT, OK, , , 6/29, NO DRIVER IN UNIT/also has 81'SD12X, , , , , , 
+ATI, 130402, Step Deck, , AHNER, KENNE, , , (843) 424-6656, OXFORD, NC, TULSA, OK, , , 6/29, TWIC  52' Step, , , , , , 
+GTC, 9732, 5 Axle DD RGN, , RECORD, ROBER, , , (918) 445-9875, LIBERAL, KS, TULSA, OK, , , 6/30, TWIC -CALLTERM 36-4/, , , , , , 
+GTC, 9971, 48' SD 5 Axle, , HENNEY, DAVID, , , (419) 547-0406, SANDUSKY, OH, OKLAHOMA CIT, OK, , , 7/3, TWIC/CALL 419-547-0406 (35-2 TERM), , , , , , 
+GTC, 9835, 5 Axle DD RGN, , ANTHONY, WILLI, , , (501) 470-5330, BONO, AR, DRUMRIGHT, OK, , , 7/3,  HAS 6XDDRGN, , , , , , 
+GTC, 71459, 48' Flat, , GRIM, HOWAR, , , (918) 406-9077, SKIATOOK, OK, BROKEN ARROW, OK, , , 7/5, OOS UNTIL 7/3 - PASSPORT/, , , , , , 
+GTC, 71228, 53' Flat, , CARDOSI, CARL, , , (262) 642-6222, FRANKLIN, WI, STRATFORD, ON, , , 7/4, TWIC/ CALL262-642-6222- 53'SD LOW P, , , , , , 
+GTC, 7824, 48' SD 5 Axle, , RAGSDALE, THOMA, , , (661) 809-6645, SAN DIEGO, CA, IRONSIDE, OR, , , 6/28, TWIC/42K# MAX - WW124, , , , , , 
+GTC, 3393, 8 Axle Lowboy, , CUMMINGS, RICHA, , , (412) 956-6824, HOUSTON, TX, HUNTINGTON, OR, , , 7/1, OOS, READY 7/15, , , , , , 
+GTC, 91038, 48' SD 5 Axle, , PRICE, GRANT, , , (215) 776-1238, WAVERLY, OH, EUGENE, OR, , , 7/2, TWIC/ 2ND CELL 215-410-1597-, , , , , , 
+GTC, 91387, 48' Step Deck, , EASTMAN, WILLI, , , (231) 824-6471, ALBUQUERQUE, NM, PORTLAND, OR, , , 7/5, TWIC/PSPORT/CALL 231-824-6471, , , , , , 
+GTC, 71404, 50' SD 5 Axle, , MELVIN, NEIL, , , (231) 824-3933, COMSTOCK PAR, MI, HILLSBORO, OR, , , 7/9, TWIC/, , , , , , 
+GTC, 71250, 48' Flat, , GOODRICH, FRANK, , , (239) 247-0779, COMSTOCK PAR, MI, HILLSBORO, OR, , , 7/11, CALL 239-247-0899, , , , , , 
+ATI, 144905, UNKNOWN, , UNKNOWN, , , ,  , PITTSBURGH, PA, PITTSBURGH, PA, , , 6/16, , , , , , , 
+ATI, 221201, UNKNOWN, , STEFFEY, RICKE, , , (334) 702-1753, HOUSTON, TX, BEAVER, PA, , , 6/20, , , , , , , 
+ATI, 219201, 45' Flat 5 Ax, , FARMER, JAMES, , , (330) 921-9293, BRACKENRIDGE, PA, MIDLAND, PA, , , 6/23, , , , , , , 
+MTI, 900, 48'F 6X, , JUNGFLEI, CHARL, , , (724) 544-1122, HOUSTON, PA, MIDLAND, PA, , , 6/23, , , , , , , 
+ATI, 165102, Stretch Blade, , MORRISON, PETER, , , (334) 702-1753, HOUSTON, TX, BEAVERDALE, PA, , , 6/24, BLADE TRAILER, , , , , , 
+ATI, 385, Flat, , CALLAHAN, JACK, , , (740) 254-9220, HOUSTON, TX, INDIANA, PA, , , 6/24,  , , , , , , 
+GTC, 6767, 48' SD 6 Axle, , FISCHER,, FRED, , , (412) 496-2334, DELAWARE CIT, DE, IMPERIAL, PA, , , 6/25, TWIC/PASSPORT, , , , , , 
+GTC, 71406, 48' Stepdeck , , STEFANOV, RICHA, , , (570) 242-1908, MIDDLEBURG, PA, SAYLORSBURG, PA, , , 6/27, TWIC/42"DCK HGT/HAS HVY DUTY RAMPS/, , , , , , 
+GTC, 1780, 6X DD RGN, , SHUGHART, MICHA, , , (717) 422-1392, NEWBURGH, NY, CARLISLE, PA, , , 6/27, TWIC/RELOADING FOR 52-2, , , , , , 
+ATI, TL1103, 48' Flat, , LARMOND, DENNI, , , (412) 490-7769, MARION, SC, MONTGOMERYVI, PA, , , 6/29,  , , , , , , 
+GTC, 71254, 48' SD 5 Axle, , SWARTZ, ROGER, , , (570) 412-5750, CONSHOHOCKEN, PA, MILTON, PA, , , 6/29, TWIC-, , , , , , 
+ATI, 502901, UNKNOWN, , UNKNOWN, , , ,  , PITTSBURGH, PA, PITTSBURGH, PA, , , 6/29, , , , , , , 
+ATI, 192103, 48' Flat, , DURIS, JOHNA, , , (330) 383-1483, MIDLAND, PA, BRACKENRIDGE, PA, , , 6/30, DO NOT CALL 48 FLAT, , , , , , 
+GTC, 71411, 48' SD 6 Axle, , MCCONAHY, TIMOT, , , (724) 333-6412, NEW CASTLE, PA, NEW CASTLE, PA, , , 6/30,  , , , , , , 
+ATI, 104015, 48' Flat, , GUMMO, THOMA, , , (814) 422-0598, NEWARK, NJ, STATE COLLEG, PA, , , 6/30, DO NOT CALL NO DRIVER IN THIS UNIT, , , , , , 
+ATI, 210101, UNKNOWN, , EVANS, CHARL, , , (270) 999-5585, ELECTRA, TX, TOWANDA, PA, , , 7/1, 45' flat, , , , , , 
+ATI, 222701, UNKNOWN, , BAILEY, DALE, , , (256) 259-1275, SCOTTSBORO, AL, KING OF PRUS, PA, , , 7/1, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+ATI, 144902, UNKNOWN, , STOVALL, WILLI, , , (334) 702-1753, PENSACOLA, FL, SOMERSET, PA, , , 7/1,  , , , , , , 
+GTC, 6573, 48' SD 5 Axle, , HARRY, RICHA, , , (724) 309-1618, CITRONELLE, AL, TIOGA, PA, , , 7/1, TWIC/RUNNING LOCAL 7-5, , , , , , 
+ATI, 217002, UNKNOWN, , WATERS, DAMON, , , (318) 417-1676, PITTSBURGH, PA, PITTSBURGH, PA, , , 7/1, dedicated AT319- do not call, , , , , , 
+ATI, 104023, 48' Flat, , STEVENS, DAVID, , , (814) 422-0598, BETHLEHEM, PA, MOUNT JOY, PA, , , 7/1, DEL PA 7/5/11  CALL HERB GROVE 814-, , , , , , 
+AFL, 400201, 48' Flat, , BUTERA, JOHN , , , (724) 510-9006, IRVING, TX, PITTSBURGH, PA, , , 7/3, , , , , , , 
+GTC, 71468, 6X DD RGN, , HOGG, JOHN, , , (586) 713-9444, KLAMATH FALL, OR, MONTROSE, PA, , , 7/4, PSPRT/NO TARP/12' W MAX + 11'11" H , , , , , , 
+ATI, 104016, 48' Flat, , BENNER, CARL, , , (814) 422-0598, STATE COLLEG, PA, MOUNT JOY, PA, , , 7/5, CALL HERB 814-4222-0598, , , , , , 
+GTC, 91430, 48' SD 5 Axle, , WILLARD, JAMES, , , (216) 310-7122, OAKLAND CITY, IN, EXETER, PA, , , 7/5, TWIC/, , , , , , 
+ATI, 500802, UNKNOWN, , SUTTON, RICHA, , , (256) 259-1275, SCOTTSBORO, AL, HYDE, PA, , , 7/5, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+AFL, 400902, 48' Flat, , WOODRUFF, BRADF, , , (567) 241-6438, EAST CHICAGO, IN, PITTSBURGH, PA, , , 7/5, , , , , , , 
+ATI, TL1210, Stretch Blade, , BOESE, DENNI, , , (334) 702-1753, LITTLE ROCK, AR, PORTAGE, PA, , , 7/5, 48' SD - NO TARPS, , , , , , 
+ATI, 20063, 48' Flat, , RHODEN, CARLT, , , (609) 841-2042, EDDYSTONE, PA, SHADY GROVE, PA, , , 7/5, , , , , , , 
+ATI, 204202, UNKNOWN, , WALKER, SEAN, , , (803) 364-0089, PITTSBURGH, PA, PITTSBURGH, PA, , , 7/5, , , , , , , 
+GTC, 71471, 48' SD 5 Axle, , PETERSON, GLENN, , , (717) 860-5770, BRIDGEPORT, PA, SHADE GAP, PA, , , 7/5, TWIC/, , , , , , 
+ATI, 503101, UNKNOWN, , UNKNOWN, , , ,  , PITTSBURGH, PA, PITTSBURGH, PA, , , 7/5, , , , , , , 
+GTC, 91170, 48' Flat, , SANDERS, GERMA, , , (302) 547-6813, MARION, SC, NORTH WALES, PA, , , 7/6, WW 801, , , , , , 
+GTC, G803705, 6X DD RGN, , BARTON, SCOTT, , , (260) 312-7514, NORWALK, OH, WEST FINLEY, PA, , , 7/6, TWIC/W/W AT319, , , , , , 
+GTC, 9633, 48' SD 5 Axle, , SHAFFER, JAMES, , , (330) 797-0048, DEARBORN, MI, NEW CASTLE, PA, , , 7/6, RUNS LOCAL FOR TERM 35-9, , , , , , 
+ATI, 3315, 48' FLAT, , RANSDORF, RONAL, , , (412) 298-2436, NORTH BRANCH, NJ, RENOVO, PA, , , 7/6, 7/5: OOS 'til further notice  No Br, , , , , , 
+ATI, 13198, UNKNOWN, , GIERLACH, ANDRE, , , (724) 971-5641, TONAWANDA, NY, TRANSFER, PA, , , 7/6, 24' Bed  12K Max Wt, , , , , , 
+GTC, 71453, UNKNOWN, , SALAS, MARIO, , , (800) 562-3787, HIGH SPRINGS, FL, YORK, PA, , , 7/7, , , , , , , 
+AFL, 225802, 48' Flat, , WILKS, TIMOT, , , (330) 974-9977, YPSILANTI, MI, WHEATLAND, PA, , , 7/7, Call AF709 - 330.974.9977, , , , , , 
+GTC, 4981, 7 Axle DD RGN, , TOUS, MIROS, , , (847) 951-8011, NEW MARTINSV, WV, WAYNESBURG, PA, , , 7/7, TWIC/ W/W 06-2, , , , , , 
+ATI, 214301, Step Deck, , RUSCHMEY, MICHA, , , (870) 456-1607, DES ARC, AR, LOCK HAVEN, PA, , , 7/7, 50' Step 38"HI 47K Max, , , , , , 
+GTC, 7988, 48' Flat, , KENLEY, JOSEP, , , (618) 531-7366, CRYSTAL CITY, MO, YORK HAVEN, PA, , , 7/7, TWIC -, , , , , , 
+GTC, 71320, 48' SD 5 Axle, , MINER, CRAIG, , , (712) 544-2259, MUNCY, PA, MUNCY, PA, , , 7/7, CALL NANCY 712-544-2259/, , , , , , 
+GTC, 7988, 48' Flat, , KENLEY, JOSEP, , , (618) 531-7366, ST CHARLES, MO, ALLENTOWN, PA, , , 7/8, TWIC -, , , , , , 
+AFL, 587514, 48' Flat, , BREESE, EDWAR, , , (724) 588-2268, NEW IBERIA, LA, WATSONTOWN, PA, , , 7/9, Call Patty - 724.588.2268, , , , , , 
+ATI, 103004, 48' Step Deck, , POSTELL, RALPH, , , (901) 523-7040, BEAUMONT, TX, CHAMBERSBURG, PA, , , 7/9, 48'SD, , , , , , 
+ATI, 3780, UNKNOWN, , WINE, JOSEP, , , (304) 904-5325, LAREDO, TX, HUNTINGDON, PA, , , 7/11, TWIC NO Brokered Frt!, , , , , , 
+ATI, 3780, UNKNOWN, , WINE, JOSEP, , , (304) 904-5325, LAREDO, TX, HUNTINGDON, PA, , , 7/11, TWIC  NO BROKERED FREIGHT, , , , , , 
+ATI, 500106, UNKNOWN, , SAINT, DONAL, , , (256) 259-1275, SCOTTSBORO, AL, NORTH CHARLE, SC, , , 7/1, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+MTI, M803903, 48' Flat, , ALLEN, THOMA, , , (843) 495-8392, WILMINGTON, DE, NORTH CHARLE, SC, , , 7/5, 48' FLATBED, , , , , , 
+ATI, 112105, 53' Flat, , GRAHAM, RONAL, , , (843) 229-6517, LYNCHBURG, SC, LYNCHBURG, SC, , , 7/6, TWIC, , , , , , 
+ATI, A802505, 48' Flat, , SANDERS, SION, , , (843) 731-1519, NEWARK, DE, NORTH CHARLE, SC, , , 7/6, , , , , , , 
+ATI, TL1306, 48' F w/LbrTr, , LEE, JOHNN, , , (843) 907-7973, JOANNA, SC, MURRELLS INL, SC, , , 7/7,  , , , , , , 
+GTC, 71479, 52' SD 5 Axle, , DUENKE, MATTH, , , (803) 315-4985, JACKSONVILLE, FL, LEXINGTON, SC, , , 7/7, OOS READY 7/7 -  TWIC -, , , , , , 
+GTC, 41494, 6X DD RGN, , KOK, DELWY, , , (605) 490-2352, FORT RILEY, KS, GOOSE CREEK, SC, , , 7/8, , , , , , , 
+ATI, 203401, 48' Flat, , JOHNSTON, MITCH, , , (360) 421-4579, ARLINGTON, WA, SIOUX FALLS, SD, , , 7/9, 6' tarps, , , , , , 
+AFL, 290801, 48' Flat, , LOWE, CECIL, , ,  , LAVERGNE, TN, LEBANON, TN, , , 6/29, , , , , , , 
+AFL, 290401, 48' Flat, , OSBORNE, LARRY, , , (931) 703-5515, NASHVILLE, TN, CLARKSVILLE, TN, , , 6/29, DO NOT CALL RUNS DEDICATED, , , , , , 
+AFL, 301301, 45' Flat 5 Ax, , BLAYLOCK, CHARL, , , (931) 335-2226, LAVERGNE, TN, CLINTON, TN, , , 6/29, H 931-788-3967   SIDE KIT, , , , , , 
+ATI, 222802, 48' Flat, , VALENTA, FRANK, , , (256) 259-1275, CHESTER, SC, BRENTWOOD, TN, , , 7/1, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+AFL, 400701, 6X DD RGN, , SMITH, VIRGI, , , (513) 839-0790, WELLS, NV, MIDWAY, TN, , , 7/2, 513-839-0790 / RGN 26' in well / ca, , , , , , 
+ATI, 500801, Van, , LEMASTER, RONEY, , , (256) 259-1275, SCOTIA, NY, NASHVILLE, TN, , , 7/3, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+ATI, 220101, UNKNOWN, , FOWLER, ERIC, , , (423) 415-9923, MEMPHIS, TN, MORRISTOWN, TN, , , 7/5, *FC *  48' F, , , , , , 
+GTC, 41438, 7 Axle DD RGN, , DIAZ, EVELI, , , (281) 226-3008, TREMONTON, UT, MIDWAY, TN, , , 7/5, TWIC/NOT CALIF LEGAL/NO TARPS/, , , , , , 
+ATI, 155501, 48' Step Deck, , HUTTON, KENNE, , , (281) 204-7541, HOUSTON, TX, STANTON, TN, , , 7/6, 46k Max - Levelers, , , , , , 
+GTC, 41473, 8 Axle DD RGN, , EDMONSON, LEONA, , , (214) 725-0720, TYLER, TX, UNION CITY, TN, , , 7/7,  , , , , , , 
+GTC, 91238, 48' Flat, , CORDNER, THOMA, , , (586) 255-9266, CELINA, TN, LEIPERS FORK, TN, , , 7/7, TWIC-, , , , , , 
+MTI, 460, 53' SD 6X, , BEATTY, RICHA, , , (570) 977-1766, CELINA, TN, LEIPERS FORK, TN, , , 7/7, TWIC/42" DCK HGT/44K MAX, , , , , , 
+GTC, 71108, 48' Flat Stre, , BAST, JEFFR, , , (618) 488-6600, JACKSONVILLE, FL, NASHVILLE, TN, , , 7/8, ON 5 X'S/  TWIC/CALL 800-294-8908-, , , , , , 
+GTC, 41286, 53' SD 8 Axle, , NICHOLS, MICHA, , , (618) 267-9833, MANSFIELD, PA, MONT BELVIEU, TX, , , 6/26,             8-9X EXT SD, , , , , , 
+ATI, 212001, UNKNOWN, , HOLLOWAY, BARRY, , , (334) 702-1753, HAWESVILLE, KY, ELECTRA, TX, , , 6/26, 3 axle dolly, , , , , , 
+ATI, 218203, 48' Flat, , PUCKETT, ROBER, , , (734) 848-5054, LAREDO, TX, LAREDO, TX, , , 6/27, 48 FLAT, , , , , , 
+GTC, 8003, 53' SD 5X, , LOUGH, CHARL, , , (740) 852-7446, MOUNT ORAB, OH, SUMNER, TX, , , 6/29, TWIC-- CALL 740-852-3956, , , , , , 
+ATI, 104024, 50' Flat, , VAN RIPE, NEVIN, , , (814) 422-0598, SNOW SHOE, PA, PORT ARTHUR, TX, , , 6/29, , , , , , , 
+GTC, 41407, 7 Axle DD RGN, , ADKINS, STEVE, , , (409) 223-9222, PHARR, TX, PORT ARTHUR, TX, , , 7/1, OOS WILL ADVISE/ 25'WELL- 20"DECK H, , , , , , 
+GTC, 91437, 8 Axle DD RGN, , MACE, JR, DARYL, , , (515) 490-6773, CEDAR RAPIDS, IA, FT STOCKTON, TX, , , 7/2, NOT CA LEGAL-25'5 WELL-, , , , , , 
+AFL, 272206, 48' Flat, , SLAGLE, TIMOT, , , (256) 259-6020, BIRMINGHAM, AL, GEORGE WEST, TX, , , 7/3, , , , , , , 
+AFL, 272208, 48' Flat, , MASON, JAMES, , , (256) 259-6020, BIRMINGHAM, AL, GEORGE WEST, TX, , , 7/3, , , , , , , 
+AFL, 587511, 48' Step Deck, , CHAPMAN, JEFFR, , , (724) 588-2268, NEW BRIGHTON, PA, GARLAND, TX, , , 7/5, Call Patty - 724.588.2268, , , , , , 
+AFL, 587511, 48' Step Deck, , CHAPMAN, JEFFR, , , (724) 588-2268, NEW BRIGHTON, PA, GARLAND, TX, , , 7/5, Call Patty - 724.588.2268, , , , , , 
+GTC, 41244, 6X DD RGN, , KOLB, MATTH, , , (618) 407-1177, HUTCHINSON, KS, HEARNE, TX, , , 7/5, 30' WELL/ CALL 618-749-5912   NO CE, , , , , , 
+GTC, 71408, Trailer Pool, , LEE, RUSSE, , , (405) 227-5503, HUTCHINSON, KS, HEARNE, TX, , , 7/5, NEEDS TOAWAY/TWIC CALL 405-284-6225, , , , , , 
+GTC, 3563, 7 Axle DD RGN, , DURAND, LEE, , , (307) 399-9182, HUTCHINSON, KS, HEARNE, TX, , , 7/5,  , , , , , , 
+GTC, 3559, 7 Axle Lowboy, , DURAND, WILLI, , , (307) 399-9182, HUTCHINSON, KS, HEARNE, TX, , , 7/5,  , , , , , , 
+GTC, 9569, 50' SD 6X, , BUDDE, DERLE, , , (618) 780-5008, HUTCHINSON, KS, HEARNE, TX, , , 7/5, TWIC/, , , , , , 
+ATI, 218001, 53' Step Deck, , LEVENDOS, JON, , , (715) 381-9948, LUFKIN, TX, FAIRFIELD, TX, , , 7/5, will call when ready, , , , , , 
+ATI, 205701, Flat, , HUIE, DAVID, , , (903) 438-6942, PIGEON, MI, COOPER, TX, , , 7/5, bkd AT385, , , , , , 
+GTC, 71486, 48' Flat, , STRADLIN, JOSEP, , , (928) 386-5164, CONCORD, CA, GALVESTON, TX, , , 7/5,  , , , , , , 
+GTC, 71272, 48' Flat, , DAVIS, EVERE, , , (870) 761-2513, MASON, MI, HOUSTON, TX, , , 7/5, TWIC/PASSPORT-, , , , , , 
+ATI, TL1501, 48' Flat, , BELL, JEFFE, , , (618) 204-2339, SOMERVILLE, TX, HOUSTON, TX, , , 7/5, *FC* - 48'F NO TARPS, , , , , , 
+ATI, 182401, Flat, , TUCKER, RICHA, , , (334) 333-1362, ZANESVILLE, OH, LAREDO, TX, , , 7/5, TWIC  96" W tlr, , , , , , 
+ATI, 218207, UNKNOWN, , DUGAN, WILLI, , , (734) 848-5054, DEARBORN, MI, LAREDO, TX, , , 7/5, 48' FLAT, , , , , , 
+GTC, 91114, 48' SD Conest, , BOYD, COREY, , , (717) 729-7550, DEARBORN, MI, LAREDO, TX, , , 7/5, RAMPS/CONESTOGA, , , , , , 
+GTC, 71410, 48' Flat, , DAVIS, JON, , , (419) 957-8518, NORTH BALTIM, OH, PEARLAND, TX, , , 7/5, TWIC/CALL TERM 70-1- 419-422-9801, , , , , , 
+GTC, 41477, 6X DD RGN, , FISHBECK, FRED, , , (979) 618-3344, SAN ANGELO, TX, HOUSTON, TX, , , 7/5, READY 7/5 -TWIC/PASSPORT/ 29' WELL , , , , , , 
+GTC, 71425, 48' SD 5 Axle, , MYERS, DAVID, , , (309) 337-9563, LAREDO, TX, SAN ANTONIO, TX, , , 7/5, WANTS IL -TWIC/, , , , , , 
+GTC, 7813, 48' Flat, , NATALE, NICHO, , , (724) 651-3750, SHARON, PA, PAMPA, TX, , , 7/6,  , , , , , , 
+GTC, 9656, 48' SD 5 Axle, , BUDDE, MATTH, , , (618) 292-4653, HUTCHINSON, KS, HEARNE, TX, , , 7/6, TWIC/, , , , , , 
+GTC, 71264, 48' Flat, , SHAFER, MICHA, , , (309) 221-0619, CEDAR RAPIDS, IA, OLNEY, TX, , , 7/6, DEL NY 7/12, , , , , , 
+ATI, 222901, UNKNOWN, , HODGSON, NORMA, , , (256) 259-1275, FYFFE, AL, RICHMOND, TX, , , 7/6, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+ATI, 500601, UNKNOWN, , ADAMS, JERRY, , , (256) 259-1275, SCOTTSBORO, AL, WAXAHACHIE, TX, , , 7/6, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+GTC, 71296, 48' Flat, , MOORE, TIMOT, , , (815) 341-3095, LAREDO, TX, HOUSTON, TX, , , 7/6, TWIC/PASSPORT-, , , , , , 
+GTC, 7813, 48' Flat, , NATALE, NICHO, , , (724) 651-3750, WHEATLAND, PA, PAMPA, TX, , , 7/7,  , , , , , , 
+ATI, 223501, UNKNOWN, , SIMS, DWIGH, , , (256) 259-1275, HAYDEN, AZ, AMARILLO, TX, , , 7/7, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+GTC, 71487, 48' SD 5 Axle, , BUNDY, BYRON, , , (309) 221-7510, KEWANEE, IL, SAN ANTONIO , TX, , , 7/7, TWIC, , , , , , 
+GTC, 41439, 8 Axle DD RGN, , GOODWIN, ROBER, , , (812) 736-1226, DECATUR, IL, HOUSTON, TX, , , 7/7, TWIC/, , , , , , 
+GTC, 41382, 48' SD 5 Axle, , ROBINSON, WILL, , , (970) 396-7948, WELLS, NV, HOUSTON, TX, , , 7/7, TWIC-, , , , , , 
+ATI, 221702, UNKNOWN, , SMITH, STEPH, , , (979) 482-0910, LIVERPOOL, TX, FREEPORT, TX, , , 7/7, , , , , , , 
+GTC, 7414, 48' SD 5 Axle, , JORGENSO, ELLEN, , , (443) 540-2339, EDGEMOOR, DE, CHANNELVIEW, TX, , , 7/7, TWIC/, , , , , , 
+GTC, 71492, 48' SD 5 Axle, , SHAFFER, ROBER, , , (814) 673-5190, DUBOIS, PA, SONORA, TX, , , 7/8,                                    , , , , , , 
+GTC, 91451, 8 Axle RGN, , SCOTT, RUSSE, , , (740) 607-2698, VALLEY CITY, OH, LAREDO, TX, , , 7/8,  , , , , , , 
+AFL, 287201, 50' SD 5 Axle, , CURKENDA, CHARL, , , #Error, WARREN, OH, HOUSTON, TX, , , 7/8, 10/40 DECKS, , , , , , 
+ATI, 218202, UNKNOWN, , BROWN, WILLI, , , (734) 848-5054, LAREDO, TX, LAREDO, TX, , , 7/8, 48'F, , , , , , 
+GTC, 91499, Trailer Pool, , HALAS, PETER, , , (918) 352-9808, SUNNYVALE, TX, VAN HORN, TX, , , 7/9, , , , , , , 
+AFL, 286801, 48' Flat, , SINN, TEDDI, , , (219) 363-0350, DEARBORN, MI, LAREDO, TX, , , 7/9, TWIC, , , , , , 
+ATI, 218208, 48' Flat, , BROWN, WILLI, , , (734) 848-5054, DEARBORN, MI, LAREDO, TX, , , 7/9,  , , , , , , 
+ATI, 218204, 48' Step Deck, , CHAPPELL, AARON, , , (734) 848-5054, DEARBORN, MI, LAREDO, TX, , , 7/9, 48' STEP, , , , , , 
+AFL, 280201, 48' Flat, , DURST, MIKE, , , (740) 627-6044, DEARBORN, MI, LAREDO, TX, , , 7/10, TWIC, , , , , , 
+GTC, 41449, 48' SD 5 Axle, , GROVER, RANDY, , , (517) 230-6666, DEARBORN, MI, LAREDO, TX, , , 7/10,  , , , , , , 
+ATI, 501401, UNKNOWN, , PEEK, JAMES, , , (256) 259-1275, PORTLAND, OR, LAREDO, TX, , , 7/10, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+ATI, 204501, 48' Flat, , WOMACK, GUY, , , (602) 614-5231, HAYDEN, AZ, AMARILLO, TX, , , 7/10, 48' F, , , , , , 
+GTC, 71412, 48' Flat, , NEWSOM, ROGER, , , (740) 352-4450, WELLS, NV, TREMONTON, UT, , , 7/2, TWIC/, , , , , , 
+GTC, 41293, 10 Axle Lowbo, , STANGL, MICHE, , , (303) 901-3355, DENVER, CO, SALT LAKE CI, UT, , , 7/7, TWIC/LEGAL IN CA AND CANADA, , , , , , 
+GTC, 91266, 8 Axle Lowboy, , HORNSBY, JAMES, , , (513) 490-9800, CHATTANOOGA, TN, SALT LAKE CI, UT, , , 7/8, TWIC- HAS 8XRGN, , , , , , 
+ATI, 218209, 48' Flat, , HECKLING, JASON, , , (734) 848-5054, LAREDO, TX, NORFOLK, VA, , , 7/1, 48'F, , , , , , 
+ATI, 218206, 48' Flat, , CRAWFORD, RONAL, , , (734) 848-5054, LAREDO, TX, NORFOLK, VA, , , 7/5, 48' FLAT, , , , , , 
+ATI, 218211, UNKNOWN, , YEAGER, RICKY, , , (734) 848-5054, LAREDO, TX, NORFOLK, VA, , , 7/5, , , , , , , 
+ATI, 156001, 48' Flat, , KELLEY, WILLI, , , (301) 471-8016, NEW CASTLE, PA, QUANTICO, VA, , , 7/6, NO Broker Frt. TWIC, , , , , , 
+GTC, 71310, 48' Flat, , CRACE, ROBER, , , (606) 207-4405, CHESTERFIELD, MO, WILLIAMSBURG, VA, , , 7/6,  -TWIC/, , , , , , 
+ATI, 218801, 53' Step Deck, , BECKER, ALAN, , , (330) 717-1895, HADLEY, PA, HARRISONBURG, VA, , , 7/6, w/ramps - 41500lbs max, , , , , , 
+GTC, 7673, 48' SD 5 Axle, , KEEL, ARLIE, , , (419) 450-1095, CLEVELAND, OH, PORTSMOUTH, VA, , , 7/6,  , , , , , , 
+ATI, 208701, 48' F w/LbrTr, , MOSS, SHANT, , , (336) 837-8694, GROVER, NC, BRISTOL, VA, , , 7/6,  , , , , , , 
+ATI, TL1309, UNKNOWN, , FILLMORE, JOHN, , , (678) 508-8354, LAWRENCEVILL, GA, ARLINGTON, VA, , , 7/7, *FC* - 48'F, , , , , , 
+GTC, 91099, 13 Axle Lowbo, , SNIDER, RALPH, , , (405) 596-6227, GARLAND, TX, SEATTLE, WA, , , 7/4, DEL ??, , , , , , 
+ATI, 220601, UNKNOWN, , SCHANAMA, CHRIS, , , (503) 776-9301, SANTA PAULA, CA, KENT, WA, , , 7/5,  , , , , , , 
+ATI, 500001, 48' Flat, , HAYMON, GREGO, , , (256) 259-1275, SCOTTSBORO, AL, WENATCHEE, WA, , , 7/8, 48'F - Av if agent will 1/2 c'missi, , , , , , 
+ATI, 220301, Flat, , WESTERGA, ART, , , (330) 534-0351, WHEATLAND, PA, MILWAUKEE, WI, , , 6/25, , , , , , , 
+GTC, 7532, 6X DD RGN, , KAEDING, JEFFR, , , (412) 576-7813, CROOKSTON, MN, EAU CLAIRE, WI, , , 6/28, TWIC/NO TARPS- MT 6/20, , , , , , 
+GTC, 71125, 53' Flat, , HEALEY, JASON, , , (262) 642-6222, MONTICELLO, IN, FRANKLIN, WI, , , 6/28, CALL 262-642-6222/, , , , , , 
+GTC, 91440, Trailer Pool, , GREGORY, GARY, , , (920) 539-8224, ALEXANDRIA, MN, HANCOCK, WI, , , 6/30, TWIC/HAS 53'STEP                   , , , , , , 
+GTC, 71419, 50' SD 5 Axle, , REPP, LOUIE, , , (920) 960-8779, COAL VALLEY, IL, CAMPBELLSPOR, WI, , , 6/30, TWIC/, , , , , , 
+GTC, 71126, 53' SD 6X, , SADENWAS, ROBER, , , (262) 642-6222, SAINT MARYS, PA, SAUKVILLE, WI, , , 7/5, TWIC/CALL TERM 49-9, , , , , , 
+GTC, 71424, 48' SD 5 Axle, , GROESBEC, GARY, , , (419) 343-4623, YOUNGSTOWN, OH, FOND DU LAC, WI, , , 7/5, TWIC/, , , , , , 
+GTC, 71104, 48' SD 5 Axle, , MORRIS, KENNE, , , (229) 425-0658, BARNESVILLE, GA, WEST ALLIS, WI, , , 7/6, NEEDS AL OR MS AREA -TWIC/, , , , , , 
+AFL, 280901, 48' Flat, , DATA JR, WILLI, , , (330) 268-5969, TWINSBURG, OH, FRANKLIN, WI, , , 7/6, TWIC / 6' T, , , , , , 
+AFL, 254502, UNKNOWN, , HAYES, WILLI, , , (304) 633-6989, HOUSTON, TX, RAVENSWOOD, WV, , , 6/30, , , , , , , 
+GTC, 3420, 7 Axle Lowboy, , CLAY, JOHN, , , (801) 558-2489, SAN DIEGO, CA, SAINT ALBANS, WV, , , 7/3,  , , , , , , 
+GTC, 41312, 53'SD6XEXT, , ENZLMUEL, WILLI, , , (714) 335-0900, ELKO, NV, MOUNDSVILLE, WV, , , 7/5, 32K# MAX- 36" DH-PASSPORT, , , , , , 
+AFL, 286901, 48' Stepdeck , , MCLAUGHL, FLOYD, , , (304) 670-0168, DENVER, CO, NEW CUMBERLA, WV, , , 7/5,  , , , , , , 
+AFL, 300101, 48' Flat, , BLOSSER, DAVID, , , (330) 303-3173, TERRE HAUTE, IN, BEECH BOTTOM, WV, , , 7/6, , , , , , , 
+ATI, 218210, UNKNOWN, , JARAMILL, PRAJE, , , (979) 616-0152, LAREDO, TX, HASTINGS, WV, , , 7/9, 48'F, , , , , , 
+MTI, 681, 48' Flat, , BIERS, DARRY, , , (605) 347-4524, NEWPORT NEWS, VA, WRIGHT, WY, , , 6/30, , , , , , , 
+

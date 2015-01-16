@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>Floatbox v3.52 API Reference</title>
+<style type="text/css">
+body { background: #fafafa; }
+#content { margin: 1em 25px; font-family: Arial, Helvetica, sans-serif; font-size: .95em; }
+#content h3 { font-size: 1.2em; margin: 2em auto -1em auto; color: #046; }
+#content h5 { font-size: 1.1em; margin: 1.8em auto -.6em 3em; color: #046; }
+#content .code, #content .blockcode { font-family: monospace; font-size: 1.05em; color: #603; background-color: #eaeaea}
+#content .blockcode { display: block; }
+#content li { margin-top: .3em; }
+#content ul, #content ol { margin-top: .7em; }
+</style>
+</head>
+<body>
+<div id="content">
+<h3>Floatbox v3.52 - Programmer's API Reference</h3>
+<p><a href="http://randomous.com/floatbox">randomous.com</a></p>
+<hr />
+
+<h4>Variables and Properties</h4>
+<h5>fb</h5>
+<p>
+Floatbox's primary object is the global var "fb".
+All properties and functions are members of the fb object.
+</p><p>
+If you are running floatbox in a hierarchy of iframes, the fb objects in each child window are references to the fb object on the top document.
+(I.e., there is only one fb object even though there are multiple window objects.)
+An iframe displayed by floatbox that does not have floatbox.js included on its document will not have the global fb var in its window's scope.
+To programmatically use fb from such a child iframe, fetch it from the parent window by referring to it as "parent.fb".
+</p>
+<h5>fb.lastChild</h5>
+<p>
+Floatbox can display multiple boxes at one time, such as when displaying an info box over top of a displayed image.
+fb.lastChild always points to the top most box (the last one loaded).
+If there is only one box (or none displayed yet), fb.lastChild === fb.
+</p>
+<h5>fb.parent</h5>
+<p>
+For any given box, .parent points to the box immediately below it.
+For example, if 3 boxes are stacked up, fb.lastChild.parent will point to the middle box.
+fb.parent (fb always being the primary, bottom, first-loaded box) is identical to fb.
+</p>
+<h5>fb.children[ ]</h5>
+<p>
+fb.children is an array of pointers to however many stacked child boxes are currently open.
+When two boxes are open, fb.children will have length = 1 and fb.children[0] === fb.lastChild.
+The primary box, fb, does not have an entry in the .children array.
+</p>
+<h5>fb.anchors[ ]</h5>
+<p>
+fb.anchors is an array that holds associative arrays of information about anchors that have been "tagged" for handling by floatbox.
+If you need to clear out fb's memory of anchors it has seen, set <span class="code">fb.anchors.length = 0</span>.
+You may want to do this if you are dynamically updating content on your page, want to run fb.tagAnchors (described below) to re-inventory the page,
+and don't want to keep old, now-removed, anchor information in the floatbox working set.
+</p>
+<h5>fb.loadPageOnClose</h5>
+<p>
+loadPageOnClose refreshes the browser when floatbox ends.
+You can dynamically set fb.loadPageOnClose to a url string to naviagate to the url, the word "self" to reload the current top page, or the word "back" to invoke history.back().
+The onEvent callbacks described below may be more useful.
+</p>
+<h5>fb.fbContent</h5>
+<p>
+fbContent is the document node holding the content that is displayed by floatbox.
+It may be an img, iframe, or div depending on what kind of content is currently showing.
+Having this node reference can be helpful when dynamically working with floatboxed iframe or div html content.
+</p>
+<hr />
+
+<h4>Functions</h4>
+<h5>fb.start( { href: 'strURL', rev: 'strOptions', title: 'strTitle', html: 'strHTML' } )<br />
+fb.start( anchor )</h5>
+<p>
+fb.start is how you programmatically launch a floatbox without the need for a user's onclick action.
+fb.start is overloaded.
+The first way to use it is to pass an anchor element -
+<span class="code">fb.start(document.getElementById('someAnchorsId'))</span>.
+The anchor does not have to be pre-tagged by fb.tagAnchors().
+The more common way to use it is to pass an associative array that mimics an anchor's attributes -
+<span class="code">fb.start({ href:'someUrl.html', rev:'option1:value1 option2:value2', title:'a title' })</span>.
+When passed an associative array, only the href member is mandatory.
+You can create floatbox content directly from a string of html markup passed in the html name:value pair.
+If you're direct-loading html, you still need the href: value set - use something innocuous like '#'.
+Use the option "sameBox:true" in the rev: string to load new content in an existing floatbox without invoking a new box.
+</p>
+<h5>fb.end( )</h5>
+<p>
+Call fb.end() to close a running floatbox.
+With multiple stacked boxes, only the top-most floatbox will close regardless of which box's end function was called.
+To close all stacked boxes at once, call <span class="code">fb.end(true)</span>.
+</p>
+<h5>fb.tagAnchors( node )</h5>
+<p>
+When you dynamically add floatbox-enabled anchors to a page - through AJAX or any other method - you need to run fb.tagAnchors against the new content.
+Doing so adds the new anchors to floatbox's inventory, and sets the onclick action for those anchors.
+It is more effecient to pass a div node that contains the new content to tagAnchors: <span class="code">fb.tagAnchors(document.getElementById('myDiv'))</span>.
+There is no harm done if you re-tag the entire document with <span class="code">fb.tagAnchors(document)</span>.
+You can clear pre-existing anchor records out of floatbox's inventory with <span class="code">fb.anchors.length = 0</span> prior to making the tagAnchors call.
+See the AJAX section near the bottom of the floatbox instructions page for examples of using fb.tagAnchors in a javascript ajax fetch and in an ASP.NET UpdatePanel.
+</p>
+<h5>fb.tagOneAnchor( node )</h5>
+<p>
+tagOneAnchor is overloaded.  The "node" parameter can be a true anchor node, or it can be an associative array that mimics an anchor's attributes.
+Example: You could dynamically add a new member to a grouped set of floatbox items with the following:<br />
+<span class="code">fb.tagOneAnchor( { href:'someImage.jpg', rev:'group:myGroupName' } );</span>
+</p>
+<h5>fb.resize( width, height )</h5>
+<p>
+Resizes the top-most running floatbox to the new requested dimensions.
+Width and height are the new content dimensions in pixels, not including the box decoration around the content.
+</p>
+<h5>fb.goBack( )</h5>
+<p>
+If a previous item has been displayed in the top-most running box,
+either because a gallery set is running or you have updated content with fb.start and sameBox:true,
+fb.goBack will reload the item displayed immediately prior to the current item.
+</p>
+<h5>fb.getIframeDocument( node )<br />
+fb.getIframeWindow( node )</h5>
+<p>
+These functions return an iframe's document object and window object respectively.
+Node is an optional parameter. If provided, it must be an iframe node.
+If node is not passed, fb.lastChild.fbContent is assumed and the document or window object for that top-most iframe is returned.
+Example: If three stacked boxes are open and you need to talk to the middle one, you can get its document with
+<span class="code">var doc = fb.getIframeDocument(fb.lastChild.parent.fbContent)</span>.
+Or, more simply, to get the document object for an iframe in the only running floatbox,
+<span class="code">var doc = fb.getIframeDocument( )</span>.
+</p>
+<h5>fb.loadAnchor( href, rev, title )</h5>
+<p>
+fb.loadAnchor is deprecated in favor of fb.start( ), but it still works.
+</p>
+<hr />
+
+<h4>Event Callbacks</h4>
+<p>
+Floatbox will look for callback functions that you define for the following events:<br />
+<span style="font-weight:bold;">beforeBoxStart, afterBoxStart, onItemStart, onItemEnd, beforeBoxEnd, afterBoxEnd, beforePrint, afterPrint</span>.
+<br />Code is assigned as options with those names in the standard options setting manner.
+Callbacks defined in a page's fbPageOptions definition can be either true javascript functions or strings to be eval'd.
+By their nature, callbacks defined as options in an anchor's rev tag will be strings.
+</p><p>
+Example - A function callback in the page options:<span class="blockcode">
+fbPageOptions = {<br />
+&nbsp;&nbsp;beforeBoxStart: function() { alert( 'eat a peach' ); }<br />
+}
+</span>
+</p><p>
+And a string callback in an anchor's rev options:<span class="blockcode">
+&lt;a href="xyz.php" class="floatbox" rev="onItemEnd:`alert( 'eat a peach' );`"&gt;talk about fruit&lt;/a&gt;
+</span>
+<br />(Don't forget the back-quotes. They're required for correct parsing.)
+</p>
+<hr />
+
+</div>
+</body>
+</html>

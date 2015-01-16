@@ -1,0 +1,3 @@
+http://ww2.insta-mapper.com/api/api_multi.php?key=39740464&device_id=6943779682&last=1
+
+http://ww2.insta-mapper.com/api/api_single.php?key=39740464&device_id=6943779682

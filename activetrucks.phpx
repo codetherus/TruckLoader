@@ -1,0 +1,65 @@
+<?php
+/*
+  03-09-2012
+  Active trucks list for big screen tv display
+  
+  Query for active trucks, order by state and agent id.
+*/
+require_once "xajax/xajax_core/xajax.inc.php";
+$xajax = new xajax();
+require_once "xajax/xajax_core/xajaxPlugin.inc.php";
+require_once "xajax/xajax_core/xajaxPluginManager.inc.php";
+require_once 'xajax/xajax_plugins/response/comet/comet.inc.php';
+
+$xajax->configure('javascript URI','./xajax/');
+
+$xajax->register(XAJAX_FUNCTION,"FindLoads",array("comet" => true));
+
+//MySQL classes for database access
+include_once('ezsql/mysql/ez_sql_core.php');
+include_once('ezsql/mysql/ez_sql_mysql.php');
+include('dbsettings.php');
+$db = new ezSQL_mysql($dbuser, $dbpassword, $dbdatabase, $dbhost);
+function FindLoads()
+{
+	$resp = new xajaxCometResponse(0.1);
+  global $db;
+  $sql = "SELECT d.* , l.*,u.*, substring(l.delivery_location,-2) as state
+  from drivers d, loads l, users u
+   WHERE d.status = 'active' and
+  l.id = d.loadid
+  and u.officeid = 1
+  and u.id = d.agentid
+  order by state,d.agentid";
+  $res = $db->get_results($sql);
+  $s = "<table border='1' style='border-collapse: collapse; border-color: green;margin: 0 auto;'>";
+  foreach($res as $rw)
+  {
+    $s .= "<tr><td>$rw->user_name<td>$rw->name<td>$rw->delivery_location<td>$rw->delivery_date</tr>";
+  }
+  $s .= "</table>";
+  $resp->assign("content","innerHTML",$s);
+  $resp->assign("info","innerHTML", date('c'));
+  $resp->flush();
+  return $resp;
+}
+
+$xajax->processRequest();
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<?php $xajax->printJavascript() ?>
+<style>
+  body{
+    background-color: black;
+    color: white;
+    font-size: smaller;
+  }
+</style>
+</head>
+<body onload="xajax_FindLoads()">
+<div id="content"></div>
+<div id="info"></div>
+</body>
+</html>

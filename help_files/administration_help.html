@@ -1,0 +1,58 @@
+<div style="margin:50px;color:black;">
+<a name="index"></a> <!-- Back to top link -->
+<center><h1 style="color: black;">Administration Help</h1></center>
+<p>This help page explains the administrative functions and how to use them.</p>
+<ul>
+<li><a href=#options">Options Editor</a> - 
+Maintains the system variables that can change over time.</li>
+<li><a href="#users">User Management<a> - manages agents and their access levels.</li>
+<li><a href="#dailyupload">Daily File Upload</a> - 
+update the database from the corporate listing.</li>
+<li><a href="#uploadlog">Upload Log Viewer</a> - displays the upload information.</li>
+<li><a href="#spreadsheet">DAT Spreadsheet</a> - Generates the uploadable spreadsheet to DAT.</li>
+<li><a href="#tickler">Start Tickler Processing</a> - Manages the tickler processing page.</li>
+</ul>
+<h3><a name="options">Option Editor</a></h3>
+<p>This is a simple editor used to maintain the system level option values. Currently it
+only contains the trailer length and type definitions.</p>
+<p>Opt name is the name for the option</p>
+<p>Opt value is the value of the option.</p>
+<p>Feel free to add truck length and type values. They are used to populate the dropdown
+lists on the driver page.</p>
+<a href="#index">Back to Top</a>
+<h3><a name="users">User Management</a></h3>
+<p>This page is used to manage access to the application.</p>
+<p>Each agent and broker must be defined with a unique id and password combination before
+they can login and use the application.</p>
+<p>Fields:</p>
+<ul>
+<li>User Id is the users login name.</li>
+<li>Password is the user's login password. The conbination of id and password must be
+unique.</li>
+<li>Access Level defines the type of access the user has.</li>
+  <ul>
+  <li>user is the general access level with access to all but the administrative menu
+  items.</li>
+  <li>admin defines an administrator. It allows access the the admin menu in addition
+  to all of the others.</li>
+  <li>broker is used to permit a broker to access the driver list page.</li>
+  </ul>
+<li>List Level is no longer used.</li>
+<li>User Name is the users name...</li>
+<li>Office is the office the user is associated with. It is used to filter access to the drivers, etc.
+that are specific to the office.</li>
+<li>Phone, Fax and Email are the contact numbers for the user.</li>
+</ul>
+<p>The "Find" button lists the users so that you can edit their values.</p>
+<a href="#index">Back to Top</a>
+<h3><a name="dailyupload">Daily File Upload</a></h3>
+<p>Each day corporate sends out a list of drivers in an RTF formatted file. This file is converted
+to a text file and uploaded to the site server to update the drivers and loads tables.</p>
+<p>Convert the file to text by opening it with Word and saving it as text.</p>
+<p>Open the upload page and click the "Browse" button and select the text file.</p>
+<p>Click the "Upload" button to upload the file to the server and process it.</p>
+<p>The update processing creates new drivers and loads.The driver fields inserted are name, trailer length and type,
+truck number,telephone, comments, twic and office id.The load fields inserted are pickup and delivery locations, 
+delivery date, driver name, office id and load number.</p>
+<a href="#index">Back to Top</a>
+</div>

@@ -1,0 +1,5 @@
+# This is the opt out file to keep track of users who have opted to never
+# receive mail from you.  RemindMe will check this file before letting
+# someone signup for a reminder, and will not allow them to signup if they
+# have opted out.  However, it will give them an "Opt In" button so that they
+# can change their minds.

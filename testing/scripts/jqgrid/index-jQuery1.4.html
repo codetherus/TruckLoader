@@ -1,0 +1,175 @@
+<link type="text/css" href="themes/default/style.css" rel="Stylesheet"/>
+<script language="javascript" src="js/jquery-1.4.1.min.js"></script>
+<script language="javascript" src="js/jquery.jqgrid.min.js"></script>
+
+<div id="debug"></div>
+<div id="mygrid" class="grid" title="jQuery Data Grid - jQgrid" style="width:600px"></div>
+
+
+<script>
+function jQgridHandler(obj){
+   $("#"+obj["id"]).jqgrid_setGridLoader("inline");
+   //alert("grid loader enabled");
+   $("#debug").html("id:"+obj["id"]+" name:"+obj["name"]+" action:"+obj["action"]+" value:"+obj["value"]);
+   if (obj["action"]=="changepage"){
+      var postdata={};
+      postdata["id"]=obj["id"];
+      postdata["page"]=obj["value"]["page"];
+      postdata["reclimit"]=obj["value"]["reclimit"];
+
+      $("#"+obj["id"]).jqgrid_buildBody(body_data(obj["value"]["page"]),{"expand":true,"check":true});
+      $("#"+obj["id"]).jqgrid_resetCheckedItems();
+   }
+
+   if (obj["action"]=="createsubgrid"){
+      $("#"+obj["id"]).jqgrid({"name":"test1","create":true,"showpage":true});
+      $("#"+obj["id"]).jqgrid_buildHeader(header_data(),{"expand":true,"check":true});
+      $("#"+obj["id"]).jqgrid_buildBody(body_data(1),{"expand":true,"check":true});
+      $("#"+obj["id"]).jqgrid_setPagingValue({"currpage":1,"lastpage":2,"totalrows":10});
+   }
+
+   $("#"+obj["id"]).jqgrid_setGridLoader("none");
+}
+
+function header_data(){
+   var cols={};
+   cols["col1"]="jQgrid header column 1";
+/*
+   cols["col2"]="jQgrid header column 2";
+   cols["col3"]="jQgrid header column 3";
+   cols["col4"]="jQgrid header column 4";
+   cols["col5"]="jQgrid header column 5";
+   cols["col6"]="jQgrid header column 6";
+   cols["col7"]="jQgrid header column 7";
+   cols["col8"]="jQgrid header column 8";
+   cols["col9"]="jQgrid header column 9";
+   cols["col10"]="jQgrid header column 10";
+   cols["col11"]="jQgrid header column 11";
+   cols["col12"]="jQgrid header column 12";
+   cols["col13"]="jQgrid header column 13";
+   cols["col14"]="jQgrid header column 14";
+   cols["col15"]="jQgrid header column 15";
+*/
+   return cols;
+}
+
+function body_data(page){
+   var cols={};
+   cols['id1'+page]={};
+   cols['id1'+page]["col1"]="jQgrid page "+page+" row 1 column 1";
+/*
+   cols['id1'+page]["col2"]="jQgrid page "+page+" row 1 column 2";
+   cols['id1'+page]["col3"]="jQgrid page "+page+" row 1 column 3";
+   cols['id1'+page]["col4"]="jQgrid page "+page+" row 1 column 4";
+   cols['id1'+page]["col5"]="jQgrid page "+page+" row 1 column 5";
+   cols['id1'+page]["col6"]="jQgrid page "+page+" row 1 column 6";
+   cols['id1'+page]["col7"]="jQgrid page "+page+" row 1 column 7";
+   cols['id1'+page]["col8"]="jQgrid page "+page+" row 1 column 8";
+   cols['id1'+page]["col9"]="jQgrid page "+page+" row 1 column 9";
+   cols['id1'+page]["col10"]="jQgrid page "+page+" row 1 column 10";
+   cols['id1'+page]["col11"]="jQgrid page "+page+" row 1 column 11";
+   cols['id1'+page]["col12"]="jQgrid page "+page+" row 1 column 12";
+   cols['id1'+page]["col13"]="jQgrid page "+page+" row 1 column 13";
+   cols['id1'+page]["col14"]="jQgrid page "+page+" row 1 column 14";
+   cols['id1'+page]["col15"]="jQgrid page "+page+" row 1 column 15";
+*/
+
+   cols['id2'+page]={};
+   cols['id2'+page]["col1"]="jQgrid page "+page+" row 2 column 1";
+/*
+   cols['id2'+page]["col2"]="jQgrid page "+page+" row 2 column 2";
+   cols['id2'+page]["col3"]="jQgrid page "+page+" row 2 column 3";
+   cols['id2'+page]["col4"]="jQgrid page "+page+" row 2 column 4";
+   cols['id2'+page]["col5"]="jQgrid page "+page+" row 2 column 5";
+   cols['id2'+page]["col6"]="jQgrid page "+page+" row 2 column 6";
+   cols['id2'+page]["col7"]="jQgrid page "+page+" row 2 column 7";
+   cols['id2'+page]["col8"]="jQgrid page "+page+" row 2 column 8";
+   cols['id2'+page]["col9"]="jQgrid page "+page+" row 2 column 9";
+   cols['id2'+page]["col10"]="jQgrid page "+page+" row 2 column 10";
+   cols['id2'+page]["col11"]="jQgrid page "+page+" row 2 column 11";
+   cols['id2'+page]["col12"]="jQgrid page "+page+" row 2 column 12";
+   cols['id2'+page]["col13"]="jQgrid page "+page+" row 2 column 13";
+   cols['id2'+page]["col14"]="jQgrid page "+page+" row 2 column 14";
+   cols['id2'+page]["col15"]="jQgrid page "+page+" row 2 column 15";
+*/
+   cols['id3'+page]={};
+   cols['id3'+page]["col1"]="jQgrid page "+page+" row 3 column 1";
+/*
+   cols['id3'+page]["col2"]="jQgrid page "+page+" row 3 column 2";
+   cols['id3'+page]["col3"]="jQgrid page "+page+" row 3 column 3";
+   cols['id3'+page]["col4"]="jQgrid page "+page+" row 3 column 4";
+   cols['id3'+page]["col5"]="jQgrid page "+page+" row 3 column 5";
+   cols['id3'+page]["col6"]="jQgrid page "+page+" row 3 column 6";
+   cols['id3'+page]["col7"]="jQgrid page "+page+" row 3 column 7";
+   cols['id3'+page]["col8"]="jQgrid page "+page+" row 3 column 8";
+   cols['id3'+page]["col9"]="jQgrid page "+page+" row 3 column 9";
+   cols['id3'+page]["col10"]="jQgrid page "+page+" row 3 column 10";
+   cols['id3'+page]["col11"]="jQgrid page "+page+" row 3 column 11";
+   cols['id3'+page]["col12"]="jQgrid page "+page+" row 3 column 12";
+   cols['id3'+page]["col13"]="jQgrid page "+page+" row 3 column 13";
+   cols['id3'+page]["col14"]="jQgrid page "+page+" row 3 column 14";
+   cols['id3'+page]["col15"]="jQgrid page "+page+" row 3 column 15";
+*/
+   cols['id4'+page]={};
+   cols['id4'+page]["col1"]="jQgrid page "+page+" row 4 column 1";
+/*
+   cols['id4'+page]["col2"]="jQgrid page "+page+" row 4 column 2";
+   cols['id4'+page]["col3"]="jQgrid page "+page+" row 4 column 3";
+   cols['id4'+page]["col4"]="jQgrid page "+page+" row 4 column 4";
+   cols['id4'+page]["col5"]="jQgrid page "+page+" row 4 column 5";
+   cols['id4'+page]["col6"]="jQgrid page "+page+" row 4 column 6";
+   cols['id4'+page]["col7"]="jQgrid page "+page+" row 4 column 7";
+   cols['id4'+page]["col8"]="jQgrid page "+page+" row 4 column 8";
+   cols['id4'+page]["col9"]="jQgrid page "+page+" row 4 column 9";
+   cols['id4'+page]["col10"]="jQgrid page "+page+" row 4 column 10";
+   cols['id4'+page]["col11"]="jQgrid page "+page+" row 4 column 11";
+   cols['id4'+page]["col12"]="jQgrid page "+page+" row 4 column 12";
+   cols['id4'+page]["col13"]="jQgrid page "+page+" row 4 column 13";
+   cols['id4'+page]["col14"]="jQgrid page "+page+" row 4 column 14";
+   cols['id4'+page]["col15"]="jQgrid page "+page+" row 4 column 15";
+*/
+   cols['id5'+page]={};
+   cols['id5'+page]["col1"]="jQgrid page "+page+" row 5 column 1";
+/*
+   cols['id5'+page]["col2"]="jQgrid page "+page+" row 5 column 2";
+   cols['id5'+page]["col3"]="jQgrid page "+page+" row 5 column 3";
+   cols['id5'+page]["col4"]="jQgrid page "+page+" row 5 column 4";
+   cols['id5'+page]["col5"]="jQgrid page "+page+" row 5 column 5";
+   cols['id5'+page]["col6"]="jQgrid page "+page+" row 5 column 6";
+   cols['id5'+page]["col7"]="jQgrid page "+page+" row 5 column 7";
+   cols['id5'+page]["col8"]="jQgrid page "+page+" row 5 column 8";
+   cols['id5'+page]["col9"]="jQgrid page "+page+" row 5 column 9";
+   cols['id5'+page]["col10"]="jQgrid page "+page+" row 5 column 10";
+   cols['id5'+page]["col11"]="jQgrid page "+page+" row 5 column 11";
+   cols['id5'+page]["col12"]="jQgrid page "+page+" row 5 column 12";
+   cols['id5'+page]["col13"]="jQgrid page "+page+" row 5 column 13";
+   cols['id5'+page]["col14"]="jQgrid page "+page+" row 5 column 14";
+   cols['id5'+page]["col15"]="jQgrid page "+page+" row 5 column 15";
+*/
+   return cols;
+}
+
+
+
+jQuery(document).ready(function(){
+   $("#mygrid").jqgrid({name:"test", 
+                        showpage:true,
+                        create:true,
+                        update:true,
+                        "delete":true,
+                        msupdate:true,
+                        copy:true,
+                        search:true,
+                        refresh:true,
+                        excelexport:true,
+                        rowNum:20,
+                        scroll:true,
+                        toppager:true,
+                        altRows:true,
+                        excelimport:true});
+   $("#mygrid").jqgrid_buildHeader(header_data(),{"expand":true,"check":false});
+   $("#mygrid").jqgrid_buildBody(body_data(1),{"expand":true,"check":false});
+   $("#mygrid").jqgrid_setPagingValue({"currpage":1,"lastpage":12,"totalrows":60});
+   $("#mygrid").jqgrid_sortColumn("col1");
+});
+</script>

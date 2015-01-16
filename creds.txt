@@ -1,0 +1,6 @@
+Please make note of these MySQL credentials again:
+  Root User: adminKs8RyHL
+  Root Password: v3kn9L9x-SLS
+URL: https://nodejs-edscloudcom.rhcloud.com/phpmyadmin/
+
+ASUS Case #: https://vip.asus.com/VIP2/Services/MailStatus/WTM20150106072440255

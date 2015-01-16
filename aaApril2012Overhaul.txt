@@ -1,0 +1,15 @@
+04-24-2012
+Yet another overhaul...
+
+The users want to revert to a plain "truck board" without a seperate 
+driver and load page.
+
+We will consolidate the required load info into the drivers table
+and rework all of the other pages that depend on loads.
+
+Add to the drivers table:
+
+delivery date (deliverydate already in place)
+delivery location (deliverylocation already in place)
+
+This seems like a good time to convert to Codeigniter.

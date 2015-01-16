@@ -1,0 +1,45 @@
+Truckstop Generation Rejects Log for Mar 21,2012 17:11
+
+Processing unload dates from Mar 19 to Mar 26.
+
+select loads.*, drivers.* from loads, drivers where drivers.status = 'Active' and drivers.officeid = 1 and loads.driverid = drivers.id and loads.delivery_date >= '2012-03-19' and loads.delivery_date <= '2012-03-26'
+
+Selected 37 active drivers.
+
+CARSON HENDRICKSON added to the list for 2012-03-19.
+Shane vandenbark added to the list for 2012-03-19.
+ROBERT LIGHT  added to the list for 2012-03-19.
+GRANT PRICE added to the list for 2012-03-21.
+THOMAS CORDNER added to the list for 2012-03-21.
+JACK WRIGHT added to the list for 2012-03-21.
+EVERETT DAVIS added to the list for 2012-03-21.
+CHANNELL, OTIS added to the list for 2012-03-21.
+STRADLING, JOSEPH added to the list for 2012-03-21.
+BARBERA, ANTHONY added to the list for 2012-03-21.
+CURTIS HOWARD added to the list for 2012-03-22.
+JOHNNY SIPES added to the list for 2012-03-22.
+ROGER SWARTZ added to the list for 2012-03-22.
+WILLIAM DAWSON added to the list for 2012-03-22.
+STEPHEN OCONNELL added to the list for 2012-03-22.
+STEPANEK, LOUIS added to the list for 2012-03-22.
+benson, CLARENCE "DAVID" added to the list for 2012-03-22.
+PRITCHARD, JOEL added to the list for 2012-03-22.
+KENNETH AHNER added to the list for 2012-03-23.
+ROBERT LIGHT  added to the list for 2012-03-23.
+Del Hansen added to the list for 2012-03-23.
+MITCHELL JOHNSTON added to the list for 2012-03-23.
+CHARLES KIMMEL added to the list for 2012-03-23.
+SHAW, ALLEN added to the list for 2012-03-23.
+DAVIS, JAMES added to the list for 2012-03-23.
+MORRIS, KENNETH added to the list for 2012-03-23.
+MAYFIELD, WILLIAM added to the list for 2012-03-23.
+EMMITT MCHAM added to the list for 2012-03-26.
+MICHAEL RIDZON added to the list for 2012-03-26.
+STEVE JOHNSTON added to the list for 2012-03-26.
+Frank Totten added to the list for 2012-03-26.
+Mark Armstrong added to the list for 2012-03-26.
+KENNETH HUTTON added to the list for 2012-03-26.
+JOHN NEACE added to the list for 2012-03-26.
+COREY BOYD added to the list for 2012-03-26.
+David Eley added to the list for 2012-03-26.
+Ken Foster added to the list for 2012-03-26.

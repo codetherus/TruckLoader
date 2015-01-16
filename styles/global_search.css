@@ -1,0 +1,26 @@
+/*
+  This styling must be included in any page using the 
+  global search facility.
+*/
+
+  /* Div for the search tool display*/
+ #search_results{
+    display: none;
+    position: absolute; 
+    z-index: 9998;
+    top: 120px;
+    /*left: 2px; */
+    width: 950px;
+    height: 85%;    
+    background-color: white;
+    color: black;
+    overflow: auto; 
+    border: 3px solid white;
+   }
+  #search_term{
+    margin-left: 10px;
+    height: 10px;
+    background-color: #CED0DF;  /*white;*/
+    color: black;
+    height: 12px;
+  }

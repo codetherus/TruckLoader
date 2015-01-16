@@ -1,0 +1,188 @@
+{*   Copyright(c) 2009 by RSI. All rights reserved.
+		 This is the template for the combined drivers, loads, etc. 
+     page.
+*}
+{include file="pageheaderv2.tpl"}
+{include file="common_scripts.tpl"}
+<link rel='stylesheet' href='JQueryUI/css/dark-hive/jquery-ui-1.8.6.custom.css'/>
+<script src="JQueryUI/js/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="JQueryUI/js/jquery-ui-1.8.5.custom.min.js" type="text/javascript"></script>
+
+
+<script language="javascript" src="scripts/drivers_tabbed.js?v=1"></script>
+<script language="javascript" src="rainforest/datetimepicker_css.js"></script>
+
+{literal}
+<style>
+  label{
+    text-align: left;
+    font-size: 12px;
+  }  
+
+  .hidden{ display: none}   
+	.flexigrid div.fbutton .add
+		{
+			background: url(css/images/add.png) no-repeat center left;
+		}	
+
+	.flexigrid div.fbutton .delete
+		{
+			background: url(css/images/close.png) no-repeat center left;
+		}
+</style>
+
+{/literal}
+</head>
+<body>
+{include file="zend_reminders_overlay.tpl"}
+<div id="floatboxcontent"></div>
+<div id="wrapper" class="rc" style="margin-top: 20px;">
+{* global search results display *}
+<div id="search_results"></div>
+{include file="driver_contacts.tpl"}
+{include file="driver_email.overlay.tpl"}
+{include file="content_header_v2.tpl"}
+<div id="tabs">
+  <ul>
+    <li><a href="#driver">Driver</a></li>
+    <li><a href="#load">Load<?a></li>
+    <li><a href="#todays">Todays Loads</a></li>
+  </ul>
+<div id="driver">
+<center>
+
+<div style="clear:both; margin-top:5px;">
+{* Buttons are at the top so users do not have to scroll a lot. *}
+<input type=button value="Update" onclick="CheckLoadStatus()"/>
+<input type=button value="Add New Driver" onclick="sendPage('insert')"/>
+<input type=button value="Display Upload Info" onclick="xajax_DisplayUploadRecords(xajax.getFormValues('form1'))"/>
+<input type=button value="Help" onclick="xajax_page_help()"/>
+</div>
+
+</center>
+
+
+<form id="form1" name='form1'>
+<input type="hidden" id="dprd", name="dprd"/> {* Carries the delete password to the server *}
+<input type="hidden" id="unloading" name="unloading" value=""/> {* Carries the unload flag to the server *}
+<input type="hidden" id="rowhash" name="rowhash" value=""/> {* Carries the md 5 of the table ros *}
+<input type="hidden" id="current_driver_id" name="current_driver_id" value=""/>
+<input type="hidden" id="current_load_id" name="current_load_id" value=""/>
+<input type="hidden" id="username" name="username" value="{$username}"/>
+{* Hidden values to detect load changes *}
+<input type="hidden" id="h_load_number" name="h_load_number" value=""/>
+<input type="hidden" id="h_pickup_date" name="h_pickup_date" value=""/>
+<input type="hidden" id="h_delivery_date" name="h_delivery_date" value=""/>
+<input type="hidden" id="h_pickup_location" name="h_pickup_location" value=""/>
+<input type="hidden" id="h_delivery_location" name="h_delivery_location" value=""/>
+<input type="hidden" id="h_driverphone" name="h_driverphone"/>
+<input type="hidden" id="h_drivercell" name="h_drivercell"/>
+<input type="hidden" id="h_driverfax" name="h_driverfax"/>
+<input type="hidden" id="h_driveremail" name="h_driveremail"/>
+<input type="hidden" id="load_status" name="load_status" value="nochange"/>
+<div style="display: inline-block;">
+
+<div id='leftcolumn' style='width:310px; Float:left;'>
+<label style='width: 300px;'>Driver
+<br/>
+<input type="text" style="width: 225px;" id="name" name="name" value="{$name}" />
+</label>
+<br>
+<label style='width: 145px;'>Pickup Date<br/>
+<input style="width: 100px;" id='pickup_date' name='pickup_date' value='{$pickup_date}'/>
+<img src='images/cal.gif' align='absmiddle' onmouseover="fnInitCalendar(this, 'pickup_date', 'style=calendar_green.css,close=true')"> 
+</label>
+<label style='width: 150px;'>Delivery Date<br/>
+<input style='width: 100px;'id='delivery_date' name='delivery_date' value='{$delivery_date}'/>
+<img src='images/cal.gif' align='absmiddle' onmouseover="fnInitCalendar(this, 'delivery_date', 'style=calendar_green.css,close=true')"> 
+</label>
+<br>
+<label style='width: 145px'>Pickup Location<input id="pickup_location" name="pickup_location"/></label>
+<label style="width: 150px;">Delivery Location<br/>
+<input id="delivery_location" name="delivery_location"/></label>
+<br>
+<label style="width: 230px; text-align:left;" onclick="showContacts();" title="Click to show phone editor.">
+<img style="height: 10px; width:10px;" src="images/add.gif"/>Contact Numbers<br/>
+
+<textarea class="rztext" readonly id="phone_numbers" name="phone_numbers" rows="2" 
+style="width: 225px;">{$phone_numbers}</textarea></label
+<br>
+<label style="width: 165px">Driver Comments</label><br/>
+<textarea class="rztext" style="width: 225px;" id='comments' name='comments' rows='5'>{$comments}</textarea>
+<br/>
+<label style="width: 82px;">Canada<br/><span id="lcanada" name="lcanada">{$canadalist}</span></label>
+<label>TWIC<br/><span id="ltwiclist">{$twiclist}</span></label>
+<br>
+<label style='width:150px;' >Canada Limitations</label><br/>
+<textarea class="rztext" rows="2" style="width: 225px;"
+          id='canada_limitations' name='canada_limitations'> {$canada_limitationss}</textarea>          
+<br/>
+<label style="width: 175px">Tarps</label><br/>
+<input type="checkbox" name="no_tarps" value="1">
+<span class="spantext" >None</span>
+<input id="f4ft_tarps" style='margin-left: 5px' type="checkbox" name="f4ft_tarps" value="1">
+<span class="spantext">4ft</span>
+<input id="f6ft_tarps" style='margin-left: 5px' type="checkbox" name="f6ft_tarps" value="1">
+<span class="spantext">6ft</span>
+<input id="f8ft_tarps" style='margin-left: 5px' type="checkbox" name="f8ft_tarps" value="1">
+<span class="spantext">8ft</span>
+<br/>
+<label style="width: 80px;">Pipe Stakes<br/><span id="lpipestakes" name="lpipestakes">{$pipestakes}</span></label>
+<label style="width: 90px;">Load Levelers<br/><span id="lloadlevelers" name="lloadlevelers">{$loadlevelers}</span></label>
+<label style="width: 90px">Pole Bunks<br/><span id="lpolebunks" name="lpolebunks">{$polebunks}</span></label>
+</div>
+
+<div id='centercolumn' style='padding-left: 4px; display:inline-block;width:300px; Float: left;'>
+<label style='width: 143px;' >Truck #<br/><input id='truck_no' name='truck_no' value='{$truck_no}'/></label>
+<label>Load #<br/><input id="load_number" name="load_number" value="{$load_number}"/></label><br/>
+<label style="width: 144px;">Home Office</br><input id="home_office" name="home_office"/></label>
+<label>Rating<br/><input size="5" id="rating" name="rating" value="{$rating}"/></label><br/>
+<label style='width: 145px;'>Length<br/>
+<span id="ltlength">{$tlength}</span>
+</label>
+<label style='width: 135px;'>Trailer<br/><span id="lttype" name="lttype" >{$ttype}</span></label>
+<br/>
+<label style="width:145px;">Home Town<br/><input id="home_town" name="home_town"/></label>
+<label>Status<br/><span id="lstatus" name="lstatus" name="lstatus">{$status}</span></label><br/>
+<label>Driver Limitations</label><br/>
+<textarea class="rztext" id='driving_limitations' name='driving_limitations' rows='4' cols='32'>{$driving_limitations}</textarea>
+<br/>
+<label>Check Call</label><br/>
+<textarea class="rztext" id='check_call' name='check_call' rows='2' cols='32'>{$check_call}</textarea>
+<br/>
+<label>Load Options</label><br/>
+<textarea class="rztext" id='load_options' name='load_options' rows='5' cols='32'>{$load_options}</textarea>
+</div>
+
+<div id='rightcolumn' style='padding-left: 4px; display:inline-block; width:300px; Float: right;'>
+<label>Driver Agent<br/><span id="lagent_list" name="lagent_list">{$agent_list}</span></label><br/>
+<label>Agent Info</label><br/>
+<textarea class="rztext" readonly id='agent_info' name='agent_info' rows='2' cols='32'>{$agent_info}</textarea>
+
+<label onclick="showReminders()">
+<img style="height: 10px; width:10px;" src="images/add.gif"/>Reminders</label><br/>
+<textarea class="rztext" readonly id="reminderta" name="reminderta" rows="2" cols="32">{$reminder}</textarea><br/>
+<label style="width: 175px;">Driver Location Information</label>
+<div style="border: 1px solid gray; padding:5px; padding-top: 8px; width: 150px;">
+<label>Delivery Date
+<img src='images/cal.gif' align='absmiddle' onmouseover="fnInitCalendar(this, 'dldeliverydate', 'style=calendar_green.css,close=true')"> 
+</label><br/>
+<input id="dldeliverydate" name="dldeliverydate"/><br/>
+<label>Delivery Location</label><br/>
+<input id="dldeliverylocation" name="dldeliverylocation"/><br/>
+</div>
+<label onclick="addTimestamp()"><img style="height: 10px; width:10px;" src="images/add.gif"/>Notes</label><br/>
+<textarea class="rztext" style="color: white;" id="notes" name="notes" cols="32" rows="5"></textarea>
+<label style="width: 175px;">Desired Destination</label><br/>
+<textarea class="rztext" style="color:white;" id="zones" name="zones" cols="32" rows="5"></textarea>
+</div>
+</form>
+</div><!-- driver-->
+<div id="load">Load</div>
+<div id="todays">Today</div>
+</div> <!-- tabs -->
+</div>
+
+
+{include file="footer.tpl"}
+

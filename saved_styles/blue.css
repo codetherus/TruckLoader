@@ -1,0 +1,56 @@
+/*
+  Truck loader app style sheet - blue theme
+*/
+/* Body tweek for IE quirks */
+body{
+	color: blue;
+  background-color: white;
+}
+fieldset{
+	border: 3px solid blue;
+}
+
+/* more of same... */
+#wrapper{
+  color: white;  
+  border: 3px solid blue;
+  background-color: #C8F0F2;
+  
+}
+#headerv2{
+	color: blue;
+  border-bottom: 1px solid blue;  
+  background-color: #C8F0F2;
+}
+#content{
+	border: 1px solid green;
+  background-color: #C8F0F2;
+}
+/* Page footer div */
+#footer{
+	color: blue;
+}
+label{
+	color: blue;
+}	
+/* Appleize the site */
+input, select, textarea{
+  color: black;
+  border: 1px solid gray;    
+  background-color: #C8F0F2;
+}
+input[type='button']{
+  border: none; 
+  color: white; 
+  background-color: gray;
+  }
+input[type='submit']{
+  border: none;  
+  background-color: gray;
+  }
+  
+/* Global search table styles */
+.odd{
+  background-color: #DFDFDF;
+}
+  

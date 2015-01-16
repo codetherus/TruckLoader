@@ -1,0 +1,1 @@
+# File to store reminders for people before they actually sign up.

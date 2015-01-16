@@ -1,0 +1,35 @@
+/* styles for the edit page */
+	label{
+		width: 110px;
+		margin: 0px;
+		/*border: 1px solid black;*/
+	}
+/*
+	input, select, textarea{
+	 margin:0px;
+	 padding:0px;
+   margin-bottom: 5px;
+	}
+*/
+	input[type="text"]{
+		width: 110px;
+	}
+	label.label2{
+	  width: 150px;
+	}
+
+	label.short:{
+	  width: 100px;
+	  border: 1px solid black;
+	}
+
+	#content{
+		width: 90%;
+		padding:20px;"
+		border: 3px solid black;
+	}
+	#wrapper{ 
+    margin-top: 10px; 
+    width:90%;
+  }
+

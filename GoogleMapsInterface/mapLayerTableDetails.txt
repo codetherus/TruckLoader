@@ -1,0 +1,183 @@
+Project ID: 13112725006252346903
+
+LBJ_Main_MAP ID: 13112725006252346903-16071188762309719429
+
+Drivers Table Create Response:
+{
+ "id": "",
+ "etag": "\"7330770950414087739\"",
+ "projectId": "13112725006252346903",
+ "name": "DriversTable",
+ "description": "",
+ "tags": [
+ ],
+ "schema": {
+  "primaryKey": "DriverId",
+  "primaryGeometry": "geometry",
+  "columns": [
+   {
+    "name": "geometry",
+    "type": "points"
+   },
+   {
+    "name": "Driver Name",
+    "type": "string"
+   },
+   {
+    "name": "Delivery Location",
+    "type": "string"
+   },
+   {
+    "name": "Delivery Date",
+    "type": "string"
+   },
+   {
+    "name": "Equipment",
+    "type": "string"
+   },
+   {
+    "name": "DriverId",
+    "type": "string"
+   }
+  ]
+ },
+ "sourceEncoding": "UTF-8",
+ "processingStatus": "complete",
+ "bbox": [
+  -180,
+  -90,
+  180,
+  90
+ ],
+ "creationTime": "2014-09-15T18:26:01.776Z",
+ "lastModifiedTime": "2014-09-15T18:26:01.776Z"
+}
+
+Assets List:
+
+{
+ "assets": [
+  {
+   "id": "13112725006252346903-16071188762309719429",
+   "etag": "\"9836689021843539875\"",
+   "projectId": "13112725006252346903",
+   "name": "LBJ_Main_MAP",
+   "description": "",
+   "type": "map",
+   "tags": [
+   ],
+   "creationTime": "2014-09-15T17:59:27.372Z",
+   "lastModifiedTime": "2014-09-15T17:59:27.372Z",
+   "resource": "maps/13112725006252346903-16071188762309719429"
+  },
+  {
+   "id": "13112725006252346903-09507073323105492707",
+   "etag": "\"18288059321036848294\"",
+   "projectId": "13112725006252346903",
+   "name": "DriversTable",
+   "description": "",
+   "type": "table",
+   "bbox": [
+    -180,
+    -90,
+    180,
+    90
+   ],
+   "tags": [
+   ],
+   "creationTime": "2014-09-15T18:26:01.776Z",
+   "lastModifiedTime": "2014-09-15T19:19:17.719Z",
+   "resource": "tables/13112725006252346903-09507073323105492707"
+  },
+  {
+   "id": "13112725006252346903-12798225287603138914",
+   "etag": "\"16542507020633641607\"",
+   "projectId": "13112725006252346903",
+   "name": "Drivers Layer",
+   "description": "",
+   "type": "layer",
+   "tags": [
+   ],
+   "creationTime": "2014-09-15T19:19:17.719Z",
+   "lastModifiedTime": "2014-09-15T19:19:17.719Z",
+   "resource": "layers/13112725006252346903-12798225287603138914"
+  }
+ ]
+}
+Driver Layer Create Response:
+
+{
+ "id": "13112725006252346903-12798225287603138914",
+ "etag": "\"1936090648433704747\"",
+ "projectId": "13112725006252346903",
+ "name": "Drivers Layer",
+ "description": "",
+ "processingStatus": "ready",
+ "publishingStatus": "notPublished",
+ "tags": [
+ ],
+ "creationTime": "2014-09-15T19:19:17.719Z",
+ "lastModifiedTime": "2014-09-15T19:19:17.719Z",
+ "datasourceType": "table",
+ "layerType": "vector",
+ "datasources": [
+  {
+   "id": "13112725006252346903-09507073323105492707"
+  }
+ ]
+}
+
+--------------------------------------------------------
+Drivers Table Metadata
+
+{
+ "id": "13112725006252346903-09507073323105492707",
+ "etag": "\"18288059321036848294\"",
+ "projectId": "13112725006252346903",
+ "name": "DriversTable",
+ "description": "",
+ "tags": [
+ ],
+ "schema": {
+  "primaryKey": "DriverId",
+  "primaryGeometry": "geometry",
+  "columns": [
+   {
+    "name": "geometry",
+    "type": "points"
+   },
+   {
+    "name": "Driver Name",
+    "type": "string"
+   },
+   {
+    "name": "Delivery Location",
+    "type": "string"
+   },
+   {
+    "name": "Delivery Date",
+    "type": "string"
+   },
+   {
+    "name": "Equipment",
+    "type": "string"
+   },
+   {
+    "name": "DriverId",
+    "type": "string"
+   }
+  ]
+ },
+ "sourceEncoding": "UTF-8",
+ "processingStatus": "complete",
+ "bbox": [
+  -180,
+  -90,
+  180,
+  90
+ ],
+ "creationTime": "2014-09-15T18:26:01.776Z",
+ "lastModifiedTime": "2014-09-15T19:19:17.719Z",
+ "creatorEmail": "edrobinsonjr@gmail.com",
+ "lastModifierEmail": "edrobinsonjr@gmail.com"
+}
