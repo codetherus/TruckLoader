@@ -4,8 +4,8 @@
   09-13-2012 Add code for the co/broker truck type
 
 */
-require_once("commons.php");
-require_once("utilityV2.php");
+require_once("commons.php");	//System wide common stuff
+require_once("utilityV2.php");	//Common utlity functions
 $smarty->assign("pgtitle", "Driver Management"); //Displayed page title.
 $smarty->assign("domenu", 1); //Menu control
 $smarty->assign("dosearch",1); //Global search tool control
